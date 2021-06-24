@@ -3,7 +3,7 @@
   "resources": [
     {
       "name": "dm_acao",
-      "title": "Dimensão - Ação Orçamentária",
+      "title": "Ação Orçamentária",
       "path": "data/dm-acao.csv.gz",
       "schema": "schemas/dm-acao.yaml",
       "format": "csv",
