@@ -1,0 +1,41 @@
+name: Render human-readable data package
+
+on: [push]
+
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - uses: r-lib/actions/setup-r@master
+      - uses: r-lib/actions/setup-pandoc@master
+
+      - name: Cache renv packages
+        uses: actions/cache@v2
+        with:
+          path: $HOME/.local/share/renv
+          key: r-${{ hashFiles('renv.lock') }}
+          restore-keys: r-
+
+      - name: Install package dependencies
+        run: |
+          R -e 'install.packages("renv")'
+          R -e 'renv::restore()'
+
+      - name: Set branch name
+        id: branch
+        run: echo "::set-output name=BRANCH_NAME::${GITHUB_REF##*/}"
+
+      - name: Build static website
+        run: Rscript scripts/render-rmarkdown.R ${{ steps.branch.outputs.BRANCH_NAME }}
+
+      - name: Deploy static website to gh pages
+        run: |
+            git checkout gh-pages
+            git add ${{ steps.branch.outputs.BRANCH_NAME }}/*
+            git config --local user.name "$GITHUB_ACTOR"
+            git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
+            git commit -m "Atualiza branch ${{ steps.branch.outputs.BRANCH_NAME }}"
+            git push origin gh-pages
