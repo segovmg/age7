@@ -6,22 +6,24 @@ fields:
     constraints:
       required: true
   - name: ano_exercicio
-    type: integer
+    type: year
     format: default
     bareNumber: true
     constraints:
       required: true
   - name: cd_acao
-    type: integer
+    type: string
     format: default
     bareNumber: true
+    missingValues:
+      - '0'
     constraints:
-      required: true
+      pattern: \d{4}
   - name: nome
     type: string
     format: default
-    constraints:
-      required: true
+    missingValues:
+      - SEM DESCRICAO
 missingValues:
   - ''
 primaryKey:
