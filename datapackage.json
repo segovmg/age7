@@ -1,7 +1,17 @@
 {
   "profile": "tabular-data-package",
   "resources": [
-    
+    {
+      "name": "dm_programa",
+      "title": "Programa",
+      "path": "data/dm-programa.csv.gz",
+      "schema": "schemas/dm-programa.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    }
   ],
   "name": "age7",
   "version": "0.0.0.9000"
