@@ -1,17 +1,23 @@
 fields:
   - name: id_acao
+    title: ID Ação
+    description:
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
   - name: ano_exercicio
+    title: Ano de Exercício
+    description: Ano de exercício em que a ação foi executada.
     type: year
     format: default
     bareNumber: true
     constraints:
       required: true
   - name: cd_acao
+    title: Código da Ação
+    description: Código identificador da ação governamental composto por 4 dígitos.
     type: string
     format: default
     bareNumber: true
@@ -20,6 +26,9 @@ fields:
     constraints:
       pattern: \d{4}
   - name: nome
+    title: Nome da Ação
+    description: |
+     Conjunto de operações limitadas no tempo, realizadas de modo contínuo e permanente, dos quais resulta a entrega de um produto final (bem, serviço ou transferência financeira) que contribui para atender ao objetivo de um programa.
     type: string
     format: default
     missingValues:
