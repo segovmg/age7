@@ -1,23 +1,34 @@
 fields:
   - name: id_programa
+    title: ID Programa
+    description: 
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
   - name: ano_exercicio
+    title: Ano de Exercício
+    description: Ano de exercício em que o Programa foi executado.
     type: year
     format: default
     bareNumber: true
     constraints:
       required: true
   - name: cd_programa
+    title: Código do Programa
+    description: |
+      Código identificador do instrumento de organização de ação governamental composto por 3 dígitos.
     type: integer
     format: default
     bareNumber: true
     missingValues:
       - '0'
   - name: nome
+    title: Nome do Programa
+    description: |
+      Instrumento de organização de ação governamental que integra o planejamento, o orçamento e a gestão. Visa o enfrentamento de um problema, sendo mensurado por indicadores estabelecidos no plano plurianual.
+      Resulta do reconhecimento de carências, demandas administrativas, sociais e econômicas e de oportunidades.
     type: string
     format: default
     missingValues:
