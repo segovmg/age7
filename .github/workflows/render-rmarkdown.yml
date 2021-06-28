@@ -37,6 +37,7 @@ jobs:
       - name: Deploy static website to gh pages
         run: |
             git checkout gh-pages
+            git pull
             git rm ${{ steps.branch.outputs.BRANCH_NAME }}/datapackage.html
             git stash pop
             git add ${{ steps.branch.outputs.BRANCH_NAME }}/*
