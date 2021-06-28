@@ -75,6 +75,7 @@ resource <- map(dp$resources, ~ rep_len(.x$name, length(.x$schema$fields))) |>
   unlist()
 
 df <- data.frame(resource, name,title,  type = glue::glue("{type} ({format})"), description, constraints)
+row.names(df) <- NULL
 ```
 
 
