@@ -31,9 +31,14 @@ jobs:
       - name: Build static website
         run: Rscript scripts/render-rmarkdown.R ${{ steps.branch.outputs.BRANCH_NAME }}
 
+      - name: Stash static website
+        run: git stash save --include-untracked ${{ steps.branch.outputs.BRANCH_NAME }}/datapackage.html
+
       - name: Deploy static website to gh pages
         run: |
             git checkout gh-pages
+            git rm ${{ steps.branch.outputs.BRANCH_NAME }}/datapackage.html
+            git stash pop
             git add ${{ steps.branch.outputs.BRANCH_NAME }}/*
             git config --local user.name "$GITHUB_ACTOR"
             git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
