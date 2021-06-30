@@ -7,6 +7,7 @@ fields:
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: ano_exercicio
     title: Ano de Exercício
     description: Ano de exercício
@@ -24,8 +25,10 @@ fields:
     bareNumber: true
     missingValues:
       - '0'
+    minimum: 1
+    maximum: 999
   - name: nome
-    title: Programa - Nome
+    title: Programa - Descrição
     description: |
       Instrumento de organização de ação governamental que integra o planejamento, o orçamento e a gestão. Visa o enfrentamento de um problema, sendo mensurado por indicadores estabelecidos no Plano Plurianula de Ação Governamental.
       Resulta do reconhecimento de carências, demandas administrativas, sociais e econômicas e de oportunidades.
