@@ -21,9 +21,13 @@ describe: ## Extrai dados e metadados do banco de dados Oracle (make describe re
 preview: ## Preview documentação
 	Rscript -e 'xaringan::infinite_moon_reader("datapackage.Rmd")'
 
-format: ## Formata arquivo yaml com tableschema (usage: make format resource=resource-name)
+format: ## Formata arquivo yaml com tableschema (usage: make format resource=resource_name)
 	@echo "Formatando tableschema $(TABLESCHEMA)"
 	@Rscript -e 'dtamg::style_tableschema("$(TABLESCHEMA)", "$(TABLESCHEMA)")'
+
+validate_metadata: ## Valida arquivo yaml com tableschema (usage: make validate_metadata resource=resource_name)
+	@echo "Validando tableschema $(TABLESCHEMA)"
+	@python scripts/validate-tableschema.py $(TABLESCHEMA)
 
 logs/%.txt: data/%.csv.gz schemas/%.yaml schemas/dialect.json datapackage.json
 	@echo "Validando recurso $*:"
