@@ -1,7 +1,6 @@
 fields:
   - name: id_acao
     title: Ação - Chave
-    description:
     type: integer
     format: default
     bareNumber: true
@@ -9,7 +8,6 @@ fields:
       required: true
   - name: ano_exercicio
     title: Ano de Exercício
-    description: 
     type: year
     format: default
     bareNumber: true
@@ -17,7 +15,6 @@ fields:
       required: true
   - name: cd_acao
     title: Ação - Código 
-    description: 
     type: string
     format: default
     bareNumber: true
