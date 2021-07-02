@@ -30,8 +30,9 @@ fields:
   - name: nome
     title: Subfunção - Descrição
     description: |
-      Detalhamento das áreas de atuação do Governo
+      Detalhamento das áreas de atuação do Governo.
       Representa uma partição da função, visando agregar determinado conjunto de despesa do setor público.
+      A subfunção identifica a natureza básica das ações que se aglutinam em torno das funções.
     type: string
     format: default
     constraints:
