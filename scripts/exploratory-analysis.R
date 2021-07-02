@@ -9,7 +9,9 @@ glimpse(resource)
 
 ## field constraints
 
-field <- "id_subfuncao" # ajustar
+field <- "id_subfuncao" 
+
+# ajustar
 
 head(resource[, ..field])
 describe_unique(resource[[field]])
