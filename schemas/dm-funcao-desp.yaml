@@ -16,14 +16,40 @@ fields:
       required: true
   - name: cd_funcao
     title: Função - Código
-    type: integer
+    type: string
     format: default
     bareNumber: true
     constraints:
-      required: true
-      minLength: 1
-      maxLength: 2
-      pattern: \d{2}
+       enum:
+          - '1'
+          - '2'
+          - '3'
+          - '4'
+          - '5'
+          - '6'
+          - '7'
+          - '8'
+          - '9'
+          - '10'
+          - '11'
+          - '12'
+          - '13'
+          - '14'
+          - '15'
+          - '16'
+          - '17'
+          - '18'
+          - '19'
+          - '20'
+          - '21'
+          - '22'
+          - '23'
+          - '24'
+          - '25'
+          - '26'
+          - '27'
+          - '28'
+          - '99' 
     missingValues:
       - '0'
   - name: nome
@@ -34,9 +60,7 @@ fields:
      No estado de Minas Gerais definiu-se que o código identificador da função Reserva de Contigência será 99, conforme estabelece o art. 5 da Portaria Ministerial n. 42/99. 
     type: string
     format: default
-    constraints:
-      required: true
-      missingValues:
+    missingValues:
       - 'SEM DESCRICAO'
 missingValues:
   - ''
