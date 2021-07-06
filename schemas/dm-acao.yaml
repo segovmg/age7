@@ -1,6 +1,6 @@
 fields:
   - name: id_acao
-    title: Ação - Chave
+    title: Acao - Chave
     description:
     type: integer
     format: default
