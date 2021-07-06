@@ -1,11 +1,6 @@
 fields:
   - name: id_acao
-<<<<<<< HEAD
-    title: Acao - Chave
-    description:
-=======
     title: Ação - Chave
->>>>>>> 176e66f32e491c00bd10d68828f69cacfd5f458e
     type: integer
     format: default
     bareNumber: true
