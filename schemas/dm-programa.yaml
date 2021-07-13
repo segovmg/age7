@@ -1,7 +1,6 @@
 fields:
   - name: id_programa
     title: Programa - Chave
-    description: 
     type: integer
     format: default
     bareNumber: true
@@ -10,7 +9,6 @@ fields:
       unique: false
   - name: ano_exercicio
     title: Ano de Exercício
-    description: Ano de exercício
     type: year
     format: default
     bareNumber: true
