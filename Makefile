@@ -31,7 +31,7 @@ validate_metadata: ## Valida arquivo yaml com tableschema (usage: make validate_
 
 logs/%.txt: data/%.csv.gz schemas/%.yaml schemas/dialect.json datapackage.json
 	@echo "Validando recurso $*:"
-	@frictionless validate $< --schema schemas/$*.yaml 2>&1 > $@
+	@frictionless validate $< --schema schemas/$*.yaml 2>&1 | tee $@
 
 log: ## Exibe recursos com validação inválida
 	@echo "Recursos inválidos:"
