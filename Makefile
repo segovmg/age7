@@ -1,4 +1,4 @@
-.PHONY: help validate
+.PHONY: help describe preview format validate_metadata validate log clean vars
 
 RESOURCES=$(shell cat datapackage.json | jq -r ' .resources | .[] | .name ')
 
@@ -12,7 +12,7 @@ TABLESCHEMA=$(shell cat datapackage.json | jq -r ' .resources | .[] | select( .n
 help: 
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' Makefile | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-10s\033[0m %s\n", $$1, $$2}'
 
-validate: $(VALIDATION_REPORTS) ## Valida recursos que sofreram modificação
+validate: clean $(VALIDATION_REPORTS) ## Valida recursos que sofreram modificação
 
 describe: ## Extrai dados e metadados do banco de dados Oracle (make describe resource=resource_name)
 	Rscript scripts/describe_resource.R $(resource)
@@ -31,7 +31,14 @@ validate_metadata: ## Valida arquivo yaml com tableschema (usage: make validate_
 
 logs/%.txt: data/%.csv.gz schemas/%.yaml schemas/dialect.json datapackage.json
 	@echo "Validando recurso $*:"
-	@frictionless validate $< --schema schemas/$*.yaml 2>&1 | tee $@
+	@frictionless validate $< --schema schemas/$*.yaml 2>&1 > $@
+
+log: ## Exibe recursos com validação inválida
+	@echo "Recursos inválidos:"
+	@bash -c "diff <(\ls logs/*) <(grep -l '# valid:' logs/*) | grep logs | tr -d '< '"
+
+clean: ## Remove logs de recursos com validação inválida
+	@bash -c "diff <(\ls logs/*) <(grep -l '# valid:' logs/*) | grep logs | tr -d '< ' | xargs rm"
 
 vars: ## Imprime valor das variáveis
 	@echo 'RESOURCES:' $(RESOURCES)
