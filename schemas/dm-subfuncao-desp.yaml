@@ -9,7 +9,7 @@ fields:
       unique: false
   - name: ano_exercicio
     title: Ano de Exerício
-    type: integer
+    type: year
     format: default
     bareNumber: true
     constraints:
