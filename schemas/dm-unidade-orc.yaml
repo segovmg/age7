@@ -1,0 +1,56 @@
+fields:
+  - name: id_unidade_orc
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: sqa_unidade_orcam
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: ano_exercicio
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: cd_unidade_orc
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_grupo_administracao
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: grupo_administracao
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: id_administracao
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: administracao
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: nome
+    type: string
+    format: default
+    constraints:
+      required: true
+missingValues:
+  - ''
+primaryKey:
+  - id_unidade_orc
