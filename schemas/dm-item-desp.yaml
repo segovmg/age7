@@ -1,0 +1,21 @@
+fields:
+  - name: id_item
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: cd_item
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: nome
+    type: string
+    format: default
+    constraints:
+      required: true
+missingValues:
+  - ''
+primaryKey:
+  - id_item

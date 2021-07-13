@@ -11,6 +11,17 @@
       "encoding": "utf-8-sig",
       "dialect": "schemas/dialect.json",
       "profile": "tabular-data-resource"
+    },
+    {
+      "name": "dm_item_desp",
+      "title": "Item de Despesa",
+      "path": "data/dm-item-desp.csv.gz",
+      "schema": "schemas/dm-item-desp.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
     }
   ],
   "name": "age7",
