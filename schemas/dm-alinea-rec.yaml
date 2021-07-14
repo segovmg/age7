@@ -9,15 +9,16 @@ fields:
       unique: false
   - name: cd_alinea
     title: Alinea - Código
-    type: string
+    type: integer
     format: default
+    bareNumber: true
     constraints:
-      required: true
-      pattern: \d{2}
+       minimum: 1
+       maximum: 99
     missingValues:
-      - '0'
+       - '0'
   - name: nome
-   title: Alinea - Descrição
+    title: Alinea - Descrição
     type: string
     format: default
     description: |
