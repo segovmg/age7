@@ -38,7 +38,7 @@ log: ## Exibe recursos com validação inválida
 	@bash -c "diff <(\ls logs/*) <(grep -l '# valid:' logs/*) | grep logs | tr -d '< '"
 
 clean: ## Remove logs de recursos com validação inválida
-	@bash -c "diff <(\ls logs/*) <(grep -l '# valid:' logs/*) | grep logs | tr -d '< ' | xargs rm"
+	@bash -c "diff <(\ls logs/*) <(grep -l '# valid:' logs/*) | grep logs | tr -d '< ' | xargs rm -f"
 
 vars: ## Imprime valor das variáveis
 	@echo 'RESOURCES:' $(RESOURCES)
