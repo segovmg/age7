@@ -14,7 +14,7 @@
     },
     {
       "name": "ft_receita_prevista",
-      "title": "Receita Prevista",
+      "title": "Receita Orçamentária Prevista",
       "path": "data/ft-receita-prevista.gz",
       "schema": "schemas/ft-receita-prevista.yaml",
       "format": "csv",
