@@ -14,7 +14,7 @@
     },
     {
       "name": "dm_alinea_rec",
-      "title": "Subfunção",
+      "title": "Alínea da receita",
       "path": "data/dm-alinea-rec.csv.gz",
       "schema": "schemas/dm-alinea-rec.yaml",
       "format": "csv",
