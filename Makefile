@@ -29,7 +29,7 @@ validate_metadata: ## Valida arquivo yaml com tableschema (usage: make validate_
 	@echo "Validando tableschema $(TABLESCHEMA)"
 	@python scripts/validate-tableschema.py $(TABLESCHEMA)
 
-logs/%.txt: data/%.csv.gz schemas/%.yaml schemas/dialect.json datapackage.json
+logs/%.txt: data/%.csv.gz schemas/%.yaml schemas/dialect.json
 	@echo "Validando recurso $*:"
 	@frictionless validate $< --schema schemas/$*.yaml 2>&1 | tee $@
 
