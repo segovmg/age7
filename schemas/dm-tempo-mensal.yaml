@@ -1,17 +1,21 @@
 fields:
   - name: id_tempo
+    title: Tempo Mensal - Chave
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: anomes_iso
+    title: Ano e Mês
     type: date
     format: '%Y%m'
     bareNumber: true
     constraints:
       required: true
   - name: mes
+    title: Mês
     type: integer
     format: default
     bareNumber: true
@@ -34,12 +38,14 @@ fields:
     missingValues: 
         - '0'
   - name: ano
+    title: Ano
     type: year
     format: default
     bareNumber: true
     constraints:
       required: true
   - name: anomes_formatado
+    title: Ano e Mês Formatado
     type: date
     format: '%m/%Y'
     constraints:
