@@ -10,10 +10,11 @@ fields:
   - name: cd_fonte
     title: Fonte - Código
     type: string
-    format: default
+    format: default  
+    bareNumber: true
     constraints:
-      required: true
-      enum:
+       enum:
+          - '0'
           - '10'
           - '12'
           - '20'
@@ -85,8 +86,6 @@ fields:
           - '94'
           - '95'
           - '99'
-    missingValues:
-      - '0'
   - name: nome
     title: Fonte - Descrição
     description: |
