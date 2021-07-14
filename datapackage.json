@@ -11,6 +11,17 @@
       "encoding": "utf-8-sig",
       "dialect": "schemas/dialect.json",
       "profile": "tabular-data-resource"
+    },
+    {
+      "name": "dm_subalinea_rec",
+      "title": "Subalínea da receita",
+      "path": "data/dm-subalinea-rec.gz",
+      "schema": "schemas/dm-subalinea-rec.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
     }
   ],
   "name": "age7",
