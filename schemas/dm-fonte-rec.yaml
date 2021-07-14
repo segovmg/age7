@@ -14,7 +14,6 @@ fields:
     bareNumber: true
     constraints:
        enum:
-          - '0'
           - '10'
           - '12'
           - '20'
@@ -86,6 +85,8 @@ fields:
           - '94'
           - '95'
           - '99'
+    missingValues:
+      - '0'
   - name: nome
     title: Fonte - Descrição
     description: |
@@ -93,7 +94,8 @@ fields:
     type: string
     format: default
     missingValues:
-      - 'SEM DESCRICAO'  
+      - 'SEM INFORMAÇÃO'  
+      - 'FONTE DE EXERCICIO ANTERIOR' 
 missingValues:
   - ''
 primaryKey:
