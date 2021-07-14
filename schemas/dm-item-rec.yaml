@@ -6,9 +6,8 @@ fields:
     constraints:
       required: true
   - name: cd_item
-    type: integer
+    type: string
     format: default
-    bareNumber: true
     constraints:
       required: true
   - name: nome
