@@ -1,0 +1,31 @@
+fields:
+  - name: id_origem
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: cd_origem
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: id_categoria_economica
+    type: string
+    bareNumber: true
+    constraints:
+      required: true
+  - name: categoria_economica
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: nome
+    type: string
+    format: default
+    constraints:
+      required: true
+missingValues:
+  - ''
+primaryKey:
+  - id_origem
