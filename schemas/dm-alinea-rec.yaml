@@ -1,18 +1,28 @@
 fields:
   - name: id_alinea
+    title: Alinea - Chave
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: cd_alinea
+    title: Alinea - Código
     type: string
     format: default
     constraints:
       required: true
+      pattern: \d{2}
+    missingValues:
+      - '0'
   - name: nome
+   title: Alinea - Descrição
     type: string
     format: default
+    description: |
+     É o detalhamento da Rubrica e exterioriza o “nome” da receita que receberá o registro pela entrada de recursos financeiros. 
+     Por exemplo, a alínea “ICMS” corresponde ao detalhamento da Rubrica “Impostos sobre o produção e a circulação”
     constraints:
       required: true
 missingValues:
