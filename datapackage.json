@@ -11,6 +11,17 @@
       "encoding": "utf-8-sig",
       "dialect": "schemas/dialect.json",
       "profile": "tabular-data-resource"
+    },
+    {
+      "name": "dm_tempo_diario",
+      "title": "Calendário - Dias",
+      "path": "data/dm-tempo-diario.csv.gz",
+      "schema": "schemas/dm-tempo-diario.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
     }
   ],
   "name": "age7",
