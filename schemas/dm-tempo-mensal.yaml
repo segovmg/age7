@@ -21,6 +21,7 @@ fields:
     bareNumber: true
     constraints:
       enum:
+        - '0'
         - '1'
         - '2'
         - '3'
@@ -35,8 +36,6 @@ fields:
         - '12'
         - '13'
         - '14'
-    missingValues: 
-        - '0'
   - name: ano
     title: Ano
     type: year
