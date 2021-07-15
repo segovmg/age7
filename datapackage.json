@@ -11,6 +11,17 @@
       "encoding": "utf-8-sig",
       "dialect": "schemas/dialect.json",
       "profile": "tabular-data-resource"
+    },
+    {
+      "name": "ft_receita_v2018",
+      "title": "",
+      "path": "data/ft-receita-v2018.csv.gz",
+      "schema": "schemas/ft-receita-v2018.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
     }
   ],
   "name": "age7",
