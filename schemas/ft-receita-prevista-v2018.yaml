@@ -1,0 +1,153 @@
+fields:
+  - name: id_unidade_orc
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_origem
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_especie
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_desdobramento_1
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_desdobramento_2
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_desdobramento_3
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_tipo
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_item
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_subitem
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_fonte
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: cd_fonte
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: cd_classificacao_rec
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: ano_particao
+    type: year
+    format: default
+    constraints:
+      required: true
+  - name: vr_previsto_inicial
+    type: number
+    format: default
+    decimalChar: ','
+    bareNumber: true
+    constraints:
+      required: true
+  - name: vr_previsto_atual
+    type: number
+    format: default
+    decimalChar: ','
+    bareNumber: true
+    constraints:
+      required: true
+missingValues:
+  - ''
+foreignKeys:
+  - fields:
+      - id_desdobramento_2
+    reference:
+      fields:
+        - id_desdobramento_2
+      resource: dm_desdobramento_2_rec
+  - fields:
+      - id_unidade_orc
+    reference:
+      fields:
+        - id_unidade_orc
+      resource: dm_unidade_orc
+  - fields:
+      - id_origem
+    reference:
+      fields:
+        - id_origem
+      resource: dm_origem_rec
+  - fields:
+      - id_subitem
+    reference:
+      fields:
+        - id_subitem
+      resource: dm_subitem_rec
+  - fields:
+      - id_especie
+    reference:
+      fields:
+        - id_especie
+      resource: dm_especie_rec
+  - fields:
+      - id_desdobramento_3
+    reference:
+      fields:
+        - id_desdobramento_3
+      resource: dm_desdobramento_3_rec
+  - fields:
+      - id_desdobramento_1
+    reference:
+      fields:
+        - id_desdobramento_1
+      resource: dm_desdobramento_1_rec
+  - fields:
+      - id_fonte
+    reference:
+      fields:
+        - id_fonte
+      resource: dm_fonte_rec
+  - fields:
+      - id_tipo
+    reference:
+      fields:
+        - id_tipo
+      resource: dm_tipo_rec
+  - fields:
+      - id_item
+    reference:
+      fields:
+        - id_item
+      resource: dm_item_rec
