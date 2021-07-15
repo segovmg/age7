@@ -11,6 +11,17 @@
       "encoding": "utf-8-sig",
       "dialect": "schemas/dialect.json",
       "profile": "tabular-data-resource"
+    },
+    {
+      "name": "dm_desdobramento_2_rec",
+      "title": "Desdobramento2 da receita",
+      "path": "data/dm-desdobramento-2-rec.gz",
+      "schema": "schemas/dm-desdobramento-2-rec.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
     }
   ],
   "name": "age7",
