@@ -29,16 +29,16 @@ validate_metadata: ## Valida arquivo yaml com tableschema (usage: make validate_
 	@echo "Validando tableschema $(TABLESCHEMA)"
 	@python scripts/validate-tableschema.py $(TABLESCHEMA)
 
-logs/%.txt: data/%.csv.gz schemas/%.yaml schemas/dialect.json datapackage.json
+logs/%.txt: data/%.csv.gz schemas/%.yaml schemas/dialect.json
 	@echo "Validando recurso $*:"
-	@frictionless validate $< --schema schemas/$*.yaml 2>&1 > $@
+	@frictionless validate $< --schema schemas/$*.yaml 2>&1 | tee $@
 
 log: ## Exibe recursos com validação inválida
 	@echo "Recursos inválidos:"
 	@bash -c "diff <(\ls logs/*) <(grep -l '# valid:' logs/*) | grep logs | tr -d '< '"
 
 clean: ## Remove logs de recursos com validação inválida
-	@bash -c "diff <(\ls logs/*) <(grep -l '# valid:' logs/*) | grep logs | tr -d '< ' | xargs rm"
+	@bash -c "diff <(\ls logs/*) <(grep -l '# valid:' logs/*) | grep logs | tr -d '< ' | xargs rm -f"
 
 vars: ## Imprime valor das variáveis
 	@echo 'RESOURCES:' $(RESOURCES)
