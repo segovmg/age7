@@ -1,6 +1,6 @@
 fields:
   - name: id_alinea
-    title: Alinea - Chave
+    title: Alínea - Chave
     type: integer
     format: default
     bareNumber: true
@@ -8,7 +8,7 @@ fields:
       required: true
       unique: false
   - name: cd_alinea
-    title: Alinea - Código
+    title: Alínea - Código
     type: integer
     format: default
     bareNumber: true
@@ -18,7 +18,7 @@ fields:
     missingValues:
        - '0'
   - name: nome
-    title: Alinea - Descrição
+    title: Alínea - Descrição
     type: string
     format: default
     description: |
