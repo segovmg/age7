@@ -2,6 +2,17 @@
   "profile": "tabular-data-package",
   "resources": [
     {
+      "name": "dm_subfuncao_desp",
+      "title": "Subfunção",
+      "path": "data/dm-subfuncao-desp.csv.gz",
+      "schema": "schemas/dm-subfuncao-desp.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_acao",
       "title": "Ação Orçamentária",
       "path": "data/dm-acao.csv.gz",
@@ -14,5 +25,6 @@
     }
   ],
   "name": "age7",
+  "owner_org": "controladoria-geral-do-estado-cge",
   "version": "0.0.0.9000"
 }
