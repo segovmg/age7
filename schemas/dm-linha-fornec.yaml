@@ -1,23 +1,31 @@
 fields:
   - name: id_linha_fornec
+    title: Linha de Fornecimento - Chave
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: sqa_linha_fornec
+    title: Linha de Fornecimento - Chave primária
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: cd_linha_fornec
+    title: Linha de Fornecimento - Código
     type: string
     format: default
     constraints:
       required: true
   - name: nome
+    title: Linha de Fornecimento - Descrição
     type: string
+    description: |
+     Descrição da linha de fornecimento vinculada ao item de material/serviço.
     format: default
     constraints:
       required: true
