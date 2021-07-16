@@ -25,7 +25,7 @@
     },
     {
       "name": "dm_funcao_scdp",
-      "title": "",
+      "title": "Cargo Público",
       "path": "data/dm-funcao-scdp.csv.gz",
       "schema": "schemas/dm-funcao-scdp.yaml",
       "format": "csv",
