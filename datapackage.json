@@ -22,6 +22,17 @@
       "encoding": "utf-8-sig",
       "dialect": "schemas/dialect.json",
       "profile": "tabular-data-resource"
+    },
+    {
+      "name": "ft_diarias_scdp",
+      "title": "",
+      "path": "data/ft-diarias-scdp.csv.gz",
+      "schema": "schemas/ft-diarias-scdp.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
     }
   ],
   "name": "age7",

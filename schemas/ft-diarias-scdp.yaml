@@ -1,0 +1,234 @@
+fields:
+  - name: id_tempo
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_favorecido
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_cargo
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_funcao_scdp
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_orgao
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_pais_origem
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_estado_origem
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_cidade_origem
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_pais_destino
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_estado_destino
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_cidade_destino
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_documento_viagem
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_tipo_viagem
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_tipo_viajante
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_meio_transporte
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_motivo
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: ordem_trecho
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: ano_particao
+    type: year
+    format: default
+    constraints:
+      required: true
+  - name: dt_inicio_trecho
+    type: datetime
+    format: default
+  - name: dt_fim_trecho
+    type: datetime
+    format: default
+  - name: qt_diaria
+    type: number
+    format: default
+    bareNumber: true
+    decimalChar: ','
+    constraints:
+      required: true
+  - name: vr_diaria
+    type: number
+    format: default
+    decimalChar: ','
+    bareNumber: true
+    constraints:
+      required: true
+  - name: vr_passagem
+    type: number
+    format: default
+    decimalChar: ','
+    bareNumber: true
+    constraints:
+      required: true
+missingValues:
+  - ''
+foreignKeys:
+  - fields: 
+      - id_cargo
+    reference:
+      fields:
+        - id_cargo
+      resource: dm_cargo_scdp
+  - fields: 
+      - id_pais_origem
+    reference:
+      fields:
+        - id_pais
+      resource: dm_pais
+  - fields: 
+      - id_estado_origem
+    reference:
+      fields:
+        - id_estado
+      resource: dm_estado
+  - fields: 
+      - id_funcao_scdp
+    reference:
+      fields:
+        - id_funcao
+      resource: dm_funcao_scdp
+  - fields: 
+      - id_pais_destino
+    reference:
+      fields:
+        - id_pais
+      resource: dm_pais
+  - fields: 
+      - id_cidade_destino
+    reference:
+      fields:
+        - id_cidade
+      resource: dm_cidade
+  - fields: 
+      - id_favorecido
+    reference:
+      fields:
+        - id_favorecido
+      resource: dm_favorecido_scdp
+  - fields: 
+      - id_estado_destino
+    reference:
+      fields:
+        - id_estado
+      resource: dm_estado
+  - fields: 
+      - id_documento_viagem
+    reference:
+      fields:
+        - id_documento_viagem
+      resource: dm_documento_viagem
+  - fields: 
+      - id_tipo_viagem
+    reference:
+      fields:
+        - id_tipo_viagem
+      resource: dm_tipo_viagem
+  - fields: 
+      - id_orgao
+    reference:
+      fields:
+        - id_orgao
+      resource: dm_orgao_scdp
+  - fields: 
+      - id_meio_transporte
+    reference:
+      fields:
+        - id_meio_transporte
+      resource: dm_meio_transporte
+  - fields: 
+      - id_motivo
+    reference:
+      fields:
+        - id_motivo
+      resource: dm_motivo_viagem
+  - fields: 
+      - id_tempo
+    reference:
+      fields:
+        - id_tempo
+      resource: dm_tempo_diario
+  - fields: 
+      - id_tipo_viajante
+    reference:
+      fields:
+        - id_tipo_viajante
+      resource: dm_tipo_viajante
+  - fields: 
+      - id_cidade_origem
+    reference:
+      fields:
+        - id_cidade
+      resource: dm_cidade
