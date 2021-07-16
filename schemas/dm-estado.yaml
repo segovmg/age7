@@ -8,7 +8,7 @@ fields:
       required: true
       unique: false
   - name: sqe_estado
-    title: Estado - Sequencial
+    title: Estado - Chave Estrangeira
     type: integer
     format: default
     bareNumber: true
