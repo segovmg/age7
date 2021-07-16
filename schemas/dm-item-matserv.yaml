@@ -1,0 +1,30 @@
+fields:
+  - name: id_item_matserv
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: sqa_item_matserv
+    type: integer
+    format: default
+    bareNumber: true
+  - name: cd_item_matserv
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: nome
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: natureza_despesa
+    type: string
+    format: default
+    constraints:
+      required: true
+missingValues:
+  - ''
+primaryKey:
+  - id_item_matserv
