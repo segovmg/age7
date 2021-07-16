@@ -8,7 +8,7 @@ fields:
       required: true
       unique: false
   - name: sqa_linha_fornec
-    title: Linha de Fornecimento - Chave primária
+    title: Linha de Fornecimento - Chave Estrangeira
     type: integer
     format: default
     bareNumber: true
