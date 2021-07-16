@@ -25,7 +25,7 @@
     },
     {
       "name": "ft_diarias_scdp",
-      "title": "",
+      "title": "Diárias SCDP",
       "path": "data/ft-diarias-scdp.csv.gz",
       "schema": "schemas/ft-diarias-scdp.yaml",
       "format": "csv",
