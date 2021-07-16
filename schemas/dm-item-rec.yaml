@@ -1,6 +1,6 @@
 fields:
   - name: id_item
-    title: Item - Chave
+    title: Item da Receita- Chave
     type: integer
     format: default
     bareNumber: true
@@ -8,7 +8,7 @@ fields:
       required: true
       unique: false
   - name: cd_item
-    title: Item - código
+    title: Item da Receita - código
     description: Código do item da receita (1 a 99)
     type: string
     format: default
@@ -60,7 +60,7 @@ fields:
     missingValues:
       - '0'
   - name: nome
-    title: Item - Descrição
+    title: Item da Receita- Descrição
     description: |
       Detalhamento da classificação orçamentária da receita referente ao tipo de receita.
     type: string
