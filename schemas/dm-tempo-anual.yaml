@@ -1,0 +1,16 @@
+fields:
+  - name: id_tempo
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: ano
+    type: year
+    format: default
+    missingValues:
+      - '0'
+missingValues:
+  - ''
+primaryKey:
+  - id_tempo
