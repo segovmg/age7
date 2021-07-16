@@ -77,8 +77,14 @@ fields:
     format: default
     bareNumber: true
     description: |
-      Código completo da classificação econômica da receita.
-      Os números representam, da esquerda para a direita: categoria econômica; origem; espécie; rubrica; alínea; subalínea.
+      Código completo da classificação econômica da receita. Os números representam, da esquerda para a direita: 
+      - 1º dígito - Categoria econômica; 
+      - 2º dígito -Origem; 
+      - 3º dígito -Espécie; 
+      - 4º dígito -Rubrica;
+      - 5º e 6º dígito -Alínea;
+      - 7º e 8º dígito -Subalínea e
+      - 9º e 10º dígito - Item da receita
     constraints:
       required: true
       pattern: \d{10}
