@@ -9,8 +9,8 @@ fields:
       unique: false
   - name: anomes_iso
     title: Ano e Mês
-    type: date
-    format: '%Y%m'
+    type: string
+    format: default
     bareNumber: true
     constraints:
       required: true
@@ -21,7 +21,6 @@ fields:
     bareNumber: true
     constraints:
       enum:
-        - '0'
         - '1'
         - '2'
         - '3'
@@ -34,8 +33,11 @@ fields:
         - '10'
         - '11'
         - '12'
-        - '13'
-        - '14'
+    missingValues:
+         - '0'   
+         - '13'
+         - '14'
+
   - name: ano
     title: Ano
     type: year
@@ -45,8 +47,8 @@ fields:
       required: true
   - name: anomes_formatado
     title: Ano e Mês Formatado
-    type: date
-    format: '%m/%Y'
+    type: string
+    format: default
     constraints:
       required: true
 missingValues:
