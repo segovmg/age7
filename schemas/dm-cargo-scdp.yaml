@@ -1,0 +1,23 @@
+fields:
+  - name: id_cargo
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: sqe_cargo
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+      unique: true
+  - name: nome
+    type: string
+    format: default
+    constraints:
+      required: true
+missingValues:
+  - ''
+primaryKey:
+  - id_cargo
