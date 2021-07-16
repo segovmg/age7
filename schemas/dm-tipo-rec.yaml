@@ -1,11 +1,13 @@
 fields:
   - name: id_tipo
+    title: Tipo de Receita- Chave
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
   - name: cd_tipo
+    title: Tipo de Receita- Código
     type: string
     format: default
     description: |
@@ -31,8 +33,12 @@ fields:
         - '3'
         - '4'
   - name: nome
+    title: Tipo de Receita - Código
     type: string
     format: default
+    description: |
+     Identifica o tipo de arrecadação a que se refere a receita. 
+     Exemplo, receita de multas e juros, arrecadação principal e etc.
     constraints:
       required: true
 missingValues:
