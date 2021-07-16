@@ -1,0 +1,165 @@
+fields:
+  - name: id_documento_viagem
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_empenho
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_programa
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_funcao
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_fonte
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_item
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_acao
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: fl_passagem
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: nr_liquidacao
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: nr_pagamento
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: dt_liquidacao
+    type: datetime
+    format: default
+  - name: dt_pagamento
+    type: datetime
+    format: default
+  - name: vr_devolvido
+    type: number
+    format: default
+    bareNumber: true
+    decimalChar: ','
+    constraints:
+      required: true
+  - name: vr_liqpag
+    type: number
+    format: default
+    bareNumber: true
+    decimalChar: ','
+    constraints:
+      required: true
+missingValues:
+  - ''
+foreignKeys:
+  - fields:
+      - id_funcao
+    reference:
+      fields: 
+      - id_funcao
+      resource: dm_funcao_desp
+  - fields:
+      - id_fonte
+    reference:
+      fields: 
+      - id_fonte
+      resource: dm_fonte
+  - fields:
+      - id_item
+    reference:
+      fields: 
+      - id_item
+      resource: dm_item_desp
+  - fields:
+      - id_programa
+    reference:
+      fields: 
+      - id_programa
+      resource: dm_programa
+  - fields:
+      - id_empenho
+    reference:
+      fields: 
+      - id_empenho
+      resource: dm_empenho_desp
+  - fields:
+      - id_documento_viagem
+    reference:
+      fields: 
+      - id_documento_viagem
+      resource: dm_documento_viagem
+  - fields:
+      - id_acao
+    reference:
+      fields: 
+      - id_acao
+      resource: dm_acao
+  - fields:
+      - id_item
+    reference:
+      fields: 
+      - id_item
+      resource: dm_item_desp
+  - fields:
+      - id_fonte
+    reference:
+      fields: 
+      - id_fonte
+      resource: dm_fonte
+  - fields:
+      - id_programa
+    reference:
+      fields: 
+      - id_programa
+      resource: dm_programa
+  - fields:
+      - id_documento_viagem
+    reference:
+      fields: 
+      - id_documento_viagem
+      resource: dm_documento_viagem
+  - fields:
+      - id_acao
+    reference:
+      fields: 
+      - id_acao
+      resource: dm_acao
+  - fields:
+      - id_empenho
+    reference:
+      fields: 
+      - id_empenho
+      resource: dm_empenho_desp
+  - fields:
+      - id_funcao
+    reference:
+      fields: 
+      - id_funcao
+      resource: dm_funcao_desp
