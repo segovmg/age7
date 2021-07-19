@@ -16,7 +16,7 @@ fields:
       required: true
       unique: true
   - name: nome
-    title: Cargo - Descriçãp
+    title: Cargo - Descrição
     type: string
     format: default
     description: |
