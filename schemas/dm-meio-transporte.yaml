@@ -1,21 +1,35 @@
 fields:
   - name: id_meio_transporte
+    title: Meio de Transporte - Chave
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: sqe_meio_transporte
+    title: Meio de Transporte - Chave Primária
     type: integer
     format: default
     bareNumber: true
     constraints:
-      required: true
-      unique: true
+      enum:
+        - '1'
+        - '2'
+        - '3'
+        - '4'
+        - '5'
+        - '6'
+        - '7'
+    missingValues:
+      - '0'
   - name: nome
+    title: Meio de Transporte - Descrição
+    description: |
+      Meio de transporte utilizao para a realização da viagem a serviço ao servidor dos órgãos da Administração Pública direta, autárquica e fundacional do Poder Executivo.
     type: string
     format: default
 missingValues:
-  - ''
+  - 'SEM DESCRICAO'
 primaryKey:
   - id_meio_transporte
