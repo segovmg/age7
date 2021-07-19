@@ -1,21 +1,31 @@
 fields:
   - name: id_categ_econ
+    title: Categoria Econômica - Chave
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: cd_categ_econ
+    title: Categoria Econômica - Código
+    description: Código identificador da categoria econômica da despesa, 3 Despesas correntes, 4 Despesas de Capital
     type: string
     format: default
     constraints:
-      required: true
+      enum:
+        - '3'
+        - '4'
+    missingValues:
+      - '0'
+      - '9'
   - name: nome
+    title: Categoria Econômica - Descrição
+    description: |
+      Classificação da despesa quanto ao impacto econômico que ela gera, pdoendo ser corrente (funcionamento dos órgãos, pagamentos do servidores, etc) ou de capital (obras, equipamentos, etc).
     type: string
     format: default
-    constraints:
-      required: true
-missingValues:
-  - ''
+    missingValues:
+      - 'SEM DESCRICAO'
 primaryKey:
   - id_categ_econ
