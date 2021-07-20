@@ -1,84 +1,110 @@
 fields:
   - name: id_tempo
+    title: Tempo - Chave
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: id_unidade_orc
+    title: Unidade Orçamentária - Chave
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: id_municipio
+    title: Município - Chave
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: id_item
+    title: Item - Chave
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: cd_ibge
+    title: IBGE - Código
+    description: Código do municípo no IBGE
     type: string
     format: default
     constraints:
       required: true
+      unique: false
   - name: sqa_empenho
+    title: Empenho - Chave Origem
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: sqa_unidade_orc
+    title: Unidade Orçamentária - Chave Origem
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: sqa_unidade_exec
+    title: Unidade Executora - Chave Origem
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: nr_doc_liquidacao
+    title: Número Documento Liquidação
+    description: Número de Identificação do documento de liquidação
     type: string
     format: default
     constraints:
       required: true
   - name: sqa_liquidacao
+    title: Liquidação - Chave Origem
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: tp_documento
+    title: Tipo de Documento
     type: string
     format: default
     constraints:
       required: true
   - name: tp_operacao
+    title: Tipo de Operação
     type: string
     format: default
     constraints:
       required: true
   - name: cd_transacao_org
+    title: Transação - Código
     type: string
     format: default
     constraints:
       required: true
   - name: ano_particao
+    title: Ano
     type: year
     format: default
     bareNumber: true
     constraints:
       required: true
   - name: vr_investido
+    title: Valor Investido
     type: number
     format: default
     bareNumber: true
@@ -86,7 +112,7 @@ fields:
     constraints:
       required: true
 missingValues:
-  - ''
+  - 'SEM DESCRICAO'
 foreignKeys:
   - fields:
       - id_tempo
