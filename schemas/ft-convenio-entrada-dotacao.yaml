@@ -1,0 +1,111 @@
+fields:
+  - name: id_tempo
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_convenio
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_orgao
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_concedente
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_programa
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_acao
+    type: integer
+    format: default
+    bareNumber: true
+  - name: id_elemento
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_unidade_orc
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: dotacao_orcamentaria
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: ano_particao
+    type: year
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: vr_concedente_atual
+    type: number
+    format: default
+    bareNumber: true
+    decimalChar: ','
+    constraints:
+      required: true
+  - name: vr_proponente_atual
+    type: number
+    format: default
+    bareNumber: true
+    decimalChar: ','
+    constraints:
+      required: true
+missingValues:
+  - ''
+foreignKeys:
+  - fields:
+      - id_tempo
+    reference:
+      fields:
+        - id_tempo
+      resource: dm_tempo_diario
+  - fields:
+      - id_concedente
+    reference:
+      fields:
+        - id_concedente
+      resource: dm_concedente
+  - fields:
+      - id_orgao
+    reference:
+      fields:
+        - id_orgao
+      resource: dm_orgao_proponente
+  - fields:
+      - id_elemento
+    reference:
+      fields:
+        - id_elemento
+      resource: dm_elemento_desp
+  - fields:
+      - id_programa
+    reference:
+      fields:
+        - id_programa
+      resource: dm_programa_conv_ent
+  - fields:
+      - id_convenio
+    reference:
+      fields:
+        - id_convenio
+      resource: dm_convenio_entrada
