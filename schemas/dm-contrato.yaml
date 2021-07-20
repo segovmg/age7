@@ -17,6 +17,7 @@ fields:
       unique: false
   - name: nr_contrato
     title: Número do Contrato
+    description: Número identificador do processo de compra no Portal de Compras
     type: integer
     format: default
     bareNumber: true
@@ -24,19 +25,30 @@ fields:
       required: true
   - name: url_contrato
     title: URL Contrato
+    description: Link para acessar o contrato
     type: string
     format: default
+    missingValues:
+        ''
   - name: objeto
+    title: Objeto
+    description: Descrição dos bens e serviços que estão sendo comprados e sua finalidade.
     type: string
     format: default
+    constraints:
+      required: true
   - name: situacao
-    title: Situação do Contrato
+    title: Situação do Processo
+    description: |
+      Situação do processo de compra durante a aquisição de materiais e serviços (concluído, suspenso, em andamento, etc.). 
+      Quanto aos processos de compra com situação em andamento, são considerados apenas os itens já homologados desses processos.
     type: string
     format: default
     constraints:
       required: true
   - name: tipo
     title: Tipo de Contrato
+    description: Informa o tipo de contrato firmado pela Administração, por ex, exemplo, obra, fornecimento de bens, etc.
     type: string
     format: default
     constraints:
