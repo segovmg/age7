@@ -1,0 +1,152 @@
+fields:
+  - name: id_empenho
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: ano_exercicio
+    type: year
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: sqa_restoapagar
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: sqa_gmifp
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: sqa_unidade_exec
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: sqa_unidade_orc
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: sqa_credor
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: sqa_natureza
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: sqa_tpdocumento
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: nr_empenho
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: dt_empenho
+    type: datetime
+    format: default
+    constraints:
+      required: true
+  - name: dt_original
+    type: datetime
+    format: default
+  - name: unidade_orcamentaria
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: unidade_executora
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: funcao
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: subfuncao
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: programa
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: acao
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: categoria_econ
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: grupo_desp
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: elemento_desp
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: item_desp
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: modalidade_aplic
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: tipo_empenho
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: fonte_recurso
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: identificador_orc
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: razao_social_credor
+    type: string
+    format: default
+  - name: vr_empenho
+    type: number
+    format: default
+    bareNumber: true
+    decimalChar: ','
+    constraints:
+      required: true
+missingValues:
+  - ''
+primaryKey:
+  - id_empenho
