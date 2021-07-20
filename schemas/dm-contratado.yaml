@@ -1,0 +1,32 @@
+fields:
+  - name: id_contratado
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: sqa_fornecedor
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: tp_documento
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: nr_documento
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: nome
+    type: string
+    format: default
+    constraints:
+      required: true
+missingValues:
+  - ''
+primaryKey:
+  - id_contratado
