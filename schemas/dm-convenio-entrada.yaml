@@ -1,0 +1,85 @@
+fields:
+  - name: id_convenio
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: sqa_convenio
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: nr_siafi
+    type: string
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: nr_plano
+    type: string
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: nr_convenio
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: nome
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: objetivo
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: dt_publicacao
+    type: datetime
+    format: default
+    constraints:
+      required: true
+  - name: dt_termino_atualizada
+    type: datetime
+    format: default
+    constraints:
+      required: true
+  - name: dt_inicio_vigencia
+    type: datetime
+    format: default
+    constraints:
+      required: true
+  - name: dt_termino_vigencia_inicial
+    type: datetime
+    format: default
+    constraints:
+      required: true
+  - name: vr_concedente_public
+    type: string
+    format: default
+    bareNumber: true
+    decimalChar: ','
+    constraints:
+      required: true
+  - name: vr_proponente_public
+    type: string
+    format: default
+    bareNumber: true
+    decimalChar: ','
+    constraints:
+      required: true
+  - name: vr_total_public
+    type: string
+    format: default
+    bareNumber: true
+    decimalChar: ','
+    constraints:
+      required: true
+missingValues:
+  - ''
+primaryKey:
+  - id_convenio
