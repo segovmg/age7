@@ -1,0 +1,75 @@
+fields:
+  - name: id_contrato
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: sqa_contrato
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: nr_contrato
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: url_contrato
+    type: string
+    format: uri
+  - name: objeto
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: situacao
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: tipo
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: dt_publicacao
+    type: datetime
+    format: default
+    constraints:
+      required: true
+  - name: dt_inicio_vigencia
+    type: datetime
+    format: default
+    constraints:
+      required: true
+  - name: dt_fim_vigencia
+    type: datetime
+    format: default
+    constraints:
+      required: true
+  - name: dt_fim_vigencia_atual
+    type: datetime
+    format: default
+    constraints:
+      required: true
+  - name: vr_homologado
+    type: number
+    format: default
+    bareNumber: true
+    decimalChar: ','
+    constraints:
+      required: true
+  - name: vr_atualizado
+    type: number
+    format: default
+    bareNumber: true
+    decimalChar: ','
+    constraints:
+      required: true
+missingValues:
+  - ''
+primaryKey:
+  - id_contrato
