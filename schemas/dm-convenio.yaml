@@ -1,0 +1,124 @@
+fields:
+  - name: id_convenio
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: fl_versao
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: sqe_convenio
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: nr_siafi
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: nr_sigcon
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: nr_plano_sigcon
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: nome
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: objetivo
+    type: string
+    format: default
+  - name: dt_publicacao
+    type: datetime
+    format: default
+    constraints:
+      required: true
+  - name: dt_vigencia_inicial
+    type: datetime
+    format: default
+    constraints:
+      required: true
+  - name: dt_vigencia_final
+    type: datetime
+    format: default
+    constraints:
+      required: true
+  - name: dt_vigencia_atual
+    type: datetime
+    format: default
+    constraints:
+      required: true
+  - name: tp_instrumento
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: tp_pessoa_beneficiada
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: qt_pessoa_beneficiada
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: vr_concede_public
+    type: number
+    format: default
+    bareNumber: true
+    decimalChar: ','
+    constraints:
+      required: true
+  - name: vr_emen_parl_public
+    type: number
+    format: default
+    bareNumber: true
+    decimalChar: ','
+    constraints:
+      required: true
+  - name: vr_interv_public
+    type: number
+    format: default
+    bareNumber: true
+    decimalChar: ','
+    constraints:
+      required: true
+  - name: vr_contra_public
+    type: number
+    format: default
+    bareNumber: true
+    decimalChar: ','
+    constraints:
+      required: true
+  - name: vr_rendimentos
+    type: number
+    format: default
+    bareNumber: true
+    decimalChar: ','
+    constraints:
+      required: true
+  - name: vr_total_public
+    type: number
+    format: default
+    bareNumber: true
+    decimalChar: ','
+    constraints:
+      required: true
+missingValues:
+  - ''
+primaryKey:
+  - id_convenio

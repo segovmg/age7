@@ -22,6 +22,17 @@
       "encoding": "utf-8-sig",
       "dialect": "schemas/dialect.json",
       "profile": "tabular-data-resource"
+    },
+    {
+      "name": "dm_convenio",
+      "title": "Convênio",
+      "path": "data/dm-convenio.csv.gz",
+      "schema": "schemas/dm-convenio.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
     }
   ],
   "name": "age7",
