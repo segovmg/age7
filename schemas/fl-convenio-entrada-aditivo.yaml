@@ -1,0 +1,36 @@
+fields:
+  - name: id_convenio
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: nr_termo
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: dt_assinatura
+    type: datetime
+    format: default
+    constraints:
+      required: true
+  - name: tp_termo_aditivo
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: justificativa
+    type: string
+    format: default
+    constraints:
+      required: true
+missingValues:
+  - ''
+foreignKeys:
+  - fields:
+      - id_convenio
+    reference:
+      fields:
+        - id_convenio
+      resource: dm_convenio_entrada
