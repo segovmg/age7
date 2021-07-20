@@ -22,6 +22,17 @@
       "encoding": "utf-8-sig",
       "dialect": "schemas/dialect.json",
       "profile": "tabular-data-resource"
+    },
+    {
+      "name": "ft_convenio_tipoatendimento",
+      "title": "Convênio Tipo Atendimento",
+      "path": "data/ft-convenio-tipoatendimento.csv.gz",
+      "schema": "schemas/ft-convenio-tipoatendimento.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
     }
   ],
   "name": "age7",
