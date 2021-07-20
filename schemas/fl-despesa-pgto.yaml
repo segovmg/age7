@@ -1,0 +1,20 @@
+fields:
+  - name: sqa_pagamento
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_situacao_op
+    type: integer
+    format: default
+    bareNumber: true
+missingValues:
+  - ''
+foreignKeys:
+  - fields:
+      - id_situacao_op
+    reference:
+      fields:
+        - id_situacao_op
+      resource: dm_situacao_op_desp
