@@ -22,6 +22,17 @@
       "encoding": "utf-8-sig",
       "dialect": "schemas/dialect.json",
       "profile": "tabular-data-resource"
+    },
+    {
+      "name": "ft_convenio_entrada_rec",
+      "title": "Convênio Entrada - Receita",
+      "path": "data/ft-convenio-entrada-rec.csv.gz",
+      "schema": "schemas/ft-convenio-entrada-rec.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
     }
   ],
   "name": "age7",

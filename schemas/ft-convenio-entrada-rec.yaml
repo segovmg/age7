@@ -1,0 +1,50 @@
+fields:
+  - name: id_convenio
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_classifica_rec
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: dt_registro_receita
+    type: datetime
+    format: default
+    constraints:
+      required: true
+  - name: sqa_arrecadacao
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: ano_particao
+    type: year
+    format: default
+    bareNumber: true
+  - name: vr_arrecadado
+    type: number
+    format: default
+    bareNumber: true
+    decimalChar: ','
+    constraints:
+      required: true
+missingValues:
+  - ''
+foreignKeys:
+  - fields:
+      - id_classifica_rec
+    reference:
+      fields:
+        - id_classifica_rec
+      resource: dm_classifica_rec
+  - fields:
+      - id_convenio
+    reference:
+      fields:
+        - id_convenio
+      resource: dm_convenio_entrada
