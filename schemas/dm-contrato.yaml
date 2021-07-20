@@ -1,6 +1,6 @@
 fields:
   - name: id_contrato
-    title: Contrato  Chave
+    title: Contrato - Chave
     type: integer
     format: default
     bareNumber: true
@@ -25,12 +25,10 @@ fields:
   - name: url_contrato
     title: URL Contrato
     type: string
-    format: uri
+    format: default
   - name: objeto
     type: string
     format: default
-    constraints:
-      required: true
   - name: situacao
     title: Situação do Contrato
     type: string
