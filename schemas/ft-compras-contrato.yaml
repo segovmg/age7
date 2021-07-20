@@ -1,0 +1,96 @@
+fields:
+  - name: id_tempo
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_processo
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_orgao_contrato
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_contrato
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_contratado
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_situacao_cont
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: ano_particao
+    type: year
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: vr_homologado
+    type: number
+    format: default
+    bareNumber: true
+    decimalChar: ','
+    constraints:
+      required: true
+  - name: vr_atualizado
+    type: number
+    format: default
+    bareNumber: true
+    decimalChar: ','
+    constraints:
+      required: true
+missingValues:
+  - ''
+foreignKeys:
+  - fields:
+      - id_contratado
+    reference:
+      fields:
+        - id_contratado
+      resource: dm_contratado
+  - fields:
+      - id_situacao_cont
+    reference:
+      fields:
+        - id_situacao_cont
+      resource: dm_situacao_cont
+  - fields:
+      - id_orgao_contrato
+    reference:
+      fields:
+        - id_orgao_contrato
+      resource: dm_orgao_contrato
+  - fields:
+      - id_tempo
+    reference:
+      fields:
+        - id_tempo
+      resource: dm_tempo_diario
+  - fields:
+      - id_processo
+    reference:
+      fields:
+        - id_processo
+      resource: dm_processo
+  - fields:
+      - id_contrato
+    reference:
+      fields:
+        - id_contrato
+      resource: dm_contrato
