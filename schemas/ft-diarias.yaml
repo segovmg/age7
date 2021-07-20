@@ -113,7 +113,7 @@ fields:
       unique: false
   - name: tp_operacao
     title: Tipo Operação
-    type: integer
+    type: string
     format: default
     constraints:
       enum:
