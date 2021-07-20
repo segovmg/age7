@@ -22,6 +22,17 @@
       "encoding": "utf-8-sig",
       "dialect": "schemas/dialect.json",
       "profile": "tabular-data-resource"
+    },
+    {
+      "name": "dm_interveniente_conv_ent",
+      "title": "Interveniente Convênio de Entrada",
+      "path": "data/dm-interveniente-conv-ent.csv.gz",
+      "schema": "schemas/dm-interveniente-conv-ent.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
     }
   ],
   "name": "age7",
