@@ -1,23 +1,29 @@
 fields:
   - name: id_contrato
+    title: Contrato  Chave
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: sqa_contrato
+    title: Contrato - Chave Origem
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: nr_contrato
+    title: Número do Contrato
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
   - name: url_contrato
+    title: URL Contrato
     type: string
     format: uri
   - name: objeto
@@ -26,36 +32,45 @@ fields:
     constraints:
       required: true
   - name: situacao
+    title: Situação do Contrato
     type: string
     format: default
     constraints:
       required: true
   - name: tipo
+    title: Tipo de Contrato
     type: string
     format: default
     constraints:
       required: true
   - name: dt_publicacao
+    title: Data de Publicação
     type: datetime
     format: default
     constraints:
       required: true
   - name: dt_inicio_vigencia
+    title: Data Início da Vigência
     type: datetime
     format: default
     constraints:
       required: true
   - name: dt_fim_vigencia
+    title: Data Fim da Vigência
     type: datetime
     format: default
     constraints:
       required: true
   - name: dt_fim_vigencia_atual
+    title: Data Fim da Vigência Atualizada
     type: datetime
     format: default
     constraints:
       required: true
   - name: vr_homologado
+    title: Valor Homologado
+    description: |
+     Valor total homologado licitado ou comprado do item de material/serviço.
     type: number
     format: default
     bareNumber: true
@@ -63,6 +78,9 @@ fields:
     constraints:
       required: true
   - name: vr_atualizado
+    title: Valor Atualizado
+    description: |
+      Valor total do item de material/serviço atualizado pelas alterações contratuais, com ou sem termo de contrato.
     type: number
     format: default
     bareNumber: true
@@ -70,6 +88,6 @@ fields:
     constraints:
       required: true
 missingValues:
-  - ''
+  - 'SEM DESCRICAO'
 primaryKey:
   - id_contrato
