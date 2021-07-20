@@ -24,7 +24,11 @@ fields:
     bareNumber: true
     constraints:
       required: true
-      unique: false
+      enum:
+        - '11'
+        - "15"
+        - '16'
+        - '17'
   - name: nome
     title: Situação do Convênio- Descrição
     type: string
