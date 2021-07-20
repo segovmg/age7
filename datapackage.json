@@ -25,7 +25,7 @@
     },
     {
       "name": "fl_despesa_pgto",
-      "title": "",
+      "title": "Despesa - Ordem de Pagamento",
       "path": "data/fl-despesa-pgto.csv.gz",
       "schema": "schemas/fl-despesa-pgto.yaml",
       "format": "csv",
