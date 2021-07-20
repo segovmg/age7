@@ -1,0 +1,30 @@
+fields:
+  - name: id_favorecido
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: sqe_favorecido
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: nr_cpf
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: masp
+    type: string
+    format: default
+  - name: nome
+    type: string
+    format: default
+    constraints:
+      required: true
+missingValues:
+  - ''
+primaryKey:
+  - id_favorecido
