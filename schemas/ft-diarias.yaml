@@ -1,104 +1,138 @@
 fields:
   - name: id_tempo
+    title: Tempo - Chave
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: id_elemento
+    title: Elemento de Despesa - Chave
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: id_item
+    title: Item de Despesa - Chave
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: id_programa
+    title: Programa - Chave
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: id_acao
+    title: Ação Orçamentária - Chave
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: id_unidade_orc
+    title: Unidade Orçamentária - Chave
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: id_favorecido
+    title: Favorecido - Chave
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: id_empenho
+    title: Número do Empenho - Chave
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: id_tipo_documento
+    title: Tipo de Documento - Chave
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: sqa_liquidacao
+    title: Liquidação - Chave Origem
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: sqa_pagamento
+    title: Pagamento - Chave Origem
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: sqa_empenho
+    title: Empenho - Chave Origem
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: sqa_unidade_exec
+    title: Unidade Executora - Chave Origem
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: sqa_unidade_orc
+    title: Unidade Orçamentária - Chave Origem
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: tp_operacao
-    type: string
+    title: Tipo Operação
+    type: integer
     format: default
     constraints:
-      required: true
+      enum:
+        - '1'
+        - '2'
   - name: cd_documento
+    title: Documento - Código
     type: string
     format: default
     constraints:
       required: true
   - name: cd_evento
+    title: Evento - Código
     type: string
     format: default
     constraints:
       required: true
   - name: dt_anomes
+    title: Ano e Mês
     type: string
     format: default
     bareNumber: true
@@ -108,30 +142,42 @@ fields:
     notes: 
       - O tipo yearmonth somente aceita representação YYYY-MM (ie. com hífen)
   - name: ano_particao
+    title: Ano Partição
     type: year
     format: default
     bareNumber: true
     constraints:
       required: true
   - name: vr_empenhado
+    title: Valor Empenhado
     type: number
     format: default
     bareNumber: true
     decimalChar: ','
+    description: |
+      Valor do orçamento reservado para fazer face a compromisso formalmente assumido com fornecedor ou credor.
     constraints:
       required: true
   - name: vr_liquidado
+    title: Valor Liquidado
     type: number
     format: default
     bareNumber: true
     decimalChar: ','
+    description: |
+         Valor que o fornecedor ou credor tem direito a receber referente a produto ou serviço devidamente entregue ou prestado.
     constraints:
       required: true
   - name: vr_pago
+    title: Valor Pago
     type: number
     format: default
     bareNumber: true
     decimalChar: ','
+    description: |
+      - > 
+      Valor referente aos pagamentos efetuados através de movimentações bancárias, escriturais e apropriação contábil da
+      despesa. O efetivo pagamento pode estar pendente de transmissão ao banco e/ou sujeito a compensação bancária.
     constraints:
       required: true
 missingValues:
