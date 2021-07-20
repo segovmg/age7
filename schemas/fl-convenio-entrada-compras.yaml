@@ -1,0 +1,52 @@
+fields:
+  - name: id_convenio
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: nr_processo
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: nr_processo_formatado
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: objeto
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: cd_orgao
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: nome_orgao
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: nrdoc_contratado
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: nome_contratado
+    type: string
+    format: default
+    constraints:
+      required: true
+missingValues:
+  - ''
+foreignKeys:
+  - fields:
+      - id_convenio
+    reference:
+      fields:
+        - id_convenio
+      resource: dm_convenio_entrada
