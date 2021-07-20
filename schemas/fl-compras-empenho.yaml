@@ -1,0 +1,81 @@
+fields:
+  - name: id_processo
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_empenho
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_programa
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_acao
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_elemento
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_item
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: dotacao_orcamentaria
+    type: string
+    format: default
+    constraints:
+      required: true
+missingValues:
+  - ''
+foreignKeys:
+  - fields:
+      - id_programa
+    reference:
+      fields:
+        - id_programa
+      resource: dm_programa
+  - fields:
+      - id_elemento
+    reference:
+      fields:
+        - id_elemento
+      resource: dm_elemento_desp
+  - fields:
+      - id_item
+    reference:
+      fields:
+        - id_item
+      resource: dm_item_desp
+  - fields:
+      - id_processo
+    reference:
+      fields:
+        - id_processo
+      resource: dm_processo
+  - fields:
+      - id_acao
+    reference:
+      fields:
+        - id_acao
+      resource: dm_acao
+  - fields:
+      - id_empenho
+    reference:
+      fields:
+        - id_empenho
+      resource: dm_empenho_desp
