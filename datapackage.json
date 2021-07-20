@@ -22,6 +22,17 @@
       "encoding": "utf-8-sig",
       "dialect": "schemas/dialect.json",
       "profile": "tabular-data-resource"
+    },
+    {
+      "name": "fl_convenio_alteracao",
+      "title": "Convênio Alteração",
+      "path": "data/fl-convenio-alteracao.csv.gz",
+      "schema": "schemas/fl-convenio-alteracao.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
     }
   ],
   "name": "age7",

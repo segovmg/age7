@@ -1,0 +1,38 @@
+fields:
+  - name: id_convenio
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: sqe_alteracao
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: nr_alteracao
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: dt_publicacao
+    type: datetime
+    format: default
+  - name: tp_alteracao
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: objetivo
+    type: string
+    format: default
+missingValues:
+  - ''
+foreignKeys:
+  - fields:
+      - id_convenio
+    reference:
+      fields:
+        - id_convenio
+      resource: dm_convenio
