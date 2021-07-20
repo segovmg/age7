@@ -1,0 +1,33 @@
+fields:
+  - name: id_interveniente
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: fl_versao
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: sqe_interveniente
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: nr_documento
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: nome
+    type: string
+    format: default
+    constraints:
+      required: true
+missingValues:
+  - ''
+primaryKey:
+  - id_interveniente
