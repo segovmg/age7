@@ -1,0 +1,108 @@
+fields:
+  - name: id_tempo
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_unidade_orc
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_municipio
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_item
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: cd_ibge
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: sqa_empenho
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: sqa_unidade_orc
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: sqa_unidade_exec
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: nr_doc_liquidacao
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: sqa_liquidacao
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: tp_documento
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: tp_operacao
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: cd_transacao_org
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: ano_particao
+    type: year
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: vr_investido
+    type: number
+    format: default
+    bareNumber: true
+    decimalChar: ','
+    constraints:
+      required: true
+missingValues:
+  - ''
+foreignKeys:
+  - fields:
+      - id_tempo
+    reference:
+      fields:
+        - id_tempo
+      resource: dm_tempo_diario
+  - fields:
+      - id_item
+    reference:
+      fields:
+        - id_item
+      resource: dm_item_desp
+  - fields:
+      - id_municipio
+    reference:
+      fields:
+        - id_municipio
+      resource: dm_municipio
