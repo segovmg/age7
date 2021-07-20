@@ -1,0 +1,35 @@
+fields:
+  - name: id_documento_viagem
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: sqe_documento_viagem
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: nr_documento
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: dt_viagem_inicio
+    type: datetime
+    format: default
+    constraints:
+      required: true
+  - name: dt_viagem_fim
+    type: datetime
+    format: default
+    constraints:
+      required: true
+  - name: motivo
+    type: string
+    format: default
+missingValues:
+  - ''
+primaryKey:
+  - id_documento_viagem
