@@ -1,0 +1,44 @@
+fields:
+  - name: id_convenio
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_tipo_atendimento
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: ds_descricao
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: ds_unidade_medida
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: quantidade
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+missingValues:
+  - ''
+foreignKeys:
+  - fields:
+      - id_tipo_atendimento
+    reference:
+      fields:
+        - id_tipo_atendimento
+      resource: dm_tipo_atendimento
+  - fields:
+      - id_convenio
+    reference:
+      fields:
+        - id_convenio
+      resource: dm_convenio

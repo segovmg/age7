@@ -22,6 +22,17 @@
       "encoding": "utf-8-sig",
       "dialect": "schemas/dialect.json",
       "profile": "tabular-data-resource"
+    },
+    {
+      "name": "ft_convenio_metaetapa",
+      "title": "Convênio - Meta Etapa",
+      "path": "data/ft-convenio-metaetapa.csv.gz",
+      "schema": "schemas/ft-convenio-metaetapa.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
     }
   ],
   "name": "age7",
