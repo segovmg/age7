@@ -42,7 +42,7 @@ fields:
     type: string
     format: default
     description: |
-      Sitauação da Ordem de Pagamento:
+      Sitauação da Ordem de Pagamento.
     constraints:
       required: true
 missingValues:
