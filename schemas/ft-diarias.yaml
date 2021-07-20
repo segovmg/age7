@@ -175,9 +175,9 @@ fields:
     bareNumber: true
     decimalChar: ','
     description: |
-      - > 
-      Valor referente aos pagamentos efetuados através de movimentações bancárias, escriturais e apropriação contábil da
-      despesa. O efetivo pagamento pode estar pendente de transmissão ao banco e/ou sujeito a compensação bancária.
+      Valor referente aos pagamentos efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa. 
+      
+      O efetivo pagamento pode estar pendente de transmissão ao banco e/ou sujeito a compensação bancária.
     constraints:
       required: true
 missingValues:
