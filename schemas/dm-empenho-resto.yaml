@@ -1,145 +1,194 @@
 fields:
   - name: id_empenho
+    title: Empenho - Chave
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: ano_exercicio
+    title: Ano de Exercício
     type: year
     format: default
     bareNumber: true
     constraints:
       required: true
   - name: sqa_restoapagar
+    title: Restos a Pagar - Chave Origem
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
   - name: sqa_gmifp
+    title: GMIFP - Chave Origem
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
   - name: sqa_unidade_exec
+    title: Unidade Executora - Chave Origem
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
   - name: sqa_unidade_orc
+    title: Unidade Orçamentária - Chave Origem
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
   - name: sqa_credor
+    title: Credor - Chave Origem
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
   - name: sqa_natureza
+    title: Natureza - Chave Origem
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
   - name: sqa_tpdocumento
+    title: Tipo de Documento - Chave Origem
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
   - name: nr_empenho
+    title: Número de Empenho
+    description: Número de identificação do empenho no SIAFI
     type: string
     format: default
     constraints:
       required: true
   - name: dt_empenho
+    title: Data do Empenho
     type: datetime
     format: default
     constraints:
       required: true
   - name: dt_original
+    title: Data Original do Empenho
     type: datetime
     format: default
   - name: unidade_orcamentaria
+    title: Unidade Orçamentária - Descrição
     type: string
     format: default
     constraints:
       required: true
   - name: unidade_executora
+    title: Unidade Executora - Código
+    description: Código composto do órgão executo (4 dígitos) e número sequencial da unidade executora (3 dígitos)
     type: string
     format: default
     constraints:
       required: true
   - name: funcao
+    title: Função - Descrição
+    description: Descrição do nível máximo de agregação das ações do Governo.
     type: string
     format: default
     constraints:
       required: true
   - name: subfuncao
+    title: Subfunção - Descrição
+    description: Descrição do detalhaamento das áreas de atuação do Governo.
     type: string
     format: default
     constraints:
       required: true
   - name: programa
+    title: Programa - Descrição
+    description: Descrição do objeto concreto, bem ou serviço que se quer atingir.
     type: string
     format: default
     constraints:
       required: true
   - name: acao
+    title: Ação - Descrição
+    description: |
+      Conjunto de operações das quais resulta a entrega de um produto (bem, serviço ou transferência financeira) que contribui para atender ao objetivo de um programa.
     type: string
     format: default
     constraints:
       required: true
   - name: categoria_econ
+    title: Categoria Econômica - Descrição
+    description: |
+      Descrição da categoria econômica da despesa: Despesas Correntes e Despesas de Capital
     type: string
     format: default
     constraints:
       required: true
   - name: grupo_desp
+    title; Grupo de Despesa - Descrição
+    description: |
+      Descrição do grupo de natureza econômica da despesa: Pessoal e Encargos Sociais, Juros e Encargos da Dívida; Outras Despesas Correntes; Investimentos; Inversões Financeiras; Amortização da Dívida; Reserva de Contingência.
     type: string
     format: default
     constraints:
       required: true
   - name: elemento_desp
+    title: Elmemento de Despesa - Descrição
+    description: Descrição dos elementos item da despesa
     type: string
     format: default
     constraints:
       required: true
   - name: item_desp
+    title: Item de Despesa - Descrição
+    description: Descrição do desdobramento suplementar facultativo dos elementos da despesa
     type: string
     format: default
     constraints:
       required: true
   - name: modalidade_aplic
+    title: Modalidade de Aplicação - Descrição
+    description: |
+      Classificação da natureza da despesa que tradua a forma como os recursos serão aplicados pelos órgãos/entiddes, podenod ser diretamente pelos mesmos ou sbo a forma de transferência a outras entidades públicas ou privadas que se encarregarão da execução das ações.
     type: string
     format: default
     constraints:
       required: true
   - name: tipo_empenho
+    title: Tipo de Empenho - Descrição
+    description: Descrição do tipo de empenho
     type: string
     format: default
     constraints:
       required: true
   - name: fonte_recurso
+    title: Fonte de Recurso - Descrição
+    description: Descrição da fonte do recurso financeiro
     type: string
     format: default
     constraints:
       required: true
   - name: identificador_orc
+    title: Identificador Orçamento - Descrição
+    description: Identificador do orçamento conforme o SIAFI-MG
     type: string
     format: default
     constraints:
       required: true
   - name: razao_social_credor
+    title: Razão Social de Credor
+    description: Número de Identificação e nome da pessoa física (CPF) ou pessoa jurídica (CNPJ)
     type: string
     format: default
   - name: vr_empenho
+    title: Valor do Empenho
+    description: Valor do orçamento reservado para fazer face a compromisso formalmente assumido com fornecedor ou credor.
     type: number
     format: default
     bareNumber: true
