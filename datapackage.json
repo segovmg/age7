@@ -22,6 +22,17 @@
       "encoding": "utf-8-sig",
       "dialect": "schemas/dialect.json",
       "profile": "tabular-data-resource"
+    },
+    {
+      "name": "ft_convenio_entrada_desp",
+      "title": "Convênio Entrada",
+      "path": "data/ft-convenio-entrada-desp.csv.gz",
+      "schema": "schemas/ft-convenio-entrada-desp.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
     }
   ],
   "name": "age7",
