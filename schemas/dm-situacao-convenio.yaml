@@ -1,25 +1,40 @@
 fields:
   - name: id_situacao
+    title: Situação do Convênio- Chave
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: fl_versao
+    title: Situação do Convênio- Flag
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      enum:
+        - '1'
+        - "2"
   - name: sqe_situacao
+    title: Situação do Convênio- Chave Origem
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: nome
+    title: Situação do Convênio- Descrição
     type: string
     format: default
+    description: |
+      Informa a situação na qual o convênio se encontra na data da consulta realizada no portal.
+       - Vigente;
+       - Cancelado;
+       - Convenio Cadastrado ou
+       - Encerrado.
     constraints:
       required: true
 missingValues:
