@@ -68,6 +68,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_empenho_resto",
+      "title": "Empenho Restos a Pagar",
+      "path": "data/dm-empenho-resto.csv.gz",
+      "schema": "schemas/dm-empenho-resto.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_categ_econ",
       "title": "Categoria Econômica",
       "path": "data/dm-categ-econ.csv.gz",
