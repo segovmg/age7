@@ -2,6 +2,17 @@
   "profile": "tabular-data-package",
   "resources": [
     {
+      "name": "dm_unidade_orc",
+      "title": "Unidade Orçamentária",
+      "path": "data/dm-unidade-orc.csv.gz",
+      "schema": "schemas/dm-unidade-orc.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_funcao_desp",
       "title": "Função",
       "path": "data/dm-funcao-desp.csv.gz",
