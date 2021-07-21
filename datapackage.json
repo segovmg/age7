@@ -79,6 +79,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_material_servico",
+      "title": "Material/Serviço",
+      "path": "data/dm-material-servico.csv.gz",
+      "schema": "schemas/dm-material-servico.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    }
+    {
       "name": "ft_diarias",
       "title": "Diárias",
       "path": "data/ft-diarias.csv.gz",
