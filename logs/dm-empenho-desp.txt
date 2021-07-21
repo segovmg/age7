@@ -1,0 +1,3 @@
+# -----
+# valid: data/dm-empenho-desp.csv.gz
+# -----

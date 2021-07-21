@@ -1,0 +1,673 @@
+consultas:
+  restos-a-pagar:
+    title: Despesas com restos a pagar
+    url: http://www.transparencia.mg.gov.br/despesa-estado/restos-a-pagar
+    fact_tables:
+      - ft_restos_pagar
+  compras-e-contratos:
+    title: Compras e contratos
+    url: http://www.transparencia.mg.gov.br/compras-e-patrimonio/compras-e-contratos
+    fact_tables:
+      - ft_compras
+      - ft_compras_contrato
+      - fl_compras_empenho
+  convenios-de-saida:
+    title: Convênios de saída de recursos
+    url: http://www.transparencia.mg.gov.br/convenios/convenios-de-saida
+    fact_tables:
+      - ft_convenio
+      - ft_convenio_investimento
+      - ft_convenio_tipoatendimento
+      - ft_convenio_metaetapa
+      - fl_convenio_interveniente
+      - fl_convenio_alteracao
+      - fl_convenio_prest_contas
+  diarias:
+    title: Despesas com diárias
+    url: http://www.transparencia.mg.gov.br/estado-pessoal/diarias
+    fact_tables:
+      - ft_diarias
+  despesa:
+    title: Despesa pública
+    url: http://www.transparencia.mg.gov.br/despesa-estado/despesa
+    fact_tables:
+      - ft_despesa
+      - fl_despesa_pgto
+  transferencia-de-impostos-a-municipios:
+    title: Despesas com repasse a municípios
+    url: http://www.transparencia.mg.gov.br/transferencia-de-impostos-a-municipios
+    fact_tables:
+      - ft_repasse_mun
+  execucao-da-divida:
+    title: Despesas com dívida pública
+    url: http://www.transparencia.mg.gov.br/divida-publica/execucao-da-divida
+    fact_tables:
+      - ft_divida_pub
+  despesa-com-pessoal:
+    title: Despesas com pessoal
+    url: http://www.transparencia.mg.gov.br/estado-pessoal/despesa-com-pessoal
+    fact_tables:
+      - ft_pessoal_desp
+  viagens:
+    title: Viagens
+    url: http://transparencia.mg.gov.br/estado-pessoal/viagens
+    fact_tables:
+      - ft_diarias_scdp
+      - ft_diarias_scdp_liqpag
+  mapa-de-investimento:
+    title: Mapa de Investimento
+    url: http://transparencia.mg.gov.br/despesa-estado/mapa-de-investimento
+    fact_tables:
+      - ''
+  planejamento-e-monitoramento:
+    title: Planejamento e Monitoramento
+    url: http://www.transparencia.mg.gov.br/planejamento-e-resultados/planejamento-e-monitoramento
+    fact_tables:
+      - ft_plan_acao_ppag
+      - fl_plan_indicador
+      - ft_plan_indic_referencia
+      - ft_plan_indic_plan_exec
+      - fl_plan_programa
+      - fl_plan_responsavel
+      - ft_plan_exec_of_tipoorc
+      - ft_plan_exec_of_territorio
+      - ft_plan_exec_of_fonte
+      - fl_plan_acao
+      - ft_plan_fonte_fin_acao
+      - ft_plan_prog_fftd
+      - ft_plan_prog_mensal
+      - ft_plan_prog_territorial
+      - ft_plan_execucao_acao
+      - ft_plan_prog_of_tipoorc
+      - ft_plan_prog_of_territorio
+      - ft_plan_prog_of_fonte
+  proposta-lei-orcamentaria:
+    title: Proposta Orçamentária e Lei Orçamentária
+    url: http://www.transparencia.mg.gov.br/planejamento-e-resultados/proposta-lei-orcamentaria
+    fact_tables:
+      - ft_orcamento_proposta
+      - ft_orcamento_emenda
+      - ft_orcamento_cred_alt
+      - ft_obra
+  estado-receita:
+    title: Receita pública
+    url: http://www.transparencia.mg.gov.br/estado-receita
+    fact_tables:
+      - ft_receita
+      - ft_receita_prevista
+      - ft_receita_v2018
+      - ft_receita_prevista_v2018
+  convenio-entrada:
+    title: Convênios de entrada de recursos
+    url: http://transparencia.mg.gov.br/convenios/convenio-entrada
+    fact_tables:
+      - ft_convenio_entrada_dotacao
+      - ft_convenio_entrada
+      - ft_convenio_entrada_desp
+      - ft_convenio_entrada_rec
+      - fl_convenio_entrada_interv
+      - fl_convenio_entrada_compras
+      - fl_convenio_entrada_aditivo
+
+
+fact_tables:
+  ft_receita:
+      - dm_alinea_rec
+      - dm_especie_rec
+      - dm_fonte_rec
+      - dm_item_rec
+      - dm_origem_rec
+      - dm_rubrica_rec
+      - dm_subalinea_rec
+      - dm_tempo_mensal
+      - dm_unidade_orc
+
+  ft_receita_prevista:
+      - dm_alinea_rec
+      - dm_especie_rec
+      - dm_fonte_rec
+      - dm_item_rec
+      - dm_origem_rec
+      - dm_rubrica_rec
+      - dm_subalinea_rec
+      - dm_unidade_orc
+
+  ft_receita_v2018:
+      - dm_desdobramento_1_rec
+      - dm_desdobramento_2_rec
+      - dm_desdobramento_3_rec
+      - dm_especie_rec
+      - dm_fonte_rec
+      - dm_item_rec
+      - dm_origem_rec
+      - dm_subitem_rec
+      - dm_tempo_mensal
+      - dm_tipo_rec
+      - dm_unidade_orc
+
+  ft_receita_prevista_v2018:
+      - dm_desdobramento_1_rec
+      - dm_desdobramento_2_rec
+      - dm_desdobramento_3_rec
+      - dm_especie_rec
+      - dm_fonte_rec
+      - dm_item_rec
+      - dm_origem_rec
+      - dm_subitem_rec
+      - dm_tipo_rec
+      - dm_unidade_orc
+
+  ft_despesa:
+    - dm_acao
+    - dm_categ_econ
+    - dm_elemento_desp
+    - dm_empenho_desp
+    - dm_favorecido
+    - dm_fonte
+    - dm_funcao_desp
+    - dm_grupo_desp
+    - dm_item_desp
+    - dm_modalidade_aplic
+    - dm_procedencia
+    - dm_programa
+    - dm_subfuncao_desp
+    - dm_tempo_diario
+    - dm_tipo_documento
+    - dm_unidade_orc
+
+  fl_despesa_pgto:
+    - dm_situacao_op_desp
+
+  ft_restos_pagar:
+    - dm_elemento_desp
+    - dm_modalidade_aplic
+    - dm_grupo_desp
+    - dm_favorecido
+    - dm_unidade_orc
+    - dm_tempo_anual
+    - dm_empenho_resto
+    - dm_categ_econ
+    - dm_item_desp
+    - dm_fonte
+    - dm_tipo_documento
+
+  ft_diarias:
+    - dm_acao
+    - dm_elemento_desp
+    - dm_empenho_desp
+    - dm_favorecido
+    - dm_item_desp
+    - dm_programa
+    - dm_tempo_diario
+    - dm_tipo_documento
+    - dm_unidade_orc
+
+  ft_diarias_scdp:
+      - dm_cargo_scdp
+      - dm_cidade
+      - dm_documento_viagem
+      - dm_estado
+      - dm_favorecido_scdp
+      - dm_funcao_scdp
+      - dm_meio_transporte
+      - dm_motivo_viagem
+      - dm_orgao_scdp
+      - dm_pais
+      - dm_tempo_diario
+      - dm_tipo_viagem
+      - dm_tipo_viajante
+
+  ft_diarias_scdp_liqpag:
+      - dm_acao
+      - dm_documento_viagem
+      - dm_empenho_desp
+      - dm_fonte
+      - dm_funcao_desp
+      - dm_item_desp
+      - dm_programa
+
+  ft_compras:
+      - dm_classe_matserv
+      - dm_contratado
+      - dm_contrato
+      - dm_grupo_matserv
+      - dm_item_desp
+      - dm_item_matserv
+      - dm_linha_fornec
+      - dm_material_servico
+      - dm_municipio
+      - dm_orgao_contrato
+      - dm_orgao_demanda
+      - dm_procedimento
+      - dm_processo
+      - dm_situacao_cont
+      - dm_situacao_proc
+      - dm_tempo_diario
+      - dm_tipo_licitacao
+      - dm_unidade_medida
+      - dm_unidade_orc
+
+  ft_compras_contrato:
+      - dm_contratado
+      - dm_contrato
+      - dm_orgao_contrato
+      - dm_processo
+      - dm_situacao_cont
+      - dm_tempo_diario
+
+  fl_compras_empenho:
+      - dm_acao
+      - dm_elemento_desp
+      - dm_empenho_desp
+      - dm_item_desp
+      - dm_processo
+      - dm_programa
+
+  ft_convenio:
+      - dm_convenente
+      - dm_convenio
+      - dm_municipio
+      - dm_orgao_concedente
+      - dm_tempo_diario
+
+  ft_convenio_investimento:
+      - dm_item_desp
+      - dm_municipio
+      - dm_tempo_diario
+      - dm_unidade_orc
+
+  ft_convenio_tipoatendimento:
+      - dm_convenente
+      - dm_convenio
+      - dm_municipio
+      - dm_orgao_concedente
+      - dm_situacao_convenio
+      - dm_tempo_diario
+      - dm_tipo_atendimento
+
+  ft_convenio_metaetapa:
+      - dm_convenio
+      - dm_tipo_atendimento
+
+  fl_convenio_interveniente:
+      - dm_convenio
+      - dm_interveniente
+
+  fl_convenio_alteracao:
+      - dm_convenio
+
+  fl_convenio_prest_contas:
+      - dm_situacao_prest_contas
+
+  ft_convenio_entrada_dotacao:
+      - dm_concedente
+      - dm_convenio_entrada
+      - dm_elemento_desp
+      - dm_orgao_proponente
+      - dm_programa_conv_ent
+      - dm_tempo_diario
+      - dm_unidade_orc
+
+  ft_convenio_entrada:
+      - dm_concedente
+      - dm_convenio_entrada
+      - dm_orgao_proponente
+      - dm_situacao_conv_ent
+      - dm_tempo_diario
+      - dm_unidade_orc
+
+  ft_convenio_entrada_desp:
+      - dm_convenio_entrada
+      - dm_elemento_desp
+      - dm_favorecido
+      - dm_item_desp
+      - dm_tipo_documento
+
+  ft_convenio_entrada_rec:
+      - dm_classifica_rec
+      - dm_convenio_entrada
+
+  fl_convenio_entrada_interv:
+      - dm_convenio_entrada
+      - dm_interveniente_conv_ent
+
+  fl_convenio_entrada_compras:
+      - dm_convenio_entrada
+
+  fl_convenio_entrada_aditivo:
+      - dm_convenio_entrada
+
+
+resources:
+  dm_desdobramento_1_rec:
+    status: Merge
+    pr: https://github.com/transparencia-mg/age7/pull/25
+  dm_desdobramento_2_rec:
+    status: Merge
+    pr: https://github.com/transparencia-mg/age7/pull/26
+  dm_desdobramento_3_rec:
+    status: Merge
+    pr: https://github.com/transparencia-mg/age7/pull/27
+  dm_tipo_rec:
+    status: Merge
+    pr: https://github.com/transparencia-mg/age7/pull/28
+  ft_receita_prevista_v2018:
+    status: Merge
+    pr: https://github.com/transparencia-mg/age7/pull/29
+  ft_receita_v2018:
+    status: Merge
+    pr: https://github.com/transparencia-mg/age7/pull/30
+  dm_acao:
+    status: Merged
+    pr: ''
+  dm_alinea_rec:
+    status: Merge
+    pr: ''
+  dm_elemento_desp:
+    status: Merge
+    pr: ''
+  dm_especie_rec:
+    status: Merge
+    pr: ''
+  dm_fonte_rec:
+    status: Merge
+    pr: ''
+  dm_funcao_desp:
+    status: Merge
+    pr: ''
+  dm_item_desp:
+    status: Merge
+    pr: ''
+  dm_item_rec:
+    status: Merge
+    pr: ''
+  dm_origem_rec:
+    status: Merge
+    pr: ''
+  dm_programa:
+    status: Merge
+    pr: ''
+  dm_rubrica_rec:
+    status: Merge
+    pr: ''
+  dm_subalinea_rec:
+    status: Merge
+    pr: ''
+  dm_subfuncao_desp:
+    status: Merged
+    pr: ''
+  dm_tempo_diario:
+    status: Merge
+    pr: ''
+  dm_tempo_mensal:
+    status: Merge
+    pr: ''
+  dm_tipo_documento:
+    status: Merge
+    pr: ''
+    notes: 
+      - Qual o significado dessa tabela?
+  dm_unidade_orc:
+    status: Merge
+    pr: ''
+  ft_receita:
+    status: Merge
+    pr: ''
+  ft_receita_prevista:
+    status: Merge
+    pr: ''
+  ft_despesa:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/62
+  fl_despesa_pgto:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/74
+  ft_restos_pagar:
+    status: Merge
+    pr: 'https://github.com/transparencia-mg/age7/pull/31'
+  ft_diarias:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/59
+  ft_diarias_scdp:
+    status: Merge
+    pr: https://github.com/transparencia-mg/age7/pull/50
+  ft_diarias_scdp_liqpag:
+    status: Merge
+    pr: https://github.com/transparencia-mg/age7/pull/51
+  ft_compras:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/60
+  ft_compras_contrato:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/61
+  fl_compras_empenho:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/75
+  ft_convenio:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/77
+  ft_convenio_investimento:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/78
+  ft_convenio_tipoatendimento:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/79
+  ft_convenio_metaetapa:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/80
+    notes: 
+      - Recurso sem linhas
+  fl_convenio_interveniente:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/81
+  fl_convenio_alteracao:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/83
+  fl_convenio_prest_contas:
+    status: Todo
+    pr: ''
+    notes: 
+      - resource "fl_convenio_prest_contas" does not exist in Oracle
+  ft_convenio_entrada_dotacao:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/84
+  ft_convenio_entrada:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/91
+  ft_convenio_entrada_desp:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/85
+  ft_convenio_entrada_rec:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/86
+  fl_convenio_entrada_interv:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/87
+  fl_convenio_entrada_compras:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/88
+  fl_convenio_entrada_aditivo:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/89
+  dm_subitem_rec:
+    status: Merge
+    pr: https://github.com/transparencia-mg/age7/pull/52
+  dm_categ_econ:
+    status: Merge
+    pr: https://github.com/transparencia-mg/age7/pull/53
+  dm_empenho_desp:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/104
+    notes: 
+      - Dados pessoais nas colunas razao_social_credor e desc_historico
+  dm_favorecido:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/103
+  dm_fonte:
+    status: Merge
+    pr: https://github.com/transparencia-mg/age7/pull/32
+  dm_grupo_desp:
+    status: Merge
+    pr: https://github.com/transparencia-mg/age7/pull/33
+  dm_modalidade_aplic:
+    status: Merge
+    pr: https://github.com/transparencia-mg/age7/pull/34
+  dm_procedencia:
+    status: Merge
+    pr: https://github.com/transparencia-mg/age7/pull/35
+  dm_situacao_op_desp:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/63
+  dm_tempo_anual:
+    status: Merge
+    pr: https://github.com/transparencia-mg/age7/pull/48
+  dm_empenho_resto:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/105
+  dm_cargo_scdp:
+    status: Merge
+    pr: https://github.com/transparencia-mg/age7/pull/54
+  dm_cidade:
+    status: Merge
+    pr: https://github.com/transparencia-mg/age7/pull/36
+    notes: 
+      - Essa tabela possui cidades estrangeiras
+  dm_documento_viagem:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/102
+    notes: 
+      - Campo de preenchimento livre com motivo da viagem (motivo)
+      - PR aberto sem dados
+  dm_estado:
+    status: Merge
+    pr: https://github.com/transparencia-mg/age7/pull/37
+  dm_favorecido_scdp:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/101
+    notes: 
+      - Dados pessoais nas colunas nr_cpf, masp, nome
+      - PR criado sem dados
+  dm_funcao_scdp:
+    status: Merge
+    pr: https://github.com/transparencia-mg/age7/pull/38
+    notes: 
+      - Qual o título apropriado? Cargo público?
+  dm_meio_transporte:
+    status: Merge
+    pr: https://github.com/transparencia-mg/age7/pull/55
+  dm_motivo_viagem:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/64
+  dm_orgao_scdp:
+    status: Merge
+    pr: https://github.com/transparencia-mg/age7/pull/47
+    notes:
+      - Esse é o mesmo órgão das demais tabelas?
+  dm_pais:
+    status: Merge
+    pr: https://github.com/transparencia-mg/age7/pull/56
+  dm_tipo_viagem:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/57
+    notes:
+      - Esse recurso deveria chamar "Viagem Internacional/Nacional"?
+  dm_tipo_viajante:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/65
+  dm_classe_matserv:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/66
+  dm_contratado:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/100
+    notes: 
+      - Avaliar se existem dados pessoais em nr_documento e nome
+      - PR sem dados
+  dm_contrato:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/67
+  dm_grupo_matserv:
+    status: Merge
+    pr: https://github.com/transparencia-mg/age7/pull/39
+  dm_item_matserv:
+    status: Merge
+    pr: https://github.com/transparencia-mg/age7/pull/40
+  dm_linha_fornec:
+    status: Merge
+    pr: https://github.com/transparencia-mg/age7/pull/41
+  dm_material_servico:
+    status: Merge
+    pr: https://github.com/transparencia-mg/age7/pull/42
+  dm_municipio:
+    status: Merge
+    pr: https://github.com/transparencia-mg/age7/pull/43
+  dm_orgao_contrato:
+    status: Merge
+    pr: https://github.com/transparencia-mg/age7/pull/45
+  dm_orgao_demanda:
+    status: Merge
+    pr: https://github.com/transparencia-mg/age7/pull/46
+  dm_procedimento:
+    status: Merge
+    pr: https://github.com/transparencia-mg/age7/pull/49
+  dm_processo:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/68
+  dm_situacao_cont:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/69
+  dm_situacao_proc:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/70
+  dm_tipo_licitacao:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/71
+  dm_unidade_medida:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/72
+  dm_convenente:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/99
+    notes:
+      - Podemos celebrar convênios com pessoas físicas?
+  dm_convenio:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/82
+  dm_orgao_concedente:
+    status: Merge
+    pr: https://github.com/transparencia-mg/age7/pull/44
+  dm_situacao_convenio:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/73
+  dm_tipo_atendimento:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/98
+  dm_interveniente:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/97
+  dm_situacao_prest_contas:
+    status: Todo
+    pr: ''
+    notes: 
+      - resource "dm_situacao_prest_contas" does not exist in Oracle
+  dm_concedente:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/96
+  dm_convenio_entrada:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/90
+  dm_orgao_proponente:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/95
+  dm_programa_conv_ent:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/94
+  dm_situacao_conv_ent:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/76
+  dm_classifica_rec:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/93
+  dm_interveniente_conv_ent:
+    status: Open
+    pr: https://github.com/transparencia-mg/age7/pull/92
