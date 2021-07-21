@@ -35,6 +35,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_item_rec",
+      "title": "Item de Receita",
+      "path": "data/dm-item-rec.gz",
+      "schema": "schemas/dm-item-rec.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_rubrica_rec",
       "title": "Rubrica da receita",
       "path": "data/dm-rubrica-rec.gz",
