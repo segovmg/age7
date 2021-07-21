@@ -1,3 +1,0 @@
-# -----
-# valid: data/ft-orcamento-cred-alt.csv.gz
-# -----
