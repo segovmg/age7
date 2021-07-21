@@ -68,6 +68,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "fl_compras_empenho",
+      "title": "Compras - Empenho",
+      "path": "data/fl-compras-empenho.csv.gz",
+      "schema": "schemas/fl-compras-empenho.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_situacao_conv_ent",
       "title": "Situação Convênio Entrada",
       "path": "data/dm-situacao-conv-ent.csv.gz",
