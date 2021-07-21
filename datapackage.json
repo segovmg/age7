@@ -13,6 +13,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_programa",
+      "title": "Programa",
+      "path": "data/dm-programa.csv.gz",
+      "schema": "schemas/dm-programa.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_acao",
       "title": "Ação Orçamentária",
       "path": "data/dm-acao.csv.gz",
