@@ -1,0 +1,3 @@
+# -----
+# valid: data/dm-modalidade-aplic.csv.gz
+# -----
