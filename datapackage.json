@@ -35,6 +35,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_tipo_documento",
+      "title": "Tipo Documento",
+      "path": "data/dm-tipo-documento.csv.gz",
+      "schema": "schemas/dm-tipo-documento.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_tempo_mensal",
       "title": "Calendário - Mês",
       "path": "data/dm-tempo-mensal.csv.gz",
