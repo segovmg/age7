@@ -1,0 +1,38 @@
+fields:
+  - name: id_procedencia
+    title: Procedência - Chave
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+      unique: false
+  - name: cd_procedencia
+    title: Procedência - Código
+    description: Código identificador da procedência dos recursos financeiros conforme o SIAFI-MG (1 dígito)
+    type: string
+    format: default
+    constraints:
+      enum:
+        - '1'
+        - '2'
+        - '3'
+        - '4'
+        - '5'
+        - '6'
+        - '7'
+        - '8'
+        - '9'
+    missingValues:
+      - '0'  
+  - name: nome
+    title: Procedência - Descrição
+    description: Descrição da procedência dos recursos financeiros
+    type: string
+    format: default
+    constraints:
+      required: true
+    missingValues:
+      - 'SEM DESCRICAO'
+primaryKey:
+  - id_procedencia

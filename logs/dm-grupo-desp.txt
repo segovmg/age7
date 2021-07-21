@@ -1,0 +1,3 @@
+# -----
+# valid: data/dm-grupo-desp.csv.gz
+# -----
