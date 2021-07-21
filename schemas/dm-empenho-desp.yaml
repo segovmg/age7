@@ -1,0 +1,215 @@
+fields:
+  - name: id_empenho
+    title: Empenho - Chave
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+      unique: false
+  - name: ano_exercicio
+    title: Ano de Exercício
+    type: year
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: sqa_gmifp
+    title: GMIFP - Chave Origem
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+      unique: false
+  - name: sqa_credor
+    title: Credor - Chave Origem
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+      unique: false
+  - name: sqa_natureza
+    title: Natureza de Despesa - Chave Origem
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+      unique: false
+  - name: sqa_unidade_orc
+    title: Unidade Orçamentária - Chave Origem
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+      unique: false
+  - name: sqa_progtrab
+    title: Programa de Trabalho - Chave Origem
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+      unique: false
+  - name: sqa_unidade_exec
+    title: Unidade Executora - Chave Origem
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+      unique: false
+  - name: sqa_empenho
+    title: Empenho - Chave Origem
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+      unique: false
+  - name: nr_empenho
+    title: Número do Empenho
+    description: Número de identificação do documento de empenho
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: dt_empenho
+    title: Data do Empenho
+    title: Data de registro do documento de empenho
+    type: datetime
+    format: default
+    constraints:
+      required: true
+  - name: unidade_orcamentaria
+    title: Unidade Orçamentária
+    description: Código representativo e nome da unidade orçamentária
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: unidade_executora
+    title: Unidade Executora
+    description: |
+      Código composto do órgão executor (4 dígitos) e número sequencial da unidade executora (3 dígitos) e nome da unidade executora.
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: funcao
+    title: Descrição do nível máximo de agregação das ações do Governo
+    title: Função
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: subfuncao
+    title: Subfunção
+    description: Descrição do detalhamento das áreas de atuação do Governo
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: programa
+    title: Programa
+    description: Descrição do objeto concreto, bem ou serviço que se quer atingir
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: acao
+    title: Ação
+    description: |
+      Ações de governo, com suas respectivas metas físicas e orçamentárias, que serão executados durante um determinado período para atuar sobre problemas ou necessidades identificadas.
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: categoria_econ
+    title: Categoria Econômica
+    description: Descrição da categoria econômica da despesa, Despesas Correntes e Despesas de Capital
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: grupo_desp
+    title: Grupo de Despesa
+    description: |
+      Descrição do grupo de natureza econômica da despesa: Pessoal e Encargos Sociais; Juros e Encargos da Dívida; Outras Despesas Correntes; Investimentos; Inversões Financeiras; Amortização da Dívida; Reserva de Contingência.
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: elemento_desp
+    title: Elemento de Despesa
+    description: Descrição do elemento de gasto da despesa
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: item_desp
+    title: Item de Despesa
+    description: Descrição do conjunto elemento item da despesa
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: modalidade_aplic
+    title: Modalidade de Aplicação
+    description: |
+      Classificação da natureza da despesa que tradua a forma como os recursos serão aplicados pelos órgãos/entiddes, podenod ser diretamente pelos mesmos ou sbo a forma de transferência a outras entidades públicas ou privadas que se encarregarão da execução das ações.
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: tipo_empenho
+    title: Tipo de Empenho - Descrição
+    description: Descrição do tipo de empenho - global, estimado, ordinário, extra-orçamentário
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: fonte_recurso
+    title: Fonte de Recurso - Descrição
+    description: Descrição da fonte do recurso financeiro
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: identificador_orc
+    title: Identificador Orçamento - Descrição
+    description: Identificador do orçamento conforme o SIAFI-MG
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: razao_social_credor
+    title: Razão Social do Credor
+    description: Número de Identificação e nome da pessoa física (CPF) ou pessoa jurídica (CNPJ)
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: vr_empenho
+    title: Valor do Empenho
+    description: Valor do orçamento reservado para fazer face a compromisso formalmente assumido com fornecedor ou credor.
+    type: number
+    format: default
+    bareNumber: true
+    decimalChar: ','
+    constraints:
+      required: true
+  - name: desc_historico
+    title: Histório do Empenho
+    description: Descrição do histórico do empenho
+    type: string
+    format: default
+    constraints:
+      required: true
+missingValues:
+  - 'SEM DESCRICAO'
+primaryKey:
+  - id_empenho

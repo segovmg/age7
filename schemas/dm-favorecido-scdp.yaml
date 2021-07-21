@@ -1,0 +1,41 @@
+fields:
+  - name: id_favorecido
+    title: Favorecido - Chave
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+      unique: false
+  - name: sqe_favorecido
+    title: Favorecido - Chave Origem
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+      unique: false
+  - name: nr_cpf
+    title: Favorecido CPF
+    description: Número do registro do credor no cadastro nacional das pessoas físicas (9 dígitos)
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: masp
+    title: Favorecido MASP
+    description: Matrícula do servidor civil ou militar de Minas Gerais.
+    type: string
+    format: default
+  - name: nome
+    title: Favorecido - Descrição
+    description: |
+      Nome completo da pessoa física
+    type: string
+    format: default
+    constraints:
+      required: true
+missingValues:
+  - 'SEM DESCRICAO'
+primaryKey:
+  - id_favorecido

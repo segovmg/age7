@@ -1,0 +1,3 @@
+# -----
+# valid: data/dm-tipo-documento.csv.gz
+# -----
