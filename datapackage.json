@@ -35,6 +35,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "ft_receita_v2018",
+      "title": "Receita v2",
+      "path": "data/ft-receita-v2018.csv.gz",
+      "schema": "schemas/ft-receita-v2018.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_item_desp",
       "title": "Item de Despesa",
       "path": "data/dm-item-desp.csv.gz",
