@@ -68,6 +68,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_convenente",
+      "title": "Convenente",
+      "path": "data/dm-convenente.csv.gz",
+      "schema": "schemas/dm-convenente.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "ft_diarias_scdp",
       "title": "Diárias SCDP",
       "path": "data/ft-diarias-scdp.csv.gz",
