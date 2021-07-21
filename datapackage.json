@@ -81,7 +81,7 @@
     {
       "name": "dm_especie_rec",
       "title": "Espécie da receita",
-      "path": "data/dm-especie-rec.gz",
+      "path": "data/dm-especie-rec.csv.gz",
       "schema": "schemas/dm-especie-rec.yaml",
       "format": "csv",
       "mediatype": "text/csv",
@@ -92,7 +92,7 @@
     {
       "name": "dm_fonte_rec",
       "title": "Fonte de Recurso",
-      "path": "data/dm-fonte-rec.gz",
+      "path": "data/dm-fonte-rec.csv.gz",
       "schema": "schemas/dm-fonte-rec.yaml",
       "format": "csv",
       "mediatype": "text/csv",
@@ -103,7 +103,7 @@
     {
       "name": "dm_item_rec",
       "title": "Item de Receita",
-      "path": "data/dm-item-rec.gz",
+      "path": "data/dm-item-rec.csv.gz",
       "schema": "schemas/dm-item-rec.yaml",
       "format": "csv",
       "mediatype": "text/csv",
@@ -114,7 +114,7 @@
     {
       "name": "dm_rubrica_rec",
       "title": "Rubrica da receita",
-      "path": "data/dm-rubrica-rec.gz",
+      "path": "data/dm-rubrica-rec.csv.gz",
       "schema": "schemas/dm-rubrica-rec.yaml",
       "format": "csv",
       "mediatype": "text/csv",
@@ -125,7 +125,7 @@
     {
       "name": "dm_origem_rec",
       "title": "Origem da receita",
-      "path": "data/dm-origem-rec.gz",
+      "path": "data/dm-origem-rec.csv.gz",
       "schema": "schemas/dm-origem-rec.yaml",
       "format": "csv",
       "mediatype": "text/csv",
@@ -136,7 +136,7 @@
     {
       "name": "dm_subalinea_rec",
       "title": "Subalínea da receita",
-      "path": "data/dm-subalinea-rec.gz",
+      "path": "data/dm-subalinea-rec.csv.gz",
       "schema": "schemas/dm-subalinea-rec.yaml",
       "format": "csv",
       "mediatype": "text/csv",
@@ -147,7 +147,7 @@
     {
       "name": "ft_receita_prevista",
       "title": "Receita Orçamentária Prevista",
-      "path": "data/ft-receita-prevista.gz",
+      "path": "data/ft-receita-prevista.csv.gz",
       "schema": "schemas/ft-receita-prevista.yaml",
       "format": "csv",
       "mediatype": "text/csv",
@@ -158,7 +158,7 @@
     {
       "name": "ft_receita",
       "title": "Receita Orçamentária",
-      "path": "data/ft-receita.gz",
+      "path": "data/ft-receita.csv.gz",
       "schema": "schemas/ft-receita.yaml",
       "format": "csv",
       "mediatype": "text/csv",
@@ -169,7 +169,7 @@
     {
       "name": "dm_desdobramento_1_rec",
       "title": "Desdobramento1 da receita",
-      "path": "data/dm-desdobramento-1-rec.gz",
+      "path": "data/dm-desdobramento-1-rec.csv.gz",
       "schema": "schemas/dm-desdobramento-1-rec.yaml",
       "format": "csv",
       "mediatype": "text/csv",
@@ -180,7 +180,7 @@
     {
       "name": "dm_desdobramento_2_rec",
       "title": "Desdobramento2 da receita",
-      "path": "data/dm-desdobramento-2-rec.gz",
+      "path": "data/dm-desdobramento-2-rec.csv.gz",
       "schema": "schemas/dm-desdobramento-2-rec.yaml",
       "format": "csv",
       "mediatype": "text/csv",
@@ -191,7 +191,7 @@
     {
       "name": "dm_desdobramento_3_rec",
       "title": "Desdobramento3 da receita",
-      "path": "data/dm-desdobramento-3-rec.gz",
+      "path": "data/dm-desdobramento-3-rec.csv.gz",
       "schema": "schemas/dm-desdobramento-3-rec.yaml",
       "format": "csv",
       "mediatype": "text/csv",
