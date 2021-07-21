@@ -68,6 +68,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_cargo_scdp",
+      "title": "Cargo",
+      "path": "data/dm-cargo-scdp.csv.gz",
+      "schema": "schemas/dm-cargo-scdp.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_meio_transporte",
       "title": "Meio Transporte",
       "path": "data/dm-meio-transporte.csv.gz",
