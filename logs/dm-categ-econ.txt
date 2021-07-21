@@ -1,0 +1,3 @@
+# -----
+# valid: data/dm-categ-econ.csv.gz
+# -----
