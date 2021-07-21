@@ -68,6 +68,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "fl_convenio_entrada_compras",
+      "title": "Convênio Entrada Compras",
+      "path": "data/fl-convenio-entrada-compras.csv.gz",
+      "schema": "schemas/fl-convenio-entrada-compras.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "fl_convenio_entrada_aditivo",
       "title": "Convênio Entrada - Aditivos",
       "path": "data/fl-convenio-entrada-aditivo.csv.gz",
@@ -540,6 +551,7 @@
       "dialect": "schemas/dialect.json",
       "profile": "tabular-data-resource"
     }
+
   ],
   "name": "age7",
   "owner_org": "controladoria-geral-do-estado-cge",
