@@ -68,6 +68,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_classifica_rec",
+      "title": "Convênio Entrada - Classificação da Receita",
+      "path": "data/dm-classifica-rec.csv.gz",
+      "schema": "schemas/dm-classifica-rec.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_programa_conv_ent",
       "title": "Convênio de Entrada - Programa",
       "path": "data/dm-programa-conv-ent.csv.gz",
