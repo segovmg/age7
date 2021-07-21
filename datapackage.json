@@ -35,6 +35,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "ft_receita",
+      "title": "Receita Orçamentária",
+      "path": "data/ft-receita.gz",
+      "schema": "schemas/ft-receita.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_desdobramento_1_rec",
       "title": "Desdobramento1 da receita",
       "path": "data/dm-desdobramento-1-rec.gz",
