@@ -68,6 +68,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_procedimento",
+      "title": "Procedimento de Contratação",
+      "path": "data/dm-procedimento.csv.gz",
+      "schema": "schemas/dm-procedimento.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_tempo_anual",
       "title": "Tempo Anual",
       "path": "data/dm-tempo-anual.csv.gz",
