@@ -68,6 +68,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_grupo_desp",
+      "title": "Grupo de natureza da despesa",
+      "path": "data/dm-grupo-desp.csv.gz",
+      "schema": "schemas/dm-grupo-desp.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_modalidade_aplic",
       "title": "Modalidade de Aplicação",
       "path": "data/dm-modalidade-aplic.csv.gz",
