@@ -68,6 +68,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "ft_convenio",
+      "title": "Convênio de Saída",
+      "path": "data/ft-convenio.csv.gz",
+      "schema": "schemas/ft-convenio.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "fl_convenio_entrada_compras",
       "title": "Convênio Entrada Compras",
       "path": "data/fl-convenio-entrada-compras.csv.gz",
