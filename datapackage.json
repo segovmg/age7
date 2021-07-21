@@ -266,6 +266,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_empenho_desp",
+      "title": "Empenho Despesa",
+      "path": "data/dm-empenho-desp.csv.gz",
+      "schema": "schemas/dm-empenho-desp.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "fl_despesa_pgto",
       "title": "Despesa - Ordem de Pagamento",
       "path": "data/fl-despesa-pgto.csv.gz",
