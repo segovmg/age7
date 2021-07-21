@@ -2,14 +2,17 @@ library(dplyr); library(data.table)
 
 source("scripts/utils.R")
 
-resource_name = "dm_tempo_mensal" # ajustar
+resource_name = "dm_programa" 
+# ajustar
+
 resource <- fread(glue::glue('data/{gsub("_", "-", resource_name)}.csv.gz'), dec = ",")
 
 glimpse(resource)
 
 ## field constraints
 
-field <- "id_tempo" # ajustar
+field <- "cd_programa" 
+# ajustar
 
 head(resource[, ..field])
 describe_unique(resource[[field]])
