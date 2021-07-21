@@ -68,6 +68,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "ft_compras",
+      "title": "Compras",
+      "path": "data/ft-compras.csv.gz",
+      "schema": "schemas/ft-compras.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "ft_compras_contrato",
       "title": "Compras - Contratos",
       "path": "data/ft-compras-contrato.csv.gz",
