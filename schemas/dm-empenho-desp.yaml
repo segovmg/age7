@@ -86,14 +86,15 @@ fields:
       required: true
   - name: unidade_orcamentaria
     title: Unidade Orçamentária
-    description: Código representativo da unidade orçamentária
+    description: Código representativo e nome da unidade orçamentária
     type: string
     format: default
     constraints:
       required: true
   - name: unidade_executora
     title: Unidade Executora
-    description: Código composto do órgão executor (4 dígitos) e número sequencial da unidade executora (3 dígitos)
+    description: |
+      Código composto do órgão executor (4 dígitos) e número sequencial da unidade executora (3 dígitos) e nome da unidade executora.
     type: string
     format: default
     constraints:
@@ -166,7 +167,7 @@ fields:
       required: true
   - name: tipo_empenho
     title: Tipo de Empenho - Descrição
-    description: Descrição do tipo de empenho
+    description: Descrição do tipo de empenho - global, estimado, ordinário, extra-orçamentário
     type: string
     format: default
     constraints:
