@@ -1,0 +1,3 @@
+# -----
+# valid: data/dm-orgao-contrato.csv.gz
+# -----
