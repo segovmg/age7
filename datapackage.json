@@ -68,6 +68,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_orgao_concedente",
+      "title": "Órgão Concedente",
+      "path": "data/dm-orgao-concedente.csv.gz",
+      "schema": "schemas/dm-orgao-concedente.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_municipio",
       "title": "Município",
       "path": "data/dm-municipio.csv.gz",
