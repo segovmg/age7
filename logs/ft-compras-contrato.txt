@@ -1,0 +1,3 @@
+# -----
+# valid: data/ft-compras-contrato.csv.gz
+# -----
