@@ -94,10 +94,16 @@ Nas sessões seguintes, a mensagem indicativa de sucesso é simplesmente
 ## Python
 
 Para validação dos recursos com `make validate` é necessário a instalação do Python e do pacote `frictionless`. 
-Para fazer essas etapas pelo R execute os seguintes comandos no console do R (ie. via Rstudio):
+
+Vamos gerenciar nossa instalação do python e dos pacotes python utilizando o miniconda. Faça a instalação seguindo as instruções do link <https://docs.conda.io/en/latest/miniconda.html>. Para confirmar a instalação e configuração bem sucedida execute na linha de comando
+
+```bash
+conda --version
+```
+
+Agora execute os seguintes comandos no console do R (ie. via Rstudio):
 
 ```R
-reticulate::install_miniconda() # instalacao do python via miniconda
 reticulate::conda_create("age7") # criacao de ambiente conda especifico para esse projeto
 reticulate::conda_install("age7", "frictionless==4.12.2") # instalacao da versao correta do frictionless
 ```

@@ -25,7 +25,7 @@ make format resource=resource-name
 
 #### Validação
 
-Para validação dos recursos com `make validate` é necessário a ativação do ambiente virtual do Python criado durante o processo de instalação.
+Para validação do data package com `make validate` e `make validate_metadata` é necessário a ativação do ambiente virtual do Python criado durante o processo de instalação.
 
 Para determinar qual comando para fazer a atividação execute na linha de comando
 
@@ -46,7 +46,13 @@ O seu prompt da linha de comando, apesar de formas possivelmente diferentes, vai
 
 - `remuneracao$` -> `(age7) remuneracao$`
 
-Agora para validar execute
+Para validar somente os metadados armazenados no table schema execute
+
+```bash
+make validate_metadata resource=resource_name
+```
+
+Agora para validar se os dados armazenados em `data/` estão em conformidade com os metadados execute
 
 ```bash
 make validate
