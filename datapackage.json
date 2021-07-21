@@ -68,6 +68,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_motivo_viagem",
+      "title": "Motivo Viagem",
+      "path": "data/dm-motivo-viagem.csv.gz",
+      "schema": "schemas/dm-motivo-viagem.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_tipo_viajante",
       "title": "Tipo Viajante",
       "path": "data/dm-tipo-viajante.csv.gz",
