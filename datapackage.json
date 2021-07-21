@@ -266,6 +266,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_favorecido_scdp",
+      "title": "Favorecido SCDP",
+      "path": "data/dm-favorecido-scdp.csv.gz",
+      "schema": "schemas/dm-favorecido-scdp.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_documento_viagem",
       "title": "Documento Viagem",
       "path": "data/dm-documento-viagem.csv.gz",
