@@ -266,6 +266,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "fl_despesa_pgto",
+      "title": "Despesa - Ordem de Pagamento",
+      "path": "data/fl-despesa-pgto.csv.gz",
+      "schema": "schemas/fl-despesa-pgto.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "ft_restos_pagar",
       "title": "Restos a Pagar",
       "path": "data/ft-restos-pagar.csv.gz",
