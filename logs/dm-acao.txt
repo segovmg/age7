@@ -1,0 +1,3 @@
+# -----
+# valid: data/dm-acao.csv.gz
+# -----
