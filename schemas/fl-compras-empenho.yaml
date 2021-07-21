@@ -1,45 +1,59 @@
 fields:
   - name: id_processo
+    title: Número do Processo - Chave
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: id_empenho
+    title: Número do Empenho - Chave
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: id_programa
+    title: Programa - Chave
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: id_acao
+    title: Ação Orçamentária - Chave
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: id_elemento
+    title: Elemento de Despesa - Chave
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: id_item
+    title: Item de Despesa - Chave
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: dotacao_orcamentaria
+    title: Dotação Orçamentária
     type: string
     format: default
     constraints:
       required: true
+      pattern: '\d{4} \d{2}.\d{3}.\d{3}.\d{4}.\d{1} \d{1}.\d{1}.\d{2}.\d{2}.\d{2} \d{1}.\d{2}.\d{1}'
 missingValues:
   - ''
 foreignKeys:
