@@ -68,6 +68,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_situacao_convenio",
+      "title": "Situação Convênio",
+      "path": "data/dm-situacao-convenio.csv.gz",
+      "schema": "schemas/dm-situacao-convenio.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_contratado",
       "title": "Contratado",
       "path": "data/dm-contratado.csv.gz",
