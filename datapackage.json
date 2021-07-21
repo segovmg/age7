@@ -266,6 +266,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_documento_viagem",
+      "title": "Documento Viagem",
+      "path": "data/dm-documento-viagem.csv.gz",
+      "schema": "schemas/dm-documento-viagem.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_empenho_desp",
       "title": "Empenho Despesa",
       "path": "data/dm-empenho-desp.csv.gz",
