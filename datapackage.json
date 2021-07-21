@@ -68,6 +68,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_grupo_matserv",
+      "title": "Grupo de Material/Serviço",
+      "path": "data/dm-grupo-matserv.csv.gz",
+      "schema": "schemas/dm-grupo-matserv.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_item_matserv",
       "title": "Item de Material/Serviço",
       "path": "data/dm-item-matserv.csv.gz",
