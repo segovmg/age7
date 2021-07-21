@@ -68,6 +68,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_classe_matserv",
+      "title": "Classe Material/Serviço",
+      "path": "data/dm-classe-matserv.csv.gz",
+      "schema": "schemas/dm-classe-matserv.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_contrato",
       "title": "Contrato",
       "path": "data/dm-contrato.csv.gz",
