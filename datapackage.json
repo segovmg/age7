@@ -68,6 +68,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_linha_fornec",
+      "title": "Linha de fornecimento",
+      "path": "data/dm-linha-fornec.csv.gz",
+      "schema": "schemas/dm-linha-fornec.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_processo",
       "title": "Processo de Compra",
       "path": "data/dm-processo.csv.gz",
