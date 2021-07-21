@@ -68,6 +68,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "ft_diarias_scdp",
+      "title": "Diárias SCDP",
+      "path": "data/ft-diarias-scdp.csv.gz",
+      "schema": "schemas/ft-diarias-scdp.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "ft_diarias_scdp_liqpag",
       "title": "Diárias SCDP - Liquidação e Pagamento",
       "path": "data/ft-diarias-scdp-liqpag.csv.gz",
