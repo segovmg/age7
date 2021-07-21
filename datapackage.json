@@ -35,6 +35,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_tempo_mensal",
+      "title": "Calendário - Mês",
+      "path": "data/dm-tempo-mensal.csv.gz",
+      "schema": "schemas/dm-tempo-mensal.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_alinea_rec",
       "title": "Alínea da receita",
       "path": "data/dm-alinea-rec.csv.gz",
