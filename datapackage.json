@@ -35,6 +35,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_especie_rec",
+      "title": "Espécie da receita",
+      "path": "data/dm-especie-rec.gz",
+      "schema": "schemas/dm-especie-rec.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_fonte_rec",
       "title": "Fonte de Recurso",
       "path": "data/dm-fonte-rec.gz",
