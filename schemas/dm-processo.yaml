@@ -1,6 +1,6 @@
 fields:
   - name: id_processo
-    title: Processo - Chave
+    title: Número do Processo - Chave
     type: integer
     format: default
     bareNumber: true
@@ -13,14 +13,13 @@ fields:
     format: default
     constraints:
       required: true
-      unique: false
+      pattern: '\d{4}'
   - name: cd_processo
     title: Número do Processo - Código
     type: string
     format: default
     constraints:
       required: true
-      unique: false
   - name: cd_processo_formatado
     title: Número do Processo Formatado - Código
     type: string
@@ -30,45 +29,78 @@ fields:
       pattern: '\d{7} \d{6}/\d{4}'
   - name: url_edital
     title: URL Edital
+    type: string
+    format: default
     description: URL do edital do contrato
-    type: string
-    format: default
   - name: orgao
-    title: Órgão do contrato
-    description: Órgão ou entidade que realizou a compra de determinado material ou serviço.
+    title: Órgão - Descrição
     type: string
     format: default
+    description: |
+     - >
+     Órgão ou entidade que solicitou a compra de determinado material ou serviço. 
+     Pode coincidir ou não com o órgão que está executando o processo de compra
     constraints:
       required: true
   - name: procedimento
     title: Procedimento de Contratação
-    description: Informa a modalidade da licitação
     type: string
     format: default
+    description: |
+     Informa a modalidade da licitação.
+     - Concorrência;
+     - Tomada de preços;
+     - Convite; 
+     - Leilão;
+     - Pregão;
+     - Dispensa;
+     - Inexigibilidade;
+     - Registro de preços e etc.
     constraints:
       required: true
-  - name: objeto
+  - name: objeto 
     title: Objeto
-    description: Descrição dos bens e serviços que estão sendo comprados e sua finalidade.
     type: string
     format: default
+    description: |
+     Descrição dos bens e serviços que estão sendo comprados e sua finalidade.
   - name: situacao
+    title: Situação do Processo de Compra
     type: string
     format: default
+    description: |
+      - >
+      Situação do processo de compra durante a aquisição de materiais e serviços (concluído e em andamento).
+      Quanto aos processos de compra com situação em andamento, são considerados apenas os itens já homologados desses processos.
     constraints:
       required: true
   - name: criterio_julgamento
     title: Critério de Julgamento
-    description: Informa o tipo de critério de preços, por lote, por preço, por item e etc.
     type: string
     format: default
+    description: |
+     Descrição do critério de julgamento utilizado no processo de compra: 
+      - Por lote;
+      - Por preço global;
+      - Por item; 
+      - Por maior desconto e
+      - Por menor taxa de administração.
+    missingValues:
+     - 'INVALIDO'
     constraints:
       required: true
   - name: tp_licitacao
     title: Tipo de Licitação
-    description: Informa o tipo de critério para a escolha do fornecedor, como por ex, menor preço, melhor técnica
     type: string
     format: default
+    description: |
+       Descrição do tipo de licitação do processo de compra:
+        - Menor preço;
+        - Melhor técnica e
+        - Técnica e preço
+    missingValues:
+      - 'INVÁLIDO'
+      - 'NÃO SE APLICA'
     constraints:
       required: true
   - name: dt_cad_processo
@@ -79,21 +111,22 @@ fields:
       required: true
   - name: vr_referencia
     title: Valor de Referência
-    description: |
-      Valor estimado de um determinado bem ou serviço, obtido por meio de pesquisa de mercado ou cadastro de preços.
     type: number
     format: default
     bareNumber: true
     decimalChar: ','
+    description: |
+      Valor estimado de um determinado bem ou serviço, obtido por meio de pesquisa de mercado ou cadastro de preços.
     constraints:
       required: true
   - name: vr_homologado
     title: Valor Homologado
-    description: Valor final licitado ou comprado
     type: number
     format: default
     bareNumber: true
     decimalChar: ','
+    description: |
+     Valor total homologado licitado ou comprado do item de material/serviço.
     constraints:
       required: true
 missingValues:
