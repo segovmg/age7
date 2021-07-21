@@ -68,6 +68,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_processo",
+      "title": "Processo de Compra",
+      "path": "data/dm-processo.csv.gz",
+      "schema": "schemas/dm-processo.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_unidade_medida",
       "title": "Unidade de Medida",
       "path": "data/dm-unidade-medida.csv.gz",
