@@ -1,0 +1,3 @@
+# -----
+# valid: data/dm-linha-fornec.csv.gz
+# -----
