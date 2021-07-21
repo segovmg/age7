@@ -68,6 +68,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_cidade",
+      "title": "Cidade",
+      "path": "data/dm-cidade.csv.gz",
+      "schema": "schemas/dm-cidade.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_grupo_matserv",
       "title": "Grupo de Material/Serviço",
       "path": "data/dm-grupo-matserv.csv.gz",
