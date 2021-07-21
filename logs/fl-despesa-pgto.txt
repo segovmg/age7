@@ -1,0 +1,3 @@
+# -----
+# valid: data/fl-despesa-pgto.csv.gz
+# -----
