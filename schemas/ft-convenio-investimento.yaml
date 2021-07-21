@@ -91,7 +91,7 @@ fields:
     constraints:
       required: true
   - name: cd_transacao_org
-    title: Transação - Código
+    title: Órgão Transação - Código
     type: string
     format: default
     constraints:
