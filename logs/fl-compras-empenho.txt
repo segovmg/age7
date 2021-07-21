@@ -1,0 +1,3 @@
+# -----
+# valid: data/fl-compras-empenho.csv.gz
+# -----
