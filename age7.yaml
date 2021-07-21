@@ -21,7 +21,6 @@ consultas:
       - ft_convenio_metaetapa
       - fl_convenio_interveniente
       - fl_convenio_alteracao
-      - fl_convenio_prest_contas
   diarias:
     title: Despesas com diárias
     url: http://www.transparencia.mg.gov.br/estado-pessoal/diarias
@@ -296,9 +295,6 @@ fact_tables:
   fl_convenio_alteracao:
       - dm_convenio
 
-  fl_convenio_prest_contas:
-      - dm_situacao_prest_contas
-
   ft_convenio_entrada_dotacao:
       - dm_concedente
       - dm_convenio_entrada
@@ -463,11 +459,6 @@ resources:
   fl_convenio_alteracao:
     status: Open
     pr: https://github.com/transparencia-mg/age7/pull/83
-  fl_convenio_prest_contas:
-    status: Todo
-    pr: ''
-    notes: 
-      - resource "fl_convenio_prest_contas" does not exist in Oracle
   ft_convenio_entrada_dotacao:
     status: Open
     pr: https://github.com/transparencia-mg/age7/pull/84
@@ -645,11 +636,6 @@ resources:
   dm_interveniente:
     status: Open
     pr: https://github.com/transparencia-mg/age7/pull/97
-  dm_situacao_prest_contas:
-    status: Todo
-    pr: ''
-    notes: 
-      - resource "dm_situacao_prest_contas" does not exist in Oracle
   dm_concedente:
     status: Open
     pr: https://github.com/transparencia-mg/age7/pull/96
