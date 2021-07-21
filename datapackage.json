@@ -68,6 +68,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_programa_conv_ent",
+      "title": "Convênio de Entrada - Programa",
+      "path": "data/dm-programa-conv-ent.csv.gz",
+      "schema": "schemas/dm-programa-conv-ent.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_orgao_proponente",
       "title": "Convênio Entrada - Órgão Proponente",
       "path": "data/dm-orgao-proponente.csv.gz",
