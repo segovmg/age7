@@ -19,9 +19,7 @@ fields:
     description: Detalhamento da classificação orçamentária da receita referente ao item de receita.
     type: string
     format: default
-    constraints:
-      required: true
-missingValues:
-  - 'SEM DESCRICAO'
+    missingValues:
+      - 'SEM DESCRICAO'
 primaryKey:
   - id_subitem
