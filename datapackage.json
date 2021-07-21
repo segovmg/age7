@@ -35,6 +35,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "ft_receita_prevista",
+      "title": "Receita Orçamentária Prevista",
+      "path": "data/ft-receita-prevista.gz",
+      "schema": "schemas/ft-receita-prevista.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "ft_receita",
       "title": "Receita Orçamentária",
       "path": "data/ft-receita.gz",
