@@ -143,7 +143,7 @@ fields:
       required: true
       unique: false
   - name: vr_concede_public
-    title: Valor Concedente
+    title: Valor Concedente Publicado
     type: number
     format: default
     bareNumber: true
@@ -155,7 +155,7 @@ fields:
     constraints:
       required: true
   - name: vr_emen_parl_public
-    title: Valor Emenda Parlamentar
+    title: Valor Emenda Parlamentar Publicado
     type: number
     format: default
     bareNumber: true
@@ -167,7 +167,7 @@ fields:
     constraints:
       required: true
   - name: vr_interv_public
-    title: Valor Interveniente
+    title: Valor Interveniente Publicado
     type: number
     format: default
     bareNumber: true
@@ -180,7 +180,7 @@ fields:
     constraints:
       required: true
   - name: vr_contra_public
-    title: Valor Contrapartida
+    title: Valor Contrapartida Publicado
     type: number
     format: default
     bareNumber: true
