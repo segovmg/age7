@@ -23,20 +23,22 @@ fields:
       required: true
       pattern: '\d{7} \d{6}/\d{4}'
   - name: objeto
-    title: Objeto
+    title: Objeto do Processo
     type: string
     format: default
+    description: |
+      Descrição dos bens e serviços que estão sendo comprados e sua finalidade.
     constraints:
       required: true
   - name: cd_orgao
-    title: Órgão - Código
+    title: Órgão Demandante - Código
     type: string
     format: default
     constraints:
       required: true
       pattern: '\d{4}'
   - name: nome_orgao
-    title: Órgão - Descrição
+    title: Órgão Demandante - Descrição
     type: string
     format: default
     format: default
