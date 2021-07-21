@@ -68,6 +68,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_tempo_anual",
+      "title": "Tempo Anual",
+      "path": "data/dm-tempo-anual.csv.gz",
+      "schema": "schemas/dm-tempo-anual.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_orgao_scdp",
       "title": "Órgão SCDP",
       "path": "data/dm-orgao-scdp.csv.gz",
