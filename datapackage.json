@@ -266,6 +266,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_convenio_entrada",
+      "title": "Convênio Entrada",
+      "path": "data/dm-convenio-entrada.csv.gz",
+      "schema": "schemas/dm-convenio-entrada.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_favorecido_scdp",
       "title": "Favorecido SCDP",
       "path": "data/dm-favorecido-scdp.csv.gz",
