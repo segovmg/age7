@@ -1,0 +1,3 @@
+# -----
+# valid: data/dm-elemento-desp.csv.gz
+# -----

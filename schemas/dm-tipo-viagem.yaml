@@ -1,0 +1,30 @@
+fields:
+  - name: id_tipo_viagem
+    title: Tipo de Viagem - Chave
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+      unique: false
+  - name: sqe_tipo_viagem
+    title: Tipo de Viagem - Chave Estrangeira
+    description: Chave que identifica se a viagem realizada a serviço é nacional ou internacional
+    type: string
+    format: default
+    constraints:
+      required: true
+      enum:
+        - 'N'
+        - 'I'
+  - name: nome
+    title: Tipo de Viagem - Descrição
+    description: Descreve o tipo de viagem realizada pelo serviço a servidor, Nacional ou Internacional.
+    type: string
+    format: default
+    constraints:
+      required: true
+missingValues:
+  - 'SEM DESCRICAO'
+primaryKey:
+  - id_tipo_viagem
