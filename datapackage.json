@@ -68,6 +68,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "ft_restos_pagar",
+      "title": "Restos a Pagar",
+      "path": "data/ft-restos-pagar.csv.gz",
+      "schema": "schemas/ft-restos-pagar.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_fonte",
       "title": "Fonte de Recurso",
       "path": "data/dm-fonte.csv.gz",
