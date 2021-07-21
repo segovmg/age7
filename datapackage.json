@@ -266,6 +266,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_funcao_scdp",
+      "title": "Cargo em Comissão",
+      "path": "data/dm-funcao-scdp.csv.gz",
+      "schema": "schemas/dm-funcao-scdp.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "ft_convenio_investimento",
       "title": "Convênio de saída - Investimento",
       "path": "data/ft-convenio-investimento.csv.gz",
