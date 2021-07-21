@@ -35,6 +35,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_tipo_rec",
+      "title": "Tipo da receita",
+      "path": "data/dm-tipo-rec.csv.gz",
+      "schema": "schemas/dm-tipo-rec.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "ft_receita_prevista_v2018",
       "title": "Receita Orçamentária Prevista v2",
       "path": "data/ft-receita-prevista-v2018.csv.gz",
