@@ -68,6 +68,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_unidade_medida",
+      "title": "Unidade de Medida",
+      "path": "data/dm-unidade-medida.csv.gz",
+      "schema": "schemas/dm-unidade-medida.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "fl_compras_empenho",
       "title": "Compras - Empenho",
       "path": "data/fl-compras-empenho.csv.gz",
