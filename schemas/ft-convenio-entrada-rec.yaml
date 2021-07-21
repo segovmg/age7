@@ -1,32 +1,41 @@
 fields:
   - name: id_convenio
+    title: Convênio - Chave
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: id_classifica_rec
+    title: Classificação da receita
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: dt_registro_receita
+    title: Data de registro da receita
     type: datetime
     format: default
     constraints:
       required: true
   - name: sqa_arrecadacao
+    title: Arrecadação - Chave Origem
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: ano_particao
+    title: Ano Partição
     type: year
     format: default
     bareNumber: true
   - name: vr_arrecadado
+    title: Valor Arrecadado
     type: number
     format: default
     bareNumber: true
