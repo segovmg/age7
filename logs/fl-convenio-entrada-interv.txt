@@ -1,0 +1,3 @@
+# -----
+# valid: data/fl-convenio-entrada-interv.csv.gz
+# -----
