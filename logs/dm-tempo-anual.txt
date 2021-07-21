@@ -1,0 +1,3 @@
+# -----
+# valid: data/dm-tempo-anual.csv.gz
+# -----
