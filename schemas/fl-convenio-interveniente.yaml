@@ -1,11 +1,13 @@
 fields:
   - name: id_convenio
+    title: Convênio / Parceria - Chave
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
   - name: id_interveniente
+    title: Interveniente - Chave
     type: integer
     format: default
     bareNumber: true
