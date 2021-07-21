@@ -68,6 +68,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "ft_despesa",
+      "title": "Despesa",
+      "path": "data/ft-despesa.csv.gz",
+      "schema": "schemas/ft-despesa.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_situacao_op_desp",
       "title": "Situação Ordem de Pagamento",
       "path": "data/dm-situacao-op-desp.csv.gz",
