@@ -68,6 +68,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_tipo_viagem",
+      "title": "Tipo viagem",
+      "path": "data/dm-tipo-viagem.csv.gz",
+      "schema": "schemas/dm-tipo-viagem.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "ft_compras",
       "title": "Compras",
       "path": "data/ft-compras.csv.gz",
