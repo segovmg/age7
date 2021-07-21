@@ -68,6 +68,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_procedencia",
+      "title": "Identificador de procedência e uso (IPU)",
+      "path": "data/dm-procedencia.csv.gz",
+      "schema": "schemas/dm-procedencia.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_cidade",
       "title": "Cidade",
       "path": "data/dm-cidade.csv.gz",
