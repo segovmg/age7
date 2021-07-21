@@ -78,7 +78,6 @@ fields:
     constraints:
       required: true
   - name: dt_empenho
-    title: Data do Empenho
     title: Data de registro do documento de empenho
     type: datetime
     format: default
@@ -100,8 +99,8 @@ fields:
     constraints:
       required: true
   - name: funcao
-    title: Descrição do nível máximo de agregação das ações do Governo
     title: Função
+    description: Descrição do nível máximo de agregação das ações do Governo
     type: string
     format: default
     constraints:

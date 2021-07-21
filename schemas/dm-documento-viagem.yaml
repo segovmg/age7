@@ -36,7 +36,7 @@ fields:
       required: true
   - name: motivo
     title: Motivo da Viagem
-    description: description: |
+    description: |
       Informa o motivo do deslocamento do servidor de sua sede, como por exemplo: viagem a serviço, participação em eventos ou cursos de capacitação profissional.
     type: string
     format: default

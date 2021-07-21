@@ -131,7 +131,7 @@ fields:
     constraints:
       required: true
   - name: grupo_desp
-    title; Grupo de Despesa - Descrição
+    title: Grupo de Despesa - Descrição
     description: |
       Descrição do grupo de natureza econômica da despesa: Pessoal e Encargos Sociais, Juros e Encargos da Dívida; Outras Despesas Correntes; Investimentos; Inversões Financeiras; Amortização da Dívida; Reserva de Contingência.
     type: string
