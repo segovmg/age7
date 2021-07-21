@@ -68,6 +68,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_orgao_proponente",
+      "title": "Convênio Entrada - Órgão Proponente",
+      "path": "data/dm-orgao-proponente.csv.gz",
+      "schema": "schemas/dm-orgao-proponente.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_concedente",
       "title": "Convênio de Entrada - Órgão Concedente",
       "path": "data/dm-concedente.csv.gz",
