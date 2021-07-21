@@ -13,6 +13,28 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_funcao_desp",
+      "title": "Função",
+      "path": "data/dm-funcao-desp.csv.gz",
+      "schema": "schemas/dm-funcao-desp.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "dm_subfuncao_desp",
+      "title": "Subfunção",
+      "path": "data/dm-subfuncao-desp.csv.gz",
+      "schema": "schemas/dm-subfuncao-desp.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_programa",
       "title": "Programa",
       "path": "data/dm-programa.csv.gz",
