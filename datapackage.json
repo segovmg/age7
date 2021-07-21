@@ -11,6 +11,50 @@
       "encoding": "utf-8-sig",
       "dialect": "schemas/dialect.json",
       "profile": "tabular-data-resource"
+    },
+    {
+      "name": "dm_programa",
+      "title": "Programa",
+      "path": "data/dm-programa.csv.gz",
+      "schema": "schemas/dm-programa.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "dm_acao",
+      "title": "Ação Orçamentária",
+      "path": "data/dm-acao.csv.gz",
+      "schema": "schemas/dm-acao.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "dm_elemento_desp",
+      "title": "Elemento de Despesa",
+      "path": "data/dm-elemento-desp.csv.gz",
+      "schema": "schemas/dm-elemento-desp.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "ft_diarias",
+      "title": "Diárias",
+      "path": "data/ft-diarias.csv.gz",
+      "schema": "schemas/ft-diarias.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
     }
   ],
   "name": "age7",
