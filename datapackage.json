@@ -68,6 +68,17 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "ft_convenio_entrada",
+      "title": "Convênio Entrada",
+      "path": "data/ft-convenio-entrada.csv.gz",
+      "schema": "schemas/ft-convenio-entrada.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_interveniente_conv_ent",
       "title": "Interveniente Convênio de Entrada",
       "path": "data/dm-interveniente-conv-ent.csv.gz",
