@@ -243,7 +243,7 @@ foreignKeys:
     reference:
       fields:
         - id_empenho
-      resource: dm_empenho_resto
+      resource: dm_empenho_resto_2003
   - fields:
       - id_categ_econ
     reference:
