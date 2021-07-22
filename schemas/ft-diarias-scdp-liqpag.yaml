@@ -77,7 +77,6 @@ fields:
     constraints:
       required: true
       unique: false
-      unique: false
   - name: nr_pagamento
     title: Número Pagamento
     type: string

@@ -41,7 +41,6 @@ fields:
     title: Órgão Demandante - Descrição
     type: string
     format: default
-    format: default
     description: |
      Órgão ou entidade que solicitou a compra de determinado material ou serviço. 
     constraints:
