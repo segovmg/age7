@@ -108,3 +108,9 @@ foreignKeys:
       fields:
         - id_convenio
       resource: dm_convenio_entrada
+  - fields:
+    - id_unidade_orc
+    reference:
+      fields:
+        - id_unidade_orc
+      resource: dm_unidade_orc

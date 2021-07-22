@@ -158,3 +158,9 @@ foreignKeys:
       fields:
         - id_tipo_documento
       resource: dm_tipo_documento
+  - fields:
+    - id_favorecido
+    reference:
+      fields:
+      - id_favorecido
+    resource: dm_favorecido
