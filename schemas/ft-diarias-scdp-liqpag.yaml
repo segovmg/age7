@@ -145,7 +145,7 @@ foreignKeys:
     reference:
       fields: 
       - id_empenho
-      resource: dm_empenho_desp
+      resource: dm_empenho_desp_diarias_scdp_liqpag
   - fields:
       - id_documento_viagem
     reference:
@@ -193,7 +193,7 @@ foreignKeys:
     reference:
       fields: 
       - id_empenho
-      resource: dm_empenho_desp
+      resource: dm_empenho_desp_diarias_scdp_liqpag
   - fields:
       - id_funcao
     reference:

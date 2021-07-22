@@ -92,4 +92,4 @@ foreignKeys:
     reference:
       fields:
         - id_empenho
-      resource: dm_empenho_desp
+      resource: dm_empenho_desp_compras_empenho

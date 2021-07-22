@@ -398,6 +398,28 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_empenho_desp_compras_empenho",
+      "title": "Empenho Despesa Compras",
+      "path": "data/dm-empenho-desp-compras-empenho.csv.gz",
+      "schema": "schemas/dm-empenho-desp.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "dm_empenho_desp_diarias_scdp_liqpag",
+      "title": "Empenho Despesa Diárias SCDP",
+      "path": "data/dm-empenho-desp-diarias-scdp-liqpag.csv.gz",
+      "schema": "schemas/dm-empenho-desp.yaml",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_empenho_desp_2002",
       "title": "Empenho Despesa 2002",
       "path": "data/dm-empenho-desp-2002.csv.gz",
