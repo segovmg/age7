@@ -1,17 +1,17 @@
 consultas:
-  restos-a-pagar:
+  restos_pagar:
     title: Despesas com restos a pagar
     url: http://www.transparencia.mg.gov.br/despesa-estado/restos-a-pagar
     fact_tables:
       - ft_restos_pagar
-  compras-e-contratos:
+  compras_contratos:
     title: Compras e contratos
     url: http://www.transparencia.mg.gov.br/compras-e-patrimonio/compras-e-contratos
     fact_tables:
       - ft_compras
       - ft_compras_contrato
       - fl_compras_empenho
-  convenios-de-saida:
+  convenios_saida:
     title: Convênios de saída de recursos
     url: http://www.transparencia.mg.gov.br/convenios/convenios-de-saida
     fact_tables:
@@ -88,7 +88,7 @@ consultas:
       - ft_orcamento_emenda
       - ft_orcamento_cred_alt
       - ft_obra
-  estado-receita:
+  receita:
     title: Receita pública
     url: http://www.transparencia.mg.gov.br/estado-receita
     fact_tables:
@@ -96,7 +96,7 @@ consultas:
       - ft_receita_prevista
       - ft_receita_v2018
       - ft_receita_prevista_v2018
-  convenio-entrada:
+  convenios_entrada:
     title: Convênios de entrada de recursos
     url: http://transparencia.mg.gov.br/convenios/convenio-entrada
     fact_tables:
