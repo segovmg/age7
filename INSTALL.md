@@ -6,26 +6,26 @@
 
 Ferramentas padronizadas.
 
+#### scoop
+
+Primeiro é necessário a instalação do <https://scoop.sh/>.
+
+- Pressione as teclas **Windows + R**. Digite PowerShell e tecle Enter
+- Ao abrir o Prompt de comando, Digite PowerShell e pressione Enter
+- Em seguida digite o comando abaixo:
+```
+Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
+scoop install jq
+```
+
 ### jq
 
-Faça download do programa `jq` no site <https://stedolan.github.io/jq/download/>. 
+Após a instação do scoop faça download do programa `jq` no site <https://stedolan.github.io/jq/download/>. 
 
 Para confirmar a instalação e configuração bem sucedida execute em uma nova linha de comando
 
 ```bash
 jq --version
-```
-
-#### scoop
-
-Opção usando <https://scoop.sh/>. No powershell
-
-Siga as instruções do [Demo](https://www.youtube.com/watch?v=a85QLUJ0Wbs)
-
-```
-Set-ExecutionPolicy RemoteSigned -scope CurrentUser
-Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
-scoop install jq
 ```
 
 ### git LFS
