@@ -20,6 +20,8 @@ jq --version
 
 Opção usando <https://scoop.sh/>. No powershell
 
+Siga as instruções do [Demo](https://www.youtube.com/watch?v=a85QLUJ0Wbs)
+
 ```
 Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
