@@ -71,10 +71,13 @@ constraints <- map(dp$resources, get_constraints) |>
 description <- map(dp$resources, get_description) |> 
   unlist()
 
-resource <- map(dp$resources, ~ rep_len(.x$name, length(.x$schema$fields))) |> 
+resource_name <- map(dp$resources, ~ rep_len(.x$name, length(.x$schema$fields))) |> 
   unlist()
 
-df <- data.frame(resource, name,title,  type = glue::glue("{type} ({format})"), description, constraints)
+resource_title <- map(dp$resources, ~ rep_len(.x$title, length(.x$schema$fields))) |> 
+  unlist()
+
+df <- data.frame(resource_name,resource_title, name,title,  type = glue::glue("{type} ({format})"), description, constraints)
 row.names(df) <- NULL
 ```
 
