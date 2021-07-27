@@ -88,7 +88,7 @@ fields:
     missingValues:
       - '0'
   - name: nome
-    title: Fonte - Descrição
+    title: Fonte de Recurso - Descrição
     description: |
      Denominação da origem e da natureza dos recursos orçamentários.
     type: string

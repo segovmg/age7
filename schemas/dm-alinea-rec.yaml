@@ -23,7 +23,7 @@ fields:
     format: default
     description: |
      É o detalhamento da Rubrica e exterioriza o “nome” da receita que receberá o registro pela entrada de recursos financeiros. 
-     Por exemplo, a alínea “ICMS” corresponde ao detalhamento da Rubrica “Impostos sobre o produção e a circulação”
+     Por exemplo, a alínea “ICMS” corresponde ao detalhamento da Rubrica “Impostos sobre o produção e a circulação”.
     constraints:
       required: true
 missingValues:

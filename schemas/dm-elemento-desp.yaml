@@ -9,7 +9,8 @@ fields:
       unique: false
   - name: cd_elemento
     title: Elemento de Despesa - Código
-    description: Código numérico identificador dos objeto de gasto da despesa (1 a 99)
+    description: 
+      Código numérico identificador dos objeto de gasto da despesa (1 a 99).
     type: string
     format: default
     constraints:
@@ -98,8 +99,11 @@ fields:
   - name: nome
     title: Elemento de Despesa - Descrição
     description: |
-      Descrição do elemento de gasto da despesa
-      Identifica os objetos de gasto, tais como vencimentos e vantagens fixas, juros, diárias, material de consumo, serviços de terceiros prestados sob qualquer forma, subvenções sociais, obras e instalações, equipamentos e material permanente, auxílios, amortização e outros que a administração pública utiliza para a consecução de seus fins
+      - >
+      Descrição do elemento de gasto da despesa. Identifica os objetos de gasto, tais como vencimentos e 
+      vantagens fixas, juros, diárias, material de consumo, serviços de terceiros prestados sob qualquer forma, 
+      subvenções sociais, obras e instalações, equipamentos e material permanente, auxílios, amortização e outros
+      que a administração pública utiliza para a consecução de seus fins.
     type: string
     format: default
     missingValues:
