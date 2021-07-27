@@ -17,11 +17,22 @@ fields:
       unique: false
   - name: tp_documento
     title: Tipo de Documento
-    description: Informa o tipo de documento da pessoa física ou pessoa jurídica.
     type: string
     format: default
+    description: |
+     Identificador da natureza jurídica do credor.
+       1 - Pessoa Física
+       2 - Pessoa Jurídica
+       3 - CPF Administrativo
+       4 - CNPJ Administrativo
     constraints:
-      required: true
+      enum:
+        - "1"
+        - "2"
+        - "3"
+        - "4"
+    missingValues:
+      - '0'
   - name: nr_documento
     title: Número do Documento
     description: |
