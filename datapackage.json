@@ -344,7 +344,7 @@
     },
     {
       "name": "ft_convenio_entrada_desp",
-      "title": "Convênio Entrada",
+      "title": "Convênio Entrada - Despesa",
       "path": "data/ft-convenio-entrada-desp.csv.gz",
       "schema": "schemas/ft-convenio-entrada-desp.yaml",
       "format": "csv",
@@ -366,7 +366,7 @@
     },
     {
       "name": "dm_convenio_entrada",
-      "title": "Convênio Entrada",
+      "title": "Convênio Entrada - tabela dimensão",
       "path": "data/dm-convenio-entrada.csv.gz",
       "schema": "schemas/dm-convenio-entrada.yaml",
       "format": "csv",
@@ -850,7 +850,7 @@
     },
     {
       "name": "ft_convenio_entrada",
-      "title": "Convênio Entrada",
+      "title": "Convênio Entrada - tabela fato",
       "path": "data/ft-convenio-entrada.csv.gz",
       "schema": "schemas/ft-convenio-entrada.yaml",
       "format": "csv",
