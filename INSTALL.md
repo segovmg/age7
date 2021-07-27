@@ -74,7 +74,7 @@ Instale também de forma excepcional
 
 ```r
 install.packages("remotes")
-remotes::install_github("transparencia-mg/dtamg-r@v0.1.1")
+remotes::install_github("transparencia-mg/dtamg-r@v0.2.0")
 ```
 
 Caso contrário pode ser necessário
