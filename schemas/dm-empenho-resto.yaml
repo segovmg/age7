@@ -115,9 +115,12 @@ fields:
     constraints:
       required: true
   - name: acao
-    title: Ação - Descrição
+    title: Ação Orçamentária - Descrição
     description: |
-      Conjunto de operações das quais resulta a entrega de um produto (bem, serviço ou transferência financeira) que contribui para atender ao objetivo de um programa.
+      - >
+      Conjunto de operações limitadas no tempo (projeto), realizadas de modo contínuo e permanente (atividade),
+      de natureza não orçamentária dos quais resulta um produto final (projeto ou não orçamentária), 
+      de atuação necessária à manutenção da ação governamental (atividade) ou transferência financeira. 
     type: string
     format: default
     constraints:

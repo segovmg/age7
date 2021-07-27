@@ -1,6 +1,6 @@
 fields:
   - name: id_empenho
-    title: Empenho - Chave
+    title: Número do Empenho - Chave
     type: integer
     format: default
     bareNumber: true
@@ -63,7 +63,7 @@ fields:
       required: true
       unique: false
   - name: sqa_empenho
-    title: Empenho - Chave Origem
+    title: Número do Empenho - Chave Origem
     type: integer
     format: default
     bareNumber: true
@@ -120,9 +120,12 @@ fields:
     constraints:
       required: true
   - name: acao
-    title: Ação
+    title: Ação Orçamentária - Descrição 
     description: |
-      Ações de governo, com suas respectivas metas físicas e orçamentárias, que serão executados durante um determinado período para atuar sobre problemas ou necessidades identificadas.
+     - > 
+      Conjunto de operações limitadas no tempo (projeto), realizadas de modo contínuo e permanente (atividade),
+      de natureza não orçamentária dos quais resulta um produto final (projeto ou não orçamentária), 
+      de atuação necessária à manutenção da ação governamental (atividade) ou transferência financeira 
     type: string
     format: default
     constraints:
