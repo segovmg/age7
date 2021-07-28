@@ -8,7 +8,7 @@ fields:
       required: true
       unique: false
   - name: id_categ_econ
-    title: Categoria Econômica - Chave
+    title: Categoria Econômica de Despesa - Chave
     type: integer
     format: default
     bareNumber: true
@@ -16,7 +16,7 @@ fields:
       required: true
       unique: false
   - name: id_grupo
-    title: Grupo Despesa - Chave
+    title: Grupo de Despesa - Chave
     type: integer
     format: default
     bareNumber: true
@@ -80,7 +80,7 @@ fields:
       required: true
       unique: false
   - name: id_acao
-    title: Ação - Chave
+    title: Ação Orçamentária - Chave
     type: integer
     format: default
     bareNumber: true

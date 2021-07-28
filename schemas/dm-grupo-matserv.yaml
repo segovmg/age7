@@ -107,7 +107,7 @@ fields:
       - '-4'
   - name: nome
     title: Grupo de Material e Serviço - Descrição
-    description: Identificação do tipo de objeto da contratação
+    description: Identificação do tipo de objeto da contratação.
     type: string
     format: default
     constraints:

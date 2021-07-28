@@ -8,7 +8,7 @@ fields:
       required: true
       unique: false
   - name: sqe_meio_transporte
-    title: Meio de Transporte - Chave Primária
+    title: Meio de Transporte - Chave Origem
     type: integer
     format: default
     bareNumber: true
@@ -26,7 +26,7 @@ fields:
   - name: nome
     title: Meio de Transporte - Descrição
     description: |
-      Meio de transporte utilizao para a realização da viagem a serviço ao servidor dos órgãos da Administração Pública direta, autárquica e fundacional do Poder Executivo.
+      Meio de transporte utilizado para a realização da viagem a serviço ao servidor dos órgãos da Administração Pública direta, autárquica e fundacional do Poder Executivo.
     type: string
     format: default
 missingValues:

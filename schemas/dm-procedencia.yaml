@@ -27,7 +27,12 @@ fields:
       - '0'  
   - name: nome
     title: Procedência - Descrição
-    description: Descrição da procedência dos recursos financeiros
+    description: |
+     - > 
+      Identifica a origem e a utilização dos recursos. 
+      O identificador de procedência e uso (IPU) informa, dentre outros, se os recursos serão para livre utilização, 
+      se foram transferidos de outra unidade orçamentária ou se objetivam oferecer contrapartida a convênios, acordos 
+      e ajustes.
     type: string
     format: default
     constraints:

@@ -35,7 +35,10 @@ fields:
   - name: nome
     title: Modalidade de Aplicação - Descrição
     description: |
-      Classificação da natureza da despesa que traduz a forma como os recursos serão aplicados pelos órgãos/entidades, podendo ser diretamente pelos mesmos ou sob a forma de transferências a outras entidades públicas ou privadas que se encarregarão da execução das ações
+      - > 
+        Classificação da natureza da despesa que traduz a forma como os recursos serão aplicados pelos órgãos/entiddes, 
+        podendo ser diretamente pelos mesmos ou sbo a forma de transferência a outras entidades públicas ou privadas que 
+        se encarregarão da execução das ações.
     type: string
     format: default
     missingValues:

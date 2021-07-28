@@ -61,7 +61,7 @@ fields:
       required: true
       unique: false
   - name: nome
-    title: Convênio / Parceria de Saída de Recursos - Descrição
+    title: Título do Convênio / Parceria de Saída de Recursos
     type: string
     format: default
     description: |

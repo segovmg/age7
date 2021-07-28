@@ -89,7 +89,8 @@ fields:
   - name: nome
     title: Fonte de Recurso - Descrição
     description: |
-      Disponibilidades de recursos financeiros que ingressam durante o exercício e constituem elemento novo para o patrimônio público.
+      - > 
+       Permite a identificação da origem e destinação dos recursos legalmente vinculados a órgão, fundo ou despesa.
     type: string
     format: default
     constraints:

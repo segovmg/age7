@@ -17,21 +17,23 @@ fields:
       unique: false
   - name: tp_documento
     title: Tipo de Documento
-    description: Informa que o fornecedor é pessoa física ou jurídica
+    description: Identifica a natureza jurídica do credor.
     type: string
     format: default
     constraints:
       required: true
   - name: nr_documento
     title: Número do Documento
-    description: CPF ou CNPJ da pesssoa física ou jurídica contratada para prestar um serviço ou entregar bens materiais ao Estado.
+    description: |
+     CPF ou CNPJ da pesssoa física ou jurídica contratada para prestar um serviço ou entregar bens materiais ao Estado.
     type: string
     format: default
     constraints:
       required: true
   - name: nome
     title: Contratado - Descrição
-    description: Nome da pessoa física ou jurídica contratada para prestar um serviço ou entregar bens materiais ao Estado.
+    description: |
+     Nome da pessoa física ou jurídica contratada para prestar um serviço ou entregar bens materiais ao Estado.
     type: string
     format: default
     constraints:

@@ -23,7 +23,10 @@ fields:
       required: true
   - name: nome
     title: Órgão Proponente - Descrição
-    description: Nome de identificação da pessoa jurídica
+    description: |
+      - > 
+      Órgão ou entidade da administração pública estadual com o qual o concedente (governo federal, prefeitura, 
+      associação, etc.) pactua a execução de programa, projeto, atividade ou evento mediante a celebração de convênio.
     type: string
     format: default
     constraints:

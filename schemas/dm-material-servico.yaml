@@ -16,7 +16,7 @@ fields:
       required: true
   - name: nome
     title: Material e Serviço - Descrição
-    description: Identificação do tipo de objeto da especificação do empenho, Material; Serviço
+    description: Identificação do tipo de objeto da especificação do empenho, material ou serviço.
     type: string
     format: default
     missingValues:

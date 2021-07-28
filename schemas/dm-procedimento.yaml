@@ -12,8 +12,15 @@ fields:
     type: string
     format: default
     description: |
-     Especifica o Procedimento de Contratação utlizado na licitação. 
-     Exemplo: Concorrência, Tomada de Preços, Convite, Leilão, Pregão, Dispensa, Inexigibilidade, Registro de Preços, etc.
+     Informa a modalidade da licitação.
+     - Concorrência;
+     - Tomada de preços;
+     - Convite; 
+     - Leilão;
+     - Pregão;
+     - Dispensa;
+     - Inexigibilidade;
+     - Registro de preços e etc.
     constraints:
       required: true
 missingValues:

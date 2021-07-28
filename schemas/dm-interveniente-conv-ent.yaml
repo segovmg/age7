@@ -16,7 +16,9 @@ fields:
       required: true
   - name: nome
     title: Órgão Interveniente - Descrição
-    description: Nome do órgão interveniente do Convênio de Entrada
+    description: |
+      Órgão ou entidade que participa do convênio dando sua anuência ou assumindo obrigações diferentes daquelas assumidas pelo Proponente ou Concedente.
+      É opcional, pode ser pessoa física ou uma Unidade/Órgão.
     type: string
     format: default
     constraints:

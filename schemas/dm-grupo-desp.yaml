@@ -1,6 +1,6 @@
 fields:
   - name: id_grupo
-    title: Grupo Despesa - Chave
+    title: Grupo de Despesa - Chave
     type: integer
     format: default
     bareNumber: true
@@ -8,7 +8,7 @@ fields:
       required: true
       unique: false
   - name: cd_grupo
-    title: Grupo Despesa - Código
+    title: Grupo de Despesa - Código
     type: string
     format: default
     constraints:
@@ -23,7 +23,7 @@ fields:
     missingValues:
         - '0'
   - name: nome
-    title: Grupo Despesa - Descrição
+    title: Grupo de Despesa - Descrição
     type: string
     format: default
     description: |

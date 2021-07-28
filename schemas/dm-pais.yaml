@@ -8,7 +8,7 @@ fields:
       required: true
       unique: false
   - name: sqe_pais
-    title: País - Chave Estrangeira
+    title: País - Chave Origem
     description: Código identificador do país de destino/origem da viagem.
     type: integer
     format: default

@@ -109,6 +109,10 @@ fields:
     format: default
     bareNumber: true
     decimalChar: ','
+    description: |
+      - > 
+        Valor, em reais, da despesa liquidada referente ao investimento - compras de equipamentos, material 
+        permanente e realização de obras, diretamente pelo Estado ou por meio de repasses de recursos.
     constraints:
       required: true
 missingValues:

@@ -8,8 +8,7 @@ fields:
       required: true
       unique: false
   - name: sqe_estado
-    title: Estado - Chave Estrangeira
-    type: integer
+    title: Estado - Chave Origem
     format: default
     bareNumber: true
     constraints:
