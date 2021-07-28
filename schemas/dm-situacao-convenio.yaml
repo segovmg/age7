@@ -1,6 +1,6 @@
 fields:
   - name: id_situacao
-    title: Situação do Convênio- Chave
+    title: Situação do  Convênio / Parceria - Chave
     type: integer
     format: default
     bareNumber: true
@@ -8,7 +8,7 @@ fields:
       required: true
       unique: false
   - name: fl_versao
-    title: Situação do Convênio- Flag
+    title: Situação do  Convênio / Parceria - Flag
     type: integer
     format: default
     bareNumber: true
@@ -18,7 +18,7 @@ fields:
         - '1'
         - "2"
   - name: sqe_situacao
-    title: Situação do Convênio- Chave Origem
+    title: Situação do Convênio / Parceria- Chave Origem
     type: integer
     format: default
     bareNumber: true
@@ -30,11 +30,11 @@ fields:
         - '16'
         - '17'
   - name: nome
-    title: Situação do Convênio- Descrição
+    title: Situação do  Convênio / Parceria- Descrição
     type: string
     format: default
     description: |
-      Informa a situação na qual o convênio se encontra na data da consulta realizada no portal.
+      Informa a situação na qual o Convênio / Parceria se encontra na data da consulta realizada no portal.
        - Vigente;
        - Cancelado;
        - Convenio Cadastrado ou

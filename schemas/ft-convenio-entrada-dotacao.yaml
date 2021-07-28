@@ -8,7 +8,7 @@ fields:
       required: true
       unique: false
   - name: id_convenio
-    title: Convênio - Chave
+    title: Convênio de Entrada - Chave
     type: integer
     format: default
     bareNumber: true
@@ -40,7 +40,7 @@ fields:
       required: true
       unique: false
   - name: id_acao
-    title: Ação - Chave
+    title: Ação Orçamentária - Chave
     type: string
     format: default
     bareNumber: true
@@ -48,7 +48,7 @@ fields:
       required: true
       unique: false
   - name: id_elemento
-    title: Elemento - Chave
+    title: Elemento de Despesa - Chave
     type: integer
     format: default
     bareNumber: true
@@ -64,7 +64,7 @@ fields:
       required: true
       unique: false
   - name: dotacao_orcamentaria
-    title: Dotação Orçamentária - Chave
+    title: Dotação Orçamentária 
     type: string
     format: default
     constraints:
@@ -79,7 +79,8 @@ fields:
       required: true
   - name: vr_concedente_atual
     title: Valor Concedente Atualiado
-    description: Valor financeiro previsto no convênio para o concedente repassar ao proponente, incluindo termos aditivos.
+    description: |
+     Valor financeiro previsto no convênio para o concedente repassar ao proponente, incluindo termos aditivos.
     type: number
     format: default
     bareNumber: true
@@ -88,7 +89,8 @@ fields:
       required: true
   - name: vr_proponente_atual
     title: Valor Proponente Atualizado
-    description: Valor financeiro previsto no convênio para o proponente dar como contrapartida financeira, incluindo termos aditivos.
+    description: |
+      Valor financeiro previsto no convênio para o proponente dar como contrapartida financeira, incluindo termos aditivos.
     type: number
     format: default
     bareNumber: true

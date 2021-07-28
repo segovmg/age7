@@ -32,7 +32,7 @@ fields:
       required: true
       unique: false
   - name: id_situacao_proc
-    title: Situação do Processo - Chave
+    title: Situação do Processo de Compra - Chave
     type: integer
     format: default
     bareNumber: true
@@ -172,7 +172,7 @@ fields:
     constraints:
       required: true
   - name: dt_item_homologa
-    title: Data da Homologação - Data
+    title: Data da Homologação do Item
     type: datetime
     format: default
     constraints:

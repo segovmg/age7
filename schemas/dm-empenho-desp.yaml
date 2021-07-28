@@ -168,7 +168,8 @@ fields:
       - 3 Outras Despesas Correntes; 
       - 4 Investimentos; 
       - 5 Inversões Financeiras; 
-      - 6 Amortização da Dívida.
+      - 6 Amortização da Dívida e
+      - 9 Reserva de Contigência.
     type: string
     format: default
     constraints:

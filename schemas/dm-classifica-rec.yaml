@@ -17,7 +17,7 @@ fields:
       unique: false
   - name: nome
     title: Classificação da Receita - Descrição
-    description: Identifica detalhada dos recursos que ingressam nos confres públicos.
+    description: Detalhada os recursos que ingressam nos confres públicos.
     type: string
     format: default
     constraints:

@@ -1,6 +1,6 @@
 fields:
   - name: id_convenio
-    title: Convênio - Chave
+    title:  Convênio / Parceria - Chave
     type: integer
     format: default
     bareNumber: true

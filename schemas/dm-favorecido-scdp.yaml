@@ -16,21 +16,21 @@ fields:
       required: true
       unique: false
   - name: nr_cpf
-    title: Favorecido CPF
-    description: Número do registro do credor no cadastro nacional das pessoas físicas (9 dígitos)
+    title: CPF do Favorecido
+    description: Número do registro do credor no cadastro nacional das pessoas físicas. 
     type: string
     format: default
     constraints:
       required: true
   - name: masp
-    title: Favorecido MASP
+    title: MASP do Favorecido
     description: Matrícula do servidor civil ou militar de Minas Gerais.
     type: string
     format: default
   - name: nome
     title: Favorecido - Descrição
     description: |
-      Nome completo da pessoa física
+      Nome completo do servidor público ou colaborador eventual que realizou a viagem a trabalho.
     type: string
     format: default
     constraints:

@@ -22,6 +22,10 @@ fields:
     title: Órgão Demandante - Descrição
     type: string
     format: default
+    description: |
+     - >
+      Órgão ou entidade que solicitou a compra de determinado material ou serviço. 
+      Pode coincidir ou não com o órgão que está executando o processo de compra.
     missingValues:
      - 'INEXISTENTE'
      - 'NÃO SE APLICA'

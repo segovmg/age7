@@ -91,8 +91,7 @@ fields:
     title: Fonte de Recurso - Descrição
     description: |
      - > 
-       Permite a identificação da origem e destinação dos recursos legalmente vinculados a órgão, 
-       fundo ou despesa.
+       Permite a identificação da origem e destinação dos recursos legalmente vinculados a órgão, fundo ou despesa.
     type: string
     format: default
     missingValues:

@@ -16,7 +16,7 @@ fields:
       required: true
       unique: false
   - name: nr_documento
-    title: Número do Docomento
+    title: Número do Documento
     description: Número de identificação do documento de viagem no Sistema de Concessão de Diárias e Passagens - SCDP
     type: string
     format: default

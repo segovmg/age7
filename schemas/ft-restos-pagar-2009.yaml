@@ -8,7 +8,7 @@ fields:
       required: true
       unique: false
   - name: id_categ_econ
-    title: Categoria Econômica - Chave
+    title: Categoria Econômica da Despesa - Chave
     type: integer
     format: default
     bareNumber: true
@@ -86,7 +86,7 @@ fields:
     constraints:
       required: true
   - name: sqa_liquidacao
-    tille: Liquidação - Chave Estrangeira
+    tille: Liquidação - Chave Origem
     type: integer
     format: default
     bareNumber: true
@@ -94,7 +94,7 @@ fields:
       required: true
       unique: false
   - name: sqa_pagamento
-    tille: Pagamento - Chave Estrangeira
+    tille: Pagamento - Chave Origem
     type: integer
     format: default
     bareNumber: true
@@ -111,7 +111,7 @@ fields:
     constraints:
       required: true
   - name: sqa_unidade_exec
-    tille: Unidade de Exercício - Chave Estrangeira
+    tille: Unidade de Exercício - Chave Origem
     type: integer
     format: default
     bareNumber: true
@@ -119,7 +119,7 @@ fields:
       required: true
       unique: false
   - name: sqa_unidade_orc
-    tille: Unidade Orçamentária - Chave Estrangeira
+    tille: Unidade Orçamentária - Chave Origem
     type: integer
     format: default
     bareNumber: true

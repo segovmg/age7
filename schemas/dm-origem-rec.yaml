@@ -44,7 +44,7 @@ fields:
     missingValues:
       - '0'
   - name: categoria_economica
-    title: Categoria Econômica - Descrição
+    title: Categoria Econômica da Receita - Descrição
     description: |
       Primeiro nível de classificação das receitas, dividindo-as em receitas correntes e receitas de capital.
     type: string

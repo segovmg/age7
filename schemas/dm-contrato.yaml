@@ -38,17 +38,21 @@ fields:
     constraints:
       required: true
   - name: situacao
-    title: Situação do Processo
+    title: Situação do Contrato
     description: |
-      Situação do processo de compra durante a aquisição de materiais e serviços (concluído, suspenso, em andamento, etc.). 
-      Quanto aos processos de compra com situação em andamento, são considerados apenas os itens já homologados desses processos.
+      Situação em que se encontra o contrato quanto a sua vigência.
+      - Encerrado;
+      - Vencido;
+      - Rescindido ou
+      - Vigente publicado
     type: string
     format: default
     constraints:
       required: true
   - name: tipo
     title: Tipo de Contrato
-    description: Informa o tipo de contrato firmado pela Administração, por ex, exemplo, obra, fornecimento de bens, etc.
+    description: |
+     Informa o tipo de contrato firmado pela Administração, por exemplo, obra, fornecimento de bens, etc.
     type: string
     format: default
     constraints:
