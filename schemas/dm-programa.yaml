@@ -29,8 +29,12 @@ fields:
   - name: nome
     title: Programa - Descrição
     description: |
-      Instrumento de organização de ação governamental que integra o planejamento, o orçamento e a gestão. Visa o enfrentamento de um problema, sendo mensurado por indicadores estabelecidos no Plano Plurianula de Ação Governamental.
-      Resulta do reconhecimento de carências, demandas administrativas, sociais e econômicas e de oportunidades.
+      - > 
+        Instrumento de organização de ação governamental que integra o planejamento, o orçamento e a gestão. 
+        Visa o enfrentamento de um problema, sendo mensurado por indicadores estabelecidos no Plano Plurianula de
+        Ação Governamental.
+        
+        Resulta do reconhecimento de carências, demandas administrativas, sociais e econômicas e de oportunidades.
     type: string
     format: default
     missingValues:
