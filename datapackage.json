@@ -6,6 +6,12 @@
       "title": "Unidade Orçamentária",
       "path": "data/dm-unidade-orc.csv.gz",
       "schema": "schemas/dm-unidade-orc.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_unidade_orc"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -17,6 +23,12 @@
       "title": "Função",
       "path": "data/dm-funcao-desp.csv.gz",
       "schema": "schemas/dm-funcao-desp.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_funcao_desp"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -28,6 +40,12 @@
       "title": "Subfunção",
       "path": "data/dm-subfuncao-desp.csv.gz",
       "schema": "schemas/dm-subfuncao-desp.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_subfuncao_desp"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -39,6 +57,12 @@
       "title": "Calendário - Dias",
       "path": "data/dm-tempo-diario.csv.gz",
       "schema": "schemas/dm-tempo-diario.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_tempo_diario"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -50,6 +74,12 @@
       "title": "Tipo Documento",
       "path": "data/dm-tipo-documento.csv.gz",
       "schema": "schemas/dm-tipo-documento.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_tipo_documento"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -61,6 +91,12 @@
       "title": "Calendário - Mês",
       "path": "data/dm-tempo-mensal.csv.gz",
       "schema": "schemas/dm-tempo-mensal.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_tempo_mensal"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -72,6 +108,12 @@
       "title": "Alínea da receita",
       "path": "data/dm-alinea-rec.csv.gz",
       "schema": "schemas/dm-alinea-rec.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_alinea_rec"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -83,6 +125,12 @@
       "title": "Espécie da receita",
       "path": "data/dm-especie-rec.csv.gz",
       "schema": "schemas/dm-especie-rec.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_especie_rec"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -94,6 +142,12 @@
       "title": "Fonte de Recurso",
       "path": "data/dm-fonte-rec.csv.gz",
       "schema": "schemas/dm-fonte-rec.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_fonte_rec"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -105,6 +159,12 @@
       "title": "Item de Receita",
       "path": "data/dm-item-rec.csv.gz",
       "schema": "schemas/dm-item-rec.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_item_rec"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -116,6 +176,12 @@
       "title": "Rubrica da receita",
       "path": "data/dm-rubrica-rec.csv.gz",
       "schema": "schemas/dm-rubrica-rec.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_rubrica_rec"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -127,6 +193,12 @@
       "title": "Origem da receita",
       "path": "data/dm-origem-rec.csv.gz",
       "schema": "schemas/dm-origem-rec.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_origem_rec"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -138,6 +210,12 @@
       "title": "Subalínea da receita",
       "path": "data/dm-subalinea-rec.csv.gz",
       "schema": "schemas/dm-subalinea-rec.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_subalinea_rec"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -149,6 +227,12 @@
       "title": "Receita Orçamentária Prevista",
       "path": "data/ft-receita-prevista.csv.gz",
       "schema": "schemas/ft-receita-prevista.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_receita_prevista"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -160,6 +244,12 @@
       "title": "Receita Orçamentária",
       "path": "data/ft-receita.csv.gz",
       "schema": "schemas/ft-receita.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_receita"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -171,6 +261,12 @@
       "title": "Desdobramento1 da receita",
       "path": "data/dm-desdobramento-1-rec.csv.gz",
       "schema": "schemas/dm-desdobramento-1-rec.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_desdobramento_1_rec"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -182,6 +278,12 @@
       "title": "Desdobramento2 da receita",
       "path": "data/dm-desdobramento-2-rec.csv.gz",
       "schema": "schemas/dm-desdobramento-2-rec.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_desdobramento_2_rec"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -193,6 +295,12 @@
       "title": "Desdobramento3 da receita",
       "path": "data/dm-desdobramento-3-rec.csv.gz",
       "schema": "schemas/dm-desdobramento-3-rec.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_desdobramento_3_rec"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -204,6 +312,12 @@
       "title": "Tipo da receita",
       "path": "data/dm-tipo-rec.csv.gz",
       "schema": "schemas/dm-tipo-rec.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_tipo_rec"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -215,6 +329,12 @@
       "title": "Receita Orçamentária Prevista v2",
       "path": "data/ft-receita-prevista-v2018.csv.gz",
       "schema": "schemas/ft-receita-prevista-v2018.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_receita_prevista_v2018"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -226,6 +346,12 @@
       "title": "Receita v2",
       "path": "data/ft-receita-v2018.csv.gz",
       "schema": "schemas/ft-receita-v2018.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_receita_v2018"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -237,6 +363,12 @@
       "title": "Item de Despesa",
       "path": "data/dm-item-desp.csv.gz",
       "schema": "schemas/dm-item-desp.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_item_desp"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -248,6 +380,12 @@
       "title": "Programa",
       "path": "data/dm-programa.csv.gz",
       "schema": "schemas/dm-programa.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_programa"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -259,6 +397,12 @@
       "title": "Ação Orçamentária",
       "path": "data/dm-acao.csv.gz",
       "schema": "schemas/dm-acao.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_acao"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -270,6 +414,12 @@
       "title": "Cargo em Comissão",
       "path": "data/dm-funcao-scdp.csv.gz",
       "schema": "schemas/dm-funcao-scdp.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_funcao_scdp"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -281,6 +431,12 @@
       "title": "Convênio de saída - Investimento",
       "path": "data/ft-convenio-investimento.csv.gz",
       "schema": "schemas/ft-convenio-investimento.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_convenio_investimento"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -292,6 +448,12 @@
       "title": "Convênio Tipo Atendimento",
       "path": "data/ft-convenio-tipoatendimento.csv.gz",
       "schema": "schemas/ft-convenio-tipoatendimento.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_convenio_tipoatendimento"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -303,6 +465,12 @@
       "title": "Convênio - Meta Etapa",
       "path": "data/ft-convenio-metaetapa.csv.gz",
       "schema": "schemas/ft-convenio-metaetapa.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_convenio_metaetapa"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -314,6 +482,12 @@
       "title": "Convênio Interveniente",
       "path": "data/fl-convenio-interveniente.csv.gz",
       "schema": "schemas/fl-convenio-interveniente.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "fl_convenio_interveniente"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -325,6 +499,12 @@
       "title": "Convênio Alteração",
       "path": "data/fl-convenio-alteracao.csv.gz",
       "schema": "schemas/fl-convenio-alteracao.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "fl_convenio_alteracao"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -336,6 +516,12 @@
       "title": "Convênio Entrada Dotação",
       "path": "data/ft-convenio-entrada-dotacao.csv.gz",
       "schema": "schemas/ft-convenio-entrada-dotacao.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_convenio_entrada_dotacao"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -347,6 +533,12 @@
       "title": "Convênio Entrada - Despesa",
       "path": "data/ft-convenio-entrada-desp.csv.gz",
       "schema": "schemas/ft-convenio-entrada-desp.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_convenio_entrada_desp"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -358,6 +550,12 @@
       "title": "Convênio Entrada - Receita",
       "path": "data/ft-convenio-entrada-rec.csv.gz",
       "schema": "schemas/ft-convenio-entrada-rec.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_convenio_entrada_rec"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -369,6 +567,12 @@
       "title": "Convênio Entrada - tabela dimensão",
       "path": "data/dm-convenio-entrada.csv.gz",
       "schema": "schemas/dm-convenio-entrada.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_convenio_entrada"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -380,6 +584,12 @@
       "title": "Favorecido SCDP",
       "path": "data/dm-favorecido-scdp.csv.gz",
       "schema": "schemas/dm-favorecido-scdp.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_favorecido_scdp"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -391,6 +601,12 @@
       "title": "Documento Viagem",
       "path": "data/dm-documento-viagem.csv.gz",
       "schema": "schemas/dm-documento-viagem.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_documento_viagem"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -402,6 +618,12 @@
       "title": "Empenho Despesa Compras",
       "path": "data/dm-empenho-desp-compras-empenho.csv.gz",
       "schema": "schemas/dm-empenho-desp.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_desp"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -413,6 +635,12 @@
       "title": "Empenho Despesa Diárias SCDP",
       "path": "data/dm-empenho-desp-diarias-scdp-liqpag.csv.gz",
       "schema": "schemas/dm-empenho-desp.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_desp"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -424,6 +652,12 @@
       "title": "Empenho Despesa 2002",
       "path": "data/dm-empenho-desp-2002.csv.gz",
       "schema": "schemas/dm-empenho-desp.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_desp"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -435,6 +669,12 @@
       "title": "Empenho Despesa 2003",
       "path": "data/dm-empenho-desp-2003.csv.gz",
       "schema": "schemas/dm-empenho-desp.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_desp"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -446,6 +686,12 @@
       "title": "Empenho Despesa 2004",
       "path": "data/dm-empenho-desp-2004.csv.gz",
       "schema": "schemas/dm-empenho-desp.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_desp"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -457,6 +703,12 @@
       "title": "Empenho Despesa 2005",
       "path": "data/dm-empenho-desp-2005.csv.gz",
       "schema": "schemas/dm-empenho-desp.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_desp"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -468,6 +720,12 @@
       "title": "Empenho Despesa 2006",
       "path": "data/dm-empenho-desp-2006.csv.gz",
       "schema": "schemas/dm-empenho-desp.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_desp"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -479,6 +737,12 @@
       "title": "Empenho Despesa 2007",
       "path": "data/dm-empenho-desp-2007.csv.gz",
       "schema": "schemas/dm-empenho-desp.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_desp"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -490,6 +754,12 @@
       "title": "Empenho Despesa 2008",
       "path": "data/dm-empenho-desp-2008.csv.gz",
       "schema": "schemas/dm-empenho-desp.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_desp"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -501,6 +771,12 @@
       "title": "Empenho Despesa 2009",
       "path": "data/dm-empenho-desp-2009.csv.gz",
       "schema": "schemas/dm-empenho-desp.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_desp"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -512,6 +788,12 @@
       "title": "Empenho Despesa 2010",
       "path": "data/dm-empenho-desp-2010.csv.gz",
       "schema": "schemas/dm-empenho-desp.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_desp"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -523,6 +805,12 @@
       "title": "Empenho Despesa 2011",
       "path": "data/dm-empenho-desp-2011.csv.gz",
       "schema": "schemas/dm-empenho-desp.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_desp"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -534,6 +822,12 @@
       "title": "Empenho Despesa 2012",
       "path": "data/dm-empenho-desp-2012.csv.gz",
       "schema": "schemas/dm-empenho-desp.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_desp"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -545,6 +839,12 @@
       "title": "Empenho Despesa 2013",
       "path": "data/dm-empenho-desp-2013.csv.gz",
       "schema": "schemas/dm-empenho-desp.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_desp"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -556,6 +856,12 @@
       "title": "Empenho Despesa 2014",
       "path": "data/dm-empenho-desp-2014.csv.gz",
       "schema": "schemas/dm-empenho-desp.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_desp"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -567,6 +873,12 @@
       "title": "Empenho Despesa 2015",
       "path": "data/dm-empenho-desp-2015.csv.gz",
       "schema": "schemas/dm-empenho-desp.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_desp"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -578,6 +890,12 @@
       "title": "Empenho Despesa 2016",
       "path": "data/dm-empenho-desp-2016.csv.gz",
       "schema": "schemas/dm-empenho-desp.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_desp"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -589,6 +907,12 @@
       "title": "Empenho Despesa 2017",
       "path": "data/dm-empenho-desp-2017.csv.gz",
       "schema": "schemas/dm-empenho-desp.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_desp"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -600,6 +924,12 @@
       "title": "Empenho Despesa 2018",
       "path": "data/dm-empenho-desp-2018.csv.gz",
       "schema": "schemas/dm-empenho-desp.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_desp"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -611,6 +941,12 @@
       "title": "Empenho Despesa 2019",
       "path": "data/dm-empenho-desp-2019.csv.gz",
       "schema": "schemas/dm-empenho-desp.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_desp"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -622,6 +958,12 @@
       "title": "Empenho Despesa 2020",
       "path": "data/dm-empenho-desp-2020.csv.gz",
       "schema": "schemas/dm-empenho-desp.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_desp"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -633,6 +975,12 @@
       "title": "Empenho Despesa 2021",
       "path": "data/dm-empenho-desp-2021.csv.gz",
       "schema": "schemas/dm-empenho-desp.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_desp"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -644,6 +992,12 @@
       "title": "Favorecido",
       "path": "data/dm-favorecido.csv.gz",
       "schema": "schemas/dm-favorecido.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_favorecido"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -655,6 +1009,12 @@
       "title": "Despesa - Ordem de Pagamento",
       "path": "data/fl-despesa-pgto.csv.gz",
       "schema": "schemas/fl-despesa-pgto.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "fl_despesa_pgto"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -666,6 +1026,12 @@
       "title": "Fonte de Recurso",
       "path": "data/dm-fonte.csv.gz",
       "schema": "schemas/dm-fonte.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_fonte"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -677,6 +1043,12 @@
       "title": "Grupo de natureza da despesa",
       "path": "data/dm-grupo-desp.csv.gz",
       "schema": "schemas/dm-grupo-desp.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_grupo_desp"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -688,6 +1060,12 @@
       "title": "Modalidade de Aplicação",
       "path": "data/dm-modalidade-aplic.csv.gz",
       "schema": "schemas/dm-modalidade-aplic.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_modalidade_aplic"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -699,6 +1077,12 @@
       "title": "Identificador de procedência e uso (IPU)",
       "path": "data/dm-procedencia.csv.gz",
       "schema": "schemas/dm-procedencia.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_procedencia"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -710,6 +1094,12 @@
       "title": "Cidade",
       "path": "data/dm-cidade.csv.gz",
       "schema": "schemas/dm-cidade.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_cidade"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -721,6 +1111,12 @@
       "title": "Grupo de Material/Serviço",
       "path": "data/dm-grupo-matserv.csv.gz",
       "schema": "schemas/dm-grupo-matserv.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_grupo_matserv"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -732,6 +1128,12 @@
       "title": "Item de Material/Serviço",
       "path": "data/dm-item-matserv.csv.gz",
       "schema": "schemas/dm-item-matserv.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_item_matserv"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -743,6 +1145,12 @@
       "title": "Linha de fornecimento",
       "path": "data/dm-linha-fornec.csv.gz",
       "schema": "schemas/dm-linha-fornec.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_linha_fornec"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -754,6 +1162,12 @@
       "title": "Processo de Compra",
       "path": "data/dm-processo.csv.gz",
       "schema": "schemas/dm-processo.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_processo"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -765,6 +1179,12 @@
       "title": "Unidade de Medida",
       "path": "data/dm-unidade-medida.csv.gz",
       "schema": "schemas/dm-unidade-medida.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_unidade_medida"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -776,6 +1196,12 @@
       "title": "Compras - Empenho",
       "path": "data/fl-compras-empenho.csv.gz",
       "schema": "schemas/fl-compras-empenho.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "fl_compras_empenho"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -787,6 +1213,12 @@
       "title": "Situação Convênio Entrada",
       "path": "data/dm-situacao-conv-ent.csv.gz",
       "schema": "schemas/dm-situacao-conv-ent.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_situacao_conv_ent"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -798,6 +1230,12 @@
       "title": "Convênio de Saída",
       "path": "data/ft-convenio.csv.gz",
       "schema": "schemas/ft-convenio.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_convenio"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -809,6 +1247,12 @@
       "title": "Convênio Entrada Compras",
       "path": "data/fl-convenio-entrada-compras.csv.gz",
       "schema": "schemas/fl-convenio-entrada-compras.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "fl_convenio_entrada_compras"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -820,6 +1264,12 @@
       "title": "Convênio",
       "path": "data/dm-convenio.csv.gz",
       "schema": "schemas/dm-convenio.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_convenio"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -831,6 +1281,12 @@
       "title": "Convênio Entrada Interveniente",
       "path": "data/fl-convenio-entrada-interv.csv.gz",
       "schema": "schemas/fl-convenio-entrada-interv.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "fl_convenio_entrada_interv"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -842,6 +1298,12 @@
       "title": "Convênio Entrada - Aditivos",
       "path": "data/fl-convenio-entrada-aditivo.csv.gz",
       "schema": "schemas/fl-convenio-entrada-aditivo.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "fl_convenio_entrada_aditivo"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -853,6 +1315,12 @@
       "title": "Convênio Entrada - tabela fato",
       "path": "data/ft-convenio-entrada.csv.gz",
       "schema": "schemas/ft-convenio-entrada.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_convenio_entrada"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -864,6 +1332,12 @@
       "title": "Interveniente Convênio de Entrada",
       "path": "data/dm-interveniente-conv-ent.csv.gz",
       "schema": "schemas/dm-interveniente-conv-ent.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_interveniente_conv_ent"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -875,6 +1349,12 @@
       "title": "Convênio Entrada - Classificação da Receita",
       "path": "data/dm-classifica-rec.csv.gz",
       "schema": "schemas/dm-classifica-rec.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_classifica_rec"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -886,6 +1366,12 @@
       "title": "Convênio de Entrada - Programa",
       "path": "data/dm-programa-conv-ent.csv.gz",
       "schema": "schemas/dm-programa-conv-ent.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_programa_conv_ent"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -897,6 +1383,12 @@
       "title": "Convênio Entrada - Órgão Proponente",
       "path": "data/dm-orgao-proponente.csv.gz",
       "schema": "schemas/dm-orgao-proponente.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_orgao_proponente"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -908,6 +1400,12 @@
       "title": "Convênio de Entrada - Órgão Concedente",
       "path": "data/dm-concedente.csv.gz",
       "schema": "schemas/dm-concedente.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_concedente"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -919,6 +1417,12 @@
       "title": "Convênio de Entrada - Interveniente",
       "path": "data/dm-interveniente.csv.gz",
       "schema": "schemas/dm-interveniente.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_interveniente"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -930,6 +1434,12 @@
       "title": "Tipo Atendimento",
       "path": "data/dm-tipo-atendimento.csv.gz",
       "schema": "schemas/dm-tipo-atendimento.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_tipo_atendimento"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -941,6 +1451,12 @@
       "title": "Estado",
       "path": "data/dm-estado.csv.gz",
       "schema": "schemas/dm-estado.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_estado"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -952,6 +1468,12 @@
       "title": "Convenente",
       "path": "data/dm-convenente.csv.gz",
       "schema": "schemas/dm-convenente.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_convenente"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -963,6 +1485,12 @@
       "title": "Diárias SCDP",
       "path": "data/ft-diarias-scdp.csv.gz",
       "schema": "schemas/ft-diarias-scdp.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_diarias_scdp"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -974,6 +1502,12 @@
       "title": "Diárias SCDP - Liquidação e Pagamento",
       "path": "data/ft-diarias-scdp-liqpag.csv.gz",
       "schema": "schemas/ft-diarias-scdp-liqpag.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_diarias_scdp_liqpag"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -985,6 +1519,12 @@
       "title": "Cargo",
       "path": "data/dm-cargo-scdp.csv.gz",
       "schema": "schemas/dm-cargo-scdp.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_cargo_scdp"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -996,6 +1536,12 @@
       "title": "Meio Transporte",
       "path": "data/dm-meio-transporte.csv.gz",
       "schema": "schemas/dm-meio-transporte.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_meio_transporte"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1007,6 +1553,12 @@
       "title": "País",
       "path": "data/dm-pais.csv.gz",
       "schema": "schemas/dm-pais.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_pais"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1018,6 +1570,12 @@
       "title": "Tipo viagem",
       "path": "data/dm-tipo-viagem.csv.gz",
       "schema": "schemas/dm-tipo-viagem.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_tipo_viagem"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1029,6 +1587,12 @@
       "title": "Compras",
       "path": "data/ft-compras.csv.gz",
       "schema": "schemas/ft-compras.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_compras"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1040,6 +1604,12 @@
       "title": "Compras - Contratos",
       "path": "data/ft-compras-contrato.csv.gz",
       "schema": "schemas/ft-compras-contrato.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_compras_contrato"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1051,6 +1621,12 @@
       "title": "Despesa 2002",
       "path": "data/ft-despesa-2002.csv.gz",
       "schema": "schemas/ft-despesa-2002.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_despesa_2002"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1062,6 +1638,12 @@
       "title": "Despesa 2003",
       "path": "data/ft-despesa-2003.csv.gz",
       "schema": "schemas/ft-despesa-2003.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_despesa_2003"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1073,6 +1655,12 @@
       "title": "Despesa 2004",
       "path": "data/ft-despesa-2004.csv.gz",
       "schema": "schemas/ft-despesa-2004.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_despesa_2004"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1084,6 +1672,12 @@
       "title": "Despesa 2005",
       "path": "data/ft-despesa-2005.csv.gz",
       "schema": "schemas/ft-despesa-2005.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_despesa_2005"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1095,6 +1689,12 @@
       "title": "Despesa 2006",
       "path": "data/ft-despesa-2006.csv.gz",
       "schema": "schemas/ft-despesa-2006.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_despesa_2006"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1106,6 +1706,12 @@
       "title": "Despesa 2007",
       "path": "data/ft-despesa-2007.csv.gz",
       "schema": "schemas/ft-despesa-2007.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_despesa_2007"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1117,6 +1723,12 @@
       "title": "Despesa 2008",
       "path": "data/ft-despesa-2008.csv.gz",
       "schema": "schemas/ft-despesa-2008.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_despesa_2008"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1128,6 +1740,12 @@
       "title": "Despesa 2009",
       "path": "data/ft-despesa-2009.csv.gz",
       "schema": "schemas/ft-despesa-2009.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_despesa_2009"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1139,6 +1757,12 @@
       "title": "Despesa 2010",
       "path": "data/ft-despesa-2010.csv.gz",
       "schema": "schemas/ft-despesa-2010.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_despesa_2010"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1150,6 +1774,12 @@
       "title": "Despesa 2011",
       "path": "data/ft-despesa-2011.csv.gz",
       "schema": "schemas/ft-despesa-2011.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_despesa_2011"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1161,6 +1791,12 @@
       "title": "Despesa 2012",
       "path": "data/ft-despesa-2012.csv.gz",
       "schema": "schemas/ft-despesa-2012.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_despesa_2012"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1172,6 +1808,12 @@
       "title": "Despesa 2013",
       "path": "data/ft-despesa-2013.csv.gz",
       "schema": "schemas/ft-despesa-2013.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_despesa_2013"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1183,6 +1825,12 @@
       "title": "Despesa 2014",
       "path": "data/ft-despesa-2014.csv.gz",
       "schema": "schemas/ft-despesa-2014.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_despesa_2014"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1194,6 +1842,12 @@
       "title": "Despesa 2015",
       "path": "data/ft-despesa-2015.csv.gz",
       "schema": "schemas/ft-despesa-2015.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_despesa_2015"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1205,6 +1859,12 @@
       "title": "Despesa 2016",
       "path": "data/ft-despesa-2016.csv.gz",
       "schema": "schemas/ft-despesa-2016.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_despesa_2016"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1216,6 +1876,12 @@
       "title": "Despesa 2017",
       "path": "data/ft-despesa-2017.csv.gz",
       "schema": "schemas/ft-despesa-2017.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_despesa_2017"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1227,6 +1893,12 @@
       "title": "Despesa 2018",
       "path": "data/ft-despesa-2018.csv.gz",
       "schema": "schemas/ft-despesa-2018.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_despesa_2018"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1238,6 +1910,12 @@
       "title": "Despesa 2019",
       "path": "data/ft-despesa-2019.csv.gz",
       "schema": "schemas/ft-despesa-2019.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_despesa_2019"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1249,6 +1927,12 @@
       "title": "Despesa 2020",
       "path": "data/ft-despesa-2020.csv.gz",
       "schema": "schemas/ft-despesa-2020.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_despesa_2020"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1260,6 +1944,12 @@
       "title": "Despesa 2021",
       "path": "data/ft-despesa-2021.csv.gz",
       "schema": "schemas/ft-despesa-2021.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_despesa_2021"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1271,6 +1961,12 @@
       "title": "Situação Ordem de Pagamento",
       "path": "data/dm-situacao-op-desp.csv.gz",
       "schema": "schemas/dm-situacao-op-desp.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_situacao_op_desp"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1282,6 +1978,12 @@
       "title": "Motivo Viagem",
       "path": "data/dm-motivo-viagem.csv.gz",
       "schema": "schemas/dm-motivo-viagem.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_motivo_viagem"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1293,6 +1995,12 @@
       "title": "Tipo Viajante",
       "path": "data/dm-tipo-viajante.csv.gz",
       "schema": "schemas/dm-tipo-viajante.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_tipo_viajante"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1304,6 +2012,12 @@
       "title": "Classe Material/Serviço",
       "path": "data/dm-classe-matserv.csv.gz",
       "schema": "schemas/dm-classe-matserv.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_classe_matserv"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1315,6 +2029,12 @@
       "title": "Contrato",
       "path": "data/dm-contrato.csv.gz",
       "schema": "schemas/dm-contrato.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_contrato"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1326,6 +2046,12 @@
       "title": "Situação Contrato",
       "path": "data/dm-situacao-cont.csv.gz",
       "schema": "schemas/dm-situacao-cont.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_situacao_cont"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1337,6 +2063,12 @@
       "title": "Situação Procedimento Licitatório",
       "path": "data/dm-situacao-proc.csv.gz",
       "schema": "schemas/dm-situacao-proc.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_situacao_proc"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1348,6 +2080,12 @@
       "title": "Tipo Licitação",
       "path": "data/dm-tipo-licitacao.csv.gz",
       "schema": "schemas/dm-tipo-licitacao.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_tipo_licitacao"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1359,6 +2097,12 @@
       "title": "Situação Convênio",
       "path": "data/dm-situacao-convenio.csv.gz",
       "schema": "schemas/dm-situacao-convenio.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_situacao_convenio"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1370,6 +2114,12 @@
       "title": "Contratado",
       "path": "data/dm-contratado.csv.gz",
       "schema": "schemas/dm-contratado.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_contratado"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1381,6 +2131,12 @@
       "title": "Empenho Restos a Pagar 2002",
       "path": "data/dm-empenho-resto-2002.csv.gz",
       "schema": "schemas/dm-empenho-resto.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_resto"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1392,6 +2148,12 @@
       "title": "Empenho Restos a Pagar 2003",
       "path": "data/dm-empenho-resto-2003.csv.gz",
       "schema": "schemas/dm-empenho-resto.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_resto"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1403,6 +2165,12 @@
       "title": "Empenho Restos a Pagar 2004",
       "path": "data/dm-empenho-resto-2004.csv.gz",
       "schema": "schemas/dm-empenho-resto.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_resto"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1414,6 +2182,12 @@
       "title": "Empenho Restos a Pagar 2005",
       "path": "data/dm-empenho-resto-2005.csv.gz",
       "schema": "schemas/dm-empenho-resto.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_resto"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1425,6 +2199,12 @@
       "title": "Empenho Restos a Pagar 2006",
       "path": "data/dm-empenho-resto-2006.csv.gz",
       "schema": "schemas/dm-empenho-resto.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_resto"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1436,6 +2216,12 @@
       "title": "Empenho Restos a Pagar 2007",
       "path": "data/dm-empenho-resto-2007.csv.gz",
       "schema": "schemas/dm-empenho-resto.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_resto"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1447,6 +2233,12 @@
       "title": "Empenho Restos a Pagar 2008",
       "path": "data/dm-empenho-resto-2008.csv.gz",
       "schema": "schemas/dm-empenho-resto.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_resto"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1458,6 +2250,12 @@
       "title": "Empenho Restos a Pagar 2009",
       "path": "data/dm-empenho-resto-2009.csv.gz",
       "schema": "schemas/dm-empenho-resto.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_resto"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1469,6 +2267,12 @@
       "title": "Empenho Restos a Pagar 2010",
       "path": "data/dm-empenho-resto-2010.csv.gz",
       "schema": "schemas/dm-empenho-resto.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_resto"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1480,6 +2284,12 @@
       "title": "Empenho Restos a Pagar 2011",
       "path": "data/dm-empenho-resto-2011.csv.gz",
       "schema": "schemas/dm-empenho-resto.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_resto"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1491,6 +2301,12 @@
       "title": "Empenho Restos a Pagar 2012",
       "path": "data/dm-empenho-resto-2012.csv.gz",
       "schema": "schemas/dm-empenho-resto.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_resto"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1502,6 +2318,12 @@
       "title": "Empenho Restos a Pagar 2013",
       "path": "data/dm-empenho-resto-2013.csv.gz",
       "schema": "schemas/dm-empenho-resto.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_resto"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1513,6 +2335,12 @@
       "title": "Empenho Restos a Pagar 2014",
       "path": "data/dm-empenho-resto-2014.csv.gz",
       "schema": "schemas/dm-empenho-resto.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_resto"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1524,6 +2352,12 @@
       "title": "Empenho Restos a Pagar 2015",
       "path": "data/dm-empenho-resto-2015.csv.gz",
       "schema": "schemas/dm-empenho-resto.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_resto"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1535,6 +2369,12 @@
       "title": "Empenho Restos a Pagar 2016",
       "path": "data/dm-empenho-resto-2016.csv.gz",
       "schema": "schemas/dm-empenho-resto.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_resto"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1546,6 +2386,12 @@
       "title": "Empenho Restos a Pagar 2017",
       "path": "data/dm-empenho-resto-2017.csv.gz",
       "schema": "schemas/dm-empenho-resto.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_resto"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1557,6 +2403,12 @@
       "title": "Empenho Restos a Pagar 2018",
       "path": "data/dm-empenho-resto-2018.csv.gz",
       "schema": "schemas/dm-empenho-resto.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_resto"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1568,6 +2420,12 @@
       "title": "Empenho Restos a Pagar 2019",
       "path": "data/dm-empenho-resto-2019.csv.gz",
       "schema": "schemas/dm-empenho-resto.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_resto"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1579,6 +2437,12 @@
       "title": "Empenho Restos a Pagar 2020",
       "path": "data/dm-empenho-resto-2020.csv.gz",
       "schema": "schemas/dm-empenho-resto.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_resto"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1590,6 +2454,12 @@
       "title": "Empenho Restos a Pagar 2021",
       "path": "data/dm-empenho-resto-2021.csv.gz",
       "schema": "schemas/dm-empenho-resto.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_empenho_resto"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1601,6 +2471,12 @@
       "title": "Categoria Econômica",
       "path": "data/dm-categ-econ.csv.gz",
       "schema": "schemas/dm-categ-econ.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_categ_econ"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1612,6 +2488,12 @@
       "title": "Subitem da receita",
       "path": "data/dm-subitem-rec.csv.gz",
       "schema": "schemas/dm-subitem-rec.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_subitem_rec"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1623,6 +2505,12 @@
       "title": "Procedimento de Contratação",
       "path": "data/dm-procedimento.csv.gz",
       "schema": "schemas/dm-procedimento.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_procedimento"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1634,6 +2522,12 @@
       "title": "Tempo Anual",
       "path": "data/dm-tempo-anual.csv.gz",
       "schema": "schemas/dm-tempo-anual.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_tempo_anual"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1645,6 +2539,12 @@
       "title": "Órgão SCDP",
       "path": "data/dm-orgao-scdp.csv.gz",
       "schema": "schemas/dm-orgao-scdp.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_orgao_scdp"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1656,6 +2556,12 @@
       "title": "Órgão Demanda",
       "path": "data/dm-orgao-demanda.csv.gz",
       "schema": "schemas/dm-orgao-demanda.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_orgao_demanda"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1667,6 +2573,12 @@
       "title": "Órgão do Contrato",
       "path": "data/dm-orgao-contrato.csv.gz",
       "schema": "schemas/dm-orgao-contrato.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_orgao_contrato"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1678,6 +2590,12 @@
       "title": "Órgão Concedente",
       "path": "data/dm-orgao-concedente.csv.gz",
       "schema": "schemas/dm-orgao-concedente.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_orgao_concedente"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1689,6 +2607,12 @@
       "title": "Município",
       "path": "data/dm-municipio.csv.gz",
       "schema": "schemas/dm-municipio.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_municipio"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1700,6 +2624,12 @@
       "title": "Elemento de Despesa",
       "path": "data/dm-elemento-desp.csv.gz",
       "schema": "schemas/dm-elemento-desp.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_elemento_desp"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1711,6 +2641,12 @@
       "title": "Material/Serviço",
       "path": "data/dm-material-servico.csv.gz",
       "schema": "schemas/dm-material-servico.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_material_servico"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1722,6 +2658,12 @@
       "title": "Diárias 2002",
       "path": "data/ft-diarias-2002.csv.gz",
       "schema": "schemas/ft-diarias-2002.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_diarias"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1733,6 +2675,12 @@
       "title": "Diárias 2003",
       "path": "data/ft-diarias-2003.csv.gz",
       "schema": "schemas/ft-diarias-2003.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_diarias"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1744,6 +2692,12 @@
       "title": "Diárias 2004",
       "path": "data/ft-diarias-2004.csv.gz",
       "schema": "schemas/ft-diarias-2004.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_diarias"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1755,6 +2709,12 @@
       "title": "Diárias 2005",
       "path": "data/ft-diarias-2005.csv.gz",
       "schema": "schemas/ft-diarias-2005.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_diarias"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1766,6 +2726,12 @@
       "title": "Diárias 2006",
       "path": "data/ft-diarias-2006.csv.gz",
       "schema": "schemas/ft-diarias-2006.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_diarias"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1777,6 +2743,12 @@
       "title": "Diárias 2007",
       "path": "data/ft-diarias-2007.csv.gz",
       "schema": "schemas/ft-diarias-2007.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_diarias"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1788,6 +2760,12 @@
       "title": "Diárias 2008",
       "path": "data/ft-diarias-2008.csv.gz",
       "schema": "schemas/ft-diarias-2008.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_diarias"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1799,6 +2777,12 @@
       "title": "Diárias 2009",
       "path": "data/ft-diarias-2009.csv.gz",
       "schema": "schemas/ft-diarias-2009.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_diarias"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1810,6 +2794,12 @@
       "title": "Diárias 2010",
       "path": "data/ft-diarias-2010.csv.gz",
       "schema": "schemas/ft-diarias-2010.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_diarias"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1821,6 +2811,12 @@
       "title": "Diárias 2011",
       "path": "data/ft-diarias-2011.csv.gz",
       "schema": "schemas/ft-diarias-2011.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_diarias"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1832,6 +2828,12 @@
       "title": "Diárias 2012",
       "path": "data/ft-diarias-2012.csv.gz",
       "schema": "schemas/ft-diarias-2012.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_diarias"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1843,6 +2845,12 @@
       "title": "Diárias 2013",
       "path": "data/ft-diarias-2013.csv.gz",
       "schema": "schemas/ft-diarias-2013.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_diarias"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1854,6 +2862,12 @@
       "title": "Diárias 2014",
       "path": "data/ft-diarias-2014.csv.gz",
       "schema": "schemas/ft-diarias-2014.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_diarias"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1865,6 +2879,12 @@
       "title": "Diárias 2015",
       "path": "data/ft-diarias-2015.csv.gz",
       "schema": "schemas/ft-diarias-2015.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_diarias"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1876,6 +2896,12 @@
       "title": "Diárias 2016",
       "path": "data/ft-diarias-2016.csv.gz",
       "schema": "schemas/ft-diarias-2016.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_diarias"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1887,6 +2913,12 @@
       "title": "Diárias 2017",
       "path": "data/ft-diarias-2017.csv.gz",
       "schema": "schemas/ft-diarias-2017.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_diarias"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1898,6 +2930,12 @@
       "title": "Diárias 2018",
       "path": "data/ft-diarias-2018.csv.gz",
       "schema": "schemas/ft-diarias-2018.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_diarias"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1909,6 +2947,12 @@
       "title": "Diárias 2019",
       "path": "data/ft-diarias-2019.csv.gz",
       "schema": "schemas/ft-diarias-2019.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_diarias"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1920,6 +2964,12 @@
       "title": "Diárias 2020",
       "path": "data/ft-diarias-2020.csv.gz",
       "schema": "schemas/ft-diarias-2020.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_diarias"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1931,6 +2981,12 @@
       "title": "Diárias 2021",
       "path": "data/ft-diarias-2021.csv.gz",
       "schema": "schemas/ft-diarias-2021.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_diarias"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1942,6 +2998,12 @@
       "title": "ft_restos_pagar 2002",
       "path": "data/ft-restos-pagar-2002.csv.gz",
       "schema": "schemas/ft-restos-pagar-2002.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_restos_pagar"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1953,6 +3015,12 @@
       "title": "ft_restos_pagar 2003",
       "path": "data/ft-restos-pagar-2003.csv.gz",
       "schema": "schemas/ft-restos-pagar-2003.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_restos_pagar"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1964,6 +3032,12 @@
       "title": "ft_restos_pagar 2004",
       "path": "data/ft-restos-pagar-2004.csv.gz",
       "schema": "schemas/ft-restos-pagar-2004.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_restos_pagar"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1975,6 +3049,12 @@
       "title": "ft_restos_pagar 2005",
       "path": "data/ft-restos-pagar-2005.csv.gz",
       "schema": "schemas/ft-restos-pagar-2005.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_restos_pagar"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1986,6 +3066,12 @@
       "title": "ft_restos_pagar 2006",
       "path": "data/ft-restos-pagar-2006.csv.gz",
       "schema": "schemas/ft-restos-pagar-2006.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_restos_pagar"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -1997,6 +3083,12 @@
       "title": "ft_restos_pagar 2007",
       "path": "data/ft-restos-pagar-2007.csv.gz",
       "schema": "schemas/ft-restos-pagar-2007.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_restos_pagar"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -2008,6 +3100,12 @@
       "title": "ft_restos_pagar 2008",
       "path": "data/ft-restos-pagar-2008.csv.gz",
       "schema": "schemas/ft-restos-pagar-2008.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_restos_pagar"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -2019,6 +3117,12 @@
       "title": "ft_restos_pagar 2009",
       "path": "data/ft-restos-pagar-2009.csv.gz",
       "schema": "schemas/ft-restos-pagar-2009.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_restos_pagar"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -2030,6 +3134,12 @@
       "title": "ft_restos_pagar 2010",
       "path": "data/ft-restos-pagar-2010.csv.gz",
       "schema": "schemas/ft-restos-pagar-2010.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_restos_pagar"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -2041,6 +3151,12 @@
       "title": "ft_restos_pagar 2011",
       "path": "data/ft-restos-pagar-2011.csv.gz",
       "schema": "schemas/ft-restos-pagar-2011.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_restos_pagar"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -2052,6 +3168,12 @@
       "title": "ft_restos_pagar 2012",
       "path": "data/ft-restos-pagar-2012.csv.gz",
       "schema": "schemas/ft-restos-pagar-2012.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_restos_pagar"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -2063,6 +3185,12 @@
       "title": "ft_restos_pagar 2013",
       "path": "data/ft-restos-pagar-2013.csv.gz",
       "schema": "schemas/ft-restos-pagar-2013.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_restos_pagar"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -2074,6 +3202,12 @@
       "title": "ft_restos_pagar 2014",
       "path": "data/ft-restos-pagar-2014.csv.gz",
       "schema": "schemas/ft-restos-pagar-2014.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_restos_pagar"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -2085,6 +3219,12 @@
       "title": "ft_restos_pagar 2015",
       "path": "data/ft-restos-pagar-2015.csv.gz",
       "schema": "schemas/ft-restos-pagar-2015.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_restos_pagar"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -2096,6 +3236,12 @@
       "title": "ft_restos_pagar 2016",
       "path": "data/ft-restos-pagar-2016.csv.gz",
       "schema": "schemas/ft-restos-pagar-2016.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_restos_pagar"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -2107,6 +3253,12 @@
       "title": "ft_restos_pagar 2017",
       "path": "data/ft-restos-pagar-2017.csv.gz",
       "schema": "schemas/ft-restos-pagar-2017.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_restos_pagar"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -2118,6 +3270,12 @@
       "title": "ft_restos_pagar 2018",
       "path": "data/ft-restos-pagar-2018.csv.gz",
       "schema": "schemas/ft-restos-pagar-2018.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_restos_pagar"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -2129,6 +3287,12 @@
       "title": "ft_restos_pagar 2019",
       "path": "data/ft-restos-pagar-2019.csv.gz",
       "schema": "schemas/ft-restos-pagar-2019.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_restos_pagar"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -2140,6 +3304,12 @@
       "title": "ft_restos_pagar 2020",
       "path": "data/ft-restos-pagar-2020.csv.gz",
       "schema": "schemas/ft-restos-pagar-2020.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_restos_pagar"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
@@ -2151,6 +3321,12 @@
       "title": "ft_restos_pagar 2021",
       "path": "data/ft-restos-pagar-2021.csv.gz",
       "schema": "schemas/ft-restos-pagar-2021.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_restos_pagar"
+        }
+      ],
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
