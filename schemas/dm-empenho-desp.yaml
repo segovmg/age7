@@ -251,13 +251,6 @@ fields:
     decimalChar: ','
     constraints:
       required: true
-  - name: desc_historico
-    title: Histório do Empenho
-    description: Descrição do histórico do empenho.
-    type: string
-    format: default
-    constraints:
-      required: true
 missingValues:
   - 'SEM DESCRICAO'
 primaryKey:
