@@ -92,6 +92,25 @@ Nas sessões seguintes, a mensagem indicativa de sucesso é simplesmente
 ```r
 * Project 'path/to/project/' loaded. [renv 0.13.2]
 ```
+## Rtools
+
+É necessário baixar e instalar o [Rtools 4.0](https://cran.r-project.org/bin/windows/Rtools/), que tem uma versão compatível com o R 4.1.0.
+
+Após instalado, colocar o local das ferramentas _make utilities_ (bahs, make, etc) do Rtools no PATH. Sem essa indicação, o R não irá reconhecer essas ferramentas necessárias. Uma das formas de se fazer isso é criar um arquivo ``.Renviron`` na pasta ``Documemntos`` com o conteúdo
+````
+ PATH="${RTOOLS40_HOME}\usr\bin;${PATH}"
+ ````
+ A outra forma, para o windows:
+
+ 1. digitar 'variáveis de ambiente' na barra de busca ao lado do botão iniciar do winsows (canto inferior esquerdo);
+ 2. após aberta a caixa de diálogo 'Propriedades do Sistema', clicar no botão 'Variáveis de Ambiente' no canto inferior direito;
+ 3. após aberta nova caixa de diálogo 'Variáveis de Ambiente', buscar pela variável ``Path`` na lista de 'Variáveis de usuário para {USER}', e dar um duplo-clique nessa linha (ou selecioná-la e clicar em 'editar');
+ 4. incluir ``C:\rtools40\usr\bin`` como variável nova
+
+Para verificar se o Rtools teve o ``PATH`` devidamente mapeado, restartar o R e digitar no console: ````Sys.which("make")````. O resultado que indica o ``PATH`` deve então aparecer assim:
+````## "C:\\rtools40\\usr\\bin\\make.exe"````
+
+
 
 ## Python
 
