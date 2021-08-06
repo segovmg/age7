@@ -27,7 +27,7 @@ make format resource=resource-name
 
 Para validação do data package com `make validate` e `make validate_metadata` é necessário a ativação do ambiente virtual do Python criado durante o processo de instalação.
 
-Para determinar qual comando para fazer a atividação execute na linha de comando
+Para determinar qual comando para fazer a ativação execute na linha de comando
 
 ```bash
 conda env list
@@ -41,6 +41,24 @@ Para ativar execute
 ```bash
 conda activate age7
 ```
+
+Em alguns casos, o "atalho" para ativação do ambiente virtual não está ficando registrado. O atalho deveria permitir executar ``conda activate base`` no lugar de ``conda activate /Users/user/opt/anaconda3``, por exemplo.
+
+````
+conda env list
+# conda environments:
+                         /Users/fjunior/Library/r-miniconda/envs/age7
+base                     /Users/fjunior/opt/anaconda3
+````
+No windows, ainda é preciso descobrir onde fica a pasta R-MINI~1 e utilizar o separador correto:
+
+````
+conda env list
+# conda environments:
+                         C:\Users\user\AppData\Local\R-MINI~1\envs\age7
+base                  *  C:\Users\user\miniconda3
+````
+Para essa última situação, utilizar ````conda activate C:\Users\user\AppData\Local\R-MINI~1\envs\age7````
 
 O seu prompt da linha de comando, apesar de formas possivelmente diferentes, vai indicar se o ambiente virtual está ativo
 
