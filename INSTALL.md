@@ -18,7 +18,7 @@ Para confirmar a instalação e configuração bem sucedida do `jq`, execute em 
 jq --version
 ```
 
-Caso o `jq` não tenha sido detectado, pode ser necessário a instalação do <https://scoop.sh/>, um gerenciador que executará ta função, a partir das etapas seguintes:
+Caso o `jq` não tenha sido detectado, pode ser necessário a instalação do <https://scoop.sh/>, um gerenciador que executará tal função, a partir das etapas seguintes:
 
 - Pressione as teclas **Windows + R**. Digite PowerShell e tecle Enter
 - Ao abrir o Prompt de comando, Digite PowerShell e pressione Enter
