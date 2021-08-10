@@ -6,9 +6,19 @@
 
 Ferramentas padronizadas.
 
-#### scoop
+### jq
 
-Primeiro é necessário a instalação do <https://scoop.sh/>.
+Faça download do programa `jq` no site <https://stedolan.github.io/jq/download/>. 
+
+Renomeie o arquivo baixado para `jq` e salve esse arquivo na pasta `C:\Program Files\Git\usr\bin`. 
+
+Para confirmar a instalação e configuração bem sucedida do `jq`, execute em uma nova linha de comando
+
+```bash
+jq --version
+```
+
+Caso o `jq` não tenha sido detectado, pode ser necessário a instalação do <https://scoop.sh/>, um gerenciador que executará ta função, a partir das etapas seguintes:
 
 - Pressione as teclas **Windows + R**. Digite PowerShell e tecle Enter
 - Ao abrir o Prompt de comando, Digite PowerShell e pressione Enter
@@ -16,17 +26,8 @@ Primeiro é necessário a instalação do <https://scoop.sh/>.
 ```
 Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
 scoop install jq
-```
-
-### jq
-
-Após a instação do scoop faça download do programa `jq` no site <https://stedolan.github.io/jq/download/>. 
-
-Para confirmar a instalação e configuração bem sucedida execute em uma nova linha de comando
-
-```bash
-jq --version
-```
+````
+Digite o comando `jq --version` numa nova `bash` cell para confirmar a instação do `jq`.
 
 ### git LFS
 
