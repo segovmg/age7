@@ -14,6 +14,12 @@ help:
 
 validate: clean $(VALIDATION_REPORTS) ## Valida recursos que sofreram modificação
 
+validate_data: 
+	@echo "Validando recurso $(resource)"
+	@python scripts/unique-validation.py $(resource)
+	@frictionless validate new_datapackage.json
+	@rm new_datapackage.json
+
 describe: ## Extrai dados e metadados do banco de dados Oracle (make describe resource=resource_name)
 	Rscript scripts/describe_resource.R $(resource)
 	make format resource=$(resource)
