@@ -42,23 +42,22 @@ Para ativar execute
 conda activate age7
 ```
 
-Em alguns casos, o "atalho" para ativação do ambiente virtual não está ficando registrado. O atalho deveria permitir executar ``conda activate base`` no lugar de ``conda activate /Users/user/opt/anaconda3``, por exemplo.
+Em alguns casos, o "atalho" para ativação do ambiente conda não é registrado. Por exemplo
 
-````
+```bash
 conda env list
 # conda environments:
                          /Users/fjunior/Library/r-miniconda/envs/age7
 base                     /Users/fjunior/opt/anaconda3
-````
-No windows, ainda é preciso descobrir onde fica a pasta R-MINI~1 e utilizar o separador correto:
+```
 
-````
-conda env list
-# conda environments:
-                         C:\Users\user\AppData\Local\R-MINI~1\envs\age7
-base                  *  C:\Users\user\miniconda3
-````
-Para essa última situação, utilizar ````conda activate C:\Users\user\AppData\Local\R-MINI~1\envs\age7````
+Nesse caso, ao invés de executar `conda activate age7`  necessário indicar o caminho para o ambiente conda (eg. `conda activate /path/r-miniconda/envs/age7`).
+
+No windows é necessário utilizar o separador \ no lugar de /:
+
+```bash
+conda activate C:\Users\user\AppData\Local\R-MINI~1\envs\age7
+```
 
 O seu prompt da linha de comando, apesar de formas possivelmente diferentes, vai indicar se o ambiente virtual está ativo
 
