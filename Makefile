@@ -17,7 +17,7 @@ validate: clean $(VALIDATION_REPORTS) ## Valida recursos que sofreram modificaç
 
 validate_data: ## Valida arquivo (usage: make validate_data resource=resource_name)
 	@echo "Validando recurso $(resource_name)"
-	@python scripts/resource_validation.py $(resource_name)
+	@python scripts/validate-resource.py $(resource_name)
 
 describe: ## Extrai dados e metadados do banco de dados Oracle (make describe resource=resource_name)
 	Rscript scripts/describe_resource.R $(resource)
