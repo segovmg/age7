@@ -7,12 +7,17 @@ VALIDATION_REPORTS=$(patsubst %, logs/%.txt, $(subst _,-,$(RESOURCES)))
 TABLESCHEMA=$(shell cat datapackage.json | jq -r ' .resources | .[] | select( .name == "$(resource)" ) | .schema ')
 
 #====================================================================
+
 # PHONY TARGETS
 
 help: 
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' Makefile | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-10s\033[0m %s\n", $$1, $$2}'
 
 validate: clean $(VALIDATION_REPORTS) ## Valida recursos que sofreram modificação
+
+validate_data: ## Valida arquivo (usage: make validate_data resource=resource_name)
+	@echo "Validando recurso $(resource)"
+	@python scripts/validate-resource.py $(resource) | jq . 2>&1 | tee logs/$(resource).json
 
 describe: ## Extrai dados e metadados do banco de dados Oracle (make describe resource=resource_name)
 	Rscript scripts/describe_resource.R $(resource)
