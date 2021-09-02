@@ -617,7 +617,7 @@
       "name": "dm_empenho_desp_compras_empenho",
       "title": "Empenho Despesa Compras",
       "path": "data/dm-empenho-desp-compras-empenho.csv.gz",
-      "schema": "schemas/dm-empenho-desp.yaml",
+      "schema": "schemas/dm-empenho-desp-compras-empenho.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -634,7 +634,7 @@
       "name": "dm_empenho_desp_diarias_scdp_liqpag",
       "title": "Empenho Despesa Diárias SCDP",
       "path": "data/dm-empenho-desp-diarias-scdp-liqpag.csv.gz",
-      "schema": "schemas/dm-empenho-desp.yaml",
+      "schema": "schemas/dm-empenho-desp-diarias-scdp-liqpag.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -651,7 +651,7 @@
       "name": "dm_empenho_desp_2002",
       "title": "Empenho Despesa 2002",
       "path": "data/dm-empenho-desp-2002.csv.gz",
-      "schema": "schemas/dm-empenho-desp.yaml",
+      "schema": "schemas/dm-empenho-desp-2002.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -668,7 +668,7 @@
       "name": "dm_empenho_desp_2003",
       "title": "Empenho Despesa 2003",
       "path": "data/dm-empenho-desp-2003.csv.gz",
-      "schema": "schemas/dm-empenho-desp.yaml",
+      "schema": "schemas/dm-empenho-desp-2003.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -685,7 +685,7 @@
       "name": "dm_empenho_desp_2004",
       "title": "Empenho Despesa 2004",
       "path": "data/dm-empenho-desp-2004.csv.gz",
-      "schema": "schemas/dm-empenho-desp.yaml",
+      "schema": "schemas/dm-empenho-desp-2004.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -702,7 +702,7 @@
       "name": "dm_empenho_desp_2005",
       "title": "Empenho Despesa 2005",
       "path": "data/dm-empenho-desp-2005.csv.gz",
-      "schema": "schemas/dm-empenho-desp.yaml",
+      "schema": "schemas/dm-empenho-desp-2005.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -719,7 +719,7 @@
       "name": "dm_empenho_desp_2006",
       "title": "Empenho Despesa 2006",
       "path": "data/dm-empenho-desp-2006.csv.gz",
-      "schema": "schemas/dm-empenho-desp.yaml",
+      "schema": "schemas/dm-empenho-desp-2006.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -736,7 +736,7 @@
       "name": "dm_empenho_desp_2007",
       "title": "Empenho Despesa 2007",
       "path": "data/dm-empenho-desp-2007.csv.gz",
-      "schema": "schemas/dm-empenho-desp.yaml",
+      "schema": "schemas/dm-empenho-desp-2007.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -753,7 +753,7 @@
       "name": "dm_empenho_desp_2008",
       "title": "Empenho Despesa 2008",
       "path": "data/dm-empenho-desp-2008.csv.gz",
-      "schema": "schemas/dm-empenho-desp.yaml",
+      "schema": "schemas/dm-empenho-desp-2008.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -770,7 +770,7 @@
       "name": "dm_empenho_desp_2009",
       "title": "Empenho Despesa 2009",
       "path": "data/dm-empenho-desp-2009.csv.gz",
-      "schema": "schemas/dm-empenho-desp.yaml",
+      "schema": "schemas/dm-empenho-desp-2009.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -787,7 +787,7 @@
       "name": "dm_empenho_desp_2010",
       "title": "Empenho Despesa 2010",
       "path": "data/dm-empenho-desp-2010.csv.gz",
-      "schema": "schemas/dm-empenho-desp.yaml",
+      "schema": "schemas/dm-empenho-desp-2010.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -804,7 +804,7 @@
       "name": "dm_empenho_desp_2011",
       "title": "Empenho Despesa 2011",
       "path": "data/dm-empenho-desp-2011.csv.gz",
-      "schema": "schemas/dm-empenho-desp.yaml",
+      "schema": "schemas/dm-empenho-desp-2011.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -821,7 +821,7 @@
       "name": "dm_empenho_desp_2012",
       "title": "Empenho Despesa 2012",
       "path": "data/dm-empenho-desp-2012.csv.gz",
-      "schema": "schemas/dm-empenho-desp.yaml",
+      "schema": "schemas/dm-empenho-desp-2012.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -838,7 +838,7 @@
       "name": "dm_empenho_desp_2013",
       "title": "Empenho Despesa 2013",
       "path": "data/dm-empenho-desp-2013.csv.gz",
-      "schema": "schemas/dm-empenho-desp.yaml",
+      "schema": "schemas/dm-empenho-desp-2013.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -855,7 +855,7 @@
       "name": "dm_empenho_desp_2014",
       "title": "Empenho Despesa 2014",
       "path": "data/dm-empenho-desp-2014.csv.gz",
-      "schema": "schemas/dm-empenho-desp.yaml",
+      "schema": "schemas/dm-empenho-desp-2014.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -872,7 +872,7 @@
       "name": "dm_empenho_desp_2015",
       "title": "Empenho Despesa 2015",
       "path": "data/dm-empenho-desp-2015.csv.gz",
-      "schema": "schemas/dm-empenho-desp.yaml",
+      "schema": "schemas/dm-empenho-desp-2015.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -889,7 +889,7 @@
       "name": "dm_empenho_desp_2016",
       "title": "Empenho Despesa 2016",
       "path": "data/dm-empenho-desp-2016.csv.gz",
-      "schema": "schemas/dm-empenho-desp.yaml",
+      "schema": "schemas/dm-empenho-desp-2016.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -906,7 +906,7 @@
       "name": "dm_empenho_desp_2017",
       "title": "Empenho Despesa 2017",
       "path": "data/dm-empenho-desp-2017.csv.gz",
-      "schema": "schemas/dm-empenho-desp.yaml",
+      "schema": "schemas/dm-empenho-desp-2017.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -923,7 +923,7 @@
       "name": "dm_empenho_desp_2018",
       "title": "Empenho Despesa 2018",
       "path": "data/dm-empenho-desp-2018.csv.gz",
-      "schema": "schemas/dm-empenho-desp.yaml",
+      "schema": "schemas/dm-empenho-desp-2018.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -940,7 +940,7 @@
       "name": "dm_empenho_desp_2019",
       "title": "Empenho Despesa 2019",
       "path": "data/dm-empenho-desp-2019.csv.gz",
-      "schema": "schemas/dm-empenho-desp.yaml",
+      "schema": "schemas/dm-empenho-desp-2019.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -957,7 +957,7 @@
       "name": "dm_empenho_desp_2020",
       "title": "Empenho Despesa 2020",
       "path": "data/dm-empenho-desp-2020.csv.gz",
-      "schema": "schemas/dm-empenho-desp.yaml",
+      "schema": "schemas/dm-empenho-desp-2020.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -974,7 +974,7 @@
       "name": "dm_empenho_desp_2021",
       "title": "Empenho Despesa 2021",
       "path": "data/dm-empenho-desp-2021.csv.gz",
-      "schema": "schemas/dm-empenho-desp.yaml",
+      "schema": "schemas/dm-empenho-desp-2021.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -2130,7 +2130,7 @@
       "name": "dm_empenho_resto_2002",
       "title": "Empenho Restos a Pagar 2002",
       "path": "data/dm-empenho-resto-2002.csv.gz",
-      "schema": "schemas/dm-empenho-resto.yaml",
+      "schema": "schemas/dm-empenho-resto-2002.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -2147,7 +2147,7 @@
       "name": "dm_empenho_resto_2003",
       "title": "Empenho Restos a Pagar 2003",
       "path": "data/dm-empenho-resto-2003.csv.gz",
-      "schema": "schemas/dm-empenho-resto.yaml",
+      "schema": "schemas/dm-empenho-resto-2003.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -2164,7 +2164,7 @@
       "name": "dm_empenho_resto_2004",
       "title": "Empenho Restos a Pagar 2004",
       "path": "data/dm-empenho-resto-2004.csv.gz",
-      "schema": "schemas/dm-empenho-resto.yaml",
+      "schema": "schemas/dm-empenho-resto-2004.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -2181,7 +2181,7 @@
       "name": "dm_empenho_resto_2005",
       "title": "Empenho Restos a Pagar 2005",
       "path": "data/dm-empenho-resto-2005.csv.gz",
-      "schema": "schemas/dm-empenho-resto.yaml",
+      "schema": "schemas/dm-empenho-resto-2005.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -2198,7 +2198,7 @@
       "name": "dm_empenho_resto_2006",
       "title": "Empenho Restos a Pagar 2006",
       "path": "data/dm-empenho-resto-2006.csv.gz",
-      "schema": "schemas/dm-empenho-resto.yaml",
+      "schema": "schemas/dm-empenho-resto-2006.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -2215,7 +2215,7 @@
       "name": "dm_empenho_resto_2007",
       "title": "Empenho Restos a Pagar 2007",
       "path": "data/dm-empenho-resto-2007.csv.gz",
-      "schema": "schemas/dm-empenho-resto.yaml",
+      "schema": "schemas/dm-empenho-resto-2007.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -2232,7 +2232,7 @@
       "name": "dm_empenho_resto_2008",
       "title": "Empenho Restos a Pagar 2008",
       "path": "data/dm-empenho-resto-2008.csv.gz",
-      "schema": "schemas/dm-empenho-resto.yaml",
+      "schema": "schemas/dm-empenho-resto-2008.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -2249,7 +2249,7 @@
       "name": "dm_empenho_resto_2009",
       "title": "Empenho Restos a Pagar 2009",
       "path": "data/dm-empenho-resto-2009.csv.gz",
-      "schema": "schemas/dm-empenho-resto.yaml",
+      "schema": "schemas/dm-empenho-resto-2009.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -2266,7 +2266,7 @@
       "name": "dm_empenho_resto_2010",
       "title": "Empenho Restos a Pagar 2010",
       "path": "data/dm-empenho-resto-2010.csv.gz",
-      "schema": "schemas/dm-empenho-resto.yaml",
+      "schema": "schemas/dm-empenho-resto-2010.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -2283,7 +2283,7 @@
       "name": "dm_empenho_resto_2011",
       "title": "Empenho Restos a Pagar 2011",
       "path": "data/dm-empenho-resto-2011.csv.gz",
-      "schema": "schemas/dm-empenho-resto.yaml",
+      "schema": "schemas/dm-empenho-resto-2011.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -2300,7 +2300,7 @@
       "name": "dm_empenho_resto_2012",
       "title": "Empenho Restos a Pagar 2012",
       "path": "data/dm-empenho-resto-2012.csv.gz",
-      "schema": "schemas/dm-empenho-resto.yaml",
+      "schema": "schemas/dm-empenho-resto-2012.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -2317,7 +2317,7 @@
       "name": "dm_empenho_resto_2013",
       "title": "Empenho Restos a Pagar 2013",
       "path": "data/dm-empenho-resto-2013.csv.gz",
-      "schema": "schemas/dm-empenho-resto.yaml",
+      "schema": "schemas/dm-empenho-resto-2013.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -2334,7 +2334,7 @@
       "name": "dm_empenho_resto_2014",
       "title": "Empenho Restos a Pagar 2014",
       "path": "data/dm-empenho-resto-2014.csv.gz",
-      "schema": "schemas/dm-empenho-resto.yaml",
+      "schema": "schemas/dm-empenho-resto-2014.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -2351,7 +2351,7 @@
       "name": "dm_empenho_resto_2015",
       "title": "Empenho Restos a Pagar 2015",
       "path": "data/dm-empenho-resto-2015.csv.gz",
-      "schema": "schemas/dm-empenho-resto.yaml",
+      "schema": "schemas/dm-empenho-resto-2015.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -2368,7 +2368,7 @@
       "name": "dm_empenho_resto_2016",
       "title": "Empenho Restos a Pagar 2016",
       "path": "data/dm-empenho-resto-2016.csv.gz",
-      "schema": "schemas/dm-empenho-resto.yaml",
+      "schema": "schemas/dm-empenho-resto-2016.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -2385,7 +2385,7 @@
       "name": "dm_empenho_resto_2017",
       "title": "Empenho Restos a Pagar 2017",
       "path": "data/dm-empenho-resto-2017.csv.gz",
-      "schema": "schemas/dm-empenho-resto.yaml",
+      "schema": "schemas/dm-empenho-resto-2017.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -2402,7 +2402,7 @@
       "name": "dm_empenho_resto_2018",
       "title": "Empenho Restos a Pagar 2018",
       "path": "data/dm-empenho-resto-2018.csv.gz",
-      "schema": "schemas/dm-empenho-resto.yaml",
+      "schema": "schemas/dm-empenho-resto-2018.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -2419,7 +2419,7 @@
       "name": "dm_empenho_resto_2019",
       "title": "Empenho Restos a Pagar 2019",
       "path": "data/dm-empenho-resto-2019.csv.gz",
-      "schema": "schemas/dm-empenho-resto.yaml",
+      "schema": "schemas/dm-empenho-resto-2019.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -2436,7 +2436,7 @@
       "name": "dm_empenho_resto_2020",
       "title": "Empenho Restos a Pagar 2020",
       "path": "data/dm-empenho-resto-2020.csv.gz",
-      "schema": "schemas/dm-empenho-resto.yaml",
+      "schema": "schemas/dm-empenho-resto-2020.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
@@ -2453,7 +2453,7 @@
       "name": "dm_empenho_resto_2021",
       "title": "Empenho Restos a Pagar 2021",
       "path": "data/dm-empenho-resto-2021.csv.gz",
-      "schema": "schemas/dm-empenho-resto.yaml",
+      "schema": "schemas/dm-empenho-resto-2021.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",

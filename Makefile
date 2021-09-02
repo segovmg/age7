@@ -1,10 +1,12 @@
-.PHONY: help describe preview format validate_metadata validate log clean vars
+.PHONY: help describe preview format validate_metadata validate log clean vars parse
 
 RESOURCES=$(shell cat datapackage.json | jq -r ' .resources | .[] | .name ')
 
 VALIDATION_REPORTS=$(patsubst %, logs/%.txt, $(subst _,-,$(RESOURCES)))
 
 TABLESCHEMA=$(shell cat datapackage.json | jq -r ' .resources | .[] | select( .name == "$(resource)" ) | .schema ')
+
+SQL_FILES := $(patsubst %, scripts/sql/%.sql, $(subst _,-,$(RESOURCES)))
 
 #====================================================================
 
@@ -49,3 +51,9 @@ vars: ## Imprime valor das variáveis
 	@echo 'RESOURCES:' $(RESOURCES)
 	@echo 'VALIDATION_REPORTS:' $(VALIDATION_REPORTS)
 	@echo 'TABLESCHEMA:' $(TABLESCHEMA)
+	@echo 'SQL_FILES:' $(SQL_FILES)
+
+parse: $(SQL_FILES)
+
+$(SQL_FILES): scripts/sql/%.sql: schemas/%.yaml datapackage.json scripts/parse-sql.R renv.lock
+	Rscript --verbose scripts/parse-sql.R $* 2> logs/parse-sql-$*.Rout
