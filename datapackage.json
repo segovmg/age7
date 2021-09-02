@@ -634,7 +634,7 @@
       "name": "dm_empenho_desp_diarias_scdp_liqpag",
       "title": "Empenho Despesa Diárias SCDP",
       "path": "data/dm-empenho-desp-diarias-scdp-liqpag.csv.gz",
-      "schema": "schemas/dm-empenho-desp.yaml",
+      "schema": "schemas/dm-empenho-desp-diarias-scdp-liqpag.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",

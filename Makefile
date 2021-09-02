@@ -55,5 +55,5 @@ vars: ## Imprime valor das variáveis
 
 parse: $(SQL_FILES)
 
-$(SQL_FILES): scripts/sql/%.sql: schemas/%.yaml datapackage.json
-	Rscript scripts/parse-sql.R $*
+$(SQL_FILES): scripts/sql/%.sql: schemas/%.yaml datapackage.json scripts/parse-sql.R renv.lock
+	Rscript --verbose scripts/parse-sql.R $* 2> logs/parse-sql-$*.Rout
