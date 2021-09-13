@@ -63,16 +63,24 @@ O seu prompt da linha de comando, apesar de formas possivelmente diferentes, vai
 
 - `remuneracao$` -> `(age7) remuneracao$`
 
-Para validar somente os metadados armazenados no table schema execute
+Para validar: 
+
+ - os metadados armazenados no table schema, execute:
 
 ```bash
 make validate_metadata resource=resource_name
 ```
 
-Agora para validar se os dados armazenados em `data/` estão em conformidade com os metadados execute
+ - os dados armazenados em `data/`, em conformidade com os metadados, execute:
 
 ```bash
 make validate
+```
+
+ - somente um recurso unitário armazenado em `data/`, em conformidade com os metadados, execute:
+
+```bash
+make validate_data resource=resource_name
 ```
 
 ### Rstudio
