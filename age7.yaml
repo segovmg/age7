@@ -336,324 +336,324 @@ fact_tables:
 
 resources:
   dm_desdobramento_1_rec:
-    status: Merge
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/25
   dm_desdobramento_2_rec:
-    status: Merge
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/26
   dm_desdobramento_3_rec:
-    status: Merge
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/27
   dm_tipo_rec:
-    status: Merge
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/28
   ft_receita_prevista_v2018:
-    status: Merge
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/29
   ft_receita_v2018:
-    status: Merge
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/30
   dm_acao:
     status: Merged
     pr: ''
   dm_alinea_rec:
-    status: Merge
+    status: Merged
     pr: ''
   dm_elemento_desp:
-    status: Merge
+    status: Merged
     pr: ''
   dm_especie_rec:
-    status: Merge
+    status: Merged
     pr: ''
   dm_fonte_rec:
-    status: Merge
+    status: Merged
     pr: ''
   dm_funcao_desp:
-    status: Merge
+    status: Merged
     pr: ''
   dm_item_desp:
-    status: Merge
+    status: Merged
     pr: ''
   dm_item_rec:
-    status: Merge
+    status: Merged
     pr: ''
   dm_origem_rec:
-    status: Merge
+    status: Merged
     pr: ''
   dm_programa:
-    status: Merge
+    status: Merged
     pr: ''
   dm_rubrica_rec:
-    status: Merge
+    status: Merged
     pr: ''
   dm_subalinea_rec:
-    status: Merge
+    status: Merged
     pr: ''
   dm_subfuncao_desp:
     status: Merged
     pr: ''
   dm_tempo_diario:
-    status: Merge
+    status: Merged
     pr: ''
   dm_tempo_mensal:
-    status: Merge
+    status: Merged
     pr: ''
   dm_tipo_documento:
-    status: Merge
+    status: Merged
     pr: ''
     notes: 
       - Qual o significado dessa tabela?
   dm_unidade_orc:
-    status: Merge
+    status: Merged
     pr: ''
   ft_receita:
-    status: Merge
+    status: Merged
     pr: ''
   ft_receita_prevista:
-    status: Merge
+    status: Merged
     pr: ''
   ft_despesa:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/62
   fl_despesa_pgto:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/74
   ft_restos_pagar:
-    status: Merge
+    status: Merged
     pr: 'https://github.com/transparencia-mg/age7/pull/31'
   ft_diarias:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/59
   ft_diarias_scdp:
-    status: Merge
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/50
   ft_diarias_scdp_liqpag:
-    status: Merge
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/51
   ft_compras:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/60
   ft_compras_contrato:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/61
   fl_compras_empenho:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/75
   ft_convenio:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/77
   ft_convenio_investimento:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/78
   ft_convenio_tipoatendimento:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/79
   ft_convenio_metaetapa:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/80
     notes: 
       - Recurso sem linhas
   fl_convenio_interveniente:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/81
   fl_convenio_alteracao:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/83
   ft_convenio_entrada_dotacao:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/84
   ft_convenio_entrada:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/91
   ft_convenio_entrada_desp:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/85
   ft_convenio_entrada_rec:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/86
   fl_convenio_entrada_interv:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/87
   fl_convenio_entrada_compras:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/88
   fl_convenio_entrada_aditivo:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/89
   dm_subitem_rec:
-    status: Merge
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/52
   dm_categ_econ:
-    status: Merge
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/53
   dm_empenho_desp:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/104
     notes: 
       - Dados pessoais nas colunas razao_social_credor e desc_historico
   dm_favorecido:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/103
   dm_fonte:
-    status: Merge
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/32
   dm_grupo_desp:
-    status: Merge
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/33
   dm_modalidade_aplic:
-    status: Merge
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/34
   dm_procedencia:
-    status: Merge
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/35
   dm_situacao_op_desp:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/63
   dm_tempo_anual:
-    status: Merge
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/48
   dm_empenho_resto:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/105
   dm_cargo_scdp:
-    status: Merge
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/54
   dm_cidade:
-    status: Merge
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/36
     notes: 
       - Essa tabela possui cidades estrangeiras
   dm_documento_viagem:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/102
     notes: 
       - Campo de preenchimento livre com motivo da viagem (motivo)
       - PR aberto sem dados
   dm_estado:
-    status: Merge
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/37
   dm_favorecido_scdp:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/101
     notes: 
       - Dados pessoais nas colunas nr_cpf, masp, nome
       - PR criado sem dados
   dm_funcao_scdp:
-    status: Merge
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/38
     notes: 
       - Qual o título apropriado? Cargo público?
   dm_meio_transporte:
-    status: Merge
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/55
   dm_motivo_viagem:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/64
   dm_orgao_scdp:
-    status: Merge
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/47
     notes:
       - Esse é o mesmo órgão das demais tabelas?
   dm_pais:
-    status: Merge
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/56
   dm_tipo_viagem:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/57
     notes:
       - Esse recurso deveria chamar "Viagem Internacional/Nacional"?
   dm_tipo_viajante:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/65
   dm_classe_matserv:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/66
   dm_contratado:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/100
     notes: 
       - Avaliar se existem dados pessoais em nr_documento e nome
       - PR sem dados
   dm_contrato:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/67
   dm_grupo_matserv:
-    status: Merge
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/39
   dm_item_matserv:
-    status: Merge
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/40
   dm_linha_fornec:
-    status: Merge
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/41
   dm_material_servico:
-    status: Merge
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/42
   dm_municipio:
-    status: Merge
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/43
   dm_orgao_contrato:
-    status: Merge
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/45
   dm_orgao_demanda:
-    status: Merge
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/46
   dm_procedimento:
-    status: Merge
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/49
   dm_processo:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/68
   dm_situacao_cont:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/69
   dm_situacao_proc:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/70
   dm_tipo_licitacao:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/71
   dm_unidade_medida:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/72
   dm_convenente:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/99
     notes:
       - Podemos celebrar convênios com pessoas físicas?
   dm_convenio:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/82
   dm_orgao_concedente:
-    status: Merge
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/44
   dm_situacao_convenio:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/73
   dm_tipo_atendimento:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/98
   dm_interveniente:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/97
   dm_concedente:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/96
   dm_convenio_entrada:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/90
   dm_orgao_proponente:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/95
   dm_programa_conv_ent:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/94
   dm_situacao_conv_ent:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/76
   dm_classifica_rec:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/93
   dm_interveniente_conv_ent:
-    status: Open
+    status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/92
