@@ -333,8 +333,305 @@ fact_tables:
   fl_convenio_entrada_aditivo:
       - dm_convenio_entrada
 
+  ft_pessoal_desp:
+      - dm_poder
+      - dm_tempo_mensal
+      - dm_unidade_orc
+
+  ft_repasse_mun:
+      - dm_tempo_mensal
+      - dm_municipio
+      
+  ft_divida_pub:
+      - dm_contrato_divida
+      - dm_favorecido
+      - dm_tempo_diario
+      - dm_tipo_divida
+      
+  ft_orcamento_proposta:
+      - dm_acao_orcam
+      - dm_categ_econ_orcam
+      - dm_fonte_orcam
+      - dm_funcao_orcam
+      - dm_grupo_orcam
+      - dm_indic_acao_orcam
+      - dm_modal_aplic_orcam
+      - dm_orgao_orcam
+      - dm_procedencia_orcam
+      - dm_programa_orcam
+      - dm_subfuncao_orcam
+      - dm_tempo_anual
+      
+  ft_orcamento_emenda:
+      - dm_autor_emenda
+      - dm_emenda_orcam
+      - dm_tempo_anual
+      
+  ft_orcamento_cred_alt:
+      - dm_acao
+      - dm_categ_econ
+      - dm_decreto
+      - dm_fonte
+      - dm_funcao_desp
+      - dm_grupo_desp
+      - dm_indicador_acao
+      - dm_modalidade_aplic
+      - dm_procedencia
+      - dm_programa
+      - dm_subfuncao_desp
+      - dm_tempo_anual
+      - dm_unidade_orc
+      - sa_indicador_acao
+      
+  ft_obra:
+      - dm_municipio_obra
+      - dm_obra
+      - dm_orgao_obra
+      - dm_situacao_obra
+      - dm_tempo_anual
+      - dm_territorio_planeja
+
+  ft_plan_acao_ppag:
+      - dm_acao_plan
+      - dm_funcao_plan
+      - dm_horizonte_plan
+      - dm_municipio_plan
+      - dm_orgao_plan
+      - dm_ppag_plan
+      - dm_programa_plan
+      - dm_territorio_plan
+      - dm_tipo_acao_plan
+      - dm_tipo_orcam_plan
+      - dm_tipo_prog_plan
+      - dm_unidade_resp_plan
+      
+  fl_plan_indicador:
+      - dm_indicador_plan
+      - dm_programa_plan
+
+  ft_plan_indic_referencia:
+      - dm_indicador_plan
+      - dm_orgao_plan
+      - dm_ppag_plan
+      - dm_programa_plan
+
+  ft_plan_indic_plan_exec:
+      - dm_indicador_plan
+      - dm_orgao_plan
+      - dm_ppag_plan
+      - dm_programa_plan
+
+  fl_plan_programa:
+      - dm_orgao_plan
+      - dm_ppag_plan
+      - dm_programa_plan
+
+
+  fl_plan_responsavel:
+      - dm_acao_plan
+      - dm_orgao_plan
+      - dm_ppag_plan
+      - dm_programa_plan
+      - dm_responsavel_plan
+
+  ft_plan_exec_of_tipoorc:
+      - dm_orgao_plan
+      - dm_ppag_plan
+      - dm_programa_plan
+      - dm_tipo_orcam_plan
+
+  ft_plan_exec_of_territorio:
+      - dm_orgao_plan
+      - dm_ppag_plan
+      - dm_programa_plan
+      - dm_territorio_plan
+
+  ft_plan_exec_of_fonte:
+      - dm_fonte_plan
+      - dm_orgao_plan
+      - dm_ppag_plan
+      - dm_programa_plan
+  
+  fl_plan_acao:
+      - dm_acao_plan
+      - dm_orgao_plan
+      - dm_ppag_plan
+      - dm_programa_plan
+
+  ft_plan_fonte_fin_acao:
+      - dm_acao_plan
+      - dm_fonte_plan
+      - dm_orgao_plan
+      - dm_ppag_plan
+      - dm_programa_plan
+
+  ft_plan_prog_fftd:
+      - dm_acao_plan
+      - dm_orgao_plan
+      - dm_ppag_plan
+      - dm_programa_plan
+      - dm_territorio_plan
+      
+  ft_plan_prog_mensal:
+      - dm_acao_plan
+      - dm_orgao_plan
+      - dm_ppag_plan
+      - dm_programa_plan
+
+  ft_plan_prog_territorial:
+      - dm_acao_plan
+      - dm_orgao_plan
+      - dm_ppag_plan
+      - dm_programa_plan
+      - dm_territorio_plan
+
+  ft_plan_execucao_acao:
+      - dm_acao_plan
+      - dm_orgao_plan
+      - dm_ppag_plan
+      - dm_programa_plan
+      - dm_territorio_plan
+      - dm_acao_plan
+      - dm_orgao_plan
+      - dm_ppag_plan
+      - dm_programa_plan
+      
+  ft_plan_prog_of_tipoorc:
+      - dm_orgao_plan
+      - dm_ppag_plan
+      - dm_programa_plan
+      - dm_tipo_orcam_plan
+
+  ft_plan_prog_of_territorio:
+      - dm_orgao_plan
+      - dm_ppag_plan
+      - dm_programa_plan
+      - dm_territorio_plan
+
+  ft_plan_prog_of_fonte:
+      - dm_fonte_plan
+      - dm_orgao_plan
+      - dm_ppag_plan
+      - dm_programa_plan
 
 resources:
+  dm_acao_plan:
+    status: Todo
+    pr: 
+  dm_funcao_plan:
+    status: Todo
+    pr: 
+  dm_horizonte_plan:
+    status: Todo
+    pr: 
+  dm_municipio_plan:
+    status: Todo
+    pr: 
+  dm_orgao_plan:
+    status: Todo
+    pr: 
+  dm_ppag_plan:
+    status: Todo
+    pr: 
+  dm_programa_plan:
+    status: Todo
+    pr: 
+  dm_territorio_plan:
+    status: Todo
+    pr: 
+  dm_tipo_acao_plan:
+    status: Todo
+    pr: 
+  dm_tipo_orcam_plan:
+    status: Todo
+    pr: 
+  dm_tipo_prog_plan:
+    status: Todo
+    pr: 
+  dm_unidade_resp_plan:
+    status: Todo
+    pr: 
+  dm_indicador_plan:
+    status: Todo
+    pr: 
+  dm_responsavel_plan:
+    status: Todo
+    pr: 
+  dm_fonte_plan:
+    status: Todo
+    pr: 
+  dm_municipio_obra:
+    status: Todo
+    pr: 
+  dm_obra:
+    status: Todo
+    pr: 
+  dm_orgao_obra:
+    status: Todo
+    pr: 
+  dm_situacao_obra:
+    status: Todo
+    pr: 
+  dm_territorio_planeja:
+    status: Todo
+    pr: 
+  dm_decreto:
+    status: Todo
+    pr: 
+  dm_indicador_acao:
+    status: Todo
+    pr: 
+  sa_indicador_acao:
+    status: Todo
+    pr: 
+  dm_autor_emenda:
+    status: Todo
+    pr: 
+  dm_emenda_orcam:
+    status: Todo
+    pr: 
+  dm_acao_orcam:
+    status: Todo
+    pr: 
+  dm_categ_econ_orcam:
+    status: Todo
+    pr: 
+  dm_fonte_orcam:
+    status: Todo
+    pr: 
+  dm_funcao_orcam:
+    status: Todo
+    pr: 
+  dm_grupo_orcam:
+    status: Todo
+    pr: 
+  dm_indic_acao_orcam:
+    status: Todo
+    pr: 
+  dm_modal_aplic_orcam:
+    status: Todo
+    pr: 
+  dm_orgao_orcam:
+    status: Todo
+    pr: 
+  dm_procedencia_orcam:
+    status: Todo
+    pr: 
+  dm_programa_orcam:
+    status: Todo
+    pr: 
+  dm_subfuncao_orcam:
+    status: Todo
+    pr: 
+  dm_tipo_divida:
+    status: Todo
+    pr:     
+  dm_contrato_divida:
+    status: Todo
+    pr:   
+  dm_poder:
+    status: Todo
+    pr: 
   dm_desdobramento_1_rec:
     status: Merged
     pr: https://github.com/transparencia-mg/age7/pull/25
