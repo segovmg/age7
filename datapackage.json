@@ -3,7 +3,7 @@
   "resources": [
     {
       "name": "dm_territorio_plan",
-      "title": "Território Planejamento",
+      "title": "Território Planejamento v1",
       "path": "data/dm-territorio-plan.csv.gz",
       "schema": "schemas/dm-territorio-plan.yaml",
       "sources": [
