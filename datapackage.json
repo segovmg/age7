@@ -2,6 +2,23 @@
   "profile": "tabular-data-package",
   "resources": [
     {
+      "name": "dm_orgao_plan",
+      "title": "Órgão Planejamento",
+      "path": "data/dm-orgao-plan.csv.gz",
+      "schema": "schemas/dm-orgao-plan.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_orgao_plan"
+        }
+      ],
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_unidade_orc",
       "title": "Unidade Orçamentária",
       "path": "data/dm-unidade-orc.csv.gz",
