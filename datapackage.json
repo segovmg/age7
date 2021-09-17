@@ -2,6 +2,23 @@
   "profile": "tabular-data-package",
   "resources": [
     {
+      "name": "dm_responsavel_plan",
+      "title": "Responsável Planejamento",
+      "path": "data/dm-responsavel-plan.csv.gz",
+      "schema": "schemas/dm-responsavel-plan.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_responsavel_plan"
+        }
+      ],
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_unidade_orc",
       "title": "Unidade Orçamentária",
       "path": "data/dm-unidade-orc.csv.gz",
