@@ -1,0 +1,51 @@
+fields:
+  - name: id_indicador
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: nome
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: titulo
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: unidade_medida
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: fonte
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: polaridade
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: periodicidade
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: base_geografica
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: formula_calculo
+    type: string
+    format: default
+    constraints:
+      required: true
+missingValues:
+  - ''
+primaryKey:
+  - id_indicador
