@@ -1,0 +1,28 @@
+fields:
+  - name: id_ppag
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: nome
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: ano_inicio
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: ano_termino
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+missingValues:
+  - ''
+primaryKey:
+  - id_ppag
