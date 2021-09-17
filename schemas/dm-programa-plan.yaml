@@ -1,0 +1,68 @@
+fields:
+  - name: id_programa
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: ano_ppag
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: cd_programa
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: nome
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: uni_orc_resp
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: uni_adm_resp
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: tipo
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: horizonte_temporal
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: justificativa
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: objetivo
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: causas
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: estrategia_implementa
+    type: string
+    format: default
+    constraints:
+      required: true
+missingValues:
+  - ''
+primaryKey:
+  - id_programa
