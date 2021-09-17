@@ -1,0 +1,20 @@
+fields:
+  - name: id_municipio
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: cd_municipio
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: nome
+    type: string
+    format: default
+missingValues:
+  - ''
+primaryKey:
+  - id_municipio
