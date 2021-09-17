@@ -2,6 +2,23 @@
   "profile": "tabular-data-package",
   "resources": [
     {
+      "name": "dm_situacao_obra",
+      "title": "Situação Obra",
+      "path": "data/dm-situacao-obra.csv.gz",
+      "schema": "schemas/dm-situacao-obra.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_situacao_obra"
+        }
+      ],
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_unidade_orc",
       "title": "Unidade Orçamentária",
       "path": "data/dm-unidade-orc.csv.gz",
