@@ -1,0 +1,23 @@
+fields:
+  - name: id_decreto
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: sqa_decreto
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: nr_decreto
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+missingValues:
+  - ''
+primaryKey:
+  - id_decreto

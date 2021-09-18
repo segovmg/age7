@@ -2,6 +2,23 @@
   "profile": "tabular-data-package",
   "resources": [
     {
+      "name": "dm_decreto",
+      "title": "Decreto",
+      "path": "data/dm-decreto.csv.gz",
+      "schema": "schemas/dm-decreto.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_decreto"
+        }
+      ],
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_unidade_orc",
       "title": "Unidade Orçamentária",
       "path": "data/dm-unidade-orc.csv.gz",
