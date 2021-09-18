@@ -1,0 +1,69 @@
+fields:
+  - name: id_emenda
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: ano_exercicio
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: nr_inciso
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: nr_emenda
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: grupo
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: modalidade_aplic
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: indicador_acao
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: fonte
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: procedencia
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: uo_beneficiada
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: origem_recurso
+    type: string
+    format: default
+    constraints:
+      required: true
+  - name: objeto
+    type: string
+    format: default
+    constraints:
+      required: true
+missingValues:
+  - ''
+primaryKey:
+  - id_emenda

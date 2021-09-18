@@ -2,6 +2,23 @@
   "profile": "tabular-data-package",
   "resources": [
     {
+      "name": "dm_emenda_orcam",
+      "title": "",
+      "path": "data/dm-emenda-orcam.csv.gz",
+      "schema": "schemas/dm-emenda-orcam.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_emenda_orcam"
+        }
+      ],
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_unidade_orc",
       "title": "Unidade Orçamentária",
       "path": "data/dm-unidade-orc.csv.gz",
