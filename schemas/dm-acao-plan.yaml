@@ -11,15 +11,16 @@ fields:
     type: year
     format: default
     bareNumber: true
+    description: Ano de monitoramento da ação orçamentária.
     constraints:
       required: true
   - name: cd_uni_resp
-    title: Unidade Orçamentária Responsável - Chave
+    title: Unidade Orçamentária Responsável pela Ação - Código
     type: string
     format: default
     bareNumber: true
     description: |
-      Código da Unidade Orçamentária Responsável pela ação.
+      Código da Unidade Orçamentária Responsável pela ação orçamentária.
     constraints:
       required: true
       pattern: \d{4}
@@ -52,7 +53,7 @@ fields:
     missingValues:
       - '-'
   - name: uni_orc_resp
-    title: Unidade Orçamentária Responsável - Descrição
+    title: Unidade Orçamentária Responsável pela Ação- Descrição
     type: string
     format: default
     description: |
