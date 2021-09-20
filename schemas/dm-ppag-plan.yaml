@@ -1,27 +1,38 @@
 fields:
   - name: id_ppag
+    title: PPAG - Chave
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: nome
+    title: Plano Plurianual de Ação Governamental - PPAG
     type: string
     format: default
+    description: |
+     - > 
+      Vigência do Plano Plurianual de Ação Governamental - PPAG.
     constraints:
       required: true
+      unique: false
   - name: ano_inicio
-    type: integer
+    title: Ano de início do PPAG
+    type: year
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: ano_termino
-    type: integer
+    title: Ano de início do PPAG
+    type: year
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
 missingValues:
   - ''
 primaryKey:
