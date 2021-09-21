@@ -13,6 +13,11 @@ fields:
     format: default
     bareNumber: true
     constraints:
+      enum:
+        - '1'
+        - '2'
+        - '3'
+        - '4'
       required: true
       missingValues:
         - '-1'
@@ -26,6 +31,11 @@ fields:
     description: |
       Permite identificar a qual Poder a despesa se refere. 
     constraints:
+      enum:
+        - 'LEGISLATIVO'
+        - 'JUDICIARIO'
+        - 'EXECUTIVO'
+        - 'MINISTERIO PUBLICO'
       required: true
 missingValues:
   - ''
