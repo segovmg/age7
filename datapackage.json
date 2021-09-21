@@ -2,14 +2,14 @@
   "profile": "tabular-data-package",
   "resources": [
     {
-      "name": "dm_tipo_prog_plan",
-      "title": "Tipo Programa Planejamento",
-      "path": "data/dm-tipo-prog-plan.csv.gz",
-      "schema": "schemas/dm-tipo-prog-plan.yaml",
+      "name": "dm_funcao_plan",
+      "title": "",
+      "path": "data/dm-funcao-plan.csv.gz",
+      "schema": "schemas/dm-funcao-plan.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
-          "table": "dm_tipo_prog_plan"
+          "table": "dm_funcao_plan"
         }
       ],
       "format": "csv",
