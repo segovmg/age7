@@ -1,25 +1,36 @@
 fields:
   - name: id_orgao
+    title: Órgão - Chave
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: ano_exercicio
-    type: integer
+    tile: Ano de Exercício
+    type: year
     format: default
     bareNumber: true
-    constraints:
-      required: true
+    missingValues:
+      - '0'
   - name: cd_orgao
+    title: Órgão - Código
     type: integer
     format: default
-    bareNumber: true
     constraints:
-      required: true
+      pattern: \d{4}
+    missingValues:
+      - '-1'
+      - '-2'
+      - '-3'
+      - '-4'
   - name: nome
+    title: Órgão - Contrato
     type: string
     format: default
+    description: |
+      Nome completo do órgão ou entidade responsável pelo contrato.
     constraints:
       required: true
 missingValues:
