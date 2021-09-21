@@ -21,6 +21,9 @@ fields:
         - Apoio às Políticas Públicas e Áreas Específicas: são os programas voltados à prestação de 
           serviços ao próprio estado para a gestão de políticas públicas e para o apoio administrativo.
     constraints:
+      enum:
+        - 'FINALISTICOS'
+        - 'APOIO A POLITICAS PUBLICAS E AREAS ESPECIFICAS'
       required: true
 missingValues:
   - ''
