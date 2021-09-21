@@ -2,14 +2,14 @@
   "profile": "tabular-data-package",
   "resources": [
     {
-      "name": "dm_ppag_plan",
-      "title": "Horizonte PPAG",
-      "path": "data/dm-ppag-plan.csv.gz",
-      "schema": "schemas/dm-ppag-plan.yaml",
+      "name": "dm_funcao_plan",
+      "title": "",
+      "path": "data/dm-funcao-plan.csv.gz",
+      "schema": "schemas/dm-funcao-plan.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
-          "table": "dm_ppag_plan"
+          "table": "dm_funcao_plan"
         }
       ],
       "format": "csv",
