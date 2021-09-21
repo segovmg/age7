@@ -2,14 +2,14 @@
   "profile": "tabular-data-package",
   "resources": [
     {
-      "name": "dm_municipio_plan",
-      "title": "Município Planejamento",
-      "path": "data/dm-municipio-plan.csv.gz",
-      "schema": "schemas/dm-municipio-plan.yaml",
+      "name": "dm_funcao_plan",
+      "title": "",
+      "path": "data/dm-funcao-plan.csv.gz",
+      "schema": "schemas/dm-funcao-plan.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
-          "table": "dm_municipio_plan"
+          "table": "dm_funcao_plan"
         }
       ],
       "format": "csv",
