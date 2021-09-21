@@ -2,14 +2,14 @@
   "profile": "tabular-data-package",
   "resources": [
     {
-      "name": "dm_responsavel_plan",
-      "title": "Responsável Planejamento",
-      "path": "data/dm-responsavel-plan.csv.gz",
-      "schema": "schemas/dm-responsavel-plan.yaml",
+      "name": "dm_funcao_plan",
+      "title": "",
+      "path": "data/dm-funcao-plan.csv.gz",
+      "schema": "schemas/dm-funcao-plan.yaml",
       "sources": [
         {
           "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
-          "table": "dm_responsavel_plan"
+          "table": "dm_funcao_plan"
         }
       ],
       "format": "csv",
