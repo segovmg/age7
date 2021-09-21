@@ -80,14 +80,16 @@ fields:
      No estado de Minas Gerais definiu-se que o código identificador da função Reserva de Contigência será 99, conforme estabelece o art. 5 da Portaria Ministerial n. 42/99. 
   - name: sunfuncao
     title: Subfunção - Descrição
+    type: string
+    format: default
     description: |
       Detalhamento das áreas de atuação do Governo.
       Representa uma partição da função, visando agregar determinado conjunto de despesa do setor público.
       A subfunção identifica a natureza básica das ações que se aglutinam em torno das funções.
-    type: string
-    format: default
   - name: tipo
     title: Tipo de Ação
+    type: string
+    format: default
     description: |
       -> 
        As ações são classificadas em cinco tipos básicos:
@@ -98,103 +100,108 @@ fields:
       - Operação Especial;
       - Não-Orçamentária e
       - Reserva de Contingência.
-    type: string
-    format: default
   - name: identificador_acao
     title: Identificador de Ação Governamental
+    type: string
+    format: default
     description: |
       -> Especifica os projetos estratégicos que serão acompanhados pelas Unidades de
         Entregas Estratégicas e pelos Comitês de Ações Transversais.
-    type: string
-    format: default
     constraints:
       required: true
     missingValues:
       - '-'
   - name: finalidade
     title: Finalidade da Ação Orçamentária
+    type: string
+    format: default
     description: |
+    type: string
+    format: default
      Expressa o objetivo a ser alcançado pela ação, ou seja,porque esta ação é desenvolvida, 
      evidenciando a superação de uma causa ou fator crítico que condiciona a situação-problema para 
      mitigação ou resoluçãoda qual se articula o programa.
-    type: string
-    format: default
     constraints:
       required: true
   - name: descricao
     title: Descrição da Ação Orçamentária
-    description: |
-     Expressa, de forma sucinta, o que é efetivamente feito no âmbito da ação, seu escopo e delimitações.
-     Esse campo é importante no sentido de tornar transparente o que a unidade faz para executar a ação.
     type: string
     format: default
+    description: |
+    type: string
+    format: default
+     Expressa, de forma sucinta, o que é efetivamente feito no âmbito da ação, seu escopo e delimitações.
+     Esse campo é importante no sentido de tornar transparente o que a unidade faz para executar a ação.
     constraints:
       required: true
   - name: publico_alvo
     title: Público Alvo da Ação Orçamentária
+    type: string
+    format: default
     description: |
      Especifica os setores da sociedade ou da própria administração pública aos quais a ação se 
      destina e que se beneficiam direta e legitimamente com os produtos ofertados.
-    type: string
-    format: default
     constraints:
       required: true
   - name: detalha_implementacao
     title: Detalhamento da Implementação
+    type: string
+    format: default
     description: |
      Expressa a forma como a ação será executada, descrevendo as principais etapas 
      (subatividades ou subprojetos) do processo até a entrega do produto final. 
      Detalha-se inclusive as atividades desenvolvidas pelos parceiros.
-    type: string
-    format: default
     constraints:
       required: true
   - name: produto
+    title: Produto
     type: string
     format: default
     constraints:
       required: true
   - name: produto_especifica
     title: Especificação do Produto
+    type: string
+    format: default
     description: |
      Expressa as características técnicas do produto final visando à sua melhor identificação ou 
      detalhamento do mesmo. Quando o produto se apresenta como uma categoria de bens, serviços ou 
      transferências financeiras resultantes da ação, a especificação do produto detalha as sub 
      modalidades de produto utilizadas como base para a mensuração física.
-    type: string
-    format: default
     constraints:
       required: true
   - name: unidade_medida
     title: Unidade de Medida
+    type: string
+    format: default
     description: |
      Padrão selecionado para mensurar a produção do bem, serviço ou transferência financeira. 
      Representa a dimensão fisicamente mensurável do produto, sendo, portanto, o elemento que dá 
      significado ao valor numérico estampado como meta física.
-    type: string
-    format: default
     constraints:
       required: true
   - name: base_legal
     title: Base legal da Ação Orçamentária
+    type: string
+    format: default
     description: |
      Instrumentos normativos que dão respaldo à ação. Podem ser gerais, eis que dedutíveis tão-somente 
      da competência da unidade executora, ou específicos, quando a ação detém uma regulamentação própria.
-    type: string
-    format: default
     constraints:
       required: true
   - name: justificativa_desempenho
     title: Justificativa de Desempenho
+    type: string
+    format: default
     description: |
      Caberá ao gestor da ação, com o auxílio e sob a supervisão técnica da unidade de planejamento e
      orçamento, registrar informações qualitativas quanto ao desempenho da ação até o período monitorado.
-    type: string
-    format: default
     constraints:
       required: true
   - name: outras_informacoes
     title: Outras Informações
+    type: string
+    format: default
     description: |
      Cabe ao gestor da ação, com o auxílio e sob a supervisão técnica da unidade de planejamento e 
      orçamento, registrar informações qualitativas relativas ao bimestre monitorado, 
@@ -203,30 +210,28 @@ fields:
       - motivar as alterações orçamentárias ocorridas;
       - justificar o lançamento de dados estimativos e
       - motivar a não regionalização da execução física ou orçamentária.
-    type: string
-    format: default
     missingValues:
        - '-'
   - name: vr_loa_credito
     title: Valor LOA + Créditos
+    type: number
+    format: default
     description: |
      Corresponde ao crédito autorizado da ação, como resultado das alterações orçamentárias ocorridas 
      ao longo do exercício por meio de anulação ou suplementação de recursos.
-    type: number
-    format: default
     bareNumber: true
     decimalChar: ','
     constraints:
       required: true
   - name: metafisica_nao_cumulativa
     title: Meta física não cumulativa
+    type: string
+    format: default
     description: |
      Quantidade de produto, estabelecida no PPAG e na Lei Orçamentária Anual (LOA), que se espera 
      executar por meio da ação ao longo do exercício.
      Se a execução física for não cumulativa, os valores lançados mensalmente não se somam na totalização
      anual, pois compreendem a execução progressiva de um produto que é preponderantemente o mesmo.
-    type: string
-    format: default
 missingValues:
   - ''
 primaryKey:
