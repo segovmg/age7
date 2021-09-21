@@ -1,38 +1,52 @@
 fields:
   - name: id_contrato
+    title: Contrato - Chave
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: cd_siafi
+    tile: SIAFI - Código
+    description: |
+      Número de identificação do convênio / parceria no Sistema Integrado de Administração Financeira (SIAFI).
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
   - name: nr_contrato_conv
+    tile: Número Contrato Convênio
+    description: |
+      Número identificador do contrato ou convênio
     type: string
     format: default
     constraints:
       required: true
   - name: dt_assinatura
+    title: Data de Assinatura
     type: datetime
     format: default
     constraints:
       required: true
   - name: dt_vencimento
+    tile: Data de Vencimento
     type: datetime
     format: default
     constraints:
       required: true
   - name: vr_inicial
+    title: Valor vr_inicial
+    description: |
+      Valor financeiro inicial do contrato ou convênio 
     type: integer
     format: default
     bareNumber: true
+    decimalChar: ','
     constraints:
       required: true
 missingValues:
-  - ''
+  - 'SEM DESCRICAO'
 primaryKey:
   - id_contrato
