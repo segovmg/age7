@@ -1,6 +1,6 @@
 fields:
   - name: id_subfuncao
-    title: Subfunção Orçamentária - Chave
+    title: Subfunção - Chave
     type: integer
     format: default
     bareNumber: true
@@ -8,7 +8,7 @@ fields:
       required: true
       unique: false
   - name: cd_subfuncao
-    title: Subfunção Orçamentária - Código
+    title: Subfunção - Código
     description: Código identificador do detalhamento das áreas de atuação do Governo (1 a 999)
     type: string
     format: default
@@ -134,14 +134,14 @@ fields:
     missingValues:
       - '0'
   - name: nome
-    title: Subfunção Orçamentária - Descrição
+    title: Subfunção - Descrição
     description: |
       Detalhamento das áreas de atuação do Governo.
       Representa uma partição da função, visando agregar determinado conjunto de despesa do setor público.
       A subfunção identifica a natureza básica das ações que se aglutinam em torno das funções.
     type: string
     format: default
-missingValues:
-  - 'SEM DESCRICAO'
+    missingValues:
+      - 'SEM DESCRICAO'
 primaryKey:
   - id_subfuncao
