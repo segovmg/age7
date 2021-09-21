@@ -1,22 +1,147 @@
 fields:
   - name: id_subfuncao
+    title: Subfunção Orçamentária - Chave
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: cd_subfuncao
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
-  - name: nome
+    title: Subfunção Orçamentária - Código
+    description: Código identificador do detalhamento das áreas de atuação do Governo (1 a 999)
     type: string
     format: default
     constraints:
-      required: true
+      enum: 
+        - "31"
+        - "32"
+        - "61"
+        - "62"
+        - "91"
+        - "92"
+        - "121"
+        - "122"
+        - "123"
+        - "124"
+        - "125"
+        - "126"
+        - "127"
+        - "128"
+        - "129"
+        - "130"
+        - "131"
+        - "151"
+        - "152"
+        - "153"
+        - "181"
+        - "182"
+        - "183"
+        - "211"
+        - "212"
+        - "241"
+        - "242"
+        - "243"
+        - "244"
+        - "271"
+        - "272"
+        - "273"
+        - "274"
+        - "301"
+        - "302"
+        - "303"
+        - "304"
+        - "305"
+        - "306"
+        - "331"
+        - "332"
+        - "333"
+        - "334"
+        - "361"
+        - "362"
+        - "363"
+        - "364"
+        - "365"
+        - "366"
+        - "367"
+        - "368"
+        - "391"
+        - "392"
+        - "421"
+        - "422"
+        - "423"
+        - "451"
+        - "452"
+        - "453"
+        - "481"
+        - "482"
+        - "511"
+        - "512"
+        - "541"
+        - "542"
+        - "543"
+        - "544"
+        - "545"
+        - "571"
+        - "572"
+        - "573"
+        - "601"
+        - "602"
+        - "603"
+        - "604"
+        - "605"
+        - "606"
+        - "607"
+        - "608"
+        - "609"
+        - "631"
+        - "632"
+        - "661"
+        - "662"
+        - "663"
+        - "664"
+        - "665"
+        - "691"
+        - "692"
+        - "693"
+        - "694"
+        - "695"
+        - "721"
+        - "722"
+        - "751"
+        - "752"
+        - "753"
+        - "753"
+        - "754"
+        - "754"
+        - "781"
+        - "782"
+        - "783"
+        - "784"
+        - "785"
+        - "811"
+        - "812"
+        - "813"
+        - "841"
+        - "842"
+        - "843"
+        - "844"
+        - "845"
+        - "845"
+        - "846"
+        - "847"
+        - "999"
+    missingValues:
+      - '0'
+  - name: nome
+    title: Subfunção Orçamentária - Descrição
+    description: |
+      Detalhamento das áreas de atuação do Governo.
+      Representa uma partição da função, visando agregar determinado conjunto de despesa do setor público.
+      A subfunção identifica a natureza básica das ações que se aglutinam em torno das funções.
+    type: string
+    format: default
 missingValues:
-  - ''
+  - 'SEM DESCRICAO'
 primaryKey:
   - id_subfuncao
