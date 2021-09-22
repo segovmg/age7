@@ -40,14 +40,14 @@ fields:
       - 4- Investimentos; 
       - 5- Inversões Financeiras;
       - 6- Amortização da Divida e 
-      - 9- Reserva de Contigência
+      - 9- Reserva de Contingência
     constraints:
       enum:
-      - 'INVERSÕES FINANCEIRAS'
+      - 'INVERSOES FINANCEIRAS'
       - 'INVESTIMENTOS'
       - 'OUTRAS DESPESAS CORRENTES'
       - 'PESSOAL E ENCARGOS SOCIAIS'
-      - 'RESERVA DE CONTIGÊNCIA'
+      - 'RESERVA DE CONTINGENCIA'
   - name: modalidade_aplic
     title: Modalidade de Aplicação - Descrição
     type: string
