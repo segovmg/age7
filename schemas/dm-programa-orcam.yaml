@@ -9,10 +9,10 @@ fields:
       unique: false
   - name: cd_programa
     title: Programa - Código
-    description: |
-      Código identificador do objetivo concreto, bem ou serviço que se quer atingir, composto por 3 dígitos.
     type: integer
     format: default
+    description: |
+      Código identificador do objetivo concreto, bem ou serviço que se quer atingir, composto por 3 dígitos.
     bareNumber: true
     constraints:
       minimum: 1
@@ -21,6 +21,8 @@ fields:
       - '0'
   - name: nome
     title: Programa - Descrição
+    type: string
+    format: default
     description: |
       - > 
         Instrumento de organização de ação governamental que integra o planejamento, o orçamento e a gestão. 
@@ -28,8 +30,6 @@ fields:
         Ação Governamental.
         
         Resulta do reconhecimento de carências, demandas administrativas, sociais e econômicas e de oportunidades.
-    type: string
-    format: default
     missingValues:
       - 'SEM DESCRICAO'
 missingValues:
