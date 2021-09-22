@@ -9,7 +9,7 @@ fields:
       unique: false
   - name: cd_subfuncao
     title: Subfunção - Código
-    type: string
+    type: integer
     format: default
     description: Código identificador do detalhamento das áreas de atuação do Governo (1 a 999)
     constraints:
@@ -131,8 +131,6 @@ fields:
         - "846"
         - "847"
         - "999"
-    missingValues:
-      - '0'
   - name: nome
     title: Subfunção - Descrição
     type: string
