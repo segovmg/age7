@@ -19,11 +19,6 @@ fields:
         - '3'
         - '4'
       required: true
-      missingValues:
-        - '-1'
-        - '-2'
-        - '-3'
-        - '-4'
   - name: nome
     title: Poder - Descrição
     type: string
