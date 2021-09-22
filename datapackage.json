@@ -274,6 +274,23 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_tipo_divida",
+      "title": "Tipo Dívida",
+      "path": "data/dm-tipo-divida.csv.gz",
+      "schema": "schemas/dm-tipo-divida.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_tipo_divida"
+        }
+      ],
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_unidade_orc",
       "title": "Unidade Orçamentária",
       "path": "data/dm-unidade-orc.csv.gz",
