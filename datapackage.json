@@ -257,6 +257,23 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_contrato_divida",
+      "title": "Contrato Dívida",
+      "path": "data/dm-contrato-divida.csv.gz",
+      "schema": "schemas/dm-contrato-divida.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_contrato_divida"
+        }
+      ],
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_unidade_orc",
       "title": "Unidade Orçamentária",
       "path": "data/dm-unidade-orc.csv.gz",
