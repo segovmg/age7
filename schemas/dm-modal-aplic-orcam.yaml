@@ -9,10 +9,10 @@ fields:
       unique: false
   - name: cd_modalidade
     title: Modalidade de Aplicação - Código
-    description: |
-      Classificação da natureza da despesa que traduz a forma como os recursos serão aplicados pelos órgãos/entidades, podendo ser diretamente pelos mesmos ou sob a forma de transferências a outras entidades públicas ou privadas que se encarregarão da execução das ações. (2 dígitos)
     type: string
     format: default
+    description: |
+      Classificação da natureza da despesa que traduz a forma como os recursos serão aplicados pelos órgãos/entidades, podendo ser diretamente pelos mesmos ou sob a forma de transferências a outras entidades públicas ou privadas que se encarregarão da execução das ações. (2 dígitos)
     constraints:
       enum:
         - '10'
@@ -51,13 +51,13 @@ fields:
       - '0'   
   - name: nome
     title: Modalidade de Aplicação - Descrição
+    type: string
+    format: default
     description: |
       - > 
         Classificação da natureza da despesa que traduz a forma como os recursos serão aplicados pelos órgãos/entiddes, 
         podendo ser diretamente pelos mesmos ou sbo a forma de transferência a outras entidades públicas ou privadas que 
         se encarregarão da execução das ações.
-    type: string
-    format: default
     missingValues:
         - 'SEM DESCRICAO'
 missingValues:
