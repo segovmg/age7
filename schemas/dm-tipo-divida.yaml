@@ -25,6 +25,9 @@ fields:
     format: default
     constraints:
       required: true
+      enum:
+        - 'DÍVIDA PÚBLICA INTERNA'
+        - 'DÍVIDA PÚBLICA EXTERNA'
 missingValues:
   - 'SEM DESCRICAO'
 primaryKey:
