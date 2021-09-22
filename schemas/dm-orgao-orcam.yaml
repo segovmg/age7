@@ -8,7 +8,7 @@ fields:
       required: true
       unique: false
   - name: ano_exercicio
-    tile: Ano de Exercício
+    title: Ano de Exercício
     type: year
     format: default
     bareNumber: true
@@ -16,21 +16,16 @@ fields:
       - '0'
   - name: cd_orgao
     title: Órgão - Código
-    type: integer
+    type: string
     format: default
     constraints:
       pattern: \d{4}
-    missingValues:
-      - '-1'
-      - '-2'
-      - '-3'
-      - '-4'
   - name: nome
-    title: Órgão - Contrato
+    title: Órgão - Descrição
     type: string
     format: default
     description: |
-      Nome completo do órgão ou entidade responsável pelo contrato.
+      Nome completo da Unidade Orçamentária.
     constraints:
       required: true
 missingValues:
