@@ -461,6 +461,23 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_programa_orcam",
+      "title": "Programa Orçamento",
+      "path": "data/dm-programa-orcam.csv.gz",
+      "schema": "schemas/dm-programa-orcam.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_programa_orcam"
+        }
+      ],
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_unidade_orc",
       "title": "Unidade Orçamentária",
       "path": "data/dm-unidade-orc.csv.gz",
