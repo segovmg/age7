@@ -393,6 +393,23 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_fonte_orcam",
+      "title": "Fonte Orçamento",
+      "path": "data/dm-fonte-orcam.csv.gz",
+      "schema": "schemas/dm-fonte-orcam.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_fonte_orcam"
+        }
+      ],
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_unidade_orc",
       "title": "Unidade Orçamentária",
       "path": "data/dm-unidade-orc.csv.gz",
