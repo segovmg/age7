@@ -21,6 +21,6 @@ fields:
     constraints:
       required: true
 missingValues:
-  - 'SEM DESCRICAO'
+  - '9999999'
 primaryKey:
   - id_decreto
