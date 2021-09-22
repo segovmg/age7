@@ -9,9 +9,9 @@ fields:
       unique: false
   - name: cd_fonte
     title: Fonte de Recurso - Código
-    description: Código da fonte de recurso origem da receita orçamentária.
     type: string
     format: default
+    description: Código da fonte de recurso origem da receita orçamentária.
     constraints:
        enum: 
         - '10'
@@ -93,11 +93,11 @@ fields:
       - '0'
   - name: nome
     title: Fonte de Recurso - Descrição
+    type: string
+    format: default
     description: |
       - > 
        Permite a identificação da origem e destinação dos recursos legalmente vinculados a órgão, fundo ou despesa.
-    type: string
-    format: default
     constraints:
       required: true
 missingValues:
