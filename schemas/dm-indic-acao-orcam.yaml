@@ -9,21 +9,18 @@ fields:
       unique: false
   - name: cd_indicador_acao
     title: Indicador de Ação Governamental  - Código
-    description: |
-      Código de identificador do orçamento conforme o SIAFI-MG
     type: integer
     format: default
+    description: |
+      Código de identificador do orçamento conforme o SIAFI-MG
     constraints:
       enum:
         - '0'
         - '1'
-        - '3'
+        - '2'
         - '3'
         - '4'
         - '5'
-        - '6'
-        - '7'
-        - '8'
         - '9'
   - name: nome
     title: Indicador de Ação Governamental - Descrição
