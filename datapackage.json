@@ -359,6 +359,23 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_acao_orcam",
+      "title": "Ação Orçamentária",
+      "path": "data/dm-acao-orcam.csv.gz",
+      "schema": "schemas/dm-acao-orcam.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_acao_orcam"
+        }
+      ],
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_unidade_orc",
       "title": "Unidade Orçamentária",
       "path": "data/dm-unidade-orc.csv.gz",
