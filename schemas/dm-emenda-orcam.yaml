@@ -41,23 +41,34 @@ fields:
       - 5- Inversões Financeiras;
       - 6- Amortização da Divida e 
       - 9- Reserva de Contigência
-    missingValues:
+    constraints:
+      enum:
+      - 'INVERSÕES FINANCEIRAS'
+      - 'INVESTIMENTOS'
       - 'OUTRAS DESPESAS CORRENTES'
-missingValues:
+      - 'PESSOAL E ENCARGOS SOCIAIS'
+      - 'RESERVA DE CONTIGÊNCIA'
   - name: modalidade_aplic
     title: Modalidade de Aplicação - Descrição
+    type: string
+    format: default
     description: |
       - > 
         Classificação da natureza da despesa que traduz a forma como os recursos serão aplicados pelos órgãos/entiddes, 
         podendo ser diretamente pelos mesmos ou sbo a forma de transferência a outras entidades públicas ou privadas que 
         se encarregarão da execução das ações.
-    type: string
-    format: default
+    constraints:
+      enum:
+        - 'A DEFINIR'
+        - 'APLICACOES DIRETAS'
+        - 'TRANSFERENCIAS A INSTITUICOES PROVADAS SEM FINS LUCRATIVOS'
+        - 'TRANSFERENCIAS A MUNICIPIOS'
+        - 'TRANSFERENCIAS A UNIAO'
     missingValues:
         - 'SEM DESCRICAO'
         - 'A DEFINIR'
   - name: indicador_acao
-    itle: Indicador de Ação Governamental - Descrição
+    title: Indicador de Ação Governamental - Descrição
     type: string
     format: default
     description: |
@@ -69,24 +80,39 @@ missingValues:
       - 'NAO INFORMADO'   
   - name: fonte
     title: Fonte de Recurso - Descrição
+    type: string
+    format: default
     description: |
      - > 
        Permite a identificação da origem e destinação dos recursos legalmente vinculados a órgão, fundo ou despesa.
-    type: string
-    format: default
+    constraints:
+      enum:
+       - 'RECURSOS ORDINARIOS'
+       - 'OPERACOES DE CREDITO CONTRATUAIS'
+       - 'FUNDO DE MANUTENCAO E DESENVOLVIMENTO DA EDUCACAO BASICA - FUNDEB'
+       - 'EXPLORACAO E PRODUCAO DE PETROLEO  E GAS NATURAL'
+       - 'RECURSOS DIRETAMENTE ARRECADADOS'
+       - 'ALIENACAO DE BENS DO TESOURO ESTADUAL'
+       - 'COTA ESTADUAL DO SALARIO EDUCACAO - QESE'
+       - 'CONVENIOS, ACORDOS E AJUSTES'
     missingValues:
       - 'SEM DESCRICAO'  
   - name: procedencia
     title: Procedência - Descrição
+    type: string
+    format: default
     description: |
      - > 
       Identifica a origem e a utilização dos recursos. 
       O identificador de procedência e uso (IPU) informa, dentre outros, se os recursos serão para livre utilização, 
       se foram transferidos de outra unidade orçamentária ou se objetivam oferecer contrapartida a convênios, acordos 
       e ajustes.
-    type: string
-    format: default
     constraints:
+      enum:
+        - 'RECURSOS DIRETAMENTE RECEBIDOS'
+        - 'RECURSOS RECEBIDOS PARA ATENDIMENTO DE DEMANDAS DE PARTICIPACAO CIDADA'
+        - 'RECURSOS RECEBIDOS PARA EMENDAS PARLAMENTARES'
+        - 'RECURSOS RECEBIDOS PARA LIVRE UTILIZACAO'
       required: true
     missingValues:
       - 'SEM DESCRICAO'
