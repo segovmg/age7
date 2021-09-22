@@ -9,9 +9,9 @@ fields:
       unique: false
   - name: cd_subfuncao
     title: Subfunção - Código
-    description: Código identificador do detalhamento das áreas de atuação do Governo (1 a 999)
     type: string
     format: default
+    description: Código identificador do detalhamento das áreas de atuação do Governo (1 a 999)
     constraints:
       enum: 
         - "31"
@@ -135,12 +135,12 @@ fields:
       - '0'
   - name: nome
     title: Subfunção - Descrição
+    type: string
+    format: default
     description: |
       Detalhamento das áreas de atuação do Governo.
       Representa uma partição da função, visando agregar determinado conjunto de despesa do setor público.
       A subfunção identifica a natureza básica das ações que se aglutinam em torno das funções.
-    type: string
-    format: default
     missingValues:
       - 'SEM DESCRICAO'
 primaryKey:
