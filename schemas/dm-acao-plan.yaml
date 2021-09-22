@@ -116,11 +116,11 @@ fields:
     type: string
     format: default
     description: |
-    type: string
-    format: default
      Expressa o objetivo a ser alcançado pela ação, ou seja,porque esta ação é desenvolvida, 
      evidenciando a superação de uma causa ou fator crítico que condiciona a situação-problema para 
      mitigação ou resoluçãoda qual se articula o programa.
+    type: string
+    format: default
     constraints:
       required: true
   - name: descricao
