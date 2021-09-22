@@ -9,10 +9,10 @@ fields:
       unique: false
   - name: nome
     title: Autor da Emenda - Descrição
-    description: |
-      Nome do autor da emenda 
     type: string
     format: default
+    description: |
+      Nome do autor da emenda 
     constraints:
       required: true
     missingValues:
