@@ -291,6 +291,23 @@
       "profile": "tabular-data-resource"
     },
     {
+      "name": "dm_autor_emenda",
+      "title": "Autor Emenda",
+      "path": "data/dm-autor-emenda.csv.gz",
+      "schema": "schemas/dm-autor-emenda.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_autor_emenda"
+        }
+      ],
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
       "name": "dm_unidade_orc",
       "title": "Unidade Orçamentária",
       "path": "data/dm-unidade-orc.csv.gz",
