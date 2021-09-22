@@ -1,6 +1,329 @@
 {
   "profile": "tabular-data-package",
   "resources": [
+        {
+      "name": "dm_fonte_plan",
+      "title": "Fonte de Recurso Planejamento",
+      "path": "data/dm-fonte-plan.csv.gz",
+      "schema": "schemas/dm-fonte-plan.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_fonte_plan"
+        }
+      ],
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "dm_responsavel_plan",
+      "title": "Responsável Planejamento",
+      "path": "data/dm-responsavel-plan.csv.gz",
+      "schema": "schemas/dm-responsavel-plan.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_responsavel_plan"
+        }
+      ],
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "dm_indicador_plan",
+      "title": "Indicador Planejamento",
+      "path": "data/dm-indicador-plan.csv.gz",
+      "schema": "schemas/dm-indicador-plan.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_indicador_plan"
+        }
+      ],
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "dm_tipo_prog_plan",
+      "title": "Tipo Programa Planejamento",
+      "path": "data/dm-tipo-prog-plan.csv.gz",
+      "schema": "schemas/dm-tipo-prog-plan.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_tipo_prog_plan"
+        }
+      ],
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "dm_tipo_orcam_plan",
+      "title": "Tipo Orçamento Planejamento",
+      "path": "data/dm-tipo-orcam-plan.csv.gz",
+      "schema": "schemas/dm-tipo-orcam-plan.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_tipo_orcam_plan"
+        }
+      ],
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "dm_tipo_acao_plan",
+      "title": "Tipo Ação Planejamento",
+      "path": "data/dm-tipo-acao-plan.csv.gz",
+      "schema": "schemas/dm-tipo-acao-plan.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_tipo_acao_plan"
+        }
+      ],
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "dm_territorio_plan",
+      "title": "Território Planejamento v1",
+      "path": "data/dm-territorio-plan.csv.gz",
+      "schema": "schemas/dm-territorio-plan.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_territorio_plan"
+        }
+      ],
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "dm_programa_plan",
+      "title": "Programa Planejamento",
+      "path": "data/dm-programa-plan.csv.gz",
+      "schema": "schemas/dm-programa-plan.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_programa_plan"
+        }
+      ],
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "dm_ppag_plan",
+      "title": "Horizonte PPAG",
+      "path": "data/dm-ppag-plan.csv.gz",
+      "schema": "schemas/dm-ppag-plan.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_ppag_plan"
+        }
+      ],
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "dm_orgao_plan",
+      "title": "Órgão Planejamento",
+      "path": "data/dm-orgao-plan.csv.gz",
+      "schema": "schemas/dm-orgao-plan.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_orgao_plan"
+        }
+      ],
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "dm_municipio_plan",
+      "title": "Município Planejamento",
+      "path": "data/dm-municipio-plan.csv.gz",
+      "schema": "schemas/dm-municipio-plan.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_municipio_plan"
+        }
+      ],
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "dm_horizonte_plan",
+      "title": "Horizonte Planejamento",
+      "path": "data/dm-horizonte-plan.csv.gz",
+      "schema": "schemas/dm-horizonte-plan.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_horizonte_plan"
+        }
+      ],
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "dm_funcao_plan",
+      "title": "",
+      "path": "data/dm-funcao-plan.csv.gz",
+      "schema": "schemas/dm-funcao-plan.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_funcao_plan"
+        }
+      ],
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "dm_acao_plan",
+      "title": "Ação Planejamento",
+      "path": "data/dm-acao-plan.csv.gz",
+      "schema": "schemas/dm-acao-plan.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_acao_plan"
+        }
+      ],
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "dm_poder",
+      "title": "Poder",
+      "path": "data/dm-poder.csv.gz",
+      "schema": "schemas/dm-poder.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_poder"
+        }
+      ],
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "dm_contrato_divida",
+      "title": "Contrato Dívida",
+      "path": "data/dm-contrato-divida.csv.gz",
+      "schema": "schemas/dm-contrato-divida.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_contrato_divida"
+        }
+      ],
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "dm_tipo_divida",
+      "title": "Tipo Dívida",
+      "path": "data/dm-tipo-divida.csv.gz",
+      "schema": "schemas/dm-tipo-divida.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_tipo_divida"
+        }
+      ],
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "dm_autor_emenda",
+      "title": "Autor Emenda",
+      "path": "data/dm-autor-emenda.csv.gz",
+      "schema": "schemas/dm-autor-emenda.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_autor_emenda"
+        }
+      ],
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "dm_decreto",
+      "title": "Decreto",
+      "path": "data/dm-decreto.csv.gz",
+      "schema": "schemas/dm-decreto.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_decreto"
+        }
+      ],
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
     {
       "name": "dm_emenda_orcam",
       "title": "",
