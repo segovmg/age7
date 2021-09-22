@@ -93,18 +93,15 @@ missingValues:
   - name: uo_beneficiada
     title: Unidade Orçamentária Beneficiada
     description: |
-      Código e Nome da Unidade Orçamentária benficiada com a emenda parlamentar
+      Código e Nome da Unidade Orçamentária beneficiada com a emenda parlamentar.
     type: string
     format: default
     constraints:
       required: true
   - name: origem_recurso
-    title: Origem - Descrição
+    title: Origem do Recurso
     description: |
-      - > 
-      Detalhamento das categorias econômicas. Identifica a procedência das receitas no momento em que ingressam
-      nos cofres públicos. 
-      Exemplo: impostos, taxas e contribuições de melhoria, contribuições, operações de crédito, receita agropecuária, etc.
+      Nome da Unidade Orçamentária onde ocorreu a dedução.
     type: string
     format: default
     constraints:
@@ -113,8 +110,7 @@ missingValues:
     title: Objeto 
     description: |
       - > 
-      Descrição detalhada do objetivo a ser alcançado com a execução do convênio / parceria ou razões que levaram à 
-      formalização da parceria entre o governo estadual e um terceiro.
+      Objeto do gasto da emenda parlamentar.
     type: string
     format: default
 missingValues:
