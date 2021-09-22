@@ -9,19 +9,19 @@ fields:
       unique: false
   - name: cd_siafi
     title: Número SIAFI - Código
-    description: |
-      Número de identificação Contrato no Sistema Integrado de Administração Financeira (SIAFI).
     type: string
     format: default
+    description: |
+      Número de identificação Contrato no Sistema Integrado de Administração Financeira (SIAFI).
     bareNumber: true
     constraints:
       required: true
   - name: nr_contrato_conv
     title: Número Contrato Convênio
-    description: |
-      Número identificador do instrumento de contratação.
     type: string
     format: default
+    description: |
+      Número identificador do instrumento de contratação.
   - name: dt_assinatura
     title: Data de Assinatura
     type: datetime
