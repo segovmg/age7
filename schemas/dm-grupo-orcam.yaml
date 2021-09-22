@@ -34,7 +34,17 @@ fields:
       - 4- Investimentos; 
       - 5- Inversões Financeiras;
       - 6- Amortização da Divida;
-      - 9- Reserva de Contigência
+      - 9- Reserva de Contingência
+    constraints:
+      enum:
+        - 'PESSOAL E ENCARGOS SOCIAIS'
+        - 'JUROS E ENCARGOS DA DIVIDA'
+        - 'OUTRAS DESPESAS CORRENTES'
+        - 'INVESTIMENTOS'
+        - 'INVERSOES FINANCEIRAS'
+        - 'AMORTIZACAO DA DIVIDA'
+        - 'RESERVA DE CONTINGENCIA'
+
     missingValues:
       - 'PARA COMPOSICAO DA NATUREZA'
       - 'DESPESAS DE CAPITAL'
