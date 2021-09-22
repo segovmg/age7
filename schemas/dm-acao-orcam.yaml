@@ -18,14 +18,14 @@ fields:
       pattern: \d{4}
   - name: nome
     title: Ação Orçamentária - Descrição
+    type: string
+    format: default
     description: |
      - >
        Conjunto de operações limitadas no tempo (projeto), realizadas de modo contínuo e permanente (atividade),
        de natureza não orçamentária dos quais resulta um produto final (projeto ou não orçamentária), 
        de atuação necessária à manutenção da ação governamental (atividade) ou transferência financeira 
        (operação especial).
-    type: string
-    format: default
     missingValues:
       - SEM DESCRICAO
 missingValues:
