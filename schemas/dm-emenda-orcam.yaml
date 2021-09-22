@@ -73,8 +73,6 @@ fields:
     format: default
     description: |
       Descrição do identificador do orçamento conforme o SIAFI-MG
-    constraints:
-      required: true
     missingValues:
       - 'SEM DESCRICAO'     
       - 'NAO INFORMADO'   
