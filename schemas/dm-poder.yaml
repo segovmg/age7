@@ -28,9 +28,9 @@ fields:
     constraints:
       enum:
         - 'LEGISLATIVO'
-        - 'JUDICIARIO'
+        - 'JUDICIÁRIO'
         - 'EXECUTIVO'
-        - 'MINISTERIO PUBLICO'
+        - 'MINISTÉRIO PÚBLICO'
       required: true
 missingValues:
   - ''
