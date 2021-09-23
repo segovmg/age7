@@ -1,27 +1,33 @@
 fields:
   - name: id_orgao
+    title: Órgão - Chave
     type: integer
     format: default
     bareNumber: true
     constraints:
       required: true
+      unique: false
   - name: ano_exercicio
-    type: integer
+    title: Ano de Exercício
+    type: year
     format: default
     bareNumber: true
     constraints:
       required: true
   - name: cd_orgao
-    type: integer
+    title: Órgão - Código
+    type: string
     format: default
     bareNumber: true
     constraints:
-      required: true
+      pattern: \d{4}
   - name: nome
+    title: Órgão - descrição
     type: string
     format: default
-    constraints:
-      required: true
+    description: |
+     - >
+      Nome da Unidade Orçamentária a qual a obra está orçada.
 missingValues:
   - ''
 primaryKey:
