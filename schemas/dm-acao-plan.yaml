@@ -128,10 +128,10 @@ fields:
     type: string
     format: default
     description: |
-    type: string
-    format: default
      Expressa, de forma sucinta, o que é efetivamente feito no âmbito da ação, seu escopo e delimitações.
      Esse campo é importante no sentido de tornar transparente o que a unidade faz para executar a ação.
+    type: string
+    format: default
     constraints:
       required: true
   - name: publico_alvo
