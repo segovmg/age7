@@ -25,6 +25,11 @@ fields:
       - Execução;
       - Paralisado;
       - Iniciado
+    constraints:
+      enum: 
+        - 'EXECUCAO'
+        - 'PARALISADO'
+        - 'INICIADO'
 missingValues:
   - ''
 primaryKey:
