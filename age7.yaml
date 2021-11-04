@@ -189,6 +189,11 @@ fact_tables:
     - dm_item_desp
     - dm_fonte
     - dm_tipo_documento
+    - dm_funcao_resto
+    - dm_procedencia
+    - dm_acao_resto
+    - dm_programa_resto
+    - dm_subfuncao_resto
 
   ft_diarias:
     - dm_acao
