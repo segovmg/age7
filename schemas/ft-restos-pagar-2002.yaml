@@ -54,6 +54,36 @@ fields:
     bareNumber: true
     constraints:
       required: true
+  - name: id_funcao
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_subfuncao
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_programa
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_acao
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
+  - name: id_procedencia
+    type: integer
+    format: default
+    bareNumber: true
+    constraints:
+      required: true
   - name: id_unidade_orc
     title: Unidade Orçamentária - Chave
     type: integer
@@ -268,3 +298,33 @@ foreignKeys:
       fields:
         - id_tipo_documento
       resource: dm_tipo_documento
+  - fields:
+      - id_funcao
+    reference:
+      fields:
+        - id_funcao
+      resource: dm_funcao_resto
+  - fields:
+      - id_subfuncao
+    reference:
+      fields:
+        - id_subfuncao
+      resource: dm_subfuncao_resto
+  - fields:
+      - id_programa
+    reference:
+      fields:
+        - id_programa
+      resource: dm_programa_resto
+  - fields:
+      - id_acao
+    reference:
+      fields:
+        - id_acao
+      resource: dm_acao_resto
+  - fields:
+      - id_procedencia
+    reference:
+      fields:
+        - id_procedencia
+      resource: dm_procedencia

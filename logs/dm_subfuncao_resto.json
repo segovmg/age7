@@ -1,0 +1,113 @@
+{
+  "version": "4.12.2",
+  "time": 0.508,
+  "errors": [],
+  "tasks": [
+    {
+      "resource": {
+        "name": "dm_subfuncao_resto",
+        "title": "Subfunção - Restos a Pagar",
+        "path": "data/dm-subfuncao-resto.csv.gz",
+        "schema": {
+          "fields": [
+            {
+              "name": "id_subfuncao",
+              "type": "integer",
+              "format": "default",
+              "bareNumber": true,
+              "constraints": {
+                "required": true
+              }
+            },
+            {
+              "name": "ano_exercicio",
+              "type": "integer",
+              "format": "default",
+              "bareNumber": true,
+              "constraints": {
+                "required": true
+              }
+            },
+            {
+              "name": "cd_subfuncao",
+              "type": "integer",
+              "format": "default",
+              "bareNumber": true,
+              "constraints": {
+                "required": true
+              }
+            },
+            {
+              "name": "nome",
+              "type": "string",
+              "format": "default",
+              "constraints": {
+                "required": true
+              }
+            }
+          ],
+          "missingValues": [
+            ""
+          ],
+          "primaryKey": [
+            "id_subfuncao"
+          ]
+        },
+        "sources": [
+          {
+            "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+            "table": "dm_subfuncao_resto"
+          }
+        ],
+        "format": "csv",
+        "mediatype": "text/csv",
+        "encoding": "utf-8-sig",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "profile": "tabular-data-resource",
+        "scheme": "file",
+        "hashing": "md5",
+        "compression": "gz",
+        "stats": {
+          "hash": "786457206e43c7c6856b89f8d2d93793",
+          "bytes": 10490,
+          "fields": 4,
+          "rows": 1537
+        }
+      },
+      "time": 0.508,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    }
+  ],
+  "stats": {
+    "errors": 0,
+    "tasks": 1
+  },
+  "valid": true
+}

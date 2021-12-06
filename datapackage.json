@@ -3995,6 +3995,74 @@
       "encoding": "utf-8-sig",
       "dialect": "schemas/dialect.json",
       "profile": "tabular-data-resource"
+    },
+    {
+      "name": "dm_funcao_resto",
+      "title": "Função - Restos a Pagar",
+      "path": "data/dm-funcao-resto.csv.gz",
+      "schema": "schemas/dm-funcao-resto.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_funcao_resto"
+        }
+      ],
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "dm_subfuncao_resto",
+      "title": "Subfunção - Restos a Pagar",
+      "path": "data/dm-subfuncao-resto.csv.gz",
+      "schema": "schemas/dm-subfuncao-resto.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_subfuncao_resto"
+        }
+      ],
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "dm_programa_resto",
+      "title": "Programa - Restos a Pagar",
+      "path": "data/dm-programa-resto.csv.gz",
+      "schema": "schemas/dm-programa-resto.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_programa_resto"
+        }
+      ],
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "dm_acao_resto",
+      "title": "Ação - Restos a Pagar",
+      "path": "data/dm-acao-resto.csv.gz",
+      "schema": "schemas/dm-acao-resto.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "dm_acao_resto"
+        }
+      ],
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
     }
   ],
   "name": "age7",
