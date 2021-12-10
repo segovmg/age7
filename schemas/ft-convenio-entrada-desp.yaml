@@ -163,4 +163,4 @@ foreignKeys:
     reference:
       fields:
       - id_favorecido
-    resource: dm_favorecido
+      resource: dm_favorecido
