@@ -2,11 +2,11 @@
 
 RESOURCES=$(shell cat datapackage.json | jq -r ' .resources | .[] | .name ')
 
-VALIDATION_REPORTS=$(patsubst %, logs/%.txt, $(subst _,-,$(RESOURCES)))
+VALIDATION_REPORTS=$(patsubst %, logs/%.txt, $(RESOURCES))
 
 TABLESCHEMA=$(shell cat datapackage.json | jq -r ' .resources | .[] | select( .name == "$(resource)" ) | .schema ')
 
-SQL_FILES := $(patsubst %, scripts/sql/%.sql, $(subst _,-,$(RESOURCES)))
+SQL_FILES := $(patsubst %, scripts/sql/%.sql, $(RESOURCES))
 
 #====================================================================
 

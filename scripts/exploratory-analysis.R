@@ -5,7 +5,7 @@ source("scripts/utils.R")
 resource_name = "dm_programa" 
 # ajustar
 
-resource <- fread(glue::glue('data/{gsub("_", "-", resource_name)}.csv.gz'), dec = ",")
+resource <- fread(glue::glue('data/{resource_name}.csv.gz'), dec = ",")
 
 glimpse(resource)
 

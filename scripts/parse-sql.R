@@ -2,5 +2,5 @@ reticulate::use_condaenv("age7", required = TRUE)
 
 resource_name <- commandArgs(trailingOnly = TRUE)
 
-sql_query <- dtamg::parse_sql("datapackage.json", gsub("-", "_", resource_name))
+sql_query <- dtamg::parse_sql("datapackage.json", resource_name)
 writeLines(sql_query, glue::glue("scripts/sql/{resource_name}.sql"))
