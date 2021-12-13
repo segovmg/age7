@@ -2,7 +2,7 @@
 
 RESOURCES=$(shell cat datapackage.json | jq -r ' .resources | .[] | .name ')
 
-VALIDATION_REPORTS=$(patsubst %, logs/%.txt, $(RESOURCES))
+VALIDATION_REPORTS=$(patsubst %, logs/%.json, $(RESOURCES))
 
 TABLESCHEMA=$(shell cat datapackage.json | jq -r ' .resources | .[] | select( .name == "$(resource)" ) | .schema ')
 
@@ -36,16 +36,16 @@ validate_metadata: ## Valida arquivo yaml com tableschema (usage: make validate_
 	@echo "Validando tableschema $(TABLESCHEMA)"
 	@python scripts/validate-tableschema.py $(TABLESCHEMA)
 
-logs/%.txt: data/%.csv.gz schemas/%.yaml schemas/dialect.json
+logs/%.json: data/%.csv.gz schemas/%.yaml schemas/dialect.json
 	@echo "Validando recurso $*:"
-	@frictionless validate $< --schema schemas/$*.yaml 2>&1 | tee $@
+	@python scripts/validate-resource.py $* | jq . 2>&1 | tee logs/$*.json
 
 log: ## Exibe recursos com validação inválida
 	@echo "Recursos inválidos:"
-	@bash -c "diff <(\ls logs/*) <(grep -l '# valid:' logs/*) | grep logs | tr -d '< '"
+	@bash -c "jq -n 'inputs | select( .valid == false) | input_filename' logs/*.json"
 
 clean: ## Remove logs de recursos com validação inválida
-	@bash -c "diff <(\ls logs/*) <(grep -l '# valid:' logs/*) | grep logs | tr -d '< ' | xargs rm -f"
+	@bash -c "jq -n 'inputs | select( .valid == false) | input_filename' logs/*.json | xargs rm -f"
 
 vars: ## Imprime valor das variáveis
 	@echo 'RESOURCES:' $(RESOURCES)
