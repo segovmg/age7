@@ -157,8 +157,6 @@ fields:
      Descrição do tipo de empenho: global, estimado, ordinário, extra-orçamentário.
     type: string
     format: default
-    constraints:
-      required: true
   - name: fonte_recurso
     title: Fonte de Recurso 
     description: |
