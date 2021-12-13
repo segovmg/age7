@@ -46,8 +46,6 @@ fields:
     description: Nome de identificação da pessoa física ou jurídica.
     type: string
     format: default
-    constraints:
-      required: true
 missingValues:
   - 'SEM DESCRICAO'
 primaryKey:
