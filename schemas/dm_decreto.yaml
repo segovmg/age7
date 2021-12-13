@@ -18,9 +18,8 @@ fields:
     type: integer
     format: default
     bareNumber: true
-    constraints:
-      required: true
 missingValues:
+  - '0'
   - '9999999'
 primaryKey:
   - id_decreto
