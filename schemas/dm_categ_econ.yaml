@@ -34,7 +34,7 @@ fields:
         - 'DESPESAS DE CAPITAL'
         - 'DESPESAS CORRENTES'
     missingValues:
-      - 'SEM DESCRICAO'
+      - 'SEM CATEGORIA'
       - 'A CLASSIFICAR'
 primaryKey:
   - id_categ_econ
