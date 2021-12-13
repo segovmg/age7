@@ -1,3 +1,0 @@
-# -----
-# valid: data/dm-item-matserv.csv.gz
-# -----

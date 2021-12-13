@@ -1,3 +1,0 @@
-# -----
-# valid: data/dm-tipo-viajante.csv.gz
-# -----

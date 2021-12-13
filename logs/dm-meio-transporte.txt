@@ -1,3 +1,0 @@
-# -----
-# valid: data/dm-meio-transporte.csv.gz
-# -----

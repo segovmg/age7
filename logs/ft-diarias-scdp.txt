@@ -1,3 +1,0 @@
-# -----
-# valid: data/ft-diarias-scdp.csv.gz
-# -----

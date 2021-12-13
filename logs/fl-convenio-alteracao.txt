@@ -1,9 +1,0 @@
-# -------
-# invalid: data/fl-convenio-alteracao.csv.gz
-# -------
-==========  ======================================
-code        message                               
-==========  ======================================
-task-error  The task has an error: 'fieldPosition'
-==========  ======================================
-

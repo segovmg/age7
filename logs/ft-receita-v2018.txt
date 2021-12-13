@@ -1,3 +1,0 @@
-# -----
-# valid: data/ft-receita-v2018.csv.gz
-# -----

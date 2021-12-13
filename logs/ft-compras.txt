@@ -1,3 +1,0 @@
-# -----
-# valid: data/ft-compras.csv.gz
-# -----

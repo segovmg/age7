@@ -1,3 +1,0 @@
-# -----
-# valid: data/dm-favorecido-scdp.csv.gz
-# -----

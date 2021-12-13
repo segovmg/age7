@@ -2,7 +2,7 @@
 
 RESOURCES=$(shell cat datapackage.json | jq -r ' .resources | .[] | .name ')
 
-VALIDATION_REPORTS=$(patsubst %, logs/%.json, $(RESOURCES))
+VALIDATION_REPORTS=$(patsubst %, logs/validate/%.json, $(RESOURCES))
 
 TABLESCHEMA=$(shell cat datapackage.json | jq -r ' .resources | .[] | select( .name == "$(resource)" ) | .schema ')
 
@@ -19,7 +19,7 @@ validate: clean $(VALIDATION_REPORTS) ## Valida recursos que sofreram modificaç
 
 validate_data: ## Valida arquivo (usage: make validate_data resource=resource_name)
 	@echo "Validando recurso $(resource)"
-	@python scripts/validate-resource.py $(resource) | jq . 2>&1 | tee logs/$(resource).json
+	@python scripts/validate-resource.py $(resource) | jq . 2>&1 | tee logs/validate/$(resource).json
 
 describe: ## Extrai dados e metadados do banco de dados Oracle (make describe resource=resource_name)
 	Rscript scripts/describe_resource.R $(resource)
@@ -36,16 +36,16 @@ validate_metadata: ## Valida arquivo yaml com tableschema (usage: make validate_
 	@echo "Validando tableschema $(TABLESCHEMA)"
 	@python scripts/validate-tableschema.py $(TABLESCHEMA)
 
-logs/%.json: data/%.csv.gz schemas/%.yaml schemas/dialect.json
+logs/validate/%.json: data/%.csv.gz schemas/%.yaml schemas/dialect.json
 	@echo "Validando recurso $*:"
-	@python scripts/validate-resource.py $* | jq . 2>&1 | tee logs/$*.json
+	@python scripts/validate-resource.py $* | jq . 2>&1 | tee logs/validate/$*.json
 
 log: ## Exibe recursos com validação inválida
 	@echo "Recursos inválidos:"
-	@bash -c "jq -n 'inputs | select( .valid == false) | input_filename' logs/*.json"
+	@bash -c "jq -n 'inputs | select( .valid == false) | input_filename' logs/validate/*.json"
 
 clean: ## Remove logs de recursos com validação inválida
-	@bash -c "jq -n 'inputs | select( .valid == false) | input_filename' logs/*.json | xargs rm -f"
+	@bash -c "jq -n 'inputs | select( .valid == false) | input_filename' logs/validate/*.json | xargs rm -f"
 
 vars: ## Imprime valor das variáveis
 	@echo 'RESOURCES:' $(RESOURCES)

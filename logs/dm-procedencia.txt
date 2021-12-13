@@ -1,3 +1,0 @@
-# -----
-# valid: data/dm-procedencia.csv.gz
-# -----

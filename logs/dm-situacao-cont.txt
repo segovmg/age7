@@ -1,3 +1,0 @@
-# -----
-# valid: data/dm-situacao-cont.csv.gz
-# -----

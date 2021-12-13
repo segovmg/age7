@@ -1,3 +1,0 @@
-# -----
-# valid: data/dm-desdobramento-2-rec.csv.gz
-# -----

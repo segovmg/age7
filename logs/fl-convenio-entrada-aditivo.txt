@@ -1,3 +1,0 @@
-# -----
-# valid: data/fl-convenio-entrada-aditivo.csv.gz
-# -----
