@@ -196,20 +196,6 @@ resources:
     encoding: utf-8-sig
     dialect: schemas/dialect.json
     profile: tabular-data-resource
-  - name: dm_acao_plan
-    title: Ação Planejamento
-    path: data/dm_acao_plan.csv.gz
-    schema: schemas/dm_acao_plan.yaml
-    sources:
-      - title: >-
-          Tabela origem no schema AGE7 no banco de dados do Portal da
-          Transparência
-        table: dm_acao_plan
-    format: csv
-    mediatype: text/csv
-    encoding: utf-8-sig
-    dialect: schemas/dialect.json
-    profile: tabular-data-resource
   - name: dm_poder
     title: Poder
     path: data/dm_poder.csv.gz
