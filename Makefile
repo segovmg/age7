@@ -1,59 +1,66 @@
-.PHONY: help describe preview format validate_metadata validate log clean vars parse
+.PHONY: help vars parse extract full-extract ingest validate notify load all clean
 
-RESOURCES=$(shell cat datapackage.json | jq -r ' .resources | .[] | .name ')
-
-VALIDATION_REPORTS=$(patsubst %, logs/validate/%.json, $(RESOURCES))
-
-TABLESCHEMA=$(shell cat datapackage.json | jq -r ' .resources | .[] | select( .name == "$(resource)" ) | .schema ')
-
-SQL_FILES := $(patsubst %, scripts/sql/%.sql, $(RESOURCES))
-
-#====================================================================
-
-# PHONY TARGETS
+include config.mk
 
 help: 
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' Makefile | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-10s\033[0m %s\n", $$1, $$2}'
 
-validate: clean $(VALIDATION_REPORTS) ## Valida recursos que sofreram modificação
+datapackage.json: datapackage.yaml schemas/* data/* logs/validate/* dialect.json README.md CHANGELOG.md CONTRIBUTING.md
+	dtamg-py etl-make build-datapackage
 
-validate_data: ## Valida arquivo (usage: make validate_data resource=resource_name)
-	@echo "Validando recurso $(resource)"
-	@python scripts/validate-resource.py $(resource) | jq . 2>&1 | tee logs/validate/$(resource).json
-
-describe: ## Extrai dados e metadados do banco de dados Oracle (make describe resource=resource_name)
-	Rscript scripts/describe_resource.R $(resource)
-	make format resource=$(resource)
-
-preview: ## Preview documentação
-	Rscript -e 'xaringan::infinite_moon_reader("datapackage.Rmd")'
-
-format: ## Formata arquivo yaml com tableschema (usage: make format resource=resource_name)
-	@echo "Formatando tableschema $(TABLESCHEMA)"
-	@Rscript -e 'dtamg::style_tableschema("$(TABLESCHEMA)", "$(TABLESCHEMA)")'
-
-validate_metadata: ## Valida arquivo yaml com tableschema (usage: make validate_metadata resource=resource_name)
-	@echo "Validando tableschema $(TABLESCHEMA)"
-	@python scripts/validate-tableschema.py $(TABLESCHEMA)
-
-logs/validate/%.json: data/%.csv.gz schemas/%.yaml schemas/dialect.json
-	@echo "Validando recurso $*:"
-	@python scripts/validate-resource.py $* | jq . 2>&1 | tee logs/validate/$*.json
-
-log: ## Exibe recursos com validação inválida
-	@echo "Recursos inválidos:"
-	@bash -c "jq -n 'inputs | select( .valid == false) | input_filename' logs/validate/*.json"
-
-clean: ## Remove logs de recursos com validação inválida
-	@bash -c "jq -n 'inputs | select( .valid == false) | input_filename' logs/validate/*.json | xargs rm -f"
-
-vars: ## Imprime valor das variáveis
-	@echo 'RESOURCES:' $(RESOURCES)
-	@echo 'VALIDATION_REPORTS:' $(VALIDATION_REPORTS)
-	@echo 'TABLESCHEMA:' $(TABLESCHEMA)
-	@echo 'SQL_FILES:' $(SQL_FILES)
+init: ## Create boilerplate files for the derivated datapackages
+	dtamg-py etl-make build-documentation-folder
 
 parse: $(SQL_FILES)
 
-$(SQL_FILES): scripts/sql/%.sql: schemas/%.yaml datapackage.json scripts/parse-sql.R renv.lock
-	Rscript --verbose scripts/parse-sql.R $* 2> logs/parse-sql-$*.Rout
+$(SQL_FILES): scripts/sql/%.sql: scripts/r/parse-sql.R schemas/%.yaml
+	Rscript --verbose $< $* 2> logs/parse/$*.Rout
+
+full-extract:
+	# python scripts/python/full-extract.py
+	dtamg-py etl-make full-extract 2> logs/full_extract.txt
+
+extract: $(DATA_RAW_FILES) ## Extract raw files from external source into data/raw/
+
+$(DATA_RAW_FILES): data/raw/%.csv: scripts/python/extract-resource.py scripts/sql/%.sql
+	python $< $* 2> logs/extract/$*.txt
+
+ingest: $(DATA_INGEST_FILES) ## Ingest raw files (data/raw/) into staging area (data/staging/)
+
+$(DATA_INGEST_FILES): data/staging/%.csv: data/raw/%.csv
+	rsync --checksum data/raw/* data/staging/
+
+data/%.csv.gz: data/staging/%.csv ## Compress staged files (data/staging/) to data/
+	gzip -n < data/staging/$*.csv > data/$*.csv.gz
+
+validate: $(VALIDATION_FILES)
+	
+notify:
+	python scripts/python/mail_sender.py
+
+build:
+	dtamg-py etl-make build-datapackages 2> logs/build.txt
+
+create:
+	dtamg-py etl-make dpckan-create 2> logs/create.txt
+
+update:
+	dtamg-py etl-make dpckan-update 2> logs/update.txt
+
+$(VALIDATION_FILES): logs/validate/%.json: data/%.csv.gz
+	dtamg-py etl-make validate -r $* >$@
+
+vars: 
+	@echo 'DATA_FILES:' $(DATA_FILES)
+
+clean:
+	rm -rf logs/parse/*
+	rm -rf scripts/sql/*
+	rm -rf logs/extract/*
+	rm -rf data/raw/*
+	rm -rf data/staging/*
+	rm -f data/*.csv.gz
+	rm -rf logs/validate/*
+	rm -f logs/*.txt
+	rm -f datapackage.json
+	rm -rf build_datasets
