@@ -60,8 +60,8 @@
       "RemoteRepo": "dtamg-r",
       "RemoteUsername": "transparencia-mg",
       "RemoteRef": "pii-masking",
-      "RemoteSha": "d25e3c733951663db41e24fa604d6d7cd3040f4a",
-      "Hash": "bec577c4aec1c3498e54e116a5283615"
+      "RemoteSha": "d50182ad9a605fa8047eea38d395ab1eda397ae8",
+      "Hash": "eefedf33e52bb57d224b69a16d4eaa4d"
     },
     "evaluate": {
       "Package": "evaluate",
