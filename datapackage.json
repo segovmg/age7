@@ -4063,6 +4063,57 @@
       "encoding": "utf-8-sig",
       "dialect": "schemas/dialect.json",
       "profile": "tabular-data-resource"
+    },
+    { 
+      "name": "ft_divida_pub",
+      "title": "Dívida Pública",
+      "path": "data/ft_divida_pub.csv.gz",
+      "schema": "schemas/ft_divida_pub.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_divida_pub"
+        }
+      ],
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    { 
+      "name": "ft_repasse_mun",
+      "title": "Transferência de Impostos a Municípios",
+      "path": "data/ft_repasse_mun.csv.gz",
+      "schema": "schemas/ft_repasse_mun.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_repasse_mun"
+        }
+      ],
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
+    },
+    { 
+      "name": "ft_pessoal_desp",
+      "title": "Despesa com Pessoal",
+      "path": "data/ft_pessoal_desp.csv.gz",
+      "schema": "schemas/ft_pessoal_desp.yaml",
+      "sources": [
+        {
+          "title": "Tabela origem no schema AGE7 no banco de dados do Portal da Transparência",
+          "table": "ft_pessoal_desp"
+        }
+      ],
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "dialect": "schemas/dialect.json",
+      "profile": "tabular-data-resource"
     }
   ],
   "name": "age7",
