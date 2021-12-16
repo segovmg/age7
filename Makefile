@@ -34,7 +34,12 @@ data/%.csv.gz: data/staging/%.csv ## Compress staged files (data/staging/) to da
 	gzip -n < data/staging/$*.csv > data/$*.csv.gz
 
 validate: $(VALIDATION_FILES)
-	
+
+test: $(TEST_FILES)
+
+$(TEST_FILES): logs/tests/test_%.Rout: tests/testthat/test_%.R data/%.csv.gz tests/testthat.R tests/testthat/setup.R renv.lock
+	Rscript -e 'testthat::test_file("$<", stop_on_failure=TRUE)' 2> $@
+
 notify:
 	python scripts/python/mail_sender.py
 
