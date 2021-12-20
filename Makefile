@@ -1,4 +1,4 @@
-.PHONY: help vars parse extract full-extract ingest validate notify load all clean
+.PHONY: help vars parse extract full-extract ingest data validate notify load all clean
 
 include config.mk
 
@@ -30,7 +30,9 @@ ingest: $(DATA_INGEST_FILES) ## Ingest raw files (data/raw/) into staging area (
 $(DATA_INGEST_FILES): data/staging/%.csv: data/raw/%.csv
 	rsync --checksum data/raw/* data/staging/
 
-data/%.csv.gz: data/staging/%.csv ## Compress staged files (data/staging/) to data/
+data: $(DATA_FILES) ## Compress staged files (data/staging/) to data/
+
+$(DATA_FILES): data/%.csv.gz : data/staging/%.csv 
 	gzip -n < data/staging/$*.csv > data/$*.csv.gz
 
 validate: $(VALIDATION_FILES)
@@ -41,7 +43,7 @@ $(TEST_FILES): logs/tests/test_%.Rout: tests/testthat/test_%.R data/%.csv.gz tes
 	Rscript -e 'testthat::test_file("$<", stop_on_failure=TRUE)' 2> $@
 
 notify:
-	python scripts/python/mail_sender.py
+	Rscript --verbose scripts/r/notify.R 2> logs/notify.Rout
 
 build:
 	dtamg-py etl-make build-datapackages 2> logs/build.txt

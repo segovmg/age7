@@ -1,4 +1,0 @@
-select id_convenio,
-id_interveniente
-from fl_convenio_entrada_interv
-
