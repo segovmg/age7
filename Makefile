@@ -43,7 +43,7 @@ $(TEST_FILES): logs/tests/test_%.Rout: tests/testthat/test_%.R data/%.csv.gz tes
 	Rscript -e 'testthat::test_file("$<", stop_on_failure=TRUE)' 2> $@
 
 notify:
-	python scripts/python/mail_sender.py
+	Rscript --verbose scripts/r/notify.R 2> logs/notify.Rout
 
 build:
 	dtamg-py etl-make build-datapackages 2> logs/build.txt

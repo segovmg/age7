@@ -1,0 +1,35 @@
+---
+title: "`r paste('Atualização age7 em:', date())`"
+output: blastula::blastula_email
+--- 
+
+```{r,echo=FALSE, message=FALSE}
+library(jsonlite); library(purrr); library(dplyr); library(kableExtra)
+
+validation_report <- function(resource) {
+  
+  name <- pluck(resource, "name")
+  valid <- pluck(resource, "validation", "valid")
+  stats <- pluck(resource, "validation", "tasks", 1, "resource", "stats")
+  stats["size"] <- R.utils::hsize(pluck(stats, "bytes"))
+  
+  result <- c(list(name = name), stats[c("size")] , list(valid = valid), stats[c("fields", "rows")])
+  
+  data.frame(result)
+}
+
+dp <- read_json(here::here("datapackage.json"))
+
+df <- map_df(dp$resources, validation_report) |> arrange(valid)
+```
+
+Dos `r length(dp$resources)` recursos, `r length(dp$resources) - sum(df$valid)` tiveram erros de validação.
+
+```{r,echo=FALSE}
+df |> 
+  kbl() |> 
+  kable_minimal() |> 
+  column_spec(3, color = ifelse(df$valid == FALSE, "red", "green"))
+```
+
+Att.
