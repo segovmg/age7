@@ -231,7 +231,7 @@ fields:
     format: default
     constraints:
       required: true
-  - name: razao_social_credor
+  - name: razao_social_credor_anonimizado
     title: Razão Social do Credor
     description: |
       Número de identificação e nome da pessoa física (CPF) ou pessoa jurídica (CNPJ) beneficiária dos recursos públicos
