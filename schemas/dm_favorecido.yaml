@@ -33,7 +33,7 @@ fields:
         - "4"
     missingValues:
       - '0'
-  - name: nr_documento
+  - name: nr_documento_anonimizado
     title: Número do Documento
     description: |
       Número de identificação da pessoa física (CPF) ou da pesssoa jurídica (CNPJ).
@@ -41,7 +41,7 @@ fields:
     format: default
     constraints:
       required: true
-  - name: nome
+  - name: nome_anonimizado
     title: Favorecido - Descrição
     description: Nome de identificação da pessoa física ou jurídica.
     type: string

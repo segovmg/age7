@@ -30,7 +30,7 @@ fields:
     format: default
     constraints:
       required: true
-  - name: nome
+  - name: nome_anonimizado
     title: Contratado - Descrição
     description: |
      Nome da pessoa física ou jurídica contratada para prestar um serviço ou entregar bens materiais ao Estado.
