@@ -175,15 +175,6 @@ fields:
     format: default
     constraints:
       required: true
-  - name: razao_social_credor_anonimizado
-    title: Razão Social do Credor
-    description: |
-      Número de identificação e nome da pessoa física (CPF) ou pessoa jurídica (CNPJ) beneficiária dos recursos públicos
-      pela prestação de serviçõs ou entrega do produto.
-    type: string
-    format: default
-    constraints:
-      required: true
   - name: vr_empenho
     title: Valor do Empenho
     description: Valor do orçamento reservado para fazer face a compromisso formalmente
