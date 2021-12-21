@@ -1,5 +1,0 @@
-During startup - Warning message:
-Setting LC_CTYPE=C.UTF-8 failed 
-Error in file.exists(path) : object 'tests' not found
-Calls: <Anonymous> -> file.exists
-Execution halted
