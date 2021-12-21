@@ -12,10 +12,10 @@ fields:
     type: string
     format: default
     constraints:
-       enum:
-          - '3'
-          - '4'
-          - '12'
+      enum:
+        - '3'
+        - '4'
+        - '12'
     missingValues:
       - '-1'
       - '-2'

@@ -1,6 +1,6 @@
 fields:
   - name: id_convenio
-    title:  Convênio / Parceria - Chave
+    title: Convênio / Parceria - Chave
     type: integer
     format: default
     bareNumber: true
@@ -16,13 +16,13 @@ fields:
       required: true
       unique: false
   - name: ds_descricao
-    title: Descrição 
+    title: Descrição
     type: string
     format: default
     constraints:
       required: true
   - name: ds_unidade_medida
-    title: Unidade de Medida 
+    title: Unidade de Medida
     type: string
     format: default
     constraints:

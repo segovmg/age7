@@ -28,17 +28,17 @@ fields:
     type: string
     format: default
     description: |
-     - >
-      Descrição do tipo de ação:
-        1 Projeto do Orçamento Fiscal
-        2 Atividade Meio do Orçamento Fiscal
-        3 Projeto do Orçamento de Investimento
-        4 Atividade Fim do Orçamento Fiscal
-        5 Não Orçamentário
-        6 Atividade Meio de Empresa
-        7 Operação Especial
-        8 Atividade Fim de Empresa
-        9 Reserva de Contingência
+      - >
+       Descrição do tipo de ação:
+         1 Projeto do Orçamento Fiscal
+         2 Atividade Meio do Orçamento Fiscal
+         3 Projeto do Orçamento de Investimento
+         4 Atividade Fim do Orçamento Fiscal
+         5 Não Orçamentário
+         6 Atividade Meio de Empresa
+         7 Operação Especial
+         8 Atividade Fim de Empresa
+         9 Reserva de Contingência
     constraints:
       required: true
 missingValues:

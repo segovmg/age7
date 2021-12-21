@@ -37,9 +37,9 @@ fields:
     type: string
     format: default
     description: |
-     - >
-     Órgão ou entidade que solicitou a compra de determinado material ou serviço. 
-     Pode coincidir ou não com o órgão que está executando o processo de compra
+      - >
+      Órgão ou entidade que solicitou a compra de determinado material ou serviço. 
+      Pode coincidir ou não com o órgão que está executando o processo de compra
     constraints:
       required: true
   - name: procedimento
@@ -47,23 +47,23 @@ fields:
     type: string
     format: default
     description: |
-     Informa a modalidade da licitação.
-     - Concorrência;
-     - Tomada de preços;
-     - Convite; 
-     - Leilão;
-     - Pregão;
-     - Dispensa;
-     - Inexigibilidade;
-     - Registro de preços e etc.
+      Informa a modalidade da licitação.
+      - Concorrência;
+      - Tomada de preços;
+      - Convite; 
+      - Leilão;
+      - Pregão;
+      - Dispensa;
+      - Inexigibilidade;
+      - Registro de preços e etc.
     constraints:
       required: true
-  - name: objeto 
+  - name: objeto
     title: Objeto Processo
     type: string
     format: default
     description: |
-     Descrição dos bens e serviços que estão sendo comprados e sua finalidade.
+      Descrição dos bens e serviços que estão sendo comprados e sua finalidade.
   - name: situacao
     title: Situação do Processo de Compra
     type: string
@@ -79,14 +79,14 @@ fields:
     type: string
     format: default
     description: |
-     Descrição do critério de julgamento utilizado no processo de compra: 
-      - Por lote;
-      - Por preço global;
-      - Por item; 
-      - Por maior desconto e
-      - Por menor taxa de administração.
+      Descrição do critério de julgamento utilizado no processo de compra: 
+       - Por lote;
+       - Por preço global;
+       - Por item; 
+       - Por maior desconto e
+       - Por menor taxa de administração.
     missingValues:
-     - 'INVALIDO'
+      - 'INVALIDO'
     constraints:
       required: true
   - name: tp_licitacao
@@ -94,10 +94,10 @@ fields:
     type: string
     format: default
     description: |
-       Descrição do tipo de licitação do processo de compra:
-        - Menor preço;
-        - Melhor técnica e
-        - Técnica e preço
+      Descrição do tipo de licitação do processo de compra:
+       - Menor preço;
+       - Melhor técnica e
+       - Técnica e preço
     missingValues:
       - 'INVÁLIDO'
       - 'NÃO SE APLICA'
@@ -126,7 +126,7 @@ fields:
     bareNumber: true
     decimalChar: ','
     description: |
-     Valor total homologado licitado ou comprado do item de material/serviço.
+      Valor total homologado licitado ou comprado do item de material/serviço.
     constraints:
       required: true
 missingValues:

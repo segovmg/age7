@@ -43,11 +43,11 @@ fields:
       - 9- Reserva de Contingência
     constraints:
       enum:
-      - 'INVERSOES FINANCEIRAS'
-      - 'INVESTIMENTOS'
-      - 'OUTRAS DESPESAS CORRENTES'
-      - 'PESSOAL E ENCARGOS SOCIAIS'
-      - 'RESERVA DE CONTINGENCIA'
+        - 'INVERSOES FINANCEIRAS'
+        - 'INVESTIMENTOS'
+        - 'OUTRAS DESPESAS CORRENTES'
+        - 'PESSOAL E ENCARGOS SOCIAIS'
+        - 'RESERVA DE CONTINGENCIA'
   - name: modalidade_aplic
     title: Modalidade de Aplicação - Descrição
     type: string
@@ -65,8 +65,8 @@ fields:
         - 'TRANSFERENCIAS A MUNICIPIOS'
         - 'TRANSFERENCIAS A UNIAO'
     missingValues:
-        - 'SEM DESCRICAO'
-        - 'A DEFINIR'
+      - 'SEM DESCRICAO'
+      - 'A DEFINIR'
   - name: indicador_acao
     title: Indicador de Ação Governamental - Descrição
     type: string
@@ -74,37 +74,37 @@ fields:
     description: |
       Descrição do identificador do orçamento conforme o SIAFI-MG
     missingValues:
-      - 'SEM DESCRICAO'     
-      - 'NAO INFORMADO'   
+      - 'SEM DESCRICAO'
+      - 'NAO INFORMADO'
   - name: fonte
     title: Fonte de Recurso - Descrição
     type: string
     format: default
     description: |
-     - > 
-       Permite a identificação da origem e destinação dos recursos legalmente vinculados a órgão, fundo ou despesa.
+      - > 
+        Permite a identificação da origem e destinação dos recursos legalmente vinculados a órgão, fundo ou despesa.
     constraints:
       enum:
-       - 'RECURSOS ORDINARIOS'
-       - 'OPERACOES DE CREDITO CONTRATUAIS'
-       - 'FUNDO DE MANUTENCAO E DESENVOLVIMENTO DA EDUCACAO BASICA - FUNDEB'
-       - 'EXPLORACAO E PRODUCAO DE PETROLEO  E GAS NATURAL'
-       - 'RECURSOS DIRETAMENTE ARRECADADOS'
-       - 'ALIENACAO DE BENS DO TESOURO ESTADUAL'
-       - 'COTA ESTADUAL DO SALARIO EDUCACAO - QESE'
-       - 'CONVENIOS, ACORDOS E AJUSTES'
+        - 'RECURSOS ORDINARIOS'
+        - 'OPERACOES DE CREDITO CONTRATUAIS'
+        - 'FUNDO DE MANUTENCAO E DESENVOLVIMENTO DA EDUCACAO BASICA - FUNDEB'
+        - 'EXPLORACAO E PRODUCAO DE PETROLEO  E GAS NATURAL'
+        - 'RECURSOS DIRETAMENTE ARRECADADOS'
+        - 'ALIENACAO DE BENS DO TESOURO ESTADUAL'
+        - 'COTA ESTADUAL DO SALARIO EDUCACAO - QESE'
+        - 'CONVENIOS, ACORDOS E AJUSTES'
     missingValues:
-      - 'SEM DESCRICAO'  
+      - 'SEM DESCRICAO'
   - name: procedencia
     title: Procedência - Descrição
     type: string
     format: default
     description: |
-     - > 
-      Identifica a origem e a utilização dos recursos. 
-      O identificador de procedência e uso (IPU) informa, dentre outros, se os recursos serão para livre utilização, 
-      se foram transferidos de outra unidade orçamentária ou se objetivam oferecer contrapartida a convênios, acordos 
-      e ajustes.
+      - > 
+       Identifica a origem e a utilização dos recursos. 
+       O identificador de procedência e uso (IPU) informa, dentre outros, se os recursos serão para livre utilização, 
+       se foram transferidos de outra unidade orçamentária ou se objetivam oferecer contrapartida a convênios, acordos 
+       e ajustes.
     constraints:
       enum:
         - 'RECURSOS DIRETAMENTE RECEBIDOS'
@@ -131,7 +131,7 @@ fields:
     constraints:
       required: true
   - name: objeto
-    title: Objeto 
+    title: Objeto
     description: |
       - > 
       Objeto do gasto da emenda parlamentar.

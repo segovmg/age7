@@ -17,7 +17,7 @@ fields:
         - '1'
         - '2'
     missingValues:
-      - ''    
+      - ''
   - name: nr_documento
     title: Número Documento
     type: string
@@ -30,9 +30,9 @@ fields:
     type: string
     format: default
     description: |
-     - >
-     Órgão / entidade pública ou privada ou pessoa física que celebrou a parceria com o Estado para a execução de projeto
-     ou atividade de interesse comum e, para isso, recebe recursos repassados pelo concedente / órgão ou entidade estadual parceiro.
+      - >
+      Órgão / entidade pública ou privada ou pessoa física que celebrou a parceria com o Estado para a execução de projeto
+      ou atividade de interesse comum e, para isso, recebe recursos repassados pelo concedente / órgão ou entidade estadual parceiro.
     constraints:
       required: true
 missingValues:

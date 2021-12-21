@@ -16,11 +16,12 @@ fields:
       required: true
   - name: cd_subfuncao
     title: Subfunção - Código
-    description: Código identificador do detalhamento das áreas de atuação do Governo (1 a 999)
+    description: Código identificador do detalhamento das áreas de atuação do Governo
+      (1 a 999)
     type: string
     format: default
     constraints:
-       enum: 
+      enum:
         - '31'
         - '32'
         - '61'

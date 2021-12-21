@@ -13,17 +13,17 @@ fields:
     format: default
     bareNumber: true
     constraints:
-       minimum: 1
-       maximum: 99
+      minimum: 1
+      maximum: 99
     missingValues:
-       - '0'
+      - '0'
   - name: nome
     title: Alínea - Descrição
     type: string
     format: default
     description: |
-     É o detalhamento da Rubrica e exterioriza o “nome” da receita que receberá o registro pela entrada de recursos financeiros. 
-     Por exemplo, a alínea “ICMS” corresponde ao detalhamento da Rubrica “Impostos sobre o produção e a circulação”.
+      É o detalhamento da Rubrica e exterioriza o “nome” da receita que receberá o registro pela entrada de recursos financeiros. 
+      Por exemplo, a alínea “ICMS” corresponde ao detalhamento da Rubrica “Impostos sobre o produção e a circulação”.
     constraints:
       required: true
 missingValues:

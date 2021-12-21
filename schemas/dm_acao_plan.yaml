@@ -37,11 +37,11 @@ fields:
     type: string
     format: default
     description: |
-     - >
-       Conjunto de operações limitadas no tempo (projeto), realizadas de modo contínuo e permanente (atividade),
-       de natureza não orçamentária dos quais resulta um produto final (projeto ou não orçamentária), 
-       de atuação necessária à manutenção da ação governamental (atividade) ou transferência financeira 
-       (operação especial).
+      - >
+        Conjunto de operações limitadas no tempo (projeto), realizadas de modo contínuo e permanente (atividade),
+        de natureza não orçamentária dos quais resulta um produto final (projeto ou não orçamentária), 
+        de atuação necessária à manutenção da ação governamental (atividade) ou transferência financeira 
+        (operação especial).
     missingValues:
       - '0'
   - name: gestor
@@ -49,7 +49,7 @@ fields:
     type: string
     format: default
     description: |
-     - > Gestor de ação é o titular da unidade administrativa responsável pela ação.
+      - > Gestor de ação é o titular da unidade administrativa responsável pela ação.
     missingValues:
       - '-'
   - name: uni_orc_resp
@@ -75,9 +75,9 @@ fields:
     type: string
     format: default
     description: |
-     De acordo com a [Portaria Ministerial n. 42/99](http://www.orcamentofederal.gov.br/orcamentos-anuais/orcamento-1999/Portaria_Ministerial_42_de_140499.pdf/), a função representa o maior nível de agregação das diversas áreas de despesa que competem ao setor público. 
-     Tem como objetivo consolidar em que áreas de atuação do setor público são gastos os recursos orçamentários, tendo como critério a natureza do objeto da ação. Portanto, visa a agregar ações que tenham objetos correlatos.
-     No estado de Minas Gerais definiu-se que o código identificador da função Reserva de Contigência será 99, conforme estabelece o art. 5 da Portaria Ministerial n. 42/99. 
+      De acordo com a [Portaria Ministerial n. 42/99](http://www.orcamentofederal.gov.br/orcamentos-anuais/orcamento-1999/Portaria_Ministerial_42_de_140499.pdf/), a função representa o maior nível de agregação das diversas áreas de despesa que competem ao setor público. 
+      Tem como objetivo consolidar em que áreas de atuação do setor público são gastos os recursos orçamentários, tendo como critério a natureza do objeto da ação. Portanto, visa a agregar ações que tenham objetos correlatos.
+      No estado de Minas Gerais definiu-se que o código identificador da função Reserva de Contigência será 99, conforme estabelece o art. 5 da Portaria Ministerial n. 42/99. 
   - name: sunfuncao
     title: Subfunção - Descrição
     type: string
@@ -116,11 +116,9 @@ fields:
     type: string
     format: default
     description: |
-     Expressa o objetivo a ser alcançado pela ação, ou seja,porque esta ação é desenvolvida, 
-     evidenciando a superação de uma causa ou fator crítico que condiciona a situação-problema para 
-     mitigação ou resoluçãoda qual se articula o programa.
-    type: string
-    format: default
+      Expressa o objetivo a ser alcançado pela ação, ou seja,porque esta ação é desenvolvida, 
+      evidenciando a superação de uma causa ou fator crítico que condiciona a situação-problema para 
+      mitigação ou resoluçãoda qual se articula o programa.
     constraints:
       required: true
   - name: descricao
@@ -128,10 +126,8 @@ fields:
     type: string
     format: default
     description: |
-     Expressa, de forma sucinta, o que é efetivamente feito no âmbito da ação, seu escopo e delimitações.
-     Esse campo é importante no sentido de tornar transparente o que a unidade faz para executar a ação.
-    type: string
-    format: default
+      Expressa, de forma sucinta, o que é efetivamente feito no âmbito da ação, seu escopo e delimitações.
+      Esse campo é importante no sentido de tornar transparente o que a unidade faz para executar a ação.
     constraints:
       required: true
   - name: publico_alvo
@@ -139,8 +135,8 @@ fields:
     type: string
     format: default
     description: |
-     Especifica os setores da sociedade ou da própria administração pública aos quais a ação se 
-     destina e que se beneficiam direta e legitimamente com os produtos ofertados.
+      Especifica os setores da sociedade ou da própria administração pública aos quais a ação se 
+      destina e que se beneficiam direta e legitimamente com os produtos ofertados.
     constraints:
       required: true
   - name: detalha_implementacao
@@ -148,9 +144,9 @@ fields:
     type: string
     format: default
     description: |
-     Expressa a forma como a ação será executada, descrevendo as principais etapas 
-     (subatividades ou subprojetos) do processo até a entrega do produto final. 
-     Detalha-se inclusive as atividades desenvolvidas pelos parceiros.
+      Expressa a forma como a ação será executada, descrevendo as principais etapas 
+      (subatividades ou subprojetos) do processo até a entrega do produto final. 
+      Detalha-se inclusive as atividades desenvolvidas pelos parceiros.
     constraints:
       required: true
   - name: produto
@@ -164,10 +160,10 @@ fields:
     type: string
     format: default
     description: |
-     Expressa as características técnicas do produto final visando à sua melhor identificação ou 
-     detalhamento do mesmo. Quando o produto se apresenta como uma categoria de bens, serviços ou 
-     transferências financeiras resultantes da ação, a especificação do produto detalha as sub 
-     modalidades de produto utilizadas como base para a mensuração física.
+      Expressa as características técnicas do produto final visando à sua melhor identificação ou 
+      detalhamento do mesmo. Quando o produto se apresenta como uma categoria de bens, serviços ou 
+      transferências financeiras resultantes da ação, a especificação do produto detalha as sub 
+      modalidades de produto utilizadas como base para a mensuração física.
     constraints:
       required: true
   - name: unidade_medida
@@ -175,9 +171,9 @@ fields:
     type: string
     format: default
     description: |
-     Padrão selecionado para mensurar a produção do bem, serviço ou transferência financeira. 
-     Representa a dimensão fisicamente mensurável do produto, sendo, portanto, o elemento que dá 
-     significado ao valor numérico estampado como meta física.
+      Padrão selecionado para mensurar a produção do bem, serviço ou transferência financeira. 
+      Representa a dimensão fisicamente mensurável do produto, sendo, portanto, o elemento que dá 
+      significado ao valor numérico estampado como meta física.
     constraints:
       required: true
   - name: base_legal
@@ -185,8 +181,8 @@ fields:
     type: string
     format: default
     description: |
-     Instrumentos normativos que dão respaldo à ação. Podem ser gerais, eis que dedutíveis tão-somente 
-     da competência da unidade executora, ou específicos, quando a ação detém uma regulamentação própria.
+      Instrumentos normativos que dão respaldo à ação. Podem ser gerais, eis que dedutíveis tão-somente 
+      da competência da unidade executora, ou específicos, quando a ação detém uma regulamentação própria.
     constraints:
       required: true
   - name: justificativa_desempenho
@@ -194,8 +190,8 @@ fields:
     type: string
     format: default
     description: |
-     Caberá ao gestor da ação, com o auxílio e sob a supervisão técnica da unidade de planejamento e
-     orçamento, registrar informações qualitativas quanto ao desempenho da ação até o período monitorado.
+      Caberá ao gestor da ação, com o auxílio e sob a supervisão técnica da unidade de planejamento e
+      orçamento, registrar informações qualitativas quanto ao desempenho da ação até o período monitorado.
     constraints:
       required: true
   - name: outras_informacoes
@@ -203,22 +199,22 @@ fields:
     type: string
     format: default
     description: |
-     Cabe ao gestor da ação, com o auxílio e sob a supervisão técnica da unidade de planejamento e 
-     orçamento, registrar informações qualitativas relativas ao bimestre monitorado, 
-     devendo obrigatoriamente:
-      - relatar os principais resultados e entregas;
-      - motivar as alterações orçamentárias ocorridas;
-      - justificar o lançamento de dados estimativos e
-      - motivar a não regionalização da execução física ou orçamentária.
+      Cabe ao gestor da ação, com o auxílio e sob a supervisão técnica da unidade de planejamento e 
+      orçamento, registrar informações qualitativas relativas ao bimestre monitorado, 
+      devendo obrigatoriamente:
+       - relatar os principais resultados e entregas;
+       - motivar as alterações orçamentárias ocorridas;
+       - justificar o lançamento de dados estimativos e
+       - motivar a não regionalização da execução física ou orçamentária.
     missingValues:
-       - '-'
+      - '-'
   - name: vr_loa_credito
     title: Valor LOA + Créditos
     type: number
     format: default
     description: |
-     Corresponde ao crédito autorizado da ação, como resultado das alterações orçamentárias ocorridas 
-     ao longo do exercício por meio de anulação ou suplementação de recursos.
+      Corresponde ao crédito autorizado da ação, como resultado das alterações orçamentárias ocorridas 
+      ao longo do exercício por meio de anulação ou suplementação de recursos.
     bareNumber: true
     decimalChar: ','
     constraints:
@@ -228,10 +224,10 @@ fields:
     type: string
     format: default
     description: |
-     Quantidade de produto, estabelecida no PPAG e na Lei Orçamentária Anual (LOA), que se espera 
-     executar por meio da ação ao longo do exercício.
-     Se a execução física for não cumulativa, os valores lançados mensalmente não se somam na totalização
-     anual, pois compreendem a execução progressiva de um produto que é preponderantemente o mesmo.
+      Quantidade de produto, estabelecida no PPAG e na Lei Orçamentária Anual (LOA), que se espera 
+      executar por meio da ação ao longo do exercício.
+      Se a execução física for não cumulativa, os valores lançados mensalmente não se somam na totalização
+      anual, pois compreendem a execução progressiva de um produto que é preponderantemente o mesmo.
 missingValues:
   - ''
 primaryKey:

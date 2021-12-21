@@ -17,18 +17,6 @@ fields:
       enum:
         - '1'
         - "2"
-  - name: sqe_situacao
-    title: Situação do Convênio / Parceria- Chave Origem
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
-      enum:
-        - '11'
-        - "15"
-        - '16'
-        - '17'
   - name: nome
     title: Situação do  Convênio / Parceria- Descrição
     type: string

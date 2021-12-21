@@ -7,14 +7,6 @@ fields:
     constraints:
       required: true
       unique: false
-  - name: sqe_alteracao
-    title: Alteração - Chave Origem
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
-      unique: false
   - name: nr_alteracao
     title: Número da Alteração
     type: string
@@ -31,22 +23,22 @@ fields:
     type: string
     format: default
     description: |
-        Tipo de alteração ocorrida no Convênio / Parceria:
-         - adequação do convênio;
-         - alteração simples;
-         - ampliação de meta;
-         - cancelamento convênio;
-         - dotação orcamentaria;
-         - gestor parceria;
-         - prorrogação de ofício;
-         - retificação por erro humano;
-         - termo aditivo;
-         - valor;
-         - vigência e
-         - vigência/valor
+      Tipo de alteração ocorrida no Convênio / Parceria:
+       - adequação do convênio;
+       - alteração simples;
+       - ampliação de meta;
+       - cancelamento convênio;
+       - dotação orcamentaria;
+       - gestor parceria;
+       - prorrogação de ofício;
+       - retificação por erro humano;
+       - termo aditivo;
+       - valor;
+       - vigência e
+       - vigência/valor
     missingValues:
-     - 'sem classificação'
-     - 'outros'
+      - 'sem classificação'
+      - 'outros'
     constraints:
       required: true
   - name: objetivo

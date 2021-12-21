@@ -7,19 +7,10 @@ fields:
     constraints:
       required: true
       unique: false
-  - name: sqe_tipo_viagem
-    title: Tipo de Viagem - Chave Origem
-    description: Chave que identifica se a viagem realizada a serviço é nacional ou internacional
-    type: string
-    format: default
-    constraints:
-      required: true
-      enum:
-        - 'N'
-        - 'I'
   - name: nome
     title: Tipo de Viagem - Descrição
-    description: Descreve o tipo de viagem realizada pelo serviço a servidor, Nacional ou Internacional.
+    description: Descreve o tipo de viagem realizada pelo serviço a servidor, Nacional
+      ou Internacional.
     type: string
     format: default
     constraints:

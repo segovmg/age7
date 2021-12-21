@@ -19,10 +19,10 @@ fields:
     type: string
     format: default
     description: |
-     - >
-     Identifica o sistema operacional a que está vinculada a unidade orçamentária responsável pelo
-     programa. Usualmente são identificados pela secretaria líder do referido sistema operacional. 
-     Vinculam-se aos programas multissetorias apenas um Órgão Responsável.
+      - >
+      Identifica o sistema operacional a que está vinculada a unidade orçamentária responsável pelo
+      programa. Usualmente são identificados pela secretaria líder do referido sistema operacional. 
+      Vinculam-se aos programas multissetorias apenas um Órgão Responsável.
     constraints:
       required: true
 missingValues:

@@ -17,9 +17,9 @@ fields:
     type: string
     format: default
     description: |
-     - > 
-     Órgão ou entidade responsável pela transferência dos recursos financeiros destinados à execução do objeto do convênio.
-     Exemplos: Ministérios da União, Prefeituras, associações, etc.
+      - > 
+      Órgão ou entidade responsável pela transferência dos recursos financeiros destinados à execução do objeto do convênio.
+      Exemplos: Ministérios da União, Prefeituras, associações, etc.
     constraints:
       required: true
 missingValues:

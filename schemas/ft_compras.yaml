@@ -150,20 +150,6 @@ fields:
     bareNumber: true
     constraints:
       unique: false
-  - name: sqa_procedimento
-    title: Procedimento de Contratação - Chave Origem
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
-  - name: sqa_item_pedido
-    title: Item do Pedido - Chave Origem
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
   - name: ano_particao
     title: Ano Partição
     type: year

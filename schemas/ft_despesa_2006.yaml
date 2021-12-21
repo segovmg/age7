@@ -127,46 +127,6 @@ fields:
     constraints:
       required: true
       unique: false
-  - name: sqa_liquidacao
-    title: Liquidação - Chave Origem
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
-      unique: false
-  - name: sqa_pagamento
-    title: Pagamento - Chave Origem
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
-      unique: false
-  - name: sqa_empenho
-    title: Empenho - Chave Origem
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
-      unique: false
-  - name: sqa_unidade_exec
-    title: Unidade Executora - Chave Origem
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
-      unique: false
-  - name: sqa_unidade_orc
-    title: Unidade Orçamentária - Chave Origem
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
-      unique: false
   - name: tp_operacao
     title: Tipo Operação - Chave Origem
     type: string
@@ -192,7 +152,7 @@ fields:
     type: string
     format: default
     bareNumber: true
-    notes: 
+    notes:
       - O tipo yearmonth somente aceita representação YYYY-MM (ie. com hífen)
   - name: ano_particao
     title: Ano Partição

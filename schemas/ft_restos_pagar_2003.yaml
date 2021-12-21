@@ -115,47 +115,15 @@ fields:
     bareNumber: true
     constraints:
       required: true
-  - name: sqa_liquidacao
-    tille: Liquidação - Chave Origem
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
-      unique: false
-  - name: sqa_pagamento
-    tille: Pagamento - Chave Origem
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
-      unique: false
   - name: ano_origem
     tille: Ano Origem
     type: year
     format: default
     bareNumber: true
     description: |
-     Ano de origem do empenho
+      Ano de origem do empenho
     constraints:
       required: true
-  - name: sqa_unidade_exec
-    tille: Unidade de Exercício - Chave Origem
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
-      unique: false
-  - name: sqa_unidade_orc
-    tille: Unidade Orçamentária - Chave Origem
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
-      unique: false
   - name: cd_evento
     tille: Evento - Código
     type: string
@@ -205,7 +173,7 @@ fields:
     bareNumber: true
     decimalChar: ','
     description: |
-     Valor, em reais, de empenho inscrito em restos a pagar não processado, ou seja, são aqueles derivados de despesas “legalmente empenhadas que não foram liquidadas e nem pagas até 31 de dezembro do mesmo exercício.
+      Valor, em reais, de empenho inscrito em restos a pagar não processado, ou seja, são aqueles derivados de despesas “legalmente empenhadas que não foram liquidadas e nem pagas até 31 de dezembro do mesmo exercício.
     constraints:
       required: true
   - name: vr_processado
@@ -215,7 +183,7 @@ fields:
     bareNumber: true
     decimalChar: ','
     description: |
-     Valor, em reais, de despesa liquidada de exercícios anteriores, ou seja, são aqueles cujo 2º estágio da despesa (liquidação) já ocorreu restando apenas o pagamento.
+      Valor, em reais, de despesa liquidada de exercícios anteriores, ou seja, são aqueles cujo 2º estágio da despesa (liquidação) já ocorreu restando apenas o pagamento.
     constraints:
       required: true
   - name: vr_pago
@@ -225,8 +193,8 @@ fields:
     bareNumber: true
     decimalChar: ','
     description: |
-     Soma do valor de restos a pagar processados e não processados referentes aos pagamentos efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa. 
-     O efetivo pagamento pode estar pendente de transmissão aos bancos e/ou sujeito a compensação bancária.
+      Soma do valor de restos a pagar processados e não processados referentes aos pagamentos efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa. 
+      O efetivo pagamento pode estar pendente de transmissão aos bancos e/ou sujeito a compensação bancária.
     constraints:
       required: true
 missingValues:

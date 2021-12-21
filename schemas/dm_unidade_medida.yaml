@@ -7,14 +7,6 @@ fields:
     constraints:
       required: true
       unique: false
-  - name: sqa_unidade_medida
-    title: Unidade de Medida - Chave Origem
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
-      unique: false
   - name: cd_unidade_medida
     title: Unidade de Medida - Código
     type: string

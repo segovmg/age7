@@ -48,7 +48,7 @@ fields:
         - '96'
         - '99'
     missingValues:
-      - '0'   
+      - '0'
   - name: nome
     title: Modalidade de Aplicação - Descrição
     type: string
@@ -59,7 +59,7 @@ fields:
         podendo ser diretamente pelos mesmos ou sbo a forma de transferência a outras entidades públicas ou privadas que 
         se encarregarão da execução das ações.
     missingValues:
-        - 'SEM DESCRICAO'
+      - 'SEM DESCRICAO'
 missingValues:
   - ''
 primaryKey:

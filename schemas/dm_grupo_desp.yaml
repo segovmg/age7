@@ -21,7 +21,7 @@ fields:
         - '6'
         - '9'
     missingValues:
-        - '0'
+      - '0'
   - name: nome
     title: Grupo de Despesa - Descrição
     type: string

@@ -22,17 +22,17 @@ fields:
     type: string
     format: default
     description: |
-     - > 
-      Tipo de atores responsáveis pelo Programa:
-       - Assessor;
-       - Administrador;
-       - Gestor da Ação;
-       - Leitor;
-       - Monitor da Ação;
-       - SPGF;
-       - SPGF da Ação
-       - Titular e
-       - SCPO -  Superintendência Central de Planejamento e Orçamento;
+      - > 
+       Tipo de atores responsáveis pelo Programa:
+        - Assessor;
+        - Administrador;
+        - Gestor da Ação;
+        - Leitor;
+        - Monitor da Ação;
+        - SPGF;
+        - SPGF da Ação
+        - Titular e
+        - SCPO -  Superintendência Central de Planejamento e Orçamento;
     constraints:
       required: true
   - name: email

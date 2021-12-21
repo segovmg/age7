@@ -12,9 +12,9 @@ fields:
     type: string
     format: default
     description: |
-     Código identificador da categoria econômica da despesa.
-      - 3 Despesas Correntes
-      - 4 Despesas de Capital
+      Código identificador da categoria econômica da despesa.
+       - 3 Despesas Correntes
+       - 4 Despesas de Capital
     constraints:
       enum:
         - '3'

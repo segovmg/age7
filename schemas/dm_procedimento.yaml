@@ -12,15 +12,15 @@ fields:
     type: string
     format: default
     description: |
-     Informa a modalidade da licitação.
-     - Concorrência;
-     - Tomada de preços;
-     - Convite; 
-     - Leilão;
-     - Pregão;
-     - Dispensa;
-     - Inexigibilidade;
-     - Registro de preços e etc.
+      Informa a modalidade da licitação.
+      - Concorrência;
+      - Tomada de preços;
+      - Convite; 
+      - Leilão;
+      - Pregão;
+      - Dispensa;
+      - Inexigibilidade;
+      - Registro de preços e etc.
     constraints:
       required: true
 missingValues:

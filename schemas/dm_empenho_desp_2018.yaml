@@ -14,62 +14,6 @@ fields:
     bareNumber: true
     constraints:
       required: true
-  - name: sqa_gmifp
-    title: GMIFP - Chave Origem
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
-      unique: false
-  - name: sqa_credor
-    title: Credor - Chave Origem
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
-      unique: false
-  - name: sqa_natureza
-    title: Natureza de Despesa - Chave Origem
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
-      unique: false
-  - name: sqa_unidade_orc
-    title: Unidade Orçamentária - Chave Origem
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
-      unique: false
-  - name: sqa_progtrab
-    title: Programa de Trabalho - Chave Origem
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
-      unique: false
-  - name: sqa_unidade_exec
-    title: Unidade Executora - Chave Origem
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
-      unique: false
-  - name: sqa_empenho
-    title: Número do Empenho - Chave Origem
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
-      unique: false
   - name: nr_empenho
     title: Número do Empenho
     description: Número de identificação do documento de empenho.
@@ -99,51 +43,51 @@ fields:
     constraints:
       required: true
   - name: funcao
-    title: Função 
+    title: Função
     description: |
-     - > 
-      Código representativo e nome da função. De acordo com a [Portaria Ministerial n. 42/99](http://www.orcamentofederal.gov.br/orcamentos-anuais/orcamento-1999/Portaria_Ministerial_42_de_140499.pdf/), 
-      a função representa o maior nível de agregação das diversas áreas de despesa que competem ao setor público. 
-      
-      Tem como objetivo consolidar em que áreas de atuação do setor público são gastos os recursos orçamentários, tendo como critério a natureza do objeto da ação. 
-      Portanto, visa a agregar ações que tenham objetos correlatos. No estado de Minas Gerais definiu-se que o código identificador da função Reserva de Contigência será 99, conforme estabelece o art. 5 da Portaria Ministerial n. 42/99. 
+      - > 
+       Código representativo e nome da função. De acordo com a [Portaria Ministerial n. 42/99](http://www.orcamentofederal.gov.br/orcamentos-anuais/orcamento-1999/Portaria_Ministerial_42_de_140499.pdf/), 
+       a função representa o maior nível de agregação das diversas áreas de despesa que competem ao setor público. 
+       
+       Tem como objetivo consolidar em que áreas de atuação do setor público são gastos os recursos orçamentários, tendo como critério a natureza do objeto da ação. 
+       Portanto, visa a agregar ações que tenham objetos correlatos. No estado de Minas Gerais definiu-se que o código identificador da função Reserva de Contigência será 99, conforme estabelece o art. 5 da Portaria Ministerial n. 42/99. 
     type: string
     format: default
     constraints:
       required: true
   - name: subfuncao
-    title: Subfunção 
+    title: Subfunção
     description: |
-     - > 
-       Código representativo e nome da subfunção. De acordo com a [Portaria Ministerial n. 42/99](http://www.orcamentofederal.gov.br/orcamentos-anuais/orcamento-1999/Portaria_Ministerial_42_de_140499.pdf/), 
-       a subfunção representa uma partição da função, visando agregar determinado subconjunto de despesas do setor público. 
-       Identifica a natureza básica das ações que se aglutinam em torno das funções.
-       As subfunções poderão ser combinadas com funções diferentes daquelas a que estão relacionadas no rol fixado pela Portaria.
+      - > 
+        Código representativo e nome da subfunção. De acordo com a [Portaria Ministerial n. 42/99](http://www.orcamentofederal.gov.br/orcamentos-anuais/orcamento-1999/Portaria_Ministerial_42_de_140499.pdf/), 
+        a subfunção representa uma partição da função, visando agregar determinado subconjunto de despesas do setor público. 
+        Identifica a natureza básica das ações que se aglutinam em torno das funções.
+        As subfunções poderão ser combinadas com funções diferentes daquelas a que estão relacionadas no rol fixado pela Portaria.
     type: string
     format: default
     constraints:
       required: true
   - name: programa
-    title: Programa 
+    title: Programa
     description: |
-     - > 
-        Código representativo e nome do Programa. 
-        Programa é o instrumento de organização de ação governamental que integra o planejamento, o orçamento e a gestão. 
-        Visa o enfrentamento de um problema, sendo mensurado por indicadores estabelecidos no Plano Plurianual de
-        Ação Governamental.        
-        Resulta do reconhecimento de carências, demandas administrativas, sociais e econômicas e de oportunidades.
+      - > 
+         Código representativo e nome do Programa. 
+         Programa é o instrumento de organização de ação governamental que integra o planejamento, o orçamento e a gestão. 
+         Visa o enfrentamento de um problema, sendo mensurado por indicadores estabelecidos no Plano Plurianual de
+         Ação Governamental.        
+         Resulta do reconhecimento de carências, demandas administrativas, sociais e econômicas e de oportunidades.
     type: string
     format: default
     constraints:
       required: true
   - name: acao
-    title: Ação Orçamentária 
+    title: Ação Orçamentária
     description: |
-     - > 
-      Código representativo e nome da ação orçamentaria.
-      Ação é conjunto de operações limitadas no tempo (projeto), realizadas de modo contínuo e permanente (atividade),
-      de natureza não orçamentária dos quais resulta um produto final (projeto ou não orçamentária), 
-      de atuação necessária à manutenção da ação governamental (atividade) ou transferência financeira 
+      - > 
+       Código representativo e nome da ação orçamentaria.
+       Ação é conjunto de operações limitadas no tempo (projeto), realizadas de modo contínuo e permanente (atividade),
+       de natureza não orçamentária dos quais resulta um produto final (projeto ou não orçamentária), 
+       de atuação necessária à manutenção da ação governamental (atividade) ou transferência financeira 
     type: string
     format: default
     constraints:
@@ -160,7 +104,7 @@ fields:
     constraints:
       required: true
   - name: grupo_desp
-    title: Grupo de Despesa 
+    title: Grupo de Despesa
     description: |
       Código representativo e nome do grupo de natureza econômica da despesa: 
       - 1 Pessoal e Encargos Sociais; 
@@ -175,7 +119,7 @@ fields:
     constraints:
       required: true
   - name: elemento_desp
-    title: Elemento de Despesa 
+    title: Elemento de Despesa
     description: |
       - >
       Código representativo e nome do elemento de gasto da despesa. 
@@ -187,15 +131,15 @@ fields:
     constraints:
       required: true
   - name: item_desp
-    title: Item de Despesa 
+    title: Item de Despesa
     description: |
-     Código representativo e nome do elemento item da despesa.
+      Código representativo e nome do elemento item da despesa.
     type: string
     format: default
     constraints:
       required: true
   - name: modalidade_aplic
-    title: Modalidade de Aplicação 
+    title: Modalidade de Aplicação
     description: |
       - > 
         Código representativo e nome da modalidade de aplicação.
@@ -210,23 +154,23 @@ fields:
   - name: tipo_empenho
     title: Tipo de Empenho - Descrição
     description: |
-     Descrição do tipo de empenho: global, estimado, ordinário, extra-orçamentário.
+      Descrição do tipo de empenho: global, estimado, ordinário, extra-orçamentário.
     type: string
     format: default
   - name: fonte_recurso
-    title: Fonte de Recurso 
+    title: Fonte de Recurso
     description: |
-     - > 
-       Código representativo e nome da Fonte de Recurso que permite a identificação da origem e destinação dos recursos legalmente vinculados a órgão, 
-       fundo ou despesa.
+      - > 
+        Código representativo e nome da Fonte de Recurso que permite a identificação da origem e destinação dos recursos legalmente vinculados a órgão, 
+        fundo ou despesa.
     type: string
     format: default
     constraints:
       required: true
   - name: identificador_orc
-    title: Identificador Orçamento 
+    title: Identificador Orçamento
     description: |
-     Código representativo e nome do identificador do orçamento conforme o SIAFI-MG.
+      Código representativo e nome do identificador do orçamento conforme o SIAFI-MG.
     type: string
     format: default
     constraints:
@@ -242,7 +186,8 @@ fields:
       required: true
   - name: vr_empenho
     title: Valor do Empenho
-    description: Valor do orçamento reservado para fazer face a compromisso formalmente assumido com fornecedor ou credor.
+    description: Valor do orçamento reservado para fazer face a compromisso formalmente
+      assumido com fornecedor ou credor.
     type: number
     format: default
     bareNumber: true

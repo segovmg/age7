@@ -10,9 +10,9 @@ fields:
   - name: cd_categoria
     title: Categoria Econômica da Despesa - Código
     description: |
-     Código identificador da categoria econômica da despesa.
-      - 3 Despesas Correntes
-      - 4 Despesas de Capital
+      Código identificador da categoria econômica da despesa.
+       - 3 Despesas Correntes
+       - 4 Despesas de Capital
     type: string
     format: default
     constraints:
