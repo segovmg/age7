@@ -31,13 +31,6 @@ fields:
     title: Data de registro original do documento de Empenho
     type: datetime
     format: default
-  - name: unidade_orcamentaria
-    title: Unidade Orçamentária
-    type: string
-    format: default
-    description: Código representativo e nome da unidade orçamentária.
-    constraints:
-      required: true
   - name: unidade_executora
     title: Unidade Executora
     description: Código composto do órgão executor (4 dígitos) e número sequencial
@@ -46,135 +39,10 @@ fields:
     format: default
     constraints:
       required: true
-  - name: funcao
-    title: Função
-    description: |
-      - > 
-      Código representativo e nome da função. De acordo com a [Portaria Ministerial n. 42/99](http://www.orcamentofederal.gov.br/orcamentos-anuais/orcamento-1999/Portaria_Ministerial_42_de_140499.pdf/), 
-      a função representa o maior nível de agregação das diversas áreas de despesa que competem ao setor público. 
-
-      Tem como objetivo consolidar em que áreas de atuação do setor público são gastos os recursos orçamentários, tendo como critério a natureza do objeto da ação. 
-      Portanto, visa a agregar ações que tenham objetos correlatos. No estado de Minas Gerais definiu-se que o código identificador da função Reserva de Contigência será 99, conforme estabelece o art. 5 da Portaria Ministerial n. 42/99. 
-    type: string
-    format: default
-    constraints:
-      required: true
-  - name: subfuncao
-    title: Subfunção
-    description: |
-      - > 
-        Código representativo e nome da subfunção. De acordo com a [Portaria Ministerial n. 42/99](http://www.orcamentofederal.gov.br/orcamentos-anuais/orcamento-1999/Portaria_Ministerial_42_de_140499.pdf/), 
-        a subfunção representa uma partição da função, visando agregar determinado subconjunto de despesas do setor público. 
-        Identifica a natureza básica das ações que se aglutinam em torno das funções.
-        As subfunções poderão ser combinadas com funções diferentes daquelas a que estão relacionadas no rol fixado pela Portaria.
-    type: string
-    format: default
-    constraints:
-      required: true
-  - name: programa
-    title: Programa
-    description: |
-      - > 
-         Código representativo e nome do Programa. 
-         Programa é o instrumento de organização de ação governamental que integra o planejamento, o orçamento e a gestão. 
-         Visa o enfrentamento de um problema, sendo mensurado por indicadores estabelecidos no Plano Plurianual de
-         Ação Governamental.        
-         Resulta do reconhecimento de carências, demandas administrativas, sociais e econômicas e de oportunidades.
-    type: string
-    format: default
-    constraints:
-      required: true
-  - name: acao
-    title: Ação Orçamentária
-    description: |
-      - > 
-      Código representativo e nome da ação orçamentaria.
-      Ação é conjunto de operações limitadas no tempo (projeto), realizadas de modo contínuo e permanente (atividade),
-      de natureza não orçamentária dos quais resulta um produto final (projeto ou não orçamentária), 
-      de atuação necessária à manutenção da ação governamental (atividade) ou transferência financeira 
-    type: string
-    format: default
-    constraints:
-      required: true
-  - name: categoria_econ
-    title: Categoria Econômica
-    description: |
-      - > 
-       Código representativo e nome da categoria econômica da despesa:
-        - 3 Despesas Correntes: despesas que não contribuem, diretamente, para a formação ou aquisição de um bem de capital. 
-        - 4 Despesas de Capital: despesas que contribuem, diretamente, para a formação ou aquisição de um bem de capital.
-    type: string
-    format: default
-    constraints:
-      required: true
-  - name: grupo_desp
-    title: Grupo de Despesa
-    description: |
-      Código representativo e nome do grupo de natureza econômica da despesa: 
-      - 1 Pessoal e Encargos Sociais; 
-      - 2 Juros e Encargos da Dívida; 
-      - 3 Outras Despesas Correntes; 
-      - 4 Investimentos; 
-      - 5 Inversões Financeiras; 
-      - 6 Amortização da Dívida e
-      - 9 Reserva de Contigência.
-    format: default
-    constraints:
-      required: true
-  - name: elemento_desp
-    title: Elmemento de Despesa
-    description: |
-      - >
-       Código representativo e nome do elemento de gasto da despesa. 
-       Identifica os objetos de gasto, tais como vencimentos e vantagens fixas, juros, diárias, material de consumo,
-       serviços de terceiros prestados sob qualquer forma, subvenções sociais, obras e instalações, equipamentos e material 
-       permanente, auxílios, amortização e outros que a administração pública utiliza para a consecução de seus fins.
-    type: string
-    format: default
-    constraints:
-      required: true
-  - name: item_desp
-    title: Item de Despesa
-    description: Código representativo e nome do elemento item da despesa.
-    type: string
-    format: default
-    constraints:
-      required: true
-  - name: modalidade_aplic
-    title: Modalidade de Aplicação
-    description: |
-      - > 
-        Código representativo e nome da modalidade de aplicação.
-
-        Modalidade de aplicação é classificação da natureza da despesa que traduz a forma como os recursos serão aplicados pelos órgãos/entiddes, 
-        podendo ser diretamente pelos mesmos ou sbo a forma de transferência a outras entidades públicas ou privadas que 
-        se encarregarão da execução das ações.
-    type: string
-    format: default
-    constraints:
-      required: true
   - name: tipo_empenho
     title: Tipo de Empenho - Descrição
     description: |
       Descrição do tipo de empenho: global, estimado, ordinário, extra-orçamentário.
-    type: string
-    format: default
-    constraints:
-      required: true
-  - name: fonte_recurso
-    title: Fonte de Recurso
-    description: |
-      - > 
-        Código representativo e nome da Fonte de Recurso que permite a identificação da origem e destinação dos recursos legalmente vinculados a órgão, 
-        fundo ou despesa.
-    type: string
-    format: default
-    constraints:
-      required: true
-  - name: identificador_orc
-    title: Identificador Orçamento
-    description: Código representativo e nome do identificador do orçamento conforme
-      o SIAFI-MG.
     type: string
     format: default
     constraints:
