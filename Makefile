@@ -73,5 +73,6 @@ clean:
 	rm -f data/*.csv.gz
 	rm -rf logs/validate/*
 	rm -f logs/*.txt
+	rm -rf logs/tests/*
 	rm -f datapackage.json
 	rm -rf build_datasets
