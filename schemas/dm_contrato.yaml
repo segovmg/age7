@@ -7,14 +7,6 @@ fields:
     constraints:
       required: true
       unique: false
-  - name: sqa_contrato
-    title: Contrato - Chave Origem
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
-      unique: false
   - name: nr_contrato
     title: Número do Contrato
     description: Número identificador do processo de compra no Portal de Compras
@@ -28,8 +20,7 @@ fields:
     description: Link para acessar o contrato
     type: string
     format: default
-    missingValues:
-        ''
+    missingValues: ''
   - name: objeto
     title: Objeto
     description: Descrição dos bens e serviços que estão sendo comprados e sua finalidade.
@@ -52,7 +43,7 @@ fields:
   - name: tipo
     title: Tipo de Contrato
     description: |
-     Informa o tipo de contrato firmado pela Administração, por exemplo, obra, fornecimento de bens, etc.
+      Informa o tipo de contrato firmado pela Administração, por exemplo, obra, fornecimento de bens, etc.
     type: string
     format: default
     constraints:
@@ -84,7 +75,7 @@ fields:
   - name: vr_homologado
     title: Valor Homologado
     description: |
-     Valor total homologado licitado ou comprado do item de material/serviço.
+      Valor total homologado licitado ou comprado do item de material/serviço.
     type: number
     format: default
     bareNumber: true

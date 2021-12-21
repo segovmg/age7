@@ -6,13 +6,6 @@ fields:
     bareNumber: true
     constraints:
       required: true
-  - name: sqa_decreto
-    title: Decreto - Chave Secundária
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
   - name: nr_decreto
     title: Número do Decreto
     type: integer

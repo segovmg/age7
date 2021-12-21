@@ -14,55 +14,6 @@ fields:
     bareNumber: true
     constraints:
       required: true
-  - name: sqa_restoapagar
-    title: Restos a Pagar - Chave Origem
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
-  - name: sqa_gmifp
-    title: GMIFP - Chave Origem
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
-  - name: sqa_unidade_exec
-    title: Unidade Executora - Chave Origem
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
-  - name: sqa_unidade_orc
-    title: Unidade Orçamentária - Chave Origem
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
-  - name: sqa_credor
-    title: Credor - Chave Origem
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
-  - name: sqa_natureza
-    title: Natureza de Despesa- Chave Origem
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
-  - name: sqa_tpdocumento
-    title: Tipo de Documento - Chave Origem
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
   - name: nr_empenho
     title: Número de Empenho
     description: Número de identificação do documento de empenho.
@@ -71,7 +22,7 @@ fields:
     constraints:
       required: true
   - name: dt_empenho
-    title:  Data de registro do documento de empenho
+    title: Data de registro do documento de empenho
     type: datetime
     format: default
     constraints:
@@ -81,7 +32,7 @@ fields:
     type: datetime
     format: default
   - name: unidade_orcamentaria
-    title: Unidade Orçamentária 
+    title: Unidade Orçamentária
     type: string
     format: default
     description: Código representativo e nome da unidade orçamentária.
@@ -89,18 +40,19 @@ fields:
       required: true
   - name: unidade_executora
     title: Unidade Executora
-    description: Código composto do órgão executor (4 dígitos) e número sequencial da unidade executora (3 dígitos) e nome da unidade executora.
+    description: Código composto do órgão executor (4 dígitos) e número sequencial
+      da unidade executora (3 dígitos) e nome da unidade executora.
     type: string
     format: default
     constraints:
       required: true
   - name: funcao
-    title: Função 
+    title: Função
     description: |
       - > 
       Código representativo e nome da função. De acordo com a [Portaria Ministerial n. 42/99](http://www.orcamentofederal.gov.br/orcamentos-anuais/orcamento-1999/Portaria_Ministerial_42_de_140499.pdf/), 
       a função representa o maior nível de agregação das diversas áreas de despesa que competem ao setor público. 
-      
+
       Tem como objetivo consolidar em que áreas de atuação do setor público são gastos os recursos orçamentários, tendo como critério a natureza do objeto da ação. 
       Portanto, visa a agregar ações que tenham objetos correlatos. No estado de Minas Gerais definiu-se que o código identificador da função Reserva de Contigência será 99, conforme estabelece o art. 5 da Portaria Ministerial n. 42/99. 
     type: string
@@ -108,32 +60,32 @@ fields:
     constraints:
       required: true
   - name: subfuncao
-    title: Subfunção 
+    title: Subfunção
     description: |
-     - > 
-       Código representativo e nome da subfunção. De acordo com a [Portaria Ministerial n. 42/99](http://www.orcamentofederal.gov.br/orcamentos-anuais/orcamento-1999/Portaria_Ministerial_42_de_140499.pdf/), 
-       a subfunção representa uma partição da função, visando agregar determinado subconjunto de despesas do setor público. 
-       Identifica a natureza básica das ações que se aglutinam em torno das funções.
-       As subfunções poderão ser combinadas com funções diferentes daquelas a que estão relacionadas no rol fixado pela Portaria.
+      - > 
+        Código representativo e nome da subfunção. De acordo com a [Portaria Ministerial n. 42/99](http://www.orcamentofederal.gov.br/orcamentos-anuais/orcamento-1999/Portaria_Ministerial_42_de_140499.pdf/), 
+        a subfunção representa uma partição da função, visando agregar determinado subconjunto de despesas do setor público. 
+        Identifica a natureza básica das ações que se aglutinam em torno das funções.
+        As subfunções poderão ser combinadas com funções diferentes daquelas a que estão relacionadas no rol fixado pela Portaria.
     type: string
     format: default
     constraints:
       required: true
   - name: programa
-    title: Programa 
+    title: Programa
     description: |
-     - > 
-        Código representativo e nome do Programa. 
-        Programa é o instrumento de organização de ação governamental que integra o planejamento, o orçamento e a gestão. 
-        Visa o enfrentamento de um problema, sendo mensurado por indicadores estabelecidos no Plano Plurianual de
-        Ação Governamental.        
-        Resulta do reconhecimento de carências, demandas administrativas, sociais e econômicas e de oportunidades.
+      - > 
+         Código representativo e nome do Programa. 
+         Programa é o instrumento de organização de ação governamental que integra o planejamento, o orçamento e a gestão. 
+         Visa o enfrentamento de um problema, sendo mensurado por indicadores estabelecidos no Plano Plurianual de
+         Ação Governamental.        
+         Resulta do reconhecimento de carências, demandas administrativas, sociais e econômicas e de oportunidades.
     type: string
     format: default
     constraints:
       required: true
   - name: acao
-    title: Ação Orçamentária 
+    title: Ação Orçamentária
     description: |
       - > 
       Código representativo e nome da ação orçamentaria.
@@ -156,7 +108,7 @@ fields:
     constraints:
       required: true
   - name: grupo_desp
-    title: Grupo de Despesa 
+    title: Grupo de Despesa
     description: |
       Código representativo e nome do grupo de natureza econômica da despesa: 
       - 1 Pessoal e Encargos Sociais; 
@@ -170,26 +122,26 @@ fields:
     constraints:
       required: true
   - name: elemento_desp
-    title: Elmemento de Despesa 
+    title: Elmemento de Despesa
     description: |
-     - >
-      Código representativo e nome do elemento de gasto da despesa. 
-      Identifica os objetos de gasto, tais como vencimentos e vantagens fixas, juros, diárias, material de consumo,
-      serviços de terceiros prestados sob qualquer forma, subvenções sociais, obras e instalações, equipamentos e material 
-      permanente, auxílios, amortização e outros que a administração pública utiliza para a consecução de seus fins.
+      - >
+       Código representativo e nome do elemento de gasto da despesa. 
+       Identifica os objetos de gasto, tais como vencimentos e vantagens fixas, juros, diárias, material de consumo,
+       serviços de terceiros prestados sob qualquer forma, subvenções sociais, obras e instalações, equipamentos e material 
+       permanente, auxílios, amortização e outros que a administração pública utiliza para a consecução de seus fins.
     type: string
     format: default
     constraints:
       required: true
   - name: item_desp
-    title: Item de Despesa 
+    title: Item de Despesa
     description: Código representativo e nome do elemento item da despesa.
     type: string
     format: default
     constraints:
       required: true
   - name: modalidade_aplic
-    title: Modalidade de Aplicação 
+    title: Modalidade de Aplicação
     description: |
       - > 
         Código representativo e nome da modalidade de aplicação.
@@ -204,24 +156,25 @@ fields:
   - name: tipo_empenho
     title: Tipo de Empenho - Descrição
     description: |
-     Descrição do tipo de empenho: global, estimado, ordinário, extra-orçamentário.
+      Descrição do tipo de empenho: global, estimado, ordinário, extra-orçamentário.
     type: string
     format: default
     constraints:
       required: true
   - name: fonte_recurso
-    title: Fonte de Recurso 
+    title: Fonte de Recurso
     description: |
-     - > 
-       Código representativo e nome da Fonte de Recurso que permite a identificação da origem e destinação dos recursos legalmente vinculados a órgão, 
-       fundo ou despesa.
+      - > 
+        Código representativo e nome da Fonte de Recurso que permite a identificação da origem e destinação dos recursos legalmente vinculados a órgão, 
+        fundo ou despesa.
     type: string
     format: default
     constraints:
       required: true
   - name: identificador_orc
-    title: Identificador Orçamento 
-    description: Código representativo e nome do identificador do orçamento conforme o SIAFI-MG.
+    title: Identificador Orçamento
+    description: Código representativo e nome do identificador do orçamento conforme
+      o SIAFI-MG.
     type: string
     format: default
     constraints:
@@ -235,7 +188,8 @@ fields:
     format: default
   - name: vr_empenho
     title: Valor do Empenho
-    description: Valor do orçamento reservado para fazer face a compromisso formalmente assumido com fornecedor ou credor.
+    description: Valor do orçamento reservado para fazer face a compromisso formalmente
+      assumido com fornecedor ou credor.
     type: number
     format: default
     bareNumber: true

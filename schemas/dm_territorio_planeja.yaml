@@ -36,8 +36,8 @@ fields:
     type: string
     format: default
     description: |
-     Regiões formadas por um conjunto de municípios, de acordo com a divisão
-     adotada pelo Governo de Minas Gerais
+      Regiões formadas por um conjunto de municípios, de acordo com a divisão
+      adotada pelo Governo de Minas Gerais
 missingValues:
   - ''
 primaryKey:

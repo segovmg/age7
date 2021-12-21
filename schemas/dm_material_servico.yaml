@@ -9,14 +9,16 @@ fields:
       unique: false
   - name: cd_material_servico
     title: Material e Serviço - Código
-    description: Código identificador do tipo de objeto da especificação do empenho, M-Material; S-Serviço
+    description: Código identificador do tipo de objeto da especificação do empenho,
+      M-Material; S-Serviço
     type: string
     format: default
     constraints:
       required: true
   - name: nome
     title: Material e Serviço - Descrição
-    description: Identificação do tipo de objeto da especificação do empenho, material ou serviço.
+    description: Identificação do tipo de objeto da especificação do empenho, material
+      ou serviço.
     type: string
     format: default
     missingValues:

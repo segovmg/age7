@@ -19,8 +19,8 @@ fields:
     type: string
     format: default
     description: |
-     Agrega determinadas espécies de receitas cujas características próprias sejam semelhantes entre si; dessa forma, detalha a espécie, por meio da especificação dos recursos financeiros que lhe são correlatos. 
-     Por exemplo, a rubrica “Impostos sobre o Patrimônio e a Renda” corresponde ao detalhamento da Espécie “Impostos”.
+      Agrega determinadas espécies de receitas cujas características próprias sejam semelhantes entre si; dessa forma, detalha a espécie, por meio da especificação dos recursos financeiros que lhe são correlatos. 
+      Por exemplo, a rubrica “Impostos sobre o Patrimônio e a Renda” corresponde ao detalhamento da Espécie “Impostos”.
     constraints:
       required: true
 missingValues:

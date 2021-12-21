@@ -25,15 +25,15 @@ fields:
     type: string
     format: default
     missingValues:
-       - 'TERMO ADITIVO DE ALTERACAO DE VALOR'
-       - 'TERMO ADITIVO DE ALTERACAO DE VIGENCIA E VALOR'
-       - 'TERMO ADITIVO DE VIGENCIA'    
+      - 'TERMO ADITIVO DE ALTERACAO DE VALOR'
+      - 'TERMO ADITIVO DE ALTERACAO DE VIGENCIA E VALOR'
+      - 'TERMO ADITIVO DE VIGENCIA'
   - name: justificativa
     title: Justificativa
     type: string
     format: default
     description: |
-     Justificativa do Termo Aditivo
+      Justificativa do Termo Aditivo
     constraints:
       required: true
 missingValues:

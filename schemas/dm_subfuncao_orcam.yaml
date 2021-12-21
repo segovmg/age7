@@ -11,7 +11,8 @@ fields:
     title: Subfunção - Código
     type: integer
     format: default
-    description: Código identificador do detalhamento das áreas de atuação do Governo (1 a 999)
+    description: Código identificador do detalhamento das áreas de atuação do Governo
+      (1 a 999)
     constraints:
       minimum: '31'
       maximum: '999'

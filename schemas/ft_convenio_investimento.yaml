@@ -39,30 +39,6 @@ fields:
     constraints:
       required: true
       unique: false
-  - name: sqa_empenho
-    title: Empenho - Chave Origem
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
-      unique: false
-  - name: sqa_unidade_orc
-    title: Unidade Orçamentária - Chave Origem
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
-      unique: false
-  - name: sqa_unidade_exec
-    title: Unidade Executora - Chave Origem
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
-      unique: false
   - name: nr_doc_liquidacao
     title: Número Documento Liquidação
     description: Número de Identificação do documento de liquidação
@@ -70,14 +46,6 @@ fields:
     format: default
     constraints:
       required: true
-  - name: sqa_liquidacao
-    title: Liquidação - Chave Origem
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
-      unique: false
   - name: tp_documento
     title: Tipo de Documento
     type: string
@@ -137,7 +105,7 @@ foreignKeys:
         - id_municipio
       resource: dm_municipio
   - fields:
-    - id_unidade_orc
+      - id_unidade_orc
     reference:
       fields:
         - id_unidade_orc

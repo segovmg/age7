@@ -23,14 +23,14 @@ fields:
     type: string
     format: default
     description: |
-     - >
-      Órgão ou entidade que solicitou a compra de determinado material ou serviço. 
-      Pode coincidir ou não com o órgão que está executando o processo de compra.
+      - >
+       Órgão ou entidade que solicitou a compra de determinado material ou serviço. 
+       Pode coincidir ou não com o órgão que está executando o processo de compra.
     missingValues:
-     - 'INEXISTENTE'
-     - 'NÃO SE APLICA'
-     - 'INVÁLIDO'
-     - 'NÃO INFORMADO'
+      - 'INEXISTENTE'
+      - 'NÃO SE APLICA'
+      - 'INVÁLIDO'
+      - 'NÃO INFORMADO'
 missingValues:
   - ''
 primaryKey:

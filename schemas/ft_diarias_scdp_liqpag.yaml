@@ -60,8 +60,8 @@ fields:
     type: string
     format: default
     description: |
-       - '0' - Diárias
-       - '1' - Passagem
+      - '0' - Diárias
+      - '1' - Passagem
     constraints:
       required: true
       enum:
@@ -72,7 +72,7 @@ fields:
     type: string
     format: default
     description: |
-     Número do documento de liquidação.
+      Número do documento de liquidação.
     constraints:
       required: true
       unique: false
@@ -81,7 +81,7 @@ fields:
     type: string
     format: default
     description: |
-     Número do documento de ordem de pagamento.
+      Número do documento de ordem de pagamento.
     constraints:
       required: true
       unique: false
@@ -118,84 +118,84 @@ foreignKeys:
   - fields:
       - id_funcao
     reference:
-      fields: 
-      - id_funcao
+      fields:
+        - id_funcao
       resource: dm_funcao_desp
   - fields:
       - id_fonte
     reference:
-      fields: 
-      - id_fonte
+      fields:
+        - id_fonte
       resource: dm_fonte
   - fields:
       - id_item
     reference:
-      fields: 
-      - id_item
+      fields:
+        - id_item
       resource: dm_item_desp
   - fields:
       - id_programa
     reference:
-      fields: 
-      - id_programa
+      fields:
+        - id_programa
       resource: dm_programa
   - fields:
       - id_empenho
     reference:
-      fields: 
-      - id_empenho
+      fields:
+        - id_empenho
       resource: dm_empenho_desp_diarias_scdp_liqpag
   - fields:
       - id_documento_viagem
     reference:
-      fields: 
-      - id_documento_viagem
+      fields:
+        - id_documento_viagem
       resource: dm_documento_viagem
   - fields:
       - id_acao
     reference:
-      fields: 
-      - id_acao
+      fields:
+        - id_acao
       resource: dm_acao
   - fields:
       - id_item
     reference:
-      fields: 
-      - id_item
+      fields:
+        - id_item
       resource: dm_item_desp
   - fields:
       - id_fonte
     reference:
-      fields: 
-      - id_fonte
+      fields:
+        - id_fonte
       resource: dm_fonte
   - fields:
       - id_programa
     reference:
-      fields: 
-      - id_programa
+      fields:
+        - id_programa
       resource: dm_programa
   - fields:
       - id_documento_viagem
     reference:
-      fields: 
-      - id_documento_viagem
+      fields:
+        - id_documento_viagem
       resource: dm_documento_viagem
   - fields:
       - id_acao
     reference:
-      fields: 
-      - id_acao
+      fields:
+        - id_acao
       resource: dm_acao
   - fields:
       - id_empenho
     reference:
-      fields: 
-      - id_empenho
+      fields:
+        - id_empenho
       resource: dm_empenho_desp_diarias_scdp_liqpag
   - fields:
       - id_funcao
     reference:
-      fields: 
-      - id_funcao
+      fields:
+        - id_funcao
       resource: dm_funcao_desp

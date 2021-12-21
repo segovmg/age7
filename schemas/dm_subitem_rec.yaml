@@ -16,7 +16,8 @@ fields:
       required: true
   - name: nome
     title: Subitem - Descrição
-    description: Detalhamento da classificação orçamentária da receita referente ao item de receita.
+    description: Detalhamento da classificação orçamentária da receita referente ao
+      item de receita.
     type: string
     format: default
     missingValues:

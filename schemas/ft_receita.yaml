@@ -72,7 +72,7 @@ fields:
       required: true
       unique: false
   - name: cd_fonte_recurso
-    title: Fonte de Recurso - Código 
+    title: Fonte de Recurso - Código
     type: string
     format: default
     description: |
@@ -109,7 +109,7 @@ fields:
     bareNumber: true
     decimalChar: ','
     description: |
-     Valor, em reais, da receita orçamentária efetivada ajustada.
+      Valor, em reais, da receita orçamentária efetivada ajustada.
     constraints:
       required: true
 missingValues:

@@ -7,7 +7,6 @@ fields:
     constraints:
       required: true
       unique: false
-      required: true
   - name: cd_indicador_acao
     type: string
     format: default

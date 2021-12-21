@@ -13,7 +13,7 @@ fields:
     type: string
     format: default
     constraints:
-       enum:
+      enum:
         - '1'
         - '2'
         - '3'
@@ -38,7 +38,7 @@ fields:
       - '0'
   - name: nome
     title: Desdobramento 2 - Descrição
-    description:  |
+    description: |
       Desdobramento para identificação das peculiaridades de cada receita.
     type: string
     format: default

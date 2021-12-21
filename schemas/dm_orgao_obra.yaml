@@ -26,8 +26,8 @@ fields:
     type: string
     format: default
     description: |
-     - >
-      Nome da Unidade Orçamentária a qual a obra está orçada.
+      - >
+       Nome da Unidade Orçamentária a qual a obra está orçada.
 missingValues:
   - ''
 primaryKey:

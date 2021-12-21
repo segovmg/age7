@@ -57,6 +57,10 @@ update:
 $(VALIDATION_FILES): logs/validate/%.json: data/%.csv.gz
 	dtamg-py etl-make validate -r $* >$@
 
+validate-metadata: ## Valida arquivo yaml com tableschema
+	@echo "Validando tableschemas"
+	@dtamg-py etl-make validate-tableschemas
+
 vars: 
 	@echo 'DATA_FILES:' $(DATA_FILES)
 

@@ -20,7 +20,7 @@ fields:
     type: string
     format: default
     description: |
-     Nome da cidade na qual a obra será ou está sendo realizada.
+      Nome da cidade na qual a obra será ou está sendo realizada.
     constraints:
       required: true
 missingValues:

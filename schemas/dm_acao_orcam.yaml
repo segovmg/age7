@@ -8,7 +8,7 @@ fields:
       required: true
       unique: false
   - name: cd_acao
-    title: Ação Orçamentária - Código 
+    title: Ação Orçamentária - Código
     type: string
     format: default
     bareNumber: true
@@ -21,11 +21,11 @@ fields:
     type: string
     format: default
     description: |
-     - >
-       Conjunto de operações limitadas no tempo (projeto), realizadas de modo contínuo e permanente (atividade),
-       de natureza não orçamentária dos quais resulta um produto final (projeto ou não orçamentária), 
-       de atuação necessária à manutenção da ação governamental (atividade) ou transferência financeira 
-       (operação especial).
+      - >
+        Conjunto de operações limitadas no tempo (projeto), realizadas de modo contínuo e permanente (atividade),
+        de natureza não orçamentária dos quais resulta um produto final (projeto ou não orçamentária), 
+        de atuação necessária à manutenção da ação governamental (atividade) ou transferência financeira 
+        (operação especial).
     missingValues:
       - SEM DESCRICAO
 missingValues:

@@ -47,7 +47,7 @@ fields:
         - '96'
         - '99'
     missingValues:
-      - '0'   
+      - '0'
   - name: nome
     title: Modalidade de Aplicação - Descrição
     description: |
@@ -58,6 +58,6 @@ fields:
     type: string
     format: default
     missingValues:
-        - 'SEM DESCRICAO'
+      - 'SEM DESCRICAO'
 primaryKey:
   - id_modalidade_aplic

@@ -42,7 +42,7 @@ fields:
     type: string
     format: default
     description: |
-     Órgão ou entidade que solicitou a compra de determinado material ou serviço. 
+      Órgão ou entidade que solicitou a compra de determinado material ou serviço. 
     constraints:
       required: true
   - name: nrdoc_contratado
@@ -57,7 +57,7 @@ fields:
     type: string
     format: default
     description: |
-       Nome da pessoa física ou jurídica contratada para prestar um serviço ou entregar bens materiais ao Estado.
+      Nome da pessoa física ou jurídica contratada para prestar um serviço ou entregar bens materiais ao Estado.
     constraints:
       required: true
 missingValues:

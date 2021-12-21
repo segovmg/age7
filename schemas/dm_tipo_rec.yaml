@@ -19,11 +19,12 @@ fields:
       - “3”, quando se tratar de dívida ativa da respectiva receita;
       - “4”, quando se tratar de multas e juros de mora da dívida ativa da respectiva receita;
       - “5” a “9”, quando se tratar de outros desdobramentos a serem criados, caso a caso, pela Secretaria de Orçamento Federal, mediante portaria específica.
-    notes: 
-      - > 
+    notes:
+      - >
         Apesar da previsão na
         [Portaria Interministerial STN/SOF nº 163 de 04/05/2001](https://www.gov.br/economia/pt-br/assuntos/planejamento-e-orcamento/orcamento/legislacao-sobre-orcamento/portariainterm1632001.pdf),
-        o Estado de Minas Gerais ainda não possui execução orçamentária nos tipos de receita 5 a 9.
+        o Estado de Minas Gerais ainda não possui execução orçamentária nos tipos
+        de receita 5 a 9.
     constraints:
       required: true
       enum:
@@ -37,8 +38,8 @@ fields:
     type: string
     format: default
     description: |
-     Identifica o tipo de arrecadação a que se refere a receita. 
-     Exemplo, receita de multas e juros, arrecadação principal e etc.
+      Identifica o tipo de arrecadação a que se refere a receita. 
+      Exemplo, receita de multas e juros, arrecadação principal e etc.
     constraints:
       required: true
 missingValues:

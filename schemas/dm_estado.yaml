@@ -7,47 +7,12 @@ fields:
     constraints:
       required: true
       unique: false
-  - name: sqe_estado
-    title: Estado - Chave Origem
-    format: default
-    bareNumber: true
-    constraints:
-      enum:
-         - '1'
-         - '2'
-         - '3'
-         - '4'
-         - '5'
-         - '6'
-         - '7'
-         - '8'
-         - '9'
-         - '10'
-         - '11'
-         - '12'
-         - '13'
-         - '14'
-         - '15'
-         - '16'
-         - '17'
-         - '18'
-         - '19'
-         - '20'
-         - '21'
-         - '22'
-         - '23'
-         - '24'
-         - '25'
-         - '26'
-         - '27'
-    missingValues:
-       - '0'
   - name: nome
     title: Estado - Descrição
     type: string
     format: default
     description: |
-     Estado ao qual pertence o município de origem ou destino do servidor ou colaborador eventual em viagem a trabalho.
+      Estado ao qual pertence o município de origem ou destino do servidor ou colaborador eventual em viagem a trabalho.
     constraints:
       required: true
 missingValues:

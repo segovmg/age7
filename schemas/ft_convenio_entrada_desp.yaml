@@ -44,7 +44,7 @@ fields:
     type: string
     format: default
     description: |
-     Número de identificação do documento de empenho.
+      Número de identificação do documento de empenho.
     constraints:
       required: true
       unique: false
@@ -69,23 +69,8 @@ fields:
     constraints:
       required: true
       enum:
-         - '1'
-         - '2'
-  - name: sqa_unidade_exec
-    title:  Unidade Executora - Chave Origem
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
-  - name: sqa_unidade_orc
-    title: Unidade Orçamentária - Chave Origem
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
-      unique: false
+        - '1'
+        - '2'
   - name: tp_operacao
     title: Tipo de Operação
     type: string
@@ -93,8 +78,8 @@ fields:
     constraints:
       required: true
       enum:
-         - '1'
-         - '2'
+        - '1'
+        - '2'
   - name: cd_evento
     title: Evento - Código
     type: string
@@ -159,8 +144,8 @@ foreignKeys:
         - id_tipo_documento
       resource: dm_tipo_documento
   - fields:
-    - id_favorecido
+      - id_favorecido
     reference:
       fields:
-      - id_favorecido
+        - id_favorecido
       resource: dm_favorecido

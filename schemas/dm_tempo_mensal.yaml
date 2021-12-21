@@ -34,9 +34,9 @@ fields:
         - '11'
         - '12'
     missingValues:
-         - '0'   
-         - '13'
-         - '14'
+      - '0'
+      - '13'
+      - '14'
 
   - name: ano
     title: Ano

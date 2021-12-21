@@ -12,8 +12,8 @@ fields:
     type: string
     format: default
     description: |
-     - > 
-      Vigência do Plano Plurianual de Ação Governamental - PPAG.
+      - > 
+       Vigência do Plano Plurianual de Ação Governamental - PPAG.
     constraints:
       required: true
       unique: false

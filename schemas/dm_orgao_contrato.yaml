@@ -23,12 +23,12 @@ fields:
     type: string
     format: default
     description: |
-     Nome completo do órgão ou entidade responsável pelo contrato.
+      Nome completo do órgão ou entidade responsável pelo contrato.
     missingValues:
-     - 'INEXISTENTE'
-     - 'NÃO SE APLICA'
-     - 'INVÁLIDO'
-     - 'NÃO INFORMADO'
+      - 'INEXISTENTE'
+      - 'NÃO SE APLICA'
+      - 'INVÁLIDO'
+      - 'NÃO INFORMADO'
 
 missingValues:
   - ''

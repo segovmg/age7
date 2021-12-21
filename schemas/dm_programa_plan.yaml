@@ -39,9 +39,9 @@ fields:
     type: string
     format: default
     description: |
-        - >
-        É a unidade orçamentária responsável pelo gerenciamento do programa. Vinculam-se aos programas
-        multissetorias apenas uma Unidade Orçamentária Responsável pelo Programa.
+      - >
+      É a unidade orçamentária responsável pelo gerenciamento do programa. Vinculam-se aos programas
+      multissetorias apenas uma Unidade Orçamentária Responsável pelo Programa.
   - name: uni_adm_resp
     title: Unidade Administrativa Responsável pelo Programa
     type: string
@@ -57,13 +57,13 @@ fields:
     type: string
     format: default
     description: |
-     - >
-       Classificação do programa quanto aos seus beneficiários. Existem dois tipos de programa, a saber:
-       - Finalísticos: são os programas dos quais resultam bens ou serviços ofertados diretamente à 
-        sociedade, cujos resultados sejam passíveis de mensuração e
+      - >
+        Classificação do programa quanto aos seus beneficiários. Existem dois tipos de programa, a saber:
+        - Finalísticos: são os programas dos quais resultam bens ou serviços ofertados diretamente à 
+         sociedade, cujos resultados sejam passíveis de mensuração e
 
-       - Apoio às Políticas Públicas e Áreas Específicas: são os programas voltados à prestação de 
-        serviços ao próprio estado para a gestão de políticas públicas e para o apoio administrativo.
+        - Apoio às Políticas Públicas e Áreas Específicas: são os programas voltados à prestação de 
+         serviços ao próprio estado para a gestão de políticas públicas e para o apoio administrativo.
     comissingValues:
       - 'SEM DESCRICAO'
   - name: horizonte_temporal

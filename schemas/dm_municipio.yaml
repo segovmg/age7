@@ -12,7 +12,7 @@ fields:
     type: string
     format: default
     description: |
-     Código do Município conforme consta na [Tabela de Códigos de Municípios do IBGE]https://www.ibge.gov.br/explica/codigos-dos-municipios.php)
+      Código do Município conforme consta na [Tabela de Códigos de Municípios do IBGE]https://www.ibge.gov.br/explica/codigos-dos-municipios.php)
     constraints:
       required: true
       unique: false

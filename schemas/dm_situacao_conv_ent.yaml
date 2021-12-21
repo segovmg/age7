@@ -12,7 +12,7 @@ fields:
     type: string
     format: default
     description: |
-     Informa a situação na qual o convênio se encontra na data da consulta realizada no portal: vigente ou vencido.
+      Informa a situação na qual o convênio se encontra na data da consulta realizada no portal: vigente ou vencido.
     constraints:
       required: true
 missingValues:

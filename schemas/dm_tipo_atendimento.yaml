@@ -14,23 +14,15 @@ fields:
     bareNumber: true
     constraints:
       required: true
-      enum: 
+      enum:
         - '1'
         - '2'
-  - name: sqe_tipo_atendimento
-    title: Tipo de Atendimento - Chave Origem
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      required: true
-      unique: false
   - name: nome
     title: Tipo de Atendimento
     type: string
     format: default
     description: |
-     Categoria na qual o objeto do convênio / parceria se enquadra, por exemplo: transporte escolar, aquisição de bens, reforma ou obra, etc.
+      Categoria na qual o objeto do convênio / parceria se enquadra, por exemplo: transporte escolar, aquisição de bens, reforma ou obra, etc.
     constraints:
       required: true
 missingValues:

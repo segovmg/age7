@@ -64,7 +64,7 @@ fields:
       required: true
       unique: false
   - name: dotacao_orcamentaria
-    title: Dotação Orçamentária 
+    title: Dotação Orçamentária
     type: string
     format: default
     constraints:
@@ -80,7 +80,7 @@ fields:
   - name: vr_concedente_atual
     title: Valor Concedente Atualiado
     description: |
-     Valor financeiro previsto no convênio para o concedente repassar ao proponente, incluindo termos aditivos.
+      Valor financeiro previsto no convênio para o concedente repassar ao proponente, incluindo termos aditivos.
     type: number
     format: default
     bareNumber: true

@@ -12,7 +12,7 @@ fields:
     type: string
     format: default
     constraints:
-      enum: 
+      enum:
         - 'E'
         - 'P'
         - 'I'
@@ -21,12 +21,12 @@ fields:
     type: string
     format: default
     description: |
-     Estágio em que a obra se encontra no momento de elaboração da Lei Orçamentária:
-      - Execução;
-      - Paralisado;
-      - Iniciado
+      Estágio em que a obra se encontra no momento de elaboração da Lei Orçamentária:
+       - Execução;
+       - Paralisado;
+       - Iniciado
     constraints:
-      enum: 
+      enum:
         - 'EXECUCAO'
         - 'PARALISADO'
         - 'INICIADO'

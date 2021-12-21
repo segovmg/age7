@@ -48,24 +48,24 @@ fields:
       required: true
       unique: false
   - name: ano_particao
-    title: Ano Partição 
+    title: Ano Partição
     type: year
     format: default
     bareNumber: true
     constraints:
       required: true
   - name: vr_homologado
-    title: Valor Homologado 
+    title: Valor Homologado
     type: number
     format: default
     bareNumber: true
     decimalChar: ','
     description: |
-     Valor total homologado licitado ou comprado do item de material/serviço.
+      Valor total homologado licitado ou comprado do item de material/serviço.
     constraints:
       required: true
   - name: vr_atualizado
-    title: Valor Atualizado 
+    title: Valor Atualizado
     type: number
     format: default
     bareNumber: true

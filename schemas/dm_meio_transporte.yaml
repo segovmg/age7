@@ -7,22 +7,6 @@ fields:
     constraints:
       required: true
       unique: false
-  - name: sqe_meio_transporte
-    title: Meio de Transporte - Chave Origem
-    type: integer
-    format: default
-    bareNumber: true
-    constraints:
-      enum:
-        - '1'
-        - '2'
-        - '3'
-        - '4'
-        - '5'
-        - '6'
-        - '7'
-    missingValues:
-      - '0'
   - name: nome
     title: Meio de Transporte - Descrição
     description: |

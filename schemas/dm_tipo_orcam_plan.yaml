@@ -12,11 +12,11 @@ fields:
     type: string
     format: default
     description: |
-     - >
-        - Orçamento Fiscal: Despesas Correntes , Despesas de Capital e Despesa de Pessoal;
-        - Orçamento de Investimento das empresas controladas pelo Estado.
+      - >
+         - Orçamento Fiscal: Despesas Correntes , Despesas de Capital e Despesa de Pessoal;
+         - Orçamento de Investimento das empresas controladas pelo Estado.
     constraints:
-       enum:
+      enum:
         - 'ORCAMENTO FISCAL'
         - 'DESPESAS DE PESSOAL'
         - 'DESPESAS CORRENTES'

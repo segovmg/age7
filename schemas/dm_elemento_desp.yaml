@@ -9,12 +9,12 @@ fields:
       unique: false
   - name: cd_elemento
     title: Elemento de Despesa - Código
-    description: 
-      Código numérico identificador dos objeto de gasto da despesa (1 a 99).
+    description: Código numérico identificador dos objeto de gasto da despesa (1 a
+      99).
     type: string
     format: default
     constraints:
-       enum:
+      enum:
         - '1'
         - '3'
         - '4'
