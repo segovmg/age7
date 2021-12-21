@@ -40,7 +40,7 @@ validate: $(VALIDATION_FILES)
 test: $(TEST_FILES)
 
 $(TEST_FILES): logs/tests/test_%.Rout: tests/testthat/test_%.R data/%.csv.gz tests/testthat.R tests/testthat/setup.R renv.lock
-	Rscript -e 'testthat::test_file("$<", stop_on_failure=TRUE)' 2> $@
+	Rscript --verbose -e "testthat::test_file('$<', stop_on_failure=TRUE)" 2> $@
 
 notify:
 	Rscript --verbose scripts/r/notify.R 2> logs/notify.Rout
