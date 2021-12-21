@@ -15,12 +15,10 @@ context("Testes dm_empenho_desp_2021")
 
 dt <- fread(here::here("data", "dm_empenho_desp_2021.csv.gz"))
 
-ft_despesa <- dtamg::flatten_resource(here::here("datapackage.json"), 
+ft_despesa <- dtamg::flatten_resource("C:\\Users/m752587/projects/age7/datapackage.json", 
                                       "ft_despesa_2021",
                                       c("dm_empenho_desp_2021", "dm_unidade_orc", "dm_elemento_desp", "dm_item_desp", "dm_favorecido"))
 
-
-# [, .(id_empenho, cd_unidade_orc, cd_elemento, cd_item, tp_documento)]
 
 test_that("Anonimização prêmios lotéricos", {
   id_empenho_premios_lotericos <- ft_despesa[
@@ -30,7 +28,7 @@ test_that("Anonimização prêmios lotéricos", {
   
   dt[id_empenho %in% id_empenho_premios_lotericos, id_empenho_premios_lotericos := TRUE]
   
-  rules <- validate::validator(if(id_empenho_premios_lotericos == TRUE) razao_social_credor == "000.000.000-00 - INFORMACAO COM RESTRICAO DE ACESSO")
+  rules <- validate::validator(if(id_empenho_premios_lotericos == TRUE) razao_social_credor_anonimizado == "000.000.000-00 - INFORMACAO COM RESTRICAO DE ACESSO")
   report <- validate::confront(dt, rules)
   
   expect_false(summary(report)[["error"]]) 
@@ -39,8 +37,7 @@ test_that("Anonimização prêmios lotéricos", {
 
 test_that("Anonimização hanseniase", {
   
-  # grepl("^761+", cd_uni_prog_gasto)
-  rules <- validator(if(ano_exercicio >= 2021 & grepl("^4291.+", unidade_orcamentaria) & grepl("^1320007.+", unidade_executora) & grepl("^93.+", elemento_desp)) razao_social_credor == "000.000.000-00 - INFORMACAO COM RESTRICAO DE ACESSO")
+  rules <- validator(if(ano_exercicio >= 2021 & grepl("^4291.+", unidade_orcamentaria) & grepl("^761+", cd_unid_prog_gasto)) razao_social_credor_anonimizado == "000.000.000-00 - INFORMACAO COM RESTRICAO DE ACESSO")
   report <- confront(dt, rules)  
   
   expect_false(summary(report)[["error"]]) 
@@ -54,7 +51,7 @@ test_that("Anonimização CPF", {
   
   dt[id_empenho %in% id_empenho_desp_cpf, id_empenho_desp_cpf := TRUE]
   
-  rules <- validator(if(id_empenho_desp_cpf == TRUE) grepl("\\*\\*\\*.\\d{3}.\\d{3}-\\*\\*.+|000.000.000-00 - INFORMACAO COM RESTRICAO DE ACESSO", razao_social_credor))
+  rules <- validator(if(id_empenho_desp_cpf == TRUE) grepl("\\*\\*\\*.\\d{3}.\\d{3}-\\*\\*.+|000.000.000-00 - INFORMACAO COM RESTRICAO DE ACESSO", razao_social_credor_anonimizado))
   report <- confront(dt, rules)  
   
   expect_false(summary(report)[["error"]]) 
