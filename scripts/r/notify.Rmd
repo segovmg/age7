@@ -1,5 +1,5 @@
 ---
-title: "`r paste('Atualização age7 em:', date())`"
+title: make notify
 output: blastula::blastula_email
 --- 
 
@@ -8,7 +8,8 @@ library(jsonlite); library(purrr); library(dplyr); library(kableExtra)
 
 commit <- readLines(here::here("logs/commit.txt"))
 exit_code_path <- here::here("logs/exit-code.txt")
-exit_code <- readLines(exit_code_path)
+exit_code <- readLines(exit_code_path) |> as.numeric()
+sucess <- ifelse(exit_code == 0, TRUE, FALSE)
 
 validation_report <- function(resource) {
   
@@ -27,9 +28,9 @@ dp <- read_json(here::here("datapackage.json"))
 df <- map_df(dp$resources, validation_report) |> arrange(valid)
 ```
 
-O fluxo ETL de atualização do projeto age7 foi concluído com `r ifelse(exit_code == 0, "SUCESSO", "__FRACASSO__")` em `r file.mtime(exit_code_path)`.
+O fluxo ETL de atualização do projeto age7 foi concluído com `r ifelse(sucess == TRUE, "SUCESSO", "__FRACASSO__")` em `r file.mtime(exit_code_path)`.
 
-Os logs da execução estão disponíveis no commit `r glue::glue('[{commit}](https://github.com/transparencia-mg/age7/commit/{commit})')`.
+Os logs da execução estão disponíveis `r ifelse(sucess == TRUE, glue::glue("no commit [{commit}](https://github.com/transparencia-mg/age7/commit/{commit})"), "no servidor")`.
 
 Dos `r length(dp$resources)` recursos, `r length(dp$resources) - sum(df$valid)` tiveram erros de validação.
 
