@@ -8,7 +8,7 @@ make validate && ^
 make datapackage.json && ^
 make test && ^
 make build && ^
-make update && ^
+REM make update && ^
 git add . && ^
 git commit -m "Atualização age7" && ^
 git push origin master
