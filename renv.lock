@@ -200,15 +200,15 @@
     },
     "dtamg": {
       "Package": "dtamg",
-      "Version": "0.2.1",
+      "Version": "0.2.2",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "dtamg-r",
       "RemoteUsername": "transparencia-mg",
-      "RemoteRef": "v0.2.1",
-      "RemoteSha": "c759f5ab67ba7fba68cb244f97e61455ad96f2ed",
-      "Hash": "41e39719e90982b2d40d44af4684cd19"
+      "RemoteRef": "v0.2.2",
+      "RemoteSha": "bf9c86b9a8d828f11d4d30592b25c81b9dc6a70e",
+      "Hash": "4e7915747c62ade6eb5ef5f01604f244"
     },
     "ellipsis": {
       "Package": "ellipsis",
