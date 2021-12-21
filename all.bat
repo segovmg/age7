@@ -6,6 +6,7 @@ make ingest && ^
 make data && ^
 make validate && ^
 make datapackage.json && ^
+make test && ^
 make build && ^
 make update && ^
 git add . && ^
