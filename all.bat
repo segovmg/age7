@@ -1,5 +1,5 @@
 cd %PROJECT_PATH%
-venv\Scripts\activate.bat
+REM venv\Scripts\activate.bat
 git pull && ^
 make parse && ^
 make full-extract && ^
