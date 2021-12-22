@@ -41,7 +41,7 @@ fields:
       Descrição do tipo de empenho: global, estimado, ordinário, extra-orçamentário.
     type: string
     format: default
-    - name: vr_empenho
+  - name: vr_empenho
     title: Valor do Empenho
     description: Valor do orçamento reservado para fazer face a compromisso formalmente
       assumido com fornecedor ou credor.

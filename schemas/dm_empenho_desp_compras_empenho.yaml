@@ -43,7 +43,7 @@ fields:
     format: default
     constraints:
       required: true
-    - name: vr_empenho
+  - name: vr_empenho
     title: Valor do Empenho
     description: Valor do orçamento reservado para fazer face a compromisso formalmente
       assumido com fornecedor ou credor.
