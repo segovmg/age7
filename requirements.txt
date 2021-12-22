@@ -3,4 +3,4 @@ jsonpatch==1.32
 psycopg2==2.9.1
 PyMySQL==1.0.2
 ipdb==0.13.9
-dtamg-py==0.1.1
+dtamg-py==0.1.2
