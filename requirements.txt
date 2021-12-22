@@ -1,6 +1,6 @@
-dpckan==0.1.11
+dpckan==0.1.13
 jsonpatch==1.32
 psycopg2==2.9.1
 PyMySQL==1.0.2
 ipdb==0.13.9
-git+https://github.com/transparencia-mg/dtamg-py.git@dev#egg=dtamg-py
+dtamg-py==0.1.1
