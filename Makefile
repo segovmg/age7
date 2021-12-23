@@ -13,7 +13,7 @@ init: ## Create boilerplate files for the derivated datapackages
 
 parse: $(SQL_FILES)
 
-$(SQL_FILES): scripts/sql/%.sql: scripts/r/parse-sql.R schemas/%.yaml renv.lock
+$(SQL_FILES): scripts/sql/%.sql: scripts/r/parse-sql.R schemas/%.yaml
 	Rscript --verbose $< $* 2> logs/parse/$*.Rout
 
 full-extract:
