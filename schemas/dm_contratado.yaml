@@ -14,7 +14,7 @@ fields:
     format: default
     constraints:
       required: true
-  - name: nr_documento
+  - name: nr_documento_anonimizado
     title: Número do Documento
     description: |
       CPF ou CNPJ da pesssoa física ou jurídica contratada para prestar um serviço ou entregar bens materiais ao Estado.
