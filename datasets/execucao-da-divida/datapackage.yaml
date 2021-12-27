@@ -1,2 +1,10 @@
+ckan_hosts:
+  https://homologa.cge.mg.gov.br/:
+    datapackage.json: 3dc66658-2121-470d-b228-29329b61a028
+    dm_contrato_divida: ab5ed543-d2a0-4e23-8ba4-81c8581a5691
+    dm_favorecido: 66194aa4-216c-4f95-bfa9-04276ada7ae4
+    dm_tempo_diario: 8814e7f1-bf1f-4d16-83fe-7f4b71bce293
+    dm_tipo_divida: 3d15d1a6-838d-475d-882f-b600f3957334
+    ft_divida_pub: ca4e6763-f102-497e-8435-c6aa1ab5f6af
 keywords:
-  - Portal da Transparência
+- "Portal da Transpar\xEAncia"

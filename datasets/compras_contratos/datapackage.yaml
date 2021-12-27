@@ -1,2 +1,31 @@
+ckan_hosts:
+  https://homologa.cge.mg.gov.br/:
+    datapackage.json: c60d952f-7e3f-4c87-bb1e-a060c00d63d8
+    dm_acao: ae8121e1-1ecb-4a8a-8414-5e2d2ce88d77
+    dm_classe_matserv: 473fafec-3341-4bd2-98b4-d4e80116c177
+    dm_contratado: 463e9c1c-c9bf-4ae6-bfcc-12ac56dd15bf
+    dm_contrato: 509da368-4d73-4bdf-83ca-8266052ffd1a
+    dm_elemento_desp: 6b42865a-e502-4855-90ae-0c63cb29d1b6
+    dm_empenho_desp_compras_empenho: df2e8d9a-7052-47f2-9227-f94a1cb1a8e5
+    dm_grupo_matserv: fea26ae1-6b5a-438d-90c0-6b163b7f2799
+    dm_item_desp: e6ad561d-f000-4a95-8b03-b739b30e4de7
+    dm_item_matserv: ef80bdac-4d14-44f5-9329-9b8f1f63f276
+    dm_linha_fornec: 476bc52f-81c8-4c8f-9558-c0f810c553b5
+    dm_material_servico: 40811473-172d-49eb-b9f4-1fd008e9987c
+    dm_municipio: 73ecb4a6-14f9-49f3-a7bd-55cf492a0d7b
+    dm_orgao_contrato: a5ca46db-44e6-4a90-bc08-68228c38698c
+    dm_orgao_demanda: 0f86f31e-9891-465d-a7f0-aadb03de8659
+    dm_procedimento: 9c3cb806-f0a3-4fdb-80bb-abdc5315f0c5
+    dm_processo: 21cdc421-4b72-439c-9e62-7926940250df
+    dm_programa: bbf2a6a5-d437-491b-b7da-b2b79425f0e7
+    dm_situacao_cont: 8060e58e-b632-42d0-a370-4b90c92cbe43
+    dm_situacao_proc: 22d3dfcb-471a-40d8-8a53-636c2e062b11
+    dm_tempo_diario: 7a4bed6b-d0be-42ad-bc60-f615fe82c4a1
+    dm_tipo_licitacao: 15c14651-86e9-404e-8e74-a55d045f9fb8
+    dm_unidade_medida: 30655ec2-3718-4aaf-ad45-eabfb8784c72
+    dm_unidade_orc: 4372858e-2a0d-4103-a686-aca950075340
+    fl_compras_empenho: 5ef9e3dd-bcbf-4f86-a94d-db68316477ca
+    ft_compras: dc6b0597-8acd-4971-a2bb-3c652699c45c
+    ft_compras_contrato: 91e1cf90-044a-4355-8f7c-0a3cd27de6e7
 keywords:
-  - Portal da Transparência
+- "Portal da Transpar\xEAncia"

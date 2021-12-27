@@ -1,23 +1,43 @@
-keywords:
-  - Portal da Transparência
 ckan_hosts:
   https://dados.mg.gov.br/:
     datapackage.json: f5dbe6c2-380b-4e89-bb5a-37a4d08f7bed
-    dm-unidade-orc: 9e09d0c6-447f-48c0-a8a9-9fe3904ad998
-    dm-tempo-mensal: 1c8c308e-7059-4bf8-8a59-1d0b171099a3
     dm-alinea-rec: 6e25f6c9-3782-4e48-a8cc-8c293cc761c0
+    dm-desdobramento-1-rec: 3226630a-cdd0-4407-91ba-476baa3a65ae
+    dm-desdobramento-2-rec: 08f64aa6-89d2-471d-8a0d-ea1b2257ca36
+    dm-desdobramento-3-rec: d9a6065c-7583-4126-93e3-696956e9fda9
     dm-especie-rec: a6f8d064-9f75-48e0-a494-c63d5acb6663
     dm-fonte-rec: 6290ae5d-3ead-41e3-b8e2-6812db616a6e
     dm-item-rec: 26c2f38f-a0da-46b1-99b7-5c116d461582
-    dm-rubrica-rec: fbfcb2d3-a9f3-49b8-b9cc-f47a343a3fd1
     dm-origem-rec: bb838878-6dee-4abc-8793-1e75966d8713
+    dm-rubrica-rec: fbfcb2d3-a9f3-49b8-b9cc-f47a343a3fd1
     dm-subalinea-rec: aa9514d0-370b-4a11-95db-aef8b2ab69eb
-    ft-receita-prevista: 7122947c-9e4d-438a-b90e-029a634b1379
-    ft-receita: d200cdff-9760-4dbd-97d9-3ed37ef0c17d
-    dm-desdobramento-1-rec: 3226630a-cdd0-4407-91ba-476baa3a65ae
-    dm-desdobramento-2-rec: '08f64aa6-89d2-471d-8a0d-ea1b2257ca36'
-    dm-desdobramento-3-rec: d9a6065c-7583-4126-93e3-696956e9fda9
+    dm-subitem-rec: 1ace0764-df04-4294-a279-6098fce4e71f
+    dm-tempo-mensal: 1c8c308e-7059-4bf8-8a59-1d0b171099a3
     dm-tipo-rec: 859e09a7-e71d-4a46-9459-03b9c42cb134
+    dm-unidade-orc: 9e09d0c6-447f-48c0-a8a9-9fe3904ad998
+    ft-receita: d200cdff-9760-4dbd-97d9-3ed37ef0c17d
+    ft-receita-prevista: 7122947c-9e4d-438a-b90e-029a634b1379
     ft-receita-prevista-v2018: 185b62cd-bf81-454b-a435-6b5bbfa07f69
     ft-receita-v2018: 488184ca-c705-4ae9-b93c-dd6bc660a768
-    dm-subitem-rec: 1ace0764-df04-4294-a279-6098fce4e71f
+  https://homologa.cge.mg.gov.br/:
+    datapackage.json: 376cfbd5-9dfc-422c-a89e-0edce7969868
+    dm_alinea_rec: 3db333c0-75eb-45aa-ad5c-01ea50c64d54
+    dm_desdobramento_1_rec: d8e179e6-276b-4bcb-bd9e-d124e2cdb6d5
+    dm_desdobramento_2_rec: 29d2ec14-2bae-4899-a97c-bde611752d9f
+    dm_desdobramento_3_rec: 7cf6cd34-354d-4983-aa28-11965d751c28
+    dm_especie_rec: 70739f32-a820-4dbd-a513-36a21f29c642
+    dm_fonte_rec: 91f8c512-fb32-4e64-9475-3261b71fa0c5
+    dm_item_rec: a9ca730b-0f27-4191-a2f9-c765f92d790c
+    dm_origem_rec: 2a94897f-b9ea-4fa0-b6d8-b8ef9d246d83
+    dm_rubrica_rec: 488fbeb3-d3a0-4a15-ae33-571a17b4fd4f
+    dm_subalinea_rec: 4b53d36c-d9cf-469a-a39f-cfd9f7608e3e
+    dm_subitem_rec: 557a0527-52bf-43e7-9bf3-eecd6dfd9f2f
+    dm_tempo_mensal: b9e359a6-3b8f-4570-a242-f78fa3a495fa
+    dm_tipo_rec: d91f0902-4e86-4a84-9639-dd0769d6eb9a
+    dm_unidade_orc: 7f941eee-85d4-4547-b0b2-fc3b7254e140
+    ft_receita: 824da4d2-194b-480a-ad5d-36dc1700884d
+    ft_receita_prevista: 52a6a9f0-5a9b-41ab-8d34-8cd348fc3d2c
+    ft_receita_prevista_v2018: 4da73b93-7345-4941-8554-10252319cf55
+    ft_receita_v2018: 351ba13b-6198-4998-a4bd-1b0743749ffa
+keywords:
+- "Portal da Transpar\xEAncia"

@@ -1,2 +1,53 @@
+ckan_hosts:
+  https://homologa.cge.mg.gov.br/:
+    datapackage.json: 62fa7df0-a72c-4a1e-a89f-209c7917e82e
+    dm_acao: e782e737-2879-4496-ad9f-0cf52706d191
+    dm_elemento_desp: e12925cc-22e8-471b-83ea-0e95c72770e3
+    dm_empenho_desp_2002: 95a3862f-ff01-4443-acb6-8f16fa31a4c6
+    dm_empenho_desp_2003: 3ef867a4-d2cf-4efd-a425-a3b12a35fe57
+    dm_empenho_desp_2004: 3f0dad00-20eb-4d5e-8815-5f7151d14960
+    dm_empenho_desp_2005: 4302be6d-9da1-4efa-8b96-dc763ef1096e
+    dm_empenho_desp_2006: 175fb43e-40cb-4a85-adf3-c911686f672f
+    dm_empenho_desp_2007: 2960c0de-6b20-4904-91ac-cee5982637b5
+    dm_empenho_desp_2008: 1ddfc362-fc39-4805-bfa3-0013578bb785
+    dm_empenho_desp_2009: f3d504ce-2dba-496d-a35e-6e4b60850100
+    dm_empenho_desp_2010: 246480a1-11f4-4ff5-b4e5-45287c24eadb
+    dm_empenho_desp_2011: 4b5181b0-cd2c-452a-84e2-150e9768855e
+    dm_empenho_desp_2012: c0ff2549-3910-48e9-ba5c-6b6e4c32788c
+    dm_empenho_desp_2013: 7d6c6cd1-cdeb-4c6a-98fa-8e96dd07ab01
+    dm_empenho_desp_2014: 337a7e7f-1c71-47cb-bbcc-453b3893f52b
+    dm_empenho_desp_2015: 31677b0a-f1ca-45b4-990a-252891668efa
+    dm_empenho_desp_2016: ba435df9-8f78-435c-b30d-ed45d96797c8
+    dm_empenho_desp_2017: ae48963c-da30-4084-973f-ef856f7c1e05
+    dm_empenho_desp_2018: d054c9d4-4001-422b-a965-7099e3ee48e1
+    dm_empenho_desp_2019: 45eaf164-ff82-43b4-aec6-1c235fda2e27
+    dm_empenho_desp_2020: 6391b0a4-c453-4edb-85e6-b633064f016a
+    dm_empenho_desp_2021: 56756d76-9092-4406-bef3-1456d8a82e97
+    dm_favorecido: 8cf167b0-71b3-46da-b347-02d26692ff85
+    dm_item_desp: 9367a97c-7fd4-4e5f-ae53-1530d30c89da
+    dm_programa: 2a5a56ba-61d8-4cc6-a6a3-3bbdd5f16c95
+    dm_tempo_diario: 10db6d25-f16c-4b0f-aa7b-cb0aa4ad11ca
+    dm_tipo_documento: ea866561-b2d1-4307-9747-03a853d2429a
+    dm_unidade_orc: bbe37148-3ba0-496d-936f-1cbbb26c8370
+    ft_diarias_2002: 55fecd00-8385-44b8-9b8c-0f5a5f4169cc
+    ft_diarias_2003: 40822f09-ec31-4b9c-8bb7-f4675e1239ac
+    ft_diarias_2004: 2fce905d-acc4-4c73-b58e-9466ddcf6e8d
+    ft_diarias_2005: 996afd8f-14c4-45fa-9d74-711ccc5e8893
+    ft_diarias_2006: 4aedce1e-0dd5-4a8d-bf06-8606215b08a3
+    ft_diarias_2007: 3d9ffd4c-44fa-49d9-82de-71eab42ba581
+    ft_diarias_2008: 54e57537-eb43-4c02-b5e4-90ce7c5caca1
+    ft_diarias_2009: a20d5545-9ca6-40f0-890e-be5e0e45a7a6
+    ft_diarias_2010: 10a3ed7f-24a9-4922-b16e-b3b556439b59
+    ft_diarias_2011: 4b72c383-d869-4cee-b94d-782cc88bbc2f
+    ft_diarias_2012: 40303850-dab1-44bf-b9b8-8e5750b90002
+    ft_diarias_2013: e44b1f25-ef52-4728-acfe-409ebec1d803
+    ft_diarias_2014: bdfc2020-e0fb-4d15-b936-819b298f0dc2
+    ft_diarias_2015: 38b646b3-9321-4163-9604-fd27857ba0ab
+    ft_diarias_2016: 0d63fcd6-24ba-4513-91b7-d3d90ad592cc
+    ft_diarias_2017: abf15840-63d1-4d4b-93b0-362fbe883b95
+    ft_diarias_2018: cfd9b941-7f95-42f0-9a2c-c384a78e388f
+    ft_diarias_2019: 6a45fa09-f3fa-4330-a063-539ec5082cee
+    ft_diarias_2020: 8bbf3530-6f99-46af-b250-ed96c3e1f88f
+    ft_diarias_2021: 99bbe4f2-e4ac-4adb-9fab-abd41afc793d
 keywords:
-  - Portal da Transparência
+- "Portal da Transpar\xEAncia"

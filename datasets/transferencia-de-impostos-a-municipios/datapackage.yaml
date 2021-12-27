@@ -1,2 +1,8 @@
+ckan_hosts:
+  https://homologa.cge.mg.gov.br/:
+    datapackage.json: 5b1c93c2-30b4-42e6-a521-394d6a058aad
+    dm_municipio: dd3cee00-7b05-447c-8d59-2ff726ef7cde
+    dm_tempo_mensal: 6f206fc0-c9b4-46f3-8967-3d22e2352272
+    ft_repasse_mun: 8d5dfa52-2248-4475-9bb9-8c797612bea1
 keywords:
-  - Portal da Transparência
+- "Portal da Transpar\xEAncia"
