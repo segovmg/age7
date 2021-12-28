@@ -1,45 +1,23 @@
+keywords:
+  - Portal da Transparência
 ckan_hosts:
   https://dados.mg.gov.br/:
     datapackage.json: f0486981-a883-45f2-815d-b3ebca32e6b7
-    dm-classifica-rec: 66fe3ee9-e7e3-4b39-967c-c6000126c55a
-    dm-concedente: c9fe5251-6aa0-4701-9c4e-4341f9fa979d
-    dm-convenio-entrada: 6060b738-5440-4655-a058-6cfdbd94b7d9
-    dm-elemento-desp: 4e1a33b7-e228-4eda-bb66-8ab464679ce8
-    dm-interveniente-conv-ent: b1325a43-983e-4d98-9336-f907a7a794dd
-    dm-item-desp: 66099035-0790-45ec-be81-e37d90ecbb24
-    dm-orgao-proponente: 1db7da36-e65e-4e17-9c13-014f198b9242
-    dm-programa-conv-ent: 48ef3776-63e4-4663-af59-4443a870f24f
-    dm-situacao-conv-ent: 5bbc3778-cf9b-474f-8e76-711980db5760
     dm-tempo-diario: b0f0719d-df69-4518-8826-d1fdb42196bb
     dm-tipo-documento: bdf479f9-95fa-411c-b65c-c1d14d400b3d
-    fl-convenio-entrada-aditivo: c8c31923-8188-49d4-abd5-3790a03f14b6
+    dm-item-desp: 66099035-0790-45ec-be81-e37d90ecbb24
+    ft-convenio-entrada-dotacao: 1879e486-545c-400e-98c2-45b41326dfae
+    ft-convenio-entrada-desp: 81a71508-fa98-4313-8b11-435fbd9a1521
+    ft-convenio-entrada-rec: de491417-439e-44c4-940e-58cdadeac61e
+    dm-convenio-entrada: 6060b738-5440-4655-a058-6cfdbd94b7d9
+    dm-situacao-conv-ent: 5bbc3778-cf9b-474f-8e76-711980db5760
     fl-convenio-entrada-compras: d487b2aa-2bd3-47e6-97af-3d163c566ff9
     fl-convenio-entrada-interv: 23bad524-3c0c-49b5-af8b-280dbed9b38d
+    fl-convenio-entrada-aditivo: c8c31923-8188-49d4-abd5-3790a03f14b6
     ft-convenio-entrada: 5ec81641-ac64-4a12-ad3d-7fba592126ba
-    ft-convenio-entrada-desp: 81a71508-fa98-4313-8b11-435fbd9a1521
-    ft-convenio-entrada-dotacao: 1879e486-545c-400e-98c2-45b41326dfae
-    ft-convenio-entrada-rec: de491417-439e-44c4-940e-58cdadeac61e
-  https://homologa.cge.mg.gov.br/:
-    datapackage.json: d940b2d5-57e4-421c-9d7b-84dd6c843a14
-    dm_classifica_rec: ee42dc81-bf2d-451e-8b3e-8c4418efbdc3
-    dm_concedente: 8c67185e-6006-4b6a-af94-5eee2b666ee6
-    dm_convenio_entrada: 5f58e5b0-682b-4842-800a-5f7750aef1ae
-    dm_elemento_desp: df0ba236-2452-4a2c-8601-9f1d6648240f
-    dm_favorecido: abc924fc-b453-4530-b4de-37cd6ee3e3ee
-    dm_interveniente_conv_ent: 5e223458-9bea-451b-b710-cd547b431bb3
-    dm_item_desp: f3f26a80-a05b-4b9d-8237-2a2639a3cf81
-    dm_orgao_proponente: c85f2e02-9322-444c-85c5-9d3907d419ca
-    dm_programa_conv_ent: 124d0533-dde6-4d6e-891b-424d844c6def
-    dm_situacao_conv_ent: 06fcb833-7361-4cfa-afcf-6f5390c031e9
-    dm_tempo_diario: 5bf8383f-4072-436b-ae7e-c481a4922c2b
-    dm_tipo_documento: c83fe0b4-5862-4e00-8309-6419bf9f9d13
-    dm_unidade_orc: 8153b41c-bafe-4636-9a89-8291e0b93928
-    fl_convenio_entrada_aditivo: fb464dfc-58e4-4cff-8f7b-3146f578aa2f
-    fl_convenio_entrada_compras: a11193b7-af2a-4020-bd59-193ea659a0ae
-    fl_convenio_entrada_interv: a131bd70-597d-4ba8-a8a4-d1f595ba9fb5
-    ft_convenio_entrada: af7b6e2a-3ea7-4ec5-93f9-dcd2c08fe5e2
-    ft_convenio_entrada_desp: af852f3f-4443-4435-b0b1-eb938c71ef59
-    ft_convenio_entrada_dotacao: 8abee25b-fd53-4a8b-b57d-1c271accb5c2
-    ft_convenio_entrada_rec: f9382e86-453e-4eb8-b443-6cbd71743735
-keywords:
-- "Portal da Transpar\xEAncia"
+    dm-interveniente-conv-ent: b1325a43-983e-4d98-9336-f907a7a794dd
+    dm-classifica-rec: 66fe3ee9-e7e3-4b39-967c-c6000126c55a
+    dm-programa-conv-ent: 48ef3776-63e4-4663-af59-4443a870f24f
+    dm-orgao-proponente: 1db7da36-e65e-4e17-9c13-014f198b9242
+    dm-concedente: c9fe5251-6aa0-4701-9c4e-4341f9fa979d
+    dm-elemento-desp: 4e1a33b7-e228-4eda-bb66-8ab464679ce8

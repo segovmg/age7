@@ -56482,31 +56482,5 @@
     "Portal da Transparência"
   ],
   "title": "Viagens",
-  "homepage": "http://transparencia.mg.gov.br/estado-pessoal/viagens",
-  "ckan_hosts": {
-    "https://homologa.cge.mg.gov.br/": {
-      "dm_funcao_desp": "0c61791d-9774-47fe-aec5-a0347226a310",
-      "dm_tempo_diario": "812759f4-6974-4ba0-97dd-9b4a08216728",
-      "dm_item_desp": "e6e177dc-c59d-430f-a5a0-e5d7f834f213",
-      "dm_programa": "9a12103b-4352-43d9-8afb-5e066fa763b5",
-      "dm_acao": "3c7b7624-73dd-4557-90c3-5524d75e4cc4",
-      "dm_funcao_scdp": "5acac591-388e-424d-88e4-b709202cff60",
-      "dm_favorecido_scdp": "edf57d75-6158-4391-852e-c3c7d4b5cc12",
-      "dm_documento_viagem": "5009ffa8-3e37-4fe9-8779-ca08dbe49768",
-      "dm_empenho_desp_diarias_scdp_liqpag": "4a17da9b-a594-4cbd-bdd8-84b9f299d663",
-      "dm_fonte": "0f936baf-d965-4022-b4b4-2e6365bb46d3",
-      "dm_cidade": "f8873015-44d8-4912-ad5d-bcc68aa4fdeb",
-      "dm_estado": "4888b1c2-8c6d-4609-966b-410c864be565",
-      "ft_diarias_scdp": "64b5de03-c4c4-433f-9dc8-3b4e7a4e2710",
-      "ft_diarias_scdp_liqpag": "4c1689bf-f6d1-4392-b981-47504f00b612",
-      "dm_cargo_scdp": "c091ff68-d6a9-40b6-b93b-387dfdb5ccef",
-      "dm_meio_transporte": "a7300cc3-204c-46fc-a482-436c4304202d",
-      "dm_pais": "a11234f3-0acb-4f21-b0ae-ee9f9768f08b",
-      "dm_tipo_viagem": "19c50b41-7824-48cd-8bfc-0027dfca17ae",
-      "dm_motivo_viagem": "f92fafab-500d-42ea-8ea2-7d29c73e1fac",
-      "dm_tipo_viajante": "c6973ea2-254a-47b2-862d-97c07fb1a657",
-      "dm_orgao_scdp": "1418e864-aa35-4d0d-8b63-3743cf808d05",
-      "datapackage.json": "61e0ea73-2665-4572-92a0-5d101506a71e"
-    }
-  }
+  "homepage": "http://transparencia.mg.gov.br/estado-pessoal/viagens"
 }

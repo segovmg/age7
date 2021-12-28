@@ -1,39 +1,21 @@
+keywords:
+  - Portal da Transparência
 ckan_hosts:
   https://dados.mg.gov.br/:
     datapackage.json: b9edfe1a-af96-4c5b-a60b-9f2f00b9629b
-    dm-convenente: 3b9d9df2-1a50-451d-bc7e-3a0b82fcf821
+    dm-unidade-orc: 905a83db-b1b7-4a91-9b4a-76dc5e79feff
+    dm-tempo-diario: d3defb13-87ae-492e-9309-25e962fe989b
+    dm-item-desp: 7e9006fa-dea5-45ba-a0f7-420946121dc3
+    ft-convenio-investimento: f8329d48-3b62-4956-865a-d6667d0773f3
+    ft-convenio-tipoatendimento: b8c80cc1-f5fe-4ff3-b3b9-c9071bfd1afb
+    ft-convenio-metaetapa: 882446db-56b0-484b-a44f-225c7c0f0e52
+    fl-convenio-interveniente: eb926c4c-8065-44d7-a802-cb3b1b1cb280
+    fl-convenio-alteracao: e8576d81-221b-4337-bb83-dceae2a2b5cb
+    ft-convenio: d8b48c2b-c2ec-451a-99f0-0421987ceeba
     dm-convenio: 23de2c3f-cbf6-494a-8b32-4c9c151fb999
     dm-interveniente: aceac704-9ca3-4d82-a97e-c31105b5b8af
-    dm-item-desp: 7e9006fa-dea5-45ba-a0f7-420946121dc3
-    dm-municipio: 9cd4ddc8-7efd-45dc-b572-9ea6840c9815
-    dm-orgao-concedente: cf96b7cc-b534-4c4b-8338-dce4c9ed5517
-    dm-situacao-convenio: 1ddced7a-dfcf-4ca2-8c3c-23439b944bb2
-    dm-tempo-diario: d3defb13-87ae-492e-9309-25e962fe989b
     dm-tipo-atendimento: 1936b6b5-3546-4023-8d88-c5891c8a646c
-    dm-unidade-orc: 905a83db-b1b7-4a91-9b4a-76dc5e79feff
-    fl-convenio-alteracao: e8576d81-221b-4337-bb83-dceae2a2b5cb
-    fl-convenio-interveniente: eb926c4c-8065-44d7-a802-cb3b1b1cb280
-    ft-convenio: d8b48c2b-c2ec-451a-99f0-0421987ceeba
-    ft-convenio-investimento: f8329d48-3b62-4956-865a-d6667d0773f3
-    ft-convenio-metaetapa: 882446db-56b0-484b-a44f-225c7c0f0e52
-    ft-convenio-tipoatendimento: b8c80cc1-f5fe-4ff3-b3b9-c9071bfd1afb
-  https://homologa.cge.mg.gov.br/:
-    datapackage.json: 96347198-0606-4ddb-a942-bcf08410d369
-    dm_convenente: 79bcedf2-8142-44a4-8238-79238baab50c
-    dm_convenio: 24daf674-5a5c-4033-a3ee-f3b0d27e8170
-    dm_interveniente: dbe5d00f-2f07-4d11-a7f6-218b03376a12
-    dm_item_desp: adb378b6-1a11-423c-82fd-f0938547ea68
-    dm_municipio: afcb946e-7566-4ac3-9994-8a7948dd5e5b
-    dm_orgao_concedente: 7818a75e-842c-45f9-9ece-b2b80666cc65
-    dm_situacao_convenio: 1eee0f9a-36d2-4aba-8892-79e4f9d6ff5f
-    dm_tempo_diario: dc329e13-a37d-401e-875f-b2fbc5028590
-    dm_tipo_atendimento: 5c0e64a9-331d-4ec9-be62-0e7ba986291a
-    dm_unidade_orc: 43805401-509b-4eff-b876-945900ed02ae
-    fl_convenio_alteracao: 49c501d0-7242-47b6-961f-2c500d4a4396
-    fl_convenio_interveniente: dbd66ee7-cdf3-4496-99d3-ecb8cf2a3983
-    ft_convenio: 97a937b8-03f9-48f5-bfc0-c9de24740ace
-    ft_convenio_investimento: 4b9e3dc7-75a1-4ed8-b8e5-9a72c84cbf9f
-    ft_convenio_metaetapa: 4e2f9cb8-a84c-46d5-8f11-802efc657607
-    ft_convenio_tipoatendimento: a7813234-6196-443b-8dbe-a013121696f8
-keywords:
-- "Portal da Transpar\xEAncia"
+    dm-convenente: 3b9d9df2-1a50-451d-bc7e-3a0b82fcf821
+    dm-situacao-convenio: 1ddced7a-dfcf-4ca2-8c3c-23439b944bb2
+    dm-orgao-concedente: cf96b7cc-b534-4c4b-8338-dce4c9ed5517
+    dm-municipio: 9cd4ddc8-7efd-45dc-b572-9ea6840c9815
