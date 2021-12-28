@@ -57,7 +57,7 @@ fields:
       unique: false
   - name: dt_documento
     title: Data do documento
-    type: datetime
+    type: date
     format: default
     constraints:
       required: true
