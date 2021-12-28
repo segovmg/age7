@@ -159,7 +159,7 @@ fields:
       required: true
   - name: dt_item_homologa
     title: Data da Homologação do Item
-    type: datetime
+    type: date
     format: default
     constraints:
       required: true

@@ -147,13 +147,13 @@ fields:
       required: true
   - name: dt_inicio_trecho
     title: Data início do trecho
-    type: datetime
+    type: date
     format: default
     description: |
       Data de ínicio da viagem correspondete ao trecho.
   - name: dt_fim_trecho
     title: Data fim do trecho
-    type: datetime
+    type: date
     format: default
     description: |
       Data fim da viagem correspondete ao trecho.

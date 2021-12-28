@@ -39,7 +39,7 @@ fields:
       required: true
   - name: data_formatada
     title: Data Formatada
-    type: datetime
+    type: date
     format: default
     constraints:
       required: true

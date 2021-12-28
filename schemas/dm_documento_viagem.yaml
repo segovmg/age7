@@ -23,7 +23,7 @@ fields:
       required: true
   - name: dt_viagem_fim
     title: Data Fim da Viagem
-    type: datetime
+    type: date
     format: default
     constraints:
       required: true

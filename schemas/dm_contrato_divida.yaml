@@ -24,13 +24,13 @@ fields:
       Número identificador do instrumento de contratação.
   - name: dt_assinatura
     title: Data de Assinatura
-    type: datetime
+    type: date
     format: default
     constraints:
       required: true
   - name: dt_vencimento
     title: Data de Vencimento
-    type: datetime
+    type: date
     format: default
     constraints:
       required: true

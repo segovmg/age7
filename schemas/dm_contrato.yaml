@@ -50,25 +50,25 @@ fields:
       required: true
   - name: dt_publicacao
     title: Data de Publicação
-    type: datetime
+    type: date
     format: default
     constraints:
       required: true
   - name: dt_inicio_vigencia
     title: Data Início da Vigência
-    type: datetime
+    type: date
     format: default
     constraints:
       required: true
   - name: dt_fim_vigencia
     title: Data Fim da Vigência
-    type: datetime
+    type: date
     format: default
     constraints:
       required: true
   - name: dt_fim_vigencia_atual
     title: Data Fim da Vigência Atualizada
-    type: datetime
+    type: date
     format: default
     constraints:
       required: true

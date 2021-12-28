@@ -105,7 +105,7 @@ fields:
       required: true
   - name: dt_cad_processo
     title: Data do Cadastramento do Processo
-    type: datetime
+    type: date
     format: default
     constraints:
       required: true

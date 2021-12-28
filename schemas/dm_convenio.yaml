@@ -74,7 +74,7 @@ fields:
        formalização da parceria entre o governo estadual e um terceiro.
   - name: dt_publicacao
     title: Data de publicação
-    type: datetime
+    type: date
     format: default
     description: |
       Data da publicação do extrato do convênio / parceria no Diário Oficial do Estado de Minas Gerais – www.iof.mg.gov.br.
@@ -82,7 +82,7 @@ fields:
       required: true
   - name: dt_vigencia_inicial
     title: Data início da vigência
-    type: datetime
+    type: date
     format: default
     description: |
       - > 
@@ -93,7 +93,7 @@ fields:
       required: true
   - name: dt_vigencia_final
     title: Data fim da vigência
-    type: datetime
+    type: date
     format: default
     description: |
       - > 
@@ -103,7 +103,7 @@ fields:
       required: true
   - name: dt_vigencia_atual
     title: Data fim da vigência atualizada
-    type: datetime
+    type: date
     format: default
     description: |
       - > 

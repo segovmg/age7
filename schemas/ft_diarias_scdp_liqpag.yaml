@@ -87,10 +87,10 @@ fields:
       unique: false
   - name: dt_liquidacao
     title: Data da liquidação
-    type: datetime
+    type: date
     format: default
   - name: dt_pagamento
-    type: datetime
+    type: date
     format: default
   - name: vr_devolvido
     title: Valor Devolvido
