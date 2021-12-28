@@ -156,7 +156,7 @@ fields:
       unique: false
   - name: dt_documento
     tille: Data do Documento
-    type: datetime
+    type: date
     format: default
     constraints:
       required: true
