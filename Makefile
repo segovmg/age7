@@ -67,14 +67,11 @@ vars:
 	@echo 'DATA_FILES:' $(DATA_FILES)
 
 clean:
-	rm -rf logs/parse/*
-	rm -rf scripts/sql/*
 	rm -rf logs/extract/*
-	rm -rf data/raw/*
-	rm -rf data/staging/*
-	rm -f data/*.csv.gz
-	rm -rf logs/validate/*
-	rm -f logs/*.txt
+	rm -rf logs/parse/*
 	rm -rf logs/tests/*
+	rm -rf logs/update/*
+	rm -f logs/*.txt
+	rm -rf data/raw/*
 	rm -f datapackage.json
 	rm -rf build_datasets
