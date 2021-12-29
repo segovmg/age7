@@ -1,0 +1,245 @@
+dtamg-py etl-make build-datapackages 2> logs/build.txt
+dtamg-py etl-make dpckan-create 2> logs/create.txt
+Criando recurso: dm_unidade_orc
+Criando recurso: dm_tempo_diario
+Criando recurso: dm_item_desp
+Criando recurso: dm_programa
+Criando recurso: dm_acao
+Criando recurso: dm_empenho_desp_compras_empenho
+Criando recurso: dm_grupo_matserv
+Criando recurso: dm_item_matserv
+Criando recurso: dm_linha_fornec
+Criando recurso: dm_processo
+Criando recurso: dm_unidade_medida
+Criando recurso: fl_compras_empenho
+Criando recurso: ft_compras
+Criando recurso: ft_compras_contrato
+Criando recurso: dm_classe_matserv
+Criando recurso: dm_contrato
+Criando recurso: dm_situacao_cont
+Criando recurso: dm_situacao_proc
+Criando recurso: dm_tipo_licitacao
+Criando recurso: dm_contratado
+Criando recurso: dm_procedimento
+Criando recurso: dm_orgao_demanda
+Criando recurso: dm_orgao_contrato
+Criando recurso: dm_municipio
+Criando recurso: dm_elemento_desp
+Criando recurso: dm_material_servico
+Criando datapackage.json
+Atualizando datapackage.json
+Conjunto de dados compras_contratos publicado. Datapackage.json Atualizado com id dos recursos publicados.
+Criando recurso: dm_unidade_orc
+Criando recurso: dm_funcao_desp
+Criando recurso: dm_subfuncao_desp
+Criando recurso: dm_tempo_diario
+Criando recurso: dm_tipo_documento
+Criando recurso: dm_item_desp
+Criando recurso: dm_programa
+Criando recurso: dm_acao
+Criando recurso: dm_empenho_desp_2002
+Criando recurso: dm_empenho_desp_2003
+Criando recurso: dm_empenho_desp_2004
+Criando recurso: dm_empenho_desp_2005
+Criando recurso: dm_empenho_desp_2006
+Criando recurso: dm_empenho_desp_2007
+Criando recurso: dm_empenho_desp_2008
+Criando recurso: dm_empenho_desp_2009
+Criando recurso: dm_empenho_desp_2010
+Criando recurso: dm_empenho_desp_2011
+Criando recurso: dm_empenho_desp_2012
+Criando recurso: dm_empenho_desp_2013
+Criando recurso: dm_empenho_desp_2014
+Criando recurso: dm_empenho_desp_2015
+Criando recurso: dm_empenho_desp_2016
+Criando recurso: dm_empenho_desp_2017
+Criando recurso: dm_empenho_desp_2018
+Criando recurso: dm_empenho_desp_2019
+Criando recurso: dm_empenho_desp_2020
+Criando recurso: dm_empenho_desp_2021
+Criando recurso: dm_favorecido
+Criando recurso: fl_despesa_pgto
+Criando recurso: dm_fonte
+Criando recurso: dm_grupo_desp
+Criando recurso: dm_modalidade_aplic
+Criando recurso: dm_procedencia
+Criando recurso: ft_despesa_2002
+Criando recurso: ft_despesa_2003
+Criando recurso: ft_despesa_2004
+Criando recurso: ft_despesa_2005
+Criando recurso: ft_despesa_2006
+Criando recurso: ft_despesa_2007
+Criando recurso: ft_despesa_2008
+Criando recurso: ft_despesa_2009
+Criando recurso: ft_despesa_2010
+Criando recurso: ft_despesa_2011
+Criando recurso: ft_despesa_2012
+Criando recurso: ft_despesa_2013
+Criando recurso: ft_despesa_2014
+Criando recurso: ft_despesa_2015
+Criando recurso: ft_despesa_2016
+Criando recurso: ft_despesa_2017
+Criando recurso: ft_despesa_2018
+Criando recurso: ft_despesa_2019
+Criando recurso: ft_despesa_2020
+Criando recurso: ft_despesa_2021
+Criando recurso: dm_situacao_op_desp
+Criando recurso: dm_categ_econ
+Criando recurso: dm_elemento_desp
+Criando datapackage.json
+Atualizando datapackage.json
+Conjunto de dados despesa publicado. Datapackage.json Atualizado com id dos recursos publicados.
+Criando recurso: dm_poder
+Criando recurso: dm_unidade_orc
+Criando recurso: dm_tempo_mensal
+Criando recurso: ft_pessoal_desp
+Criando datapackage.json
+Atualizando datapackage.json
+Conjunto de dados despesa-com-pessoal publicado. Datapackage.json Atualizado com id dos recursos publicados.
+Criando recurso: dm_unidade_orc
+Criando recurso: dm_tempo_diario
+Criando recurso: dm_tipo_documento
+Criando recurso: dm_item_desp
+Criando recurso: dm_programa
+Criando recurso: dm_acao
+Criando recurso: dm_empenho_desp_2002
+Criando recurso: dm_empenho_desp_2003
+Criando recurso: dm_empenho_desp_2004
+Criando recurso: dm_empenho_desp_2005
+Criando recurso: dm_empenho_desp_2006
+Criando recurso: dm_empenho_desp_2007
+Criando recurso: dm_empenho_desp_2008
+Criando recurso: dm_empenho_desp_2009
+Criando recurso: dm_empenho_desp_2010
+Criando recurso: dm_empenho_desp_2011
+Criando recurso: dm_empenho_desp_2012
+Criando recurso: dm_empenho_desp_2013
+Criando recurso: dm_empenho_desp_2014
+Criando recurso: dm_empenho_desp_2015
+Criando recurso: dm_empenho_desp_2016
+Criando recurso: dm_empenho_desp_2017
+Criando recurso: dm_empenho_desp_2018
+Criando recurso: dm_empenho_desp_2019
+Criando recurso: dm_empenho_desp_2020
+Criando recurso: dm_empenho_desp_2021
+Criando recurso: dm_favorecido
+Criando recurso: dm_elemento_desp
+Criando recurso: ft_diarias_2002
+Criando recurso: ft_diarias_2003
+Criando recurso: ft_diarias_2004
+Criando recurso: ft_diarias_2005
+Criando recurso: ft_diarias_2006
+Criando recurso: ft_diarias_2007
+Criando recurso: ft_diarias_2008
+Criando recurso: ft_diarias_2009
+Criando recurso: ft_diarias_2010
+Criando recurso: ft_diarias_2011
+Criando recurso: ft_diarias_2012
+Criando recurso: ft_diarias_2013
+Criando recurso: ft_diarias_2014
+Criando recurso: ft_diarias_2015
+Criando recurso: ft_diarias_2016
+Criando recurso: ft_diarias_2017
+Criando recurso: ft_diarias_2018
+Criando recurso: ft_diarias_2019
+Criando recurso: ft_diarias_2020
+Criando recurso: ft_diarias_2021
+Criando datapackage.json
+Atualizando datapackage.json
+Conjunto de dados diarias publicado. Datapackage.json Atualizado com id dos recursos publicados.
+Criando recurso: dm_contrato_divida
+Criando recurso: dm_tipo_divida
+Criando recurso: dm_tempo_diario
+Criando recurso: dm_favorecido
+Criando recurso: ft_divida_pub
+Criando datapackage.json
+Atualizando datapackage.json
+Conjunto de dados execucao-da-divida publicado. Datapackage.json Atualizado com id dos recursos publicados.
+Criando recurso: dm_unidade_orc
+Criando recurso: dm_tipo_documento
+Criando recurso: dm_item_desp
+Criando recurso: dm_favorecido
+Criando recurso: dm_fonte
+Criando recurso: dm_grupo_desp
+Criando recurso: dm_modalidade_aplic
+Criando recurso: dm_procedencia
+Criando recurso: dm_empenho_resto_2002
+Criando recurso: dm_empenho_resto_2003
+Criando recurso: dm_empenho_resto_2004
+Criando recurso: dm_empenho_resto_2005
+Criando recurso: dm_empenho_resto_2006
+Criando recurso: dm_empenho_resto_2007
+Criando recurso: dm_empenho_resto_2008
+Criando recurso: dm_empenho_resto_2009
+Criando recurso: dm_empenho_resto_2010
+Criando recurso: dm_empenho_resto_2011
+Criando recurso: dm_empenho_resto_2012
+Criando recurso: dm_empenho_resto_2013
+Criando recurso: dm_empenho_resto_2014
+Criando recurso: dm_empenho_resto_2015
+Criando recurso: dm_empenho_resto_2016
+Criando recurso: dm_empenho_resto_2017
+Criando recurso: dm_empenho_resto_2018
+Criando recurso: dm_empenho_resto_2019
+Criando recurso: dm_empenho_resto_2020
+Criando recurso: dm_empenho_resto_2021
+Criando recurso: dm_categ_econ
+Criando recurso: dm_tempo_anual
+Criando recurso: dm_elemento_desp
+Criando recurso: ft_restos_pagar_2002
+Criando recurso: ft_restos_pagar_2003
+Criando recurso: ft_restos_pagar_2004
+Criando recurso: ft_restos_pagar_2005
+Criando recurso: ft_restos_pagar_2006
+Criando recurso: ft_restos_pagar_2007
+Criando recurso: ft_restos_pagar_2008
+Criando recurso: ft_restos_pagar_2009
+Criando recurso: ft_restos_pagar_2010
+Criando recurso: ft_restos_pagar_2011
+Criando recurso: ft_restos_pagar_2012
+Criando recurso: ft_restos_pagar_2013
+Criando recurso: ft_restos_pagar_2014
+Criando recurso: ft_restos_pagar_2015
+Criando recurso: ft_restos_pagar_2016
+Criando recurso: ft_restos_pagar_2017
+Criando recurso: ft_restos_pagar_2018
+Criando recurso: ft_restos_pagar_2019
+Criando recurso: ft_restos_pagar_2020
+Criando recurso: ft_restos_pagar_2021
+Criando recurso: dm_funcao_resto
+Criando recurso: dm_subfuncao_resto
+Criando recurso: dm_programa_resto
+Criando recurso: dm_acao_resto
+Criando datapackage.json
+Atualizando datapackage.json
+Conjunto de dados restos_pagar publicado. Datapackage.json Atualizado com id dos recursos publicados.
+Criando recurso: dm_tempo_mensal
+Criando recurso: dm_municipio
+Criando recurso: ft_repasse_mun
+Criando datapackage.json
+Atualizando datapackage.json
+Conjunto de dados transferencia-de-impostos-a-municipios publicado. Datapackage.json Atualizado com id dos recursos publicados.
+Criando recurso: dm_funcao_desp
+Criando recurso: dm_tempo_diario
+Criando recurso: dm_item_desp
+Criando recurso: dm_programa
+Criando recurso: dm_acao
+Criando recurso: dm_funcao_scdp
+Criando recurso: dm_favorecido_scdp
+Criando recurso: dm_documento_viagem
+Criando recurso: dm_empenho_desp_diarias_scdp_liqpag
+Criando recurso: dm_fonte
+Criando recurso: dm_cidade
+Criando recurso: dm_estado
+Criando recurso: ft_diarias_scdp
+Criando recurso: ft_diarias_scdp_liqpag
+Criando recurso: dm_cargo_scdp
+Criando recurso: dm_meio_transporte
+Criando recurso: dm_pais
+Criando recurso: dm_tipo_viagem
+Criando recurso: dm_motivo_viagem
+Criando recurso: dm_tipo_viajante
+Criando recurso: dm_orgao_scdp
+Criando datapackage.json
+Atualizando datapackage.json
+Conjunto de dados viagens publicado. Datapackage.json Atualizado com id dos recursos publicados.
