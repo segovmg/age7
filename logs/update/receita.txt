@@ -1,0 +1,3 @@
+Atualizando conjunto de dados: receita
+Diferenças nos dados do recurso: ft_receita_prevista_v2018
+Atualizando recurso: ft_receita_prevista_v2018

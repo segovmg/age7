@@ -30,7 +30,7 @@ consultas:
       - ft_compras
       - ft_compras_contrato
       - fl_compras_empenho
-  convenios_saida:
+  convenios-saida:
     title: Convênios de saída de recursos
     url: http://www.transparencia.mg.gov.br/convenios/convenios-de-saida
     fact_tables:
@@ -118,7 +118,7 @@ consultas:
       - ft_receita_prevista
       - ft_receita_v2018
       - ft_receita_prevista_v2018
-  convenios_entrada:
+  convenios-entrada:
     title: Convênios de entrada de recursos
     url: http://transparencia.mg.gov.br/convenios/convenio-entrada
     fact_tables:
