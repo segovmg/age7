@@ -30,6 +30,16 @@ consultas:
       - ft_compras
       - ft_compras_contrato
       - fl_compras_empenho
+  convenios_saida:
+    title: Convênios de saída de recursos
+    url: http://www.transparencia.mg.gov.br/convenios/convenios-de-saida
+    fact_tables:
+      - ft_convenio
+      - ft_convenio_investimento
+      - ft_convenio_tipoatendimento
+      - ft_convenio_metaetapa
+      - fl_convenio_interveniente
+      - fl_convenio_alteracao
   diarias:
     title: Despesas com diárias
     url: http://www.transparencia.mg.gov.br/estado-pessoal/diarias
@@ -100,6 +110,26 @@ consultas:
     fact_tables:
       - ft_diarias_scdp
       - ft_diarias_scdp_liqpag
+  receita:
+    title: Receita pública
+    url: http://www.transparencia.mg.gov.br/estado-receita
+    fact_tables:
+      - ft_receita
+      - ft_receita_prevista
+      - ft_receita_v2018
+      - ft_receita_prevista_v2018
+  convenios_entrada:
+    title: Convênios de entrada de recursos
+    url: http://transparencia.mg.gov.br/convenios/convenio-entrada
+    fact_tables:
+      - ft_convenio_entrada_dotacao
+      - ft_convenio_entrada
+      - ft_convenio_entrada_desp
+      - ft_convenio_entrada_rec
+      - fl_convenio_entrada_interv
+      - fl_convenio_entrada_compras
+      - fl_convenio_entrada_aditivo
+
 
 fact_tables:
   ft_receita:
