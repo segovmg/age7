@@ -2886,4 +2886,7 @@ resources:
     profile: tabular-data-resource
 name: age7
 owner_org: controladoria-geral-do-estado-cge
-version: 0.0.0.9000
+licenses:
+  - name: CC-BY-4.0
+    title: Creative Commons Attribution 4.0
+    path: https://creativecommons.org/licenses/by/4.0/
