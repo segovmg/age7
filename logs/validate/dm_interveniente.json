@@ -80,10 +80,10 @@
         "hashing": "md5",
         "compression": "gz",
         "stats": {
-          "hash": "7db635fbbd98396e94943eef2654cb1d",
-          "bytes": 34451,
+          "hash": "4e4dc259e402661e514897a075f108a5",
+          "bytes": 34576,
           "fields": 4,
-          "rows": 4617
+          "rows": 4650
         }
       },
       "time": 0.109,

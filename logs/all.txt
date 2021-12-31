@@ -1,140 +1,44 @@
 Already up to date.
 make: Nothing to be done for 'parse'.
-python scripts/python/extract-resource.py ft_despesa_2009 2> logs/extract/ft_despesa_2009.txt
-python scripts/python/extract-resource.py ft_despesa_2010 2> logs/extract/ft_despesa_2010.txt
-python scripts/python/extract-resource.py ft_despesa_2011 2> logs/extract/ft_despesa_2011.txt
-python scripts/python/extract-resource.py ft_despesa_2012 2> logs/extract/ft_despesa_2012.txt
-python scripts/python/extract-resource.py ft_despesa_2013 2> logs/extract/ft_despesa_2013.txt
-python scripts/python/extract-resource.py ft_despesa_2014 2> logs/extract/ft_despesa_2014.txt
-python scripts/python/extract-resource.py ft_despesa_2015 2> logs/extract/ft_despesa_2015.txt
-python scripts/python/extract-resource.py ft_despesa_2016 2> logs/extract/ft_despesa_2016.txt
-python scripts/python/extract-resource.py ft_despesa_2017 2> logs/extract/ft_despesa_2017.txt
-python scripts/python/extract-resource.py ft_despesa_2018 2> logs/extract/ft_despesa_2018.txt
-python scripts/python/extract-resource.py ft_despesa_2019 2> logs/extract/ft_despesa_2019.txt
-python scripts/python/extract-resource.py ft_despesa_2020 2> logs/extract/ft_despesa_2020.txt
-python scripts/python/extract-resource.py ft_despesa_2021 2> logs/extract/ft_despesa_2021.txt
-python scripts/python/extract-resource.py dm_situacao_op_desp 2> logs/extract/dm_situacao_op_desp.txt
-python scripts/python/extract-resource.py dm_motivo_viagem 2> logs/extract/dm_motivo_viagem.txt
-python scripts/python/extract-resource.py dm_tipo_viajante 2> logs/extract/dm_tipo_viajante.txt
-python scripts/python/extract-resource.py dm_classe_matserv 2> logs/extract/dm_classe_matserv.txt
-python scripts/python/extract-resource.py dm_contrato 2> logs/extract/dm_contrato.txt
-python scripts/python/extract-resource.py dm_situacao_cont 2> logs/extract/dm_situacao_cont.txt
-python scripts/python/extract-resource.py dm_situacao_proc 2> logs/extract/dm_situacao_proc.txt
-python scripts/python/extract-resource.py dm_tipo_licitacao 2> logs/extract/dm_tipo_licitacao.txt
-python scripts/python/extract-resource.py dm_situacao_convenio 2> logs/extract/dm_situacao_convenio.txt
-python scripts/python/extract-resource.py dm_contratado 2> logs/extract/dm_contratado.txt
-python scripts/python/extract-resource.py dm_empenho_resto_2002 2> logs/extract/dm_empenho_resto_2002.txt
-python scripts/python/extract-resource.py dm_empenho_resto_2003 2> logs/extract/dm_empenho_resto_2003.txt
-python scripts/python/extract-resource.py dm_empenho_resto_2004 2> logs/extract/dm_empenho_resto_2004.txt
-python scripts/python/extract-resource.py dm_empenho_resto_2005 2> logs/extract/dm_empenho_resto_2005.txt
-python scripts/python/extract-resource.py dm_empenho_resto_2006 2> logs/extract/dm_empenho_resto_2006.txt
-python scripts/python/extract-resource.py dm_empenho_resto_2007 2> logs/extract/dm_empenho_resto_2007.txt
-python scripts/python/extract-resource.py dm_empenho_resto_2008 2> logs/extract/dm_empenho_resto_2008.txt
-python scripts/python/extract-resource.py dm_empenho_resto_2009 2> logs/extract/dm_empenho_resto_2009.txt
-python scripts/python/extract-resource.py dm_empenho_resto_2010 2> logs/extract/dm_empenho_resto_2010.txt
-python scripts/python/extract-resource.py dm_empenho_resto_2011 2> logs/extract/dm_empenho_resto_2011.txt
-python scripts/python/extract-resource.py dm_empenho_resto_2012 2> logs/extract/dm_empenho_resto_2012.txt
-python scripts/python/extract-resource.py dm_empenho_resto_2013 2> logs/extract/dm_empenho_resto_2013.txt
-python scripts/python/extract-resource.py dm_empenho_resto_2014 2> logs/extract/dm_empenho_resto_2014.txt
-python scripts/python/extract-resource.py dm_empenho_resto_2015 2> logs/extract/dm_empenho_resto_2015.txt
-python scripts/python/extract-resource.py dm_empenho_resto_2016 2> logs/extract/dm_empenho_resto_2016.txt
-python scripts/python/extract-resource.py dm_empenho_resto_2017 2> logs/extract/dm_empenho_resto_2017.txt
-python scripts/python/extract-resource.py dm_empenho_resto_2018 2> logs/extract/dm_empenho_resto_2018.txt
-python scripts/python/extract-resource.py dm_empenho_resto_2019 2> logs/extract/dm_empenho_resto_2019.txt
-python scripts/python/extract-resource.py dm_empenho_resto_2020 2> logs/extract/dm_empenho_resto_2020.txt
-python scripts/python/extract-resource.py dm_empenho_resto_2021 2> logs/extract/dm_empenho_resto_2021.txt
-python scripts/python/extract-resource.py dm_categ_econ 2> logs/extract/dm_categ_econ.txt
-python scripts/python/extract-resource.py dm_subitem_rec 2> logs/extract/dm_subitem_rec.txt
-python scripts/python/extract-resource.py dm_procedimento 2> logs/extract/dm_procedimento.txt
-python scripts/python/extract-resource.py dm_tempo_anual 2> logs/extract/dm_tempo_anual.txt
-python scripts/python/extract-resource.py dm_orgao_scdp 2> logs/extract/dm_orgao_scdp.txt
-python scripts/python/extract-resource.py dm_orgao_demanda 2> logs/extract/dm_orgao_demanda.txt
-python scripts/python/extract-resource.py dm_orgao_contrato 2> logs/extract/dm_orgao_contrato.txt
-python scripts/python/extract-resource.py dm_orgao_concedente 2> logs/extract/dm_orgao_concedente.txt
-python scripts/python/extract-resource.py dm_municipio 2> logs/extract/dm_municipio.txt
-python scripts/python/extract-resource.py dm_elemento_desp 2> logs/extract/dm_elemento_desp.txt
-python scripts/python/extract-resource.py dm_material_servico 2> logs/extract/dm_material_servico.txt
-python scripts/python/extract-resource.py ft_diarias_2002 2> logs/extract/ft_diarias_2002.txt
-python scripts/python/extract-resource.py ft_diarias_2003 2> logs/extract/ft_diarias_2003.txt
-python scripts/python/extract-resource.py ft_diarias_2004 2> logs/extract/ft_diarias_2004.txt
-python scripts/python/extract-resource.py ft_diarias_2005 2> logs/extract/ft_diarias_2005.txt
-python scripts/python/extract-resource.py ft_diarias_2006 2> logs/extract/ft_diarias_2006.txt
-python scripts/python/extract-resource.py ft_diarias_2007 2> logs/extract/ft_diarias_2007.txt
-python scripts/python/extract-resource.py ft_diarias_2008 2> logs/extract/ft_diarias_2008.txt
-python scripts/python/extract-resource.py ft_diarias_2009 2> logs/extract/ft_diarias_2009.txt
-python scripts/python/extract-resource.py ft_diarias_2010 2> logs/extract/ft_diarias_2010.txt
-python scripts/python/extract-resource.py ft_diarias_2011 2> logs/extract/ft_diarias_2011.txt
-python scripts/python/extract-resource.py ft_diarias_2012 2> logs/extract/ft_diarias_2012.txt
-python scripts/python/extract-resource.py ft_diarias_2013 2> logs/extract/ft_diarias_2013.txt
-python scripts/python/extract-resource.py ft_diarias_2014 2> logs/extract/ft_diarias_2014.txt
-python scripts/python/extract-resource.py ft_diarias_2015 2> logs/extract/ft_diarias_2015.txt
-[main 50a55eb] Atualização age7
- 70 files changed, 80 insertions(+), 6 deletions(-)
- create mode 100644 logs/all.txt
- create mode 100644 logs/extract/dm_categ_econ.txt
- create mode 100644 logs/extract/dm_classe_matserv.txt
- create mode 100644 logs/extract/dm_contratado.txt
- create mode 100644 logs/extract/dm_contrato.txt
- create mode 100644 logs/extract/dm_elemento_desp.txt
- create mode 100644 logs/extract/dm_empenho_resto_2002.txt
- create mode 100644 logs/extract/dm_empenho_resto_2003.txt
- create mode 100644 logs/extract/dm_empenho_resto_2004.txt
- create mode 100644 logs/extract/dm_empenho_resto_2005.txt
- create mode 100644 logs/extract/dm_empenho_resto_2006.txt
- create mode 100644 logs/extract/dm_empenho_resto_2007.txt
- create mode 100644 logs/extract/dm_empenho_resto_2008.txt
- create mode 100644 logs/extract/dm_empenho_resto_2009.txt
- create mode 100644 logs/extract/dm_empenho_resto_2010.txt
- create mode 100644 logs/extract/dm_empenho_resto_2011.txt
- create mode 100644 logs/extract/dm_empenho_resto_2012.txt
- create mode 100644 logs/extract/dm_empenho_resto_2013.txt
- create mode 100644 logs/extract/dm_empenho_resto_2014.txt
- create mode 100644 logs/extract/dm_empenho_resto_2015.txt
- create mode 100644 logs/extract/dm_empenho_resto_2016.txt
- create mode 100644 logs/extract/dm_empenho_resto_2017.txt
- create mode 100644 logs/extract/dm_empenho_resto_2018.txt
- create mode 100644 logs/extract/dm_empenho_resto_2019.txt
- create mode 100644 logs/extract/dm_empenho_resto_2020.txt
- create mode 100644 logs/extract/dm_empenho_resto_2021.txt
- create mode 100644 logs/extract/dm_material_servico.txt
- create mode 100644 logs/extract/dm_motivo_viagem.txt
- create mode 100644 logs/extract/dm_municipio.txt
- create mode 100644 logs/extract/dm_orgao_concedente.txt
- create mode 100644 logs/extract/dm_orgao_contrato.txt
- create mode 100644 logs/extract/dm_orgao_demanda.txt
- create mode 100644 logs/extract/dm_orgao_scdp.txt
- create mode 100644 logs/extract/dm_procedimento.txt
- create mode 100644 logs/extract/dm_situacao_cont.txt
- create mode 100644 logs/extract/dm_situacao_convenio.txt
- create mode 100644 logs/extract/dm_situacao_op_desp.txt
- create mode 100644 logs/extract/dm_situacao_proc.txt
- create mode 100644 logs/extract/dm_subitem_rec.txt
- create mode 100644 logs/extract/dm_tempo_anual.txt
- create mode 100644 logs/extract/dm_tipo_licitacao.txt
- create mode 100644 logs/extract/dm_tipo_viajante.txt
- create mode 100644 logs/extract/ft_despesa_2009.txt
- create mode 100644 logs/extract/ft_despesa_2010.txt
- create mode 100644 logs/extract/ft_despesa_2011.txt
- create mode 100644 logs/extract/ft_despesa_2012.txt
- create mode 100644 logs/extract/ft_despesa_2013.txt
- create mode 100644 logs/extract/ft_despesa_2014.txt
- create mode 100644 logs/extract/ft_despesa_2015.txt
- create mode 100644 logs/extract/ft_despesa_2016.txt
- create mode 100644 logs/extract/ft_despesa_2017.txt
- create mode 100644 logs/extract/ft_despesa_2018.txt
- create mode 100644 logs/extract/ft_despesa_2019.txt
- create mode 100644 logs/extract/ft_despesa_2020.txt
- create mode 100644 logs/extract/ft_despesa_2021.txt
- create mode 100644 logs/extract/ft_diarias_2002.txt
- create mode 100644 logs/extract/ft_diarias_2003.txt
- create mode 100644 logs/extract/ft_diarias_2004.txt
- create mode 100644 logs/extract/ft_diarias_2005.txt
- create mode 100644 logs/extract/ft_diarias_2006.txt
- create mode 100644 logs/extract/ft_diarias_2007.txt
- create mode 100644 logs/extract/ft_diarias_2008.txt
- create mode 100644 logs/extract/ft_diarias_2009.txt
- create mode 100644 logs/extract/ft_diarias_2010.txt
- create mode 100644 logs/extract/ft_diarias_2011.txt
- create mode 100644 logs/extract/ft_diarias_2012.txt
- create mode 100644 logs/extract/ft_diarias_2013.txt
- create mode 100644 logs/extract/ft_diarias_2014.txt
+# python scripts/python/full-extract.py
+dtamg-py etl-make full-extract 2>> logs/full_extract.txt
+Extraindo recurso dm_poder...
+Extraindo recurso dm_contrato_divida...
+Extraindo recurso dm_tipo_divida...
+Extraindo recurso dm_unidade_orc...
+Extraindo recurso dm_funcao_desp...
+Extraindo recurso dm_subfuncao_desp...
+Extraindo recurso dm_tempo_diario...
+Extraindo recurso dm_tipo_documento...
+Extraindo recurso dm_tempo_mensal...
+Extraindo recurso dm_alinea_rec...
+Extraindo recurso dm_especie_rec...
+Extraindo recurso dm_fonte_rec...
+Extraindo recurso dm_item_rec...
+Extraindo recurso dm_rubrica_rec...
+Extraindo recurso dm_origem_rec...
+Extraindo recurso dm_subalinea_rec...
+Extraindo recurso ft_receita_prevista...
+Extraindo recurso ft_receita...
+Extraindo recurso dm_desdobramento_1_rec...
+Extraindo recurso dm_desdobramento_2_rec...
+Extraindo recurso dm_desdobramento_3_rec...
+Extraindo recurso dm_tipo_rec...
+Extraindo recurso ft_receita_prevista_v2018...
+Extraindo recurso ft_receita_v2018...
+Extraindo recurso dm_item_desp...
+Extraindo recurso dm_programa...
+Extraindo recurso dm_acao...
+Extraindo recurso dm_funcao_scdp...
+Extraindo recurso ft_convenio_investimento...
+Extraindo recurso ft_convenio_tipoatendimento...
+Extraindo recurso ft_convenio_metaetapa...
+Extraindo recurso fl_convenio_interveniente...
+Extraindo recurso fl_convenio_alteracao...
+Extraindo recurso ft_convenio_entrada_dotacao...
+Extraindo recurso ft_convenio_entrada_desp...
+Extraindo recurso ft_convenio_entrada_rec...
+Extraindo recurso dm_convenio_entrada...
+Extraindo recurso dm_favorecido_scdp...
+Extraindo recurso dm_documento_viagem...
+Extraindo recurso dm_empenho_desp_compras_empenho...

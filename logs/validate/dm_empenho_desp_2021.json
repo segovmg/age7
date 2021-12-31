@@ -1,6 +1,6 @@
 {
   "version": "4.22.3",
-  "time": 13.063,
+  "time": 14.481,
   "errors": [],
   "tasks": [
     {
@@ -80,7 +80,7 @@
               }
             },
             {
-              "name": "cd_unid_prog_gasto",
+              "name": "cd_uni_prog_gasto",
               "title": "Código Unidade Programação de Gasto - Chave",
               "type": "integer",
               "format": "default",
@@ -90,7 +90,7 @@
               }
             },
             {
-              "name": "unid_prog_gasto",
+              "name": "uni_prog_gasto",
               "title": "Unidade Programação de Gasto",
               "type": "string",
               "format": "default",
@@ -129,7 +129,7 @@
           "rows": 338325
         }
       },
-      "time": 13.063,
+      "time": 14.481,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -151,16 +151,77 @@
         "unique-error"
       ],
       "partial": false,
-      "errors": [],
+      "errors": [
+        {
+          "label": "cd_unid_prog_gasto",
+          "fieldName": "cd_uni_prog_gasto",
+          "fieldNumber": 8,
+          "fieldPosition": 8,
+          "labels": [
+            "id_empenho",
+            "ano_exercicio",
+            "nr_empenho",
+            "dt_empenho",
+            "unidade_executora",
+            "tipo_empenho",
+            "vr_empenho",
+            "cd_unid_prog_gasto",
+            "unid_prog_gasto"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"cd_unid_prog_gasto\" in field cd_uni_prog_gasto at position \"8\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "unid_prog_gasto",
+          "fieldName": "uni_prog_gasto",
+          "fieldNumber": 9,
+          "fieldPosition": 9,
+          "labels": [
+            "id_empenho",
+            "ano_exercicio",
+            "nr_empenho",
+            "dt_empenho",
+            "unidade_executora",
+            "tipo_empenho",
+            "vr_empenho",
+            "cd_unid_prog_gasto",
+            "unid_prog_gasto"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"unid_prog_gasto\" in field uni_prog_gasto at position \"9\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        }
+      ],
       "stats": {
-        "errors": 0
+        "errors": 2
       },
-      "valid": true
+      "valid": false
     }
   ],
   "stats": {
-    "errors": 0,
+    "errors": 2,
     "tasks": 1
   },
-  "valid": true
+  "valid": false
 }

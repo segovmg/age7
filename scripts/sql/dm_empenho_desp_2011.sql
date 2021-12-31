@@ -5,8 +5,8 @@ dt_empenho,
 unidade_executora,
 tipo_empenho,
 vr_empenho,
-cd_unid_prog_gasto,
-unid_prog_gasto
+cd_uni_prog_gasto,
+uni_prog_gasto
 from dm_empenho_desp
 where ano_exercicio = 2011
 

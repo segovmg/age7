@@ -1,1 +1,6 @@
 Atualizando conjunto de dados: transferencia-de-impostos-a-municipios
+Diferenças nos metadados do conjunto: transferencia-de-impostos-a-municipios
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_municipio
+Atualizando recurso: dm_municipio
+Atualizando datapackage.json

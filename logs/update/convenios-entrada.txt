@@ -1,1 +1,15 @@
 Atualizando conjunto de dados: convenios-entrada
+Diferenças nos metadados do conjunto: convenios-entrada
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_item_desp
+Atualizando recurso: dm_item_desp
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_convenio_entrada_dotacao
+Atualizando recurso: ft_convenio_entrada_dotacao
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_convenio_entrada
+Atualizando recurso: dm_convenio_entrada
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_convenio_entrada
+Atualizando recurso: ft_convenio_entrada
+Atualizando datapackage.json

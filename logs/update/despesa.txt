@@ -1,1 +1,40 @@
 Atualizando conjunto de dados: despesa
+Diferenças nos metadados do conjunto: despesa
+Atualizando datapackage.json
+Atualizando datapackage.json
+Atualizando datapackage.json
+Atualizando datapackage.json
+Atualizando datapackage.json
+Atualizando datapackage.json
+Atualizando datapackage.json
+Atualizando datapackage.json
+Atualizando datapackage.json
+Atualizando datapackage.json
+Atualizando datapackage.json
+Atualizando datapackage.json
+Atualizando datapackage.json
+Atualizando datapackage.json
+Atualizando datapackage.json
+Atualizando datapackage.json
+Atualizando datapackage.json
+Atualizando datapackage.json
+Atualizando datapackage.json
+Atualizando datapackage.json
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_favorecido
+Atualizando recurso: dm_favorecido
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_item_desp
+Atualizando recurso: dm_item_desp
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_unidade_orc
+Atualizando recurso: dm_unidade_orc
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2017
+Atualizando recurso: ft_despesa_2017
+Diferenças nos dados do recurso: ft_despesa_2020
+Atualizando recurso: ft_despesa_2020
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2021
+Atualizando recurso: ft_despesa_2021
+Atualizando datapackage.json

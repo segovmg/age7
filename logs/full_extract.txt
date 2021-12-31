@@ -1,15 +1,9 @@
 Traceback (most recent call last):
-  File "c:\users\m752587\projects\age7\venv\lib\site-packages\pymysql\connections.py", line 732, in _read_bytes
-    data = self._rfile.read(num_bytes)
-  File "C:\Users\m752587\AppData\Local\Programs\Python\Python39\lib\socket.py", line 704, in readinto
-    return self._sock.recv_into(b)
-ConnectionResetError: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\m752587\projects\age7\venv\Scripts\dtamg-py-script.py", line 33, in <module>
-    sys.exit(load_entry_point('dtamg-py', 'console_scripts', 'dtamg-py')())
+  File "C:\Users\m752587\AppData\Local\Programs\Python\Python39\lib\runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\m752587\AppData\Local\Programs\Python\Python39\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\m752587\projects\age7\venv\Scripts\dtamg-py.exe\__main__.py", line 7, in <module>
   File "c:\users\m752587\projects\age7\venv\lib\site-packages\click\core.py", line 1128, in __call__
     return self.main(*args, **kwargs)
   File "c:\users\m752587\projects\age7\venv\lib\site-packages\click\core.py", line 1053, in main
@@ -22,11 +16,11 @@ Traceback (most recent call last):
     return ctx.invoke(self.callback, **ctx.params)
   File "c:\users\m752587\projects\age7\venv\lib\site-packages\click\core.py", line 754, in invoke
     return __callback(*args, **kwargs)
-  File "c:\users\m752587\projects\dtamg-py\dtamg_py\full_extract.py", line 10, in full_extract_cli
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\dtamg_py\full_extract.py", line 10, in full_extract_cli
     full_extract()
-  File "c:\users\m752587\projects\dtamg-py\dtamg_py\utils.py", line 43, in full_extract
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\dtamg_py\utils.py", line 45, in full_extract
     extract_resources(dp.resources)
-  File "c:\users\m752587\projects\dtamg-py\dtamg_py\utils.py", line 31, in extract_resources
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\dtamg_py\utils.py", line 33, in extract_resources
     cursor.execute(sql_query)
   File "c:\users\m752587\projects\age7\venv\lib\site-packages\pymysql\cursors.py", line 148, in execute
     result = self._query(query)
@@ -36,14 +30,94 @@ Traceback (most recent call last):
     self._affected_rows = self._read_query_result(unbuffered=unbuffered)
   File "c:\users\m752587\projects\age7\venv\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
     result.read()
-  File "c:\users\m752587\projects\age7\venv\lib\site-packages\pymysql\connections.py", line 1163, in read
-    self._read_result_packet(first_packet)
-  File "c:\users\m752587\projects\age7\venv\lib\site-packages\pymysql\connections.py", line 1236, in _read_result_packet
-    self._read_rowdata_packet()
-  File "c:\users\m752587\projects\age7\venv\lib\site-packages\pymysql\connections.py", line 1270, in _read_rowdata_packet
-    packet = self.connection._read_packet()
-  File "c:\users\m752587\projects\age7\venv\lib\site-packages\pymysql\connections.py", line 711, in _read_packet
-    recv_data = self._read_bytes(bytes_to_read)
-  File "c:\users\m752587\projects\age7\venv\lib\site-packages\pymysql\connections.py", line 738, in _read_bytes
-    raise err.OperationalError(
-pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query ([WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto)')
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1054, "Unknown column 'id_item' in 'field list'")
+Traceback (most recent call last):
+  File "C:\Users\m752587\AppData\Local\Programs\Python\Python39\lib\runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\m752587\AppData\Local\Programs\Python\Python39\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\m752587\projects\age7\venv\Scripts\dtamg-py.exe\__main__.py", line 7, in <module>
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\click\core.py", line 1128, in __call__
+    return self.main(*args, **kwargs)
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\click\core.py", line 1053, in main
+    rv = self.invoke(ctx)
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\click\core.py", line 1659, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\click\core.py", line 1659, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\click\core.py", line 1395, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\click\core.py", line 754, in invoke
+    return __callback(*args, **kwargs)
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\dtamg_py\full_extract.py", line 10, in full_extract_cli
+    full_extract()
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\dtamg_py\utils.py", line 45, in full_extract
+    extract_resources(dp.resources)
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\dtamg_py\utils.py", line 33, in extract_resources
+    cursor.execute(sql_query)
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1054, "Unknown column 'id_item' in 'field list'")
+Traceback (most recent call last):
+  File "C:\Users\m752587\AppData\Local\Programs\Python\Python39\lib\runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\m752587\AppData\Local\Programs\Python\Python39\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\m752587\projects\age7\venv\Scripts\dtamg-py.exe\__main__.py", line 7, in <module>
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\click\core.py", line 1128, in __call__
+    return self.main(*args, **kwargs)
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\click\core.py", line 1053, in main
+    rv = self.invoke(ctx)
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\click\core.py", line 1659, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\click\core.py", line 1659, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\click\core.py", line 1395, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\click\core.py", line 754, in invoke
+    return __callback(*args, **kwargs)
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\dtamg_py\full_extract.py", line 10, in full_extract_cli
+    full_extract()
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\dtamg_py\utils.py", line 45, in full_extract
+    extract_resources(dp.resources)
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\dtamg_py\utils.py", line 33, in extract_resources
+    cursor.execute(sql_query)
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1054, "Unknown column 'cd_unid_prog_gasto' in 'field list'")

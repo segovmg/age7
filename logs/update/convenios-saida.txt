@@ -1,1 +1,36 @@
 Atualizando conjunto de dados: convenios-saida
+Diferenças nos metadados do conjunto: convenios-saida
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_unidade_orc
+Atualizando recurso: dm_unidade_orc
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_item_desp
+Atualizando recurso: dm_item_desp
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_convenio_investimento
+Atualizando recurso: ft_convenio_investimento
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_convenio_tipoatendimento
+Atualizando recurso: ft_convenio_tipoatendimento
+Atualizando datapackage.json
+Diferenças nos dados do recurso: fl_convenio_interveniente
+Atualizando recurso: fl_convenio_interveniente
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_convenio
+Atualizando recurso: ft_convenio
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_convenio
+Atualizando recurso: dm_convenio
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_interveniente
+Atualizando recurso: dm_interveniente
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_tipo_atendimento
+Atualizando recurso: dm_tipo_atendimento
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_convenente
+Atualizando recurso: dm_convenente
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_municipio
+Atualizando recurso: dm_municipio
+Atualizando datapackage.json

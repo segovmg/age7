@@ -1,4 +1,6 @@
 {
+make datapackage.json && \
+make test && \
 make build && \
-make create
+make update
 } > logs/run.txt
