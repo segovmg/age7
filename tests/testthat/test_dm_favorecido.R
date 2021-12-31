@@ -53,7 +53,7 @@ test_that("Anonimização hanseniase", {
                                              c("dm_empenho_desp_2021", "dm_unidade_orc", "dm_favorecido"))
   
   hanseniase <- ft_despesa_2021[
-    cd_unidade_orc == 4291 & cd_unid_prog_gasto == 761,
+    cd_unidade_orc == 4291 & cd_uni_prog_gasto == 761,
     unique(id_favorecido)
   ]
     
