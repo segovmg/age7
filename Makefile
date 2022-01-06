@@ -71,7 +71,10 @@ clean:
 	rm -rf logs/parse/*
 	rm -rf logs/tests/*
 	rm -rf logs/update/*
-	rm -f logs/*.txt
+	rm -f logs/full_extract.txt
+	rm -f logs/ingest.txt
+	rm -f logs/build.txt
+	rm -f logs/create.txt
 	rm -rf data/raw/*
 	rm -f datapackage.json
 	rm -rf build_datasets
