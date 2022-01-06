@@ -28,7 +28,7 @@ $(DATA_RAW_FILES): data/raw/%.csv: scripts/python/extract-resource.py scripts/sq
 ingest: $(DATA_INGEST_FILES) ## Ingest raw files (data/raw/) into staging area (data/staging/)
 
 $(DATA_INGEST_FILES): data/staging/%.csv: data/raw/%.csv
-	rsync --checksum data/raw/* data/staging/
+	rsync --itemize-changes --checksum data/raw/* data/staging/ 2> logs/ingest.txt
 
 data: $(DATA_FILES) ## Compress staged files (data/staging/) to data/
 
