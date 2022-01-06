@@ -23,7 +23,7 @@ full-extract:
 extract: $(DATA_RAW_FILES) ## Extract raw files from external source into data/raw/
 
 $(DATA_RAW_FILES): data/raw/%.csv: scripts/python/extract-resource.py scripts/sql/%.sql
-	python $< $* 2> logs/extract/$*.txt
+	-python $< $* 2> logs/extract/$*.txt
 
 ingest: $(DATA_INGEST_FILES) ## Ingest raw files (data/raw/) into staging area (data/staging/)
 
@@ -57,7 +57,7 @@ $(DATASETS_FILES): logs/update/%.txt: build_datasets/%/datapackage.json
 	dpckan dataset update --datapackage build_datasets/$*/datapackage.json > $@
 
 $(VALIDATION_FILES): logs/validate/%.json: data/%.csv.gz schemas/%.yaml
-	dtamg-py etl-make validate -r $* >$@
+	-dtamg-py etl-make validate -r $* >$@
 
 validate-metadata: ## Valida arquivo yaml com tableschema
 	@echo "Validando tableschemas"
