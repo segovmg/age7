@@ -1,5 +1,6 @@
 {
 git pull && \
+make clean && \
 make parse && \
 make full-extract && \
 make ingest && \
