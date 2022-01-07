@@ -1,3 +1,5 @@
+cd $PROJECT_PATH
+source venv/Scripts/activate
 {
 git pull && \
 make clean && \
