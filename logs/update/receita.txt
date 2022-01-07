@@ -1,6 +1,1 @@
 Atualizando conjunto de dados: receita
-Diferenças nos metadados do conjunto: receita
-Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_unidade_orc
-Atualizando recurso: dm_unidade_orc
-Atualizando datapackage.json
