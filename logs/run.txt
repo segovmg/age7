@@ -509,3 +509,78 @@ dpckan dataset update --datapackage build_datasets/despesa-com-pessoal/datapacka
 dpckan dataset update --datapackage build_datasets/viagens/datapackage.json > logs/update/viagens.txt
 dpckan dataset update --datapackage build_datasets/receita/datapackage.json > logs/update/receita.txt
 dpckan dataset update --datapackage build_datasets/convenios-entrada/datapackage.json > logs/update/convenios-entrada.txt
+[main 76eb320] Atualização age7
+ 199 files changed, 723281 insertions(+), 263941 deletions(-)
+ delete mode 100644 logs/extract/dm_cidade.txt
+ delete mode 100644 logs/extract/dm_classifica_rec.txt
+ delete mode 100644 logs/extract/dm_concedente.txt
+ delete mode 100644 logs/extract/dm_convenente.txt
+ delete mode 100644 logs/extract/dm_convenio.txt
+ delete mode 100644 logs/extract/dm_empenho_desp_compras_empenho.txt
+ delete mode 100644 logs/extract/dm_empenho_desp_diarias_scdp_liqpag.txt
+ delete mode 100644 logs/extract/dm_estado.txt
+ delete mode 100644 logs/extract/dm_favorecido.txt
+ delete mode 100644 logs/extract/dm_fonte.txt
+ delete mode 100644 logs/extract/dm_grupo_desp.txt
+ delete mode 100644 logs/extract/dm_grupo_matserv.txt
+ delete mode 100644 logs/extract/dm_interveniente.txt
+ delete mode 100644 logs/extract/dm_interveniente_conv_ent.txt
+ delete mode 100644 logs/extract/dm_item_desp.txt
+ delete mode 100644 logs/extract/dm_item_matserv.txt
+ delete mode 100644 logs/extract/dm_linha_fornec.txt
+ delete mode 100644 logs/extract/dm_meio_transporte.txt
+ delete mode 100644 logs/extract/dm_modalidade_aplic.txt
+ delete mode 100644 logs/extract/dm_orgao_proponente.txt
+ delete mode 100644 logs/extract/dm_pais.txt
+ delete mode 100644 logs/extract/dm_procedencia.txt
+ delete mode 100644 logs/extract/dm_processo.txt
+ delete mode 100644 logs/extract/dm_programa_conv_ent.txt
+ delete mode 100644 logs/extract/dm_situacao_conv_ent.txt
+ delete mode 100644 logs/extract/dm_tipo_atendimento.txt
+ delete mode 100644 logs/extract/dm_tipo_viagem.txt
+ delete mode 100644 logs/extract/dm_unidade_medida.txt
+ delete mode 100644 logs/extract/fl_compras_empenho.txt
+ delete mode 100644 logs/extract/fl_convenio_entrada_aditivo.txt
+ delete mode 100644 logs/extract/fl_convenio_entrada_compras.txt
+ delete mode 100644 logs/extract/fl_convenio_entrada_interv.txt
+ delete mode 100644 logs/extract/fl_despesa_pgto.txt
+ delete mode 100644 logs/extract/ft_compras.txt
+ delete mode 100644 logs/extract/ft_compras_contrato.txt
+ delete mode 100644 logs/extract/ft_convenio.txt
+ delete mode 100644 logs/extract/ft_convenio_entrada.txt
+ delete mode 100644 logs/extract/ft_despesa_2002.txt
+ delete mode 100644 logs/extract/ft_despesa_2003.txt
+ delete mode 100644 logs/extract/ft_despesa_2004.txt
+ delete mode 100644 logs/extract/ft_diarias_scdp.txt
+ delete mode 100644 logs/extract/ft_diarias_scdp_liqpag.txt
+ rewrite logs/full_extract.txt (70%)
+ rename logs/{extract/dm_cargo_scdp.txt => ingest.txt} (100%)
+ delete mode 100644 logs/parse/dm_empenho_desp_2002.Rout
+ delete mode 100644 logs/parse/dm_empenho_desp_2003.Rout
+ delete mode 100644 logs/parse/dm_empenho_desp_2004.Rout
+ delete mode 100644 logs/parse/dm_empenho_desp_2005.Rout
+ delete mode 100644 logs/parse/dm_empenho_desp_2006.Rout
+ delete mode 100644 logs/parse/dm_empenho_desp_2007.Rout
+ delete mode 100644 logs/parse/dm_empenho_desp_2008.Rout
+ delete mode 100644 logs/parse/dm_empenho_desp_2009.Rout
+ delete mode 100644 logs/parse/dm_empenho_desp_2010.Rout
+ delete mode 100644 logs/parse/dm_empenho_desp_2011.Rout
+ delete mode 100644 logs/parse/dm_empenho_desp_2012.Rout
+ delete mode 100644 logs/parse/dm_empenho_desp_2013.Rout
+ delete mode 100644 logs/parse/dm_empenho_desp_2014.Rout
+ delete mode 100644 logs/parse/dm_empenho_desp_2015.Rout
+ delete mode 100644 logs/parse/dm_empenho_desp_2016.Rout
+ delete mode 100644 logs/parse/dm_empenho_desp_2017.Rout
+ delete mode 100644 logs/parse/dm_empenho_desp_2018.Rout
+ delete mode 100644 logs/parse/dm_empenho_desp_2019.Rout
+ delete mode 100644 logs/parse/dm_empenho_desp_2020.Rout
+ delete mode 100644 logs/parse/dm_empenho_desp_2021.Rout
+ delete mode 100644 logs/parse/dm_empenho_desp_compras_empenho.Rout
+ delete mode 100644 logs/parse/dm_empenho_desp_diarias_scdp_liqpag.Rout
+ rewrite logs/update/compras_contratos.txt (65%)
+ rewrite logs/update/convenios-entrada.txt (87%)
+ rewrite logs/update/convenios-saida.txt (87%)
+ rewrite logs/validate/fl_compras_empenho.json (99%)
+ rewrite logs/validate/ft_convenio_entrada_desp.json (98%)
+ rewrite logs/validate/ft_despesa_2021.json (98%)
+ rewrite logs/validate/ft_diarias_2021.json (98%)
