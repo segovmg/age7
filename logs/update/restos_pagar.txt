@@ -1,4 +1,10 @@
 Atualizando conjunto de dados: restos_pagar
+Diferenças nos dados do recurso: dm_acao_resto
+Atualizando recurso: dm_acao_resto
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_elemento_desp
+Atualizando recurso: dm_elemento_desp
+Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_empenho_resto_2002
 Atualizando recurso: dm_empenho_resto_2002
 Atualizando datapackage.json
@@ -60,6 +66,18 @@ Atualizando recurso: dm_empenho_resto_2021
 Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_favorecido
 Atualizando recurso: dm_favorecido
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_funcao_resto
+Atualizando recurso: dm_funcao_resto
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_programa_resto
+Atualizando recurso: dm_programa_resto
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_subfuncao_resto
+Atualizando recurso: dm_subfuncao_resto
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_unidade_orc
+Atualizando recurso: dm_unidade_orc
 Atualizando datapackage.json
 Diferenças nos dados do recurso: ft_restos_pagar_2021
 Atualizando recurso: ft_restos_pagar_2021

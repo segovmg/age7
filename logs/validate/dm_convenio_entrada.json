@@ -1,6 +1,6 @@
 {
   "version": "4.22.3",
-  "time": 0.078,
+  "time": 0.074,
   "errors": [],
   "tasks": [
     {
@@ -173,13 +173,13 @@
         "hashing": "md5",
         "compression": "gz",
         "stats": {
-          "hash": "589edc2ad3c473fa168d8aeb237654a1",
-          "bytes": 225674,
+          "hash": "9f5b86d1636b51d12f669ed27546d1b6",
+          "bytes": 138033,
           "fields": 13,
           "rows": 0
         }
       },
-      "time": 0.078,
+      "time": 0.074,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -13151,7 +13151,7 @@
             "AMPLIACAO DA FROTA DOS MUNICIPIOS PARA MELHORIAS DA INSTRUMENTALIZACAO DE ACOES DE REINSERCAO SOCIAL DE USUARIOS DE ALCOOL E OUTRAS DROGAS",
             "Estruturação da frota de veículos dos municípios para apoio a projetos de reinserção social com base na geração de renda, trabalho e cooperativismo social beneficiando pessoas em situação de vulnerabilidade social e com problemas relacionados ao uso de álcool e outras drogas.",
             "2017-01-27",
-            "2021-12-31",
+            "2022-02-28",
             "2017-01-27",
             "2018-01-27",
             "1000000.00",
@@ -13172,7 +13172,7 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2021-12-31",
+          "cell": "2022-02-28",
           "fieldName": "dt_termino_atualizada",
           "fieldNumber": 8,
           "fieldPosition": 8,
@@ -13184,7 +13184,7 @@
             "AMPLIACAO DA FROTA DOS MUNICIPIOS PARA MELHORIAS DA INSTRUMENTALIZACAO DE ACOES DE REINSERCAO SOCIAL DE USUARIOS DE ALCOOL E OUTRAS DROGAS",
             "Estruturação da frota de veículos dos municípios para apoio a projetos de reinserção social com base na geração de renda, trabalho e cooperativismo social beneficiando pessoas em situação de vulnerabilidade social e com problemas relacionados ao uso de álcool e outras drogas.",
             "2017-01-27",
-            "2021-12-31",
+            "2022-02-28",
             "2017-01-27",
             "2018-01-27",
             "1000000.00",
@@ -13201,7 +13201,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2021-12-31\" in row \"100\" and field \"dt_termino_atualizada\" at position \"8\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2022-02-28\" in row \"100\" and field \"dt_termino_atualizada\" at position \"8\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -13217,7 +13217,7 @@
             "AMPLIACAO DA FROTA DOS MUNICIPIOS PARA MELHORIAS DA INSTRUMENTALIZACAO DE ACOES DE REINSERCAO SOCIAL DE USUARIOS DE ALCOOL E OUTRAS DROGAS",
             "Estruturação da frota de veículos dos municípios para apoio a projetos de reinserção social com base na geração de renda, trabalho e cooperativismo social beneficiando pessoas em situação de vulnerabilidade social e com problemas relacionados ao uso de álcool e outras drogas.",
             "2017-01-27",
-            "2021-12-31",
+            "2022-02-28",
             "2017-01-27",
             "2018-01-27",
             "1000000.00",
@@ -13250,7 +13250,7 @@
             "AMPLIACAO DA FROTA DOS MUNICIPIOS PARA MELHORIAS DA INSTRUMENTALIZACAO DE ACOES DE REINSERCAO SOCIAL DE USUARIOS DE ALCOOL E OUTRAS DROGAS",
             "Estruturação da frota de veículos dos municípios para apoio a projetos de reinserção social com base na geração de renda, trabalho e cooperativismo social beneficiando pessoas em situação de vulnerabilidade social e com problemas relacionados ao uso de álcool e outras drogas.",
             "2017-01-27",
-            "2021-12-31",
+            "2022-02-28",
             "2017-01-27",
             "2018-01-27",
             "1000000.00",

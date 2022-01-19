@@ -1,4 +1,10 @@
 Atualizando conjunto de dados: diarias
+Diferenças nos dados do recurso: dm_acao
+Atualizando recurso: dm_acao
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_elemento_desp
+Atualizando recurso: dm_elemento_desp
+Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_empenho_desp_2002
 Atualizando recurso: dm_empenho_desp_2002
 Atualizando datapackage.json
@@ -61,8 +67,14 @@ Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_favorecido
 Atualizando recurso: dm_favorecido
 Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_diarias_2020
-Atualizando recurso: ft_diarias_2020
+Diferenças nos dados do recurso: dm_programa
+Atualizando recurso: dm_programa
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_tempo_diario
+Atualizando recurso: dm_tempo_diario
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_unidade_orc
+Atualizando recurso: dm_unidade_orc
 Atualizando datapackage.json
 Diferenças nos dados do recurso: ft_diarias_2021
 Atualizando recurso: ft_diarias_2021

@@ -1,6 +1,6 @@
 {
   "version": "4.22.3",
-  "time": 0.515,
+  "time": 0.229,
   "errors": [],
   "tasks": [
     {
@@ -123,13 +123,13 @@
         "hashing": "md5",
         "compression": "gz",
         "stats": {
-          "hash": "192a76918dc6bc96e00109f5686cf991",
-          "bytes": 17034485,
+          "hash": "4bbbeaea6008f37898e599e8bd835763",
+          "bytes": 17030174,
           "fields": 9,
           "rows": 0
         }
       },
-      "time": 0.515,
+      "time": 0.229,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -27819,18 +27819,18 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-03-02",
+          "cell": "2012-02-28",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1683554",
+            "1682199",
             "2012",
-            "445",
-            "2012-03-02",
-            "1260011 - SEE - SRE/DIAMANTINA",
+            "372",
+            "2012-02-28",
+            "1260045 - SEE/SRE/JANAUBA",
             "ESTIMADO",
-            "7200.00",
+            "16220.00",
             "5001",
             "ATENDER COM ALIMENTACAO ESCOLAR - ENSINO FUNDAMENTAL"
           ],
@@ -27844,24 +27844,24 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-03-02\" in row \"956\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-28\" in row \"956\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-03-02",
+          "cell": "2012-02-28",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1683555",
+            "1682200",
             "2012",
-            "419",
-            "2012-03-02",
-            "1260001 - SEE - SRE/METROPOLITANA A",
+            "381",
+            "2012-02-28",
+            "1260044 - SEE/SRE/ARACUAI",
             "ESTIMADO",
-            "31500.00",
-            "5001",
-            "ATENDER COM ALIMENTACAO ESCOLAR - ENSINO FUNDAMENTAL"
+            "300.00",
+            "7500",
+            "REALIZAR ENCONTRO COM DIRETORES DE ESCOLAS"
           ],
           "rowNumber": 956,
           "rowPosition": 957,
@@ -27873,24 +27873,24 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-03-02\" in row \"957\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-28\" in row \"957\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-03-02",
+          "cell": "2012-02-28",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1683556",
+            "1682201",
             "2012",
-            "106",
-            "2012-03-02",
-            "2120003 - IPSM - DIV. ADM. PESSOAL",
+            "376",
+            "2012-02-28",
+            "1260045 - SEE/SRE/JANAUBA",
             "ESTIMADO",
-            "70725.76",
-            "0",
-            ""
+            "22260.00",
+            "5001",
+            "ATENDER COM ALIMENTACAO ESCOLAR - ENSINO FUNDAMENTAL"
           ],
           "rowNumber": 957,
           "rowPosition": 958,
@@ -27902,24 +27902,24 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-03-02\" in row \"958\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-28\" in row \"958\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-03-02",
+          "cell": "2012-02-28",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1683557",
+            "1682202",
             "2012",
-            "449",
-            "2012-03-02",
-            "1260011 - SEE - SRE/DIAMANTINA",
+            "672",
+            "2012-02-28",
+            "1260032 - SEE - SRE/POUSO ALEGRE",
             "ESTIMADO",
-            "9180.00",
-            "5008",
-            "ATENDER COM ALIMENTACAO ESCOLAR - EJA"
+            "24.60",
+            "7323",
+            "REALIZAR ATIVIDADES DE INSPEçãO ESCOLAR"
           ],
           "rowNumber": 958,
           "rowPosition": 959,
@@ -27931,24 +27931,24 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-03-02\" in row \"959\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-28\" in row \"959\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-03-02",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1683558",
+            "1682338",
             "2012",
-            "792",
-            "2012-03-02",
-            "1260013 - SEE - SRE/GOV. VALADARES",
+            "31",
+            "2012-02-29",
+            "1250043 - 25º BATALHAO PMMG",
             "ESTIMADO",
-            "10.00",
-            "7133",
-            "REALIZAR ATIVIDADES DE INSPECAO ESCOLAR"
+            "651.62",
+            "0",
+            ""
           ],
           "rowNumber": 959,
           "rowPosition": 960,
@@ -27960,24 +27960,24 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-03-02\" in row \"960\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"960\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-03-02",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1683559",
+            "1682339",
             "2012",
-            "451",
-            "2012-03-02",
-            "1260011 - SEE - SRE/DIAMANTINA",
-            "ESTIMADO",
-            "42180.00",
-            "5001",
-            "ATENDER COM ALIMENTACAO ESCOLAR - ENSINO FUNDAMENTAL"
+            "57",
+            "2012-02-29",
+            "2100005 - IEF-ESC.REG.MATA",
+            "ORDINÁRIO",
+            "52.50",
+            "0",
+            ""
           ],
           "rowNumber": 960,
           "rowPosition": 961,
@@ -27989,24 +27989,24 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-03-02\" in row \"961\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"961\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-03-02",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1683560",
+            "1682340",
             "2012",
-            "1435",
-            "2012-03-02",
-            "2010023 - APRES-REGULACAO DA SAUDE",
-            "ORDINÁRIO",
-            "17285.85",
-            "297",
-            "CRDIVIN - GEINT-CENTRO REGIONAL DE DIVINÓPOLIS"
+            "1139",
+            "2012-02-29",
+            "1260012 - SEE - SRE/DIVINOPOLIS",
+            "ESTIMADO",
+            "20860.00",
+            "5001",
+            "ATENDER COM ALIMENTACAO ESCOLAR - ENSINO FUNDAMENTAL"
           ],
           "rowNumber": 961,
           "rowPosition": 962,
@@ -28018,24 +28018,24 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-03-02\" in row \"962\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"962\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-03-02",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1683696",
+            "1682341",
             "2012",
-            "90",
-            "2012-03-02",
-            "2180001 - FCS",
+            "679",
+            "2012-02-29",
+            "1260032 - SEE - SRE/POUSO ALEGRE",
             "ESTIMADO",
-            "2047.26",
-            "24",
-            "PRODEMGE"
+            "4440.00",
+            "5008",
+            "ATENDER COM ALIMENTACAO ESCOLAR - EJA"
           ],
           "rowNumber": 962,
           "rowPosition": 963,
@@ -28047,24 +28047,24 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-03-02\" in row \"963\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"963\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-03-02",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1683697",
+            "1682342",
             "2012",
-            "506",
-            "2012-03-02",
-            "1260011 - SEE - SRE/DIAMANTINA",
+            "414",
+            "2012-02-29",
+            "1260160 - SUP.PLANEJAMENTO FINANCAS",
             "ESTIMADO",
-            "4260.00",
-            "5002",
-            "ATENDER COM ALIMENTACAO ESCOLAR - ENSINO MEDIO"
+            "35.00",
+            "4199",
+            "REALIZAR ENCONTROS COM DIRIGENTES E TÉCNICOS"
           ],
           "rowNumber": 963,
           "rowPosition": 964,
@@ -28076,24 +28076,24 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-03-02\" in row \"964\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"964\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-03-02",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1683698",
+            "1682343",
             "2012",
-            "91",
-            "2012-03-02",
-            "2180001 - FCS",
+            "803",
+            "2012-02-29",
+            "1260037 - SEE - SRE/TEOFILO OTONI",
             "ESTIMADO",
-            "12441.84",
-            "24",
-            "PRODEMGE"
+            "30.00",
+            "7372",
+            "ORIENTAR E ACOMPANHAR AS ESCOLAS NO PROCESSO PEDAGOGICO"
           ],
           "rowNumber": 964,
           "rowPosition": 965,
@@ -28105,24 +28105,24 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-03-02\" in row \"965\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"965\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-03-02",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1683699",
+            "1682344",
             "2012",
-            "381",
-            "2012-03-02",
-            "1260038 - SEE - SRE/UBA",
+            "216",
+            "2012-02-29",
+            "1260005 - SEE - SRE/CARANGOLA",
             "ESTIMADO",
-            "52.50",
-            "7383",
-            "REALIZAR ATIVIDADE DE INSPECAO ESCOLAR"
+            "6000.00",
+            "5008",
+            "ATENDER COM ALIMENTACAO ESCOLAR - EJA"
           ],
           "rowNumber": 965,
           "rowPosition": 966,
@@ -28134,24 +28134,24 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-03-02\" in row \"966\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"966\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-03-02",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1683700",
+            "1682345",
             "2012",
-            "272",
-            "2012-03-02",
-            "1260026 - SEE - SRE/PARACATU",
+            "1144",
+            "2012-02-29",
+            "1260012 - SEE - SRE/DIVINOPOLIS",
             "ESTIMADO",
-            "2700.00",
-            "5008",
-            "ATENDER COM ALIMENTACAO ESCOLAR - EJA"
+            "13720.00",
+            "5001",
+            "ATENDER COM ALIMENTACAO ESCOLAR - ENSINO FUNDAMENTAL"
           ],
           "rowNumber": 966,
           "rowPosition": 967,
@@ -28163,24 +28163,24 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-03-02\" in row \"967\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"967\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-03-02",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1683701",
+            "1682346",
             "2012",
-            "92",
-            "2012-03-02",
-            "2370004 - IMA - CR BH",
+            "1145",
+            "2012-02-29",
+            "1260012 - SEE - SRE/DIVINOPOLIS",
             "ESTIMADO",
-            "400.00",
-            "0",
-            ""
+            "14180.00",
+            "5001",
+            "ATENDER COM ALIMENTACAO ESCOLAR - ENSINO FUNDAMENTAL"
           ],
           "rowNumber": 967,
           "rowPosition": 968,
@@ -28192,24 +28192,24 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-03-02\" in row \"968\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"968\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-03-02",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1683702",
+            "1682482",
             "2012",
-            "162",
-            "2012-03-02",
-            "1320055 - SES-SUP.ASS.FARMACEUTICA",
+            "464",
+            "2012-02-29",
+            "1260045 - SEE/SRE/JANAUBA",
             "ESTIMADO",
-            "14800.00",
-            "0",
-            ""
+            "5520.00",
+            "5002",
+            "ATENDER COM ALIMENTACAO ESCOLAR - ENSINO MEDIO"
           ],
           "rowNumber": 968,
           "rowPosition": 969,
@@ -28221,24 +28221,24 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-03-02\" in row \"969\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"969\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-03-02",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1683703",
+            "1682483",
             "2012",
-            "277",
-            "2012-03-02",
-            "1260029 - SEE - SRE/PATROCINIO",
+            "113",
+            "2012-02-29",
+            "1370015 - SEMAD/URC TRIANG.MINEIRO",
             "ESTIMADO",
-            "52.50",
-            "7293",
-            "REALIZAR ATIVIDADES DE INSPEçãO ESCOLAR"
+            "100.00",
+            "0",
+            ""
           ],
           "rowNumber": 969,
           "rowPosition": 970,
@@ -28250,24 +28250,24 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-03-02\" in row \"970\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"970\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-03-02",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1683704",
+            "1682484",
             "2012",
-            "11",
-            "2012-03-02",
-            "1320017 - SES-GRS DIAMANTINA",
+            "939",
+            "2012-02-29",
+            "1260041 - SEE - SRE/VARGINHA",
             "ESTIMADO",
-            "700.00",
-            "0",
-            ""
+            "1200.00",
+            "5008",
+            "ATENDER COM ALIMENTACAO ESCOLAR - EJA"
           ],
           "rowNumber": 970,
           "rowPosition": 971,
@@ -28279,24 +28279,24 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-03-02\" in row \"971\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"971\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-03-02",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1683841",
+            "1682485",
             "2012",
-            "66",
-            "2012-03-02",
-            "1320006 - SES-SUP.DE GESTAO",
-            "ESTIMADO",
-            "1200.00",
-            "0",
-            ""
+            "369",
+            "2012-02-29",
+            "1260040 - SEE - SRE/UBERLANDIA",
+            "ORDINÁRIO",
+            "52.50",
+            "4736",
+            "CONECTAR TODAS AS EE À INTERNET"
           ],
           "rowNumber": 971,
           "rowPosition": 972,
@@ -28308,22 +28308,22 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-03-02\" in row \"972\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"972\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-03-02",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1683842",
+            "1682486",
             "2012",
-            "566",
-            "2012-03-02",
-            "1260011 - SEE - SRE/DIAMANTINA",
+            "596",
+            "2012-02-29",
+            "1260013 - SEE - SRE/GOV. VALADARES",
             "ESTIMADO",
-            "11520.00",
+            "5100.00",
             "5001",
             "ATENDER COM ALIMENTACAO ESCOLAR - ENSINO FUNDAMENTAL"
           ],
@@ -28337,22 +28337,22 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-03-02\" in row \"973\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"973\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-03-02",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1683843",
+            "1682487",
             "2012",
-            "67",
-            "2012-03-02",
-            "1320006 - SES-SUP.DE GESTAO",
+            "56",
+            "2012-02-29",
+            "1600001 - ESCR.PRIORIDADES ESTRATEG",
             "ESTIMADO",
-            "1200.00",
+            "1700.00",
             "0",
             ""
           ],
@@ -28366,24 +28366,24 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-03-02\" in row \"974\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"974\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-03-02",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1683844",
+            "1682488",
             "2012",
-            "356",
-            "2012-03-02",
-            "1260030 - SEE - SRE/PIRAPORA",
+            "374",
+            "2012-02-29",
+            "1260040 - SEE - SRE/UBERLANDIA",
             "ESTIMADO",
-            "50.00",
-            "7302",
-            "ORIENTAR E ACOMPANHR AS ESCOLAS NO PROCESSO PEDAGOGICO."
+            "36060.00",
+            "5001",
+            "ATENDER COM ALIMENTACAO ESCOLAR - ENSINO FUNDAMENTAL"
           ],
           "rowNumber": 974,
           "rowPosition": 975,
@@ -28395,24 +28395,24 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-03-02\" in row \"975\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"975\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-03-02",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1683845",
+            "1682489",
             "2012",
-            "357",
-            "2012-03-02",
-            "1260030 - SEE - SRE/PIRAPORA",
+            "489",
+            "2012-02-29",
+            "1260033 - SEE - SRE/PONTE NOVA",
             "ESTIMADO",
-            "20.00",
-            "7301",
-            "MANTER A SER"
+            "4500.00",
+            "5002",
+            "ATENDER COM ALIMENTACAO ESCOLAR - ENSINO MEDIO"
           ],
           "rowNumber": 975,
           "rowPosition": 976,
@@ -28424,24 +28424,24 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-03-02\" in row \"976\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"976\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-03-02",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1683846",
+            "1682490",
             "2012",
-            "586",
-            "2012-03-02",
-            "2310002 - UNIMONTES-C.ADM.FINANCAS",
+            "250",
+            "2012-02-29",
+            "1260020 - SEE - SRE/MANHUACU",
             "ESTIMADO",
-            "150.00",
-            "0",
-            ""
+            "52.50",
+            "7201",
+            "MANTER ASRE"
           ],
           "rowNumber": 976,
           "rowPosition": 977,
@@ -28453,24 +28453,24 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-03-02\" in row \"977\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"977\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-03-02",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1683847",
+            "1682626",
             "2012",
-            "573",
-            "2012-03-02",
-            "1260011 - SEE - SRE/DIAMANTINA",
+            "1305",
+            "2012-02-29",
+            "1260012 - SEE - SRE/DIVINOPOLIS",
             "ESTIMADO",
-            "17940.00",
-            "5001",
-            "ATENDER COM ALIMENTACAO ESCOLAR - ENSINO FUNDAMENTAL"
+            "26460.00",
+            "5002",
+            "ATENDER COM ALIMENTACAO ESCOLAR - ENSINO MEDIO"
           ],
           "rowNumber": 977,
           "rowPosition": 978,
@@ -28482,24 +28482,24 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-03-02\" in row \"978\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"978\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-03-02",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1683848",
+            "1682627",
             "2012",
-            "153",
-            "2012-03-02",
-            "2070001 - FAPEMIG",
-            "ORDINÁRIO",
-            "90409.26",
-            "0",
-            ""
+            "636",
+            "2012-02-29",
+            "1260013 - SEE - SRE/GOV. VALADARES",
+            "ESTIMADO",
+            "28440.00",
+            "5001",
+            "ATENDER COM ALIMENTACAO ESCOLAR - ENSINO FUNDAMENTAL"
           ],
           "rowNumber": 978,
           "rowPosition": 979,
@@ -28511,22 +28511,22 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-03-02\" in row \"979\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"979\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-03-02",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1683849",
+            "1682628",
             "2012",
-            "341",
-            "2012-03-02",
-            "1260016 - SEE - SRE/ITUIUTABA",
+            "1003",
+            "2012-02-29",
+            "1260041 - SEE - SRE/VARGINHA",
             "ESTIMADO",
-            "39660.00",
+            "37940.00",
             "5002",
             "ATENDER COM ALIMENTACAO ESCOLAR - ENSINO MEDIO"
           ],
@@ -28540,22 +28540,22 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-03-02\" in row \"980\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"980\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-03-05",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1683985",
+            "1682629",
             "2012",
-            "159",
-            "2012-03-05",
-            "2370006 - IMA - CR GOV. VALADARES",
+            "8",
+            "2012-02-29",
+            "2110013 - RURALMINAS-GER.OPERAÇÕES",
             "ESTIMADO",
-            "90.00",
+            "59.00",
             "0",
             ""
           ],
@@ -28569,24 +28569,24 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-03-05\" in row \"981\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"981\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-03-05",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1683986",
+            "1682630",
             "2012",
-            "2181",
-            "2012-03-05",
-            "1030001 - TRIBUNAL DE JUSTICA MG",
-            "ORDINÁRIO",
-            "565.60",
-            "0",
-            ""
+            "444",
+            "2012-02-29",
+            "1260046 - SEE/SRE/PARA DE MINAS",
+            "ESTIMADO",
+            "4860.00",
+            "5002",
+            "ATENDER COM ALIMENTACAO ESCOLAR - ENSINO MEDIO"
           ],
           "rowNumber": 981,
           "rowPosition": 982,
@@ -28598,22 +28598,22 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-03-05\" in row \"982\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"982\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-03-05",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1683987",
+            "1682631",
             "2012",
-            "102",
-            "2012-03-05",
-            "2090001 - FEAM",
+            "73",
+            "2012-02-29",
+            "1320047 - SES-GRS PIRAPORA",
             "ESTIMADO",
-            "2.50",
+            "52.50",
             "0",
             ""
           ],
@@ -28627,24 +28627,24 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-03-05\" in row \"983\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"983\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-03-05",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1683988",
+            "1682632",
             "2012",
-            "165",
-            "2012-03-05",
-            "1190079 - AF/2ºNIVEL/MONTES CLAROS",
+            "1005",
+            "2012-02-29",
+            "1260041 - SEE - SRE/VARGINHA",
             "ESTIMADO",
-            "50.00",
-            "132",
-            "AF/3º NIVEL/BRASILIA DE MINAS"
+            "27300.00",
+            "5002",
+            "ATENDER COM ALIMENTACAO ESCOLAR - ENSINO MEDIO"
           ],
           "rowNumber": 983,
           "rowPosition": 984,
@@ -28656,24 +28656,24 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-03-05\" in row \"984\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"984\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-03-05",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1683989",
+            "1682633",
             "2012",
-            "296",
-            "2012-03-05",
-            "1320036 - SES-GRS CEL FABRICIANO",
-            "ORDINÁRIO",
-            "52.50",
-            "0",
-            ""
+            "352",
+            "2012-02-29",
+            "1260008 - SEE - SRE/CONS. LAFAIETE",
+            "ESTIMADO",
+            "21140.00",
+            "5001",
+            "ATENDER COM ALIMENTACAO ESCOLAR - ENSINO FUNDAMENTAL"
           ],
           "rowNumber": 984,
           "rowPosition": 985,
@@ -28685,24 +28685,24 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-03-05\" in row \"985\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"985\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-03-05",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1683990",
+            "1682634",
             "2012",
-            "86",
-            "2012-03-05",
-            "2370007 - IMA - CR PATOS DE MINAS",
+            "353",
+            "2012-02-29",
+            "1260008 - SEE - SRE/CONS. LAFAIETE",
             "ESTIMADO",
-            "100.00",
-            "0",
-            ""
+            "18180.00",
+            "5001",
+            "ATENDER COM ALIMENTACAO ESCOLAR - ENSINO FUNDAMENTAL"
           ],
           "rowNumber": 985,
           "rowPosition": 986,
@@ -28714,22 +28714,22 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-03-05\" in row \"986\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"986\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-03-05",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1683991",
+            "1682770",
             "2012",
-            "126",
-            "2012-03-05",
-            "1320035 - SES-GRS PASSOS",
+            "68",
+            "2012-02-29",
+            "1470042 - SEDRU/FEH",
             "ESTIMADO",
-            "42.00",
+            "48615.75",
             "0",
             ""
           ],
@@ -28743,24 +28743,24 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-03-05\" in row \"987\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"987\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-03-05",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1683992",
+            "1682771",
             "2012",
-            "868",
-            "2012-03-05",
-            "1260032 - SEE - SRE/POUSO ALEGRE",
+            "1073",
+            "2012-02-29",
+            "1260041 - SEE - SRE/VARGINHA",
             "ESTIMADO",
-            "10.00",
-            "7323",
-            "REALIZAR ATIVIDADES DE INSPEçãO ESCOLAR"
+            "25340.00",
+            "5001",
+            "ATENDER COM ALIMENTACAO ESCOLAR - ENSINO FUNDAMENTAL"
           ],
           "rowNumber": 987,
           "rowPosition": 988,
@@ -28772,24 +28772,24 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-03-05\" in row \"988\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"988\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-03-05",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1683993",
+            "1682772",
             "2012",
-            "183",
-            "2012-03-05",
-            "2370016 - IMA - CR UBERLANDIA",
+            "497",
+            "2012-02-29",
+            "1260046 - SEE/SRE/PARA DE MINAS",
             "ESTIMADO",
-            "390.00",
-            "0",
-            ""
+            "3360.00",
+            "5008",
+            "ATENDER COM ALIMENTACAO ESCOLAR - EJA"
           ],
           "rowNumber": 988,
           "rowPosition": 989,
@@ -28801,22 +28801,22 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-03-05\" in row \"989\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"989\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-02-27",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1681813",
+            "1682773",
             "2012",
-            "245",
-            "2012-02-27",
-            "1250042 - 24º BATALHAO PMMG",
+            "77",
+            "2012-02-29",
+            "2270002 - FHEMIG-HOSP.JOAO XXIII",
             "ESTIMADO",
-            "1000.00",
+            "2830.00",
             "0",
             ""
           ],
@@ -28830,24 +28830,24 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-02-27\" in row \"990\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"990\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-02-27",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1681814",
+            "1682774",
             "2012",
-            "271",
-            "2012-02-27",
-            "1260002 - SEE - SRE/ALMENARA",
+            "431",
+            "2012-02-29",
+            "1260014 - SEE - SRE/GUANHAES",
             "ESTIMADO",
-            "150.00",
-            "7022",
-            "ORIENTAR E ACOMPANHAR AS ESCOLAS NO PROCESSO PEDAGOGICO."
+            "23340.00",
+            "5008",
+            "ATENDER COM ALIMENTACAO ESCOLAR - EJA"
           ],
           "rowNumber": 990,
           "rowPosition": 991,
@@ -28859,24 +28859,24 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-02-27\" in row \"991\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"991\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-02-27",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1681815",
+            "1682775",
             "2012",
-            "50",
-            "2012-02-27",
-            "1510072 - 2ª DRPC - JANUARIA",
+            "311",
+            "2012-02-29",
+            "1260011 - SEE - SRE/DIAMANTINA",
             "ESTIMADO",
-            "109.05",
-            "0",
-            ""
+            "12.00",
+            "7500",
+            "REALIZAR ENCONTRO COM DIRETORES DE ESCOLAS"
           ],
           "rowNumber": 991,
           "rowPosition": 992,
@@ -28888,24 +28888,24 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-02-27\" in row \"992\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"992\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-02-27",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1681816",
+            "1682776",
             "2012",
-            "44",
-            "2012-02-27",
-            "1250102 - 10 CIA IND PMMG MAT",
+            "247",
+            "2012-02-29",
+            "1260018 - SEE - SRE/JUIZ DE FORA",
             "ESTIMADO",
-            "1138.00",
-            "0",
-            ""
+            "33.30",
+            "7182",
+            "ORIENTAR E ACOMPANHAR AS ESCOLAS NO PROCESSO PEDAGOGICO"
           ],
           "rowNumber": 992,
           "rowPosition": 993,
@@ -28917,24 +28917,24 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-02-27\" in row \"993\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"993\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-02-27",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1681817",
+            "1682777",
             "2012",
-            "152",
-            "2012-02-27",
-            "1190079 - AF/2ºNIVEL/MONTES CLAROS",
+            "61",
+            "2012-02-29",
+            "2100005 - IEF-ESC.REG.MATA",
             "ORDINÁRIO",
-            "442.00",
-            "9127",
-            "AF/2º NIVEL/MONTES CLAROS GENERICA"
+            "202.50",
+            "0",
+            ""
           ],
           "rowNumber": 993,
           "rowPosition": 994,
@@ -28946,24 +28946,24 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-02-27\" in row \"994\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"994\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-02-27",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1681818",
+            "1682778",
             "2012",
-            "14",
-            "2012-02-27",
-            "2270007 - CENTRO P.ADOL.INF.CEPAI",
+            "410",
+            "2012-02-29",
+            "1260036 - SEE - SRE/SETE LAGOAS",
             "ESTIMADO",
-            "200.00",
-            "0",
-            ""
+            "10.50",
+            "7363",
+            "REALIZAR ATIVIDADE DE INSPECAO ESCOLAR"
           ],
           "rowNumber": 994,
           "rowPosition": 995,
@@ -28975,24 +28975,24 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-02-27\" in row \"995\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"995\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-02-27",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1681819",
+            "1682914",
             "2012",
-            "176",
-            "2012-02-27",
-            "1440020 - BELO HORIZONTE",
+            "783",
+            "2012-02-29",
+            "1260032 - SEE - SRE/POUSO ALEGRE",
             "ESTIMADO",
-            "135.00",
-            "0",
-            ""
+            "14060.00",
+            "5002",
+            "ATENDER COM ALIMENTACAO ESCOLAR - ENSINO MEDIO"
           ],
           "rowNumber": 995,
           "rowPosition": 996,
@@ -29004,22 +29004,22 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-02-27\" in row \"996\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"996\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-02-27",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1681820",
+            "1682915",
             "2012",
-            "39",
-            "2012-02-27",
-            "1020005 - DIRETORIA ADMINISTRACAO",
+            "542",
+            "2012-02-29",
+            "2310002 - UNIMONTES-C.ADM.FINANCAS",
             "ESTIMADO",
-            "420.00",
+            "150.00",
             "0",
             ""
           ],
@@ -29033,24 +29033,24 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-02-27\" in row \"997\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"997\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-02-27",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1681821",
+            "1682916",
             "2012",
-            "268",
-            "2012-02-27",
-            "1260016 - SEE - SRE/ITUIUTABA",
-            "ESTIMADO",
-            "33.00",
-            "7500",
-            "REALIZAR ENCONTRO COM DIRETORES DE ESCOLAS"
+            "545",
+            "2012-02-29",
+            "2310002 - UNIMONTES-C.ADM.FINANCAS",
+            "ORDINÁRIO",
+            "800.00",
+            "0",
+            ""
           ],
           "rowNumber": 997,
           "rowPosition": 998,
@@ -29062,22 +29062,22 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-02-27\" in row \"998\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"998\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-02-28",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1681968",
+            "1682917",
             "2012",
-            "104",
-            "2012-02-28",
-            "2370006 - IMA - CR GOV. VALADARES",
+            "549",
+            "2012-02-29",
+            "2310002 - UNIMONTES-C.ADM.FINANCAS",
             "ESTIMADO",
-            "54.00",
+            "16524.00",
             "0",
             ""
           ],
@@ -29091,24 +29091,24 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-02-28\" in row \"999\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"999\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-02-28",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1681969",
+            "1682918",
             "2012",
-            "260",
-            "2012-02-28",
-            "1260044 - SEE/SRE/ARACUAI",
+            "206",
+            "2012-02-29",
+            "2010003 - DIRETORIA DE SAUDE",
             "ESTIMADO",
-            "61.55",
-            "7500",
-            "REALIZAR ENCONTRO COM DIRETORES DE ESCOLAS"
+            "61849.60",
+            "92",
+            "DEFAR - DEPARTAMENTO DE FARMÁCIA"
           ],
           "rowNumber": 999,
           "rowPosition": 1000,
@@ -29120,24 +29120,24 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-02-28\" in row \"1000\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"1000\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-02-28",
+          "cell": "2012-02-29",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "1681970",
+            "1682919",
             "2012",
-            "90",
-            "2012-02-28",
-            "1450020 - SUP ART INST GES DE VAGAS",
+            "207",
+            "2012-02-29",
+            "2010003 - DIRETORIA DE SAUDE",
             "ESTIMADO",
-            "23114.38",
-            "20",
-            "SUP ART INST GES VAGAS"
+            "15355.80",
+            "92",
+            "DEFAR - DEPARTAMENTO DE FARMÁCIA"
           ],
           "rowNumber": 1000,
           "rowPosition": 1001,
@@ -29149,7 +29149,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-02-28\" in row \"1001\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-02-29\" in row \"1001\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         }
       ],

@@ -1,4 +1,10 @@
 Atualizando conjunto de dados: despesa
+Diferenças nos dados do recurso: dm_acao
+Atualizando recurso: dm_acao
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_elemento_desp
+Atualizando recurso: dm_elemento_desp
+Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_empenho_desp_2002
 Atualizando recurso: dm_empenho_desp_2002
 Atualizando datapackage.json
@@ -61,11 +67,26 @@ Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_favorecido
 Atualizando recurso: dm_favorecido
 Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_funcao_desp
+Atualizando recurso: dm_funcao_desp
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_programa
+Atualizando recurso: dm_programa
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_situacao_op_desp
+Atualizando recurso: dm_situacao_op_desp
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_subfuncao_desp
+Atualizando recurso: dm_subfuncao_desp
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_tempo_diario
+Atualizando recurso: dm_tempo_diario
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_unidade_orc
+Atualizando recurso: dm_unidade_orc
+Atualizando datapackage.json
 Diferenças nos dados do recurso: fl_despesa_pgto
 Atualizando recurso: fl_despesa_pgto
-Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_despesa_2020
-Atualizando recurso: ft_despesa_2020
 Atualizando datapackage.json
 Diferenças nos dados do recurso: ft_despesa_2021
 Atualizando recurso: ft_despesa_2021

@@ -1,4 +1,13 @@
 Traceback (most recent call last):
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\pymysql\connections.py", line 732, in _read_bytes
+    data = self._rfile.read(num_bytes)
+  File "C:\Users\m752587\AppData\Local\Programs\Python\Python39\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
   File "C:\Users\m752587\AppData\Local\Programs\Python\Python39\lib\runpy.py", line 197, in _run_module_as_main
     return _run_code(code, main_globals, None,
   File "C:\Users\m752587\AppData\Local\Programs\Python\Python39\lib\runpy.py", line 87, in _run_code
@@ -38,6 +47,6 @@ Traceback (most recent call last):
     packet = self.connection._read_packet()
   File "c:\users\m752587\projects\age7\venv\lib\site-packages\pymysql\connections.py", line 711, in _read_packet
     recv_data = self._read_bytes(bytes_to_read)
-  File "c:\users\m752587\projects\age7\venv\lib\site-packages\pymysql\connections.py", line 748, in _read_bytes
+  File "c:\users\m752587\projects\age7\venv\lib\site-packages\pymysql\connections.py", line 738, in _read_bytes
     raise err.OperationalError(
-pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query ([WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto)')
