@@ -1,7 +1,4 @@
 Atualizando conjunto de dados: convenios-saida
-Diferenças nos dados do recurso: dm_unidade_orc
-Atualizando recurso: dm_unidade_orc
-Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_tempo_diario
 Atualizando recurso: dm_tempo_diario
 Atualizando datapackage.json

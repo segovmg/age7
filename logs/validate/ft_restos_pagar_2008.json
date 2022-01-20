@@ -1,6 +1,6 @@
 {
   "version": "4.22.3",
-  "time": 26.969,
+  "time": 13.145,
   "errors": [],
   "tasks": [
     {
@@ -482,13 +482,13 @@
         "hashing": "md5",
         "compression": "gz",
         "stats": {
-          "hash": "11d358611b0a40d80da784629ec03ac1",
-          "bytes": 2222138,
+          "hash": "573903a0f7aa406c6adda6b9054ece47",
+          "bytes": 1010,
           "fields": 26,
-          "rows": 132435
+          "rows": 30
         }
       },
-      "time": 26.969,
+      "time": 13.145,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -510,16 +510,58 @@
         "unique-error"
       ],
       "partial": false,
-      "errors": [],
+      "errors": [
+        {
+          "cells": [
+            "408",
+            "20",
+            "42",
+            "521",
+            "2808",
+            "20",
+            "125",
+            "224",
+            "239",
+            "3364",
+            "4654",
+            "93",
+            "3035",
+            "1649835",
+            "411804",
+            "563",
+            "2007",
+            "506003",
+            "2",
+            "17",
+            "1",
+            "2008-12-09",
+            "2008",
+            "0.00",
+            "-500.00",
+            "0.00"
+          ],
+          "rowNumber": 27,
+          "rowPosition": 28,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "not found in the lookup table",
+          "message": "Row at position \"28\" violates the foreign key: not found in the lookup table",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        }
+      ],
       "stats": {
-        "errors": 0
+        "errors": 1
       },
-      "valid": true
+      "valid": false
     }
   ],
   "stats": {
-    "errors": 0,
+    "errors": 1,
     "tasks": 1
   },
-  "valid": true
+  "valid": false
 }

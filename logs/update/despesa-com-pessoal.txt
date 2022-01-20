@@ -1,7 +1,1 @@
 Atualizando conjunto de dados: despesa-com-pessoal
-Diferenças nos dados do recurso: dm_unidade_orc
-Atualizando recurso: dm_unidade_orc
-Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_pessoal_desp
-Atualizando recurso: ft_pessoal_desp
-Atualizando datapackage.json

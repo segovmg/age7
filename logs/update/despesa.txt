@@ -2,9 +2,6 @@ Atualizando conjunto de dados: despesa
 Diferenças nos dados do recurso: dm_acao
 Atualizando recurso: dm_acao
 Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_elemento_desp
-Atualizando recurso: dm_elemento_desp
-Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_empenho_desp_2002
 Atualizando recurso: dm_empenho_desp_2002
 Atualizando datapackage.json
@@ -67,26 +64,67 @@ Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_favorecido
 Atualizando recurso: dm_favorecido
 Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_funcao_desp
-Atualizando recurso: dm_funcao_desp
-Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_programa
-Atualizando recurso: dm_programa
-Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_situacao_op_desp
-Atualizando recurso: dm_situacao_op_desp
-Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_subfuncao_desp
-Atualizando recurso: dm_subfuncao_desp
-Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_tempo_diario
 Atualizando recurso: dm_tempo_diario
 Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_unidade_orc
-Atualizando recurso: dm_unidade_orc
-Atualizando datapackage.json
 Diferenças nos dados do recurso: fl_despesa_pgto
 Atualizando recurso: fl_despesa_pgto
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2002
+Atualizando recurso: ft_despesa_2002
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2003
+Atualizando recurso: ft_despesa_2003
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2004
+Atualizando recurso: ft_despesa_2004
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2005
+Atualizando recurso: ft_despesa_2005
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2006
+Atualizando recurso: ft_despesa_2006
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2007
+Atualizando recurso: ft_despesa_2007
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2008
+Atualizando recurso: ft_despesa_2008
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2009
+Atualizando recurso: ft_despesa_2009
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2010
+Atualizando recurso: ft_despesa_2010
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2011
+Atualizando recurso: ft_despesa_2011
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2012
+Atualizando recurso: ft_despesa_2012
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2013
+Atualizando recurso: ft_despesa_2013
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2014
+Atualizando recurso: ft_despesa_2014
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2015
+Atualizando recurso: ft_despesa_2015
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2016
+Atualizando recurso: ft_despesa_2016
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2017
+Atualizando recurso: ft_despesa_2017
+Diferenças nos dados do recurso: ft_despesa_2018
+Atualizando recurso: ft_despesa_2018
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2019
+Atualizando recurso: ft_despesa_2019
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2020
+Atualizando recurso: ft_despesa_2020
 Atualizando datapackage.json
 Diferenças nos dados do recurso: ft_despesa_2021
 Atualizando recurso: ft_despesa_2021

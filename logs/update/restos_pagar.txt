@@ -1,10 +1,4 @@
 Atualizando conjunto de dados: restos_pagar
-Diferenças nos dados do recurso: dm_acao_resto
-Atualizando recurso: dm_acao_resto
-Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_elemento_desp
-Atualizando recurso: dm_elemento_desp
-Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_empenho_resto_2002
 Atualizando recurso: dm_empenho_resto_2002
 Atualizando datapackage.json
@@ -67,17 +61,61 @@ Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_favorecido
 Atualizando recurso: dm_favorecido
 Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_funcao_resto
-Atualizando recurso: dm_funcao_resto
+Diferenças nos dados do recurso: ft_restos_pagar_2002
+Atualizando recurso: ft_restos_pagar_2002
 Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_programa_resto
-Atualizando recurso: dm_programa_resto
+Diferenças nos dados do recurso: ft_restos_pagar_2003
+Atualizando recurso: ft_restos_pagar_2003
 Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_subfuncao_resto
-Atualizando recurso: dm_subfuncao_resto
+Diferenças nos dados do recurso: ft_restos_pagar_2004
+Atualizando recurso: ft_restos_pagar_2004
 Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_unidade_orc
-Atualizando recurso: dm_unidade_orc
+Diferenças nos dados do recurso: ft_restos_pagar_2005
+Atualizando recurso: ft_restos_pagar_2005
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_restos_pagar_2006
+Atualizando recurso: ft_restos_pagar_2006
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_restos_pagar_2007
+Atualizando recurso: ft_restos_pagar_2007
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_restos_pagar_2008
+Atualizando recurso: ft_restos_pagar_2008
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_restos_pagar_2009
+Atualizando recurso: ft_restos_pagar_2009
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_restos_pagar_2010
+Atualizando recurso: ft_restos_pagar_2010
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_restos_pagar_2011
+Atualizando recurso: ft_restos_pagar_2011
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_restos_pagar_2012
+Atualizando recurso: ft_restos_pagar_2012
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_restos_pagar_2013
+Atualizando recurso: ft_restos_pagar_2013
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_restos_pagar_2014
+Atualizando recurso: ft_restos_pagar_2014
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_restos_pagar_2015
+Atualizando recurso: ft_restos_pagar_2015
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_restos_pagar_2016
+Atualizando recurso: ft_restos_pagar_2016
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_restos_pagar_2017
+Atualizando recurso: ft_restos_pagar_2017
+Diferenças nos dados do recurso: ft_restos_pagar_2018
+Atualizando recurso: ft_restos_pagar_2018
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_restos_pagar_2019
+Atualizando recurso: ft_restos_pagar_2019
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_restos_pagar_2020
+Atualizando recurso: ft_restos_pagar_2020
 Atualizando datapackage.json
 Diferenças nos dados do recurso: ft_restos_pagar_2021
 Atualizando recurso: ft_restos_pagar_2021
