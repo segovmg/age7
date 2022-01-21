@@ -22,7 +22,7 @@ full-extract:
 
 extract:
 	# make extract RESOURCE="ressource-name"
-	dtamg-py etl-make extract $(RESOURCE)
+	dtamg-py etl-make extract --resource $(RESOURCE)
 
 $(DATA_RAW_FILES): data/raw/%.csv: scripts/python/extract-resource.py scripts/sql/%.sql
 
