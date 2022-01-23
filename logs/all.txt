@@ -690,3 +690,21 @@ dpckan dataset update --datapackage build_datasets/despesa-com-pessoal/datapacka
 dpckan dataset update --datapackage build_datasets/viagens/datapackage.json > logs/update/viagens.txt
 dpckan dataset update --datapackage build_datasets/receita/datapackage.json > logs/update/receita.txt
 dpckan dataset update --datapackage build_datasets/convenios-entrada/datapackage.json > logs/update/convenios-entrada.txt
+[main 416725c] Atualização age7
+ 176 files changed, 405857 insertions(+), 648551 deletions(-)
+ rewrite logs/update/convenios-saida.txt (68%)
+ rewrite logs/update/diarias.txt (86%)
+ copy logs/validate/{dm_empenho_resto_2002.json => dm_empenho_desp_2002.json} (55%)
+ copy logs/validate/{dm_empenho_resto_2021.json => dm_empenho_desp_2003.json} (51%)
+ rewrite logs/validate/dm_empenho_resto_2002.json (73%)
+ rewrite logs/validate/dm_empenho_resto_2021.json (99%)
+ rewrite logs/validate/fl_convenio_alteracao.json (99%)
+ rewrite logs/validate/fl_convenio_entrada_interv.json (95%)
+ copy logs/validate/{ft_convenio_entrada.json => ft_compras_contrato.json} (68%)
+ rewrite logs/validate/ft_convenio_entrada.json (99%)
+ rewrite logs/validate/ft_convenio_entrada_dotacao.json (99%)
+ rewrite logs/validate/ft_convenio_investimento.json (97%)
+ rewrite logs/validate/ft_receita_prevista_v2018.json (98%)
+ rewrite logs/validate/ft_restos_pagar_2002.json (98%)
+ rewrite logs/validate/ft_restos_pagar_2003.json (98%)
+ rewrite logs/validate/ft_restos_pagar_2004.json (96%)
