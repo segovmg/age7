@@ -1,19 +1,10 @@
 Atualizando conjunto de dados: convenios-saida
-Diferenças nos dados do recurso: dm_tempo_diario
-Atualizando recurso: dm_tempo_diario
+Diferenças nos dados do recurso: dm_unidade_orc
+Atualizando recurso: dm_unidade_orc
 Atualizando datapackage.json
 Diferenças nos dados do recurso: ft_convenio_investimento
 Atualizando recurso: ft_convenio_investimento
 Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_convenio_tipoatendimento
-Atualizando recurso: ft_convenio_tipoatendimento
-Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_convenio
-Atualizando recurso: ft_convenio
-Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_convenio
-Atualizando recurso: dm_convenio
-Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_convenente
-Atualizando recurso: dm_convenente
+Diferenças nos dados do recurso: fl_convenio_alteracao
+Atualizando recurso: fl_convenio_alteracao
 Atualizando datapackage.json

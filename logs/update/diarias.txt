@@ -1,7 +1,4 @@
 Atualizando conjunto de dados: diarias
-Diferenças nos dados do recurso: dm_acao
-Atualizando recurso: dm_acao
-Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_empenho_desp_2002
 Atualizando recurso: dm_empenho_desp_2002
 Atualizando datapackage.json
@@ -11,118 +8,12 @@ Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_empenho_desp_2004
 Atualizando recurso: dm_empenho_desp_2004
 Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_empenho_desp_2005
-Atualizando recurso: dm_empenho_desp_2005
-Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_empenho_desp_2006
-Atualizando recurso: dm_empenho_desp_2006
-Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_empenho_desp_2007
-Atualizando recurso: dm_empenho_desp_2007
-Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_empenho_desp_2008
-Atualizando recurso: dm_empenho_desp_2008
-Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_empenho_desp_2009
-Atualizando recurso: dm_empenho_desp_2009
-Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_empenho_desp_2010
-Atualizando recurso: dm_empenho_desp_2010
-Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_empenho_desp_2011
-Atualizando recurso: dm_empenho_desp_2011
-Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_empenho_desp_2012
-Atualizando recurso: dm_empenho_desp_2012
-Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_empenho_desp_2013
-Atualizando recurso: dm_empenho_desp_2013
-Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_empenho_desp_2014
-Atualizando recurso: dm_empenho_desp_2014
-Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_empenho_desp_2015
-Atualizando recurso: dm_empenho_desp_2015
-Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_empenho_desp_2016
-Atualizando recurso: dm_empenho_desp_2016
-Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_empenho_desp_2017
-Atualizando recurso: dm_empenho_desp_2017
-Diferenças nos dados do recurso: dm_empenho_desp_2018
-Atualizando recurso: dm_empenho_desp_2018
-Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_empenho_desp_2019
-Atualizando recurso: dm_empenho_desp_2019
-Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_empenho_desp_2020
-Atualizando recurso: dm_empenho_desp_2020
-Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_empenho_desp_2021
-Atualizando recurso: dm_empenho_desp_2021
-Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_favorecido
 Atualizando recurso: dm_favorecido
 Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_tempo_diario
-Atualizando recurso: dm_tempo_diario
+Diferenças nos dados do recurso: dm_unidade_orc
+Atualizando recurso: dm_unidade_orc
 Atualizando datapackage.json
 Diferenças nos dados do recurso: ft_diarias_2002
 Atualizando recurso: ft_diarias_2002
-Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_diarias_2003
-Atualizando recurso: ft_diarias_2003
-Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_diarias_2004
-Atualizando recurso: ft_diarias_2004
-Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_diarias_2005
-Atualizando recurso: ft_diarias_2005
-Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_diarias_2006
-Atualizando recurso: ft_diarias_2006
-Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_diarias_2007
-Atualizando recurso: ft_diarias_2007
-Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_diarias_2008
-Atualizando recurso: ft_diarias_2008
-Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_diarias_2009
-Atualizando recurso: ft_diarias_2009
-Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_diarias_2010
-Atualizando recurso: ft_diarias_2010
-Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_diarias_2011
-Atualizando recurso: ft_diarias_2011
-Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_diarias_2012
-Atualizando recurso: ft_diarias_2012
-Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_diarias_2013
-Atualizando recurso: ft_diarias_2013
-Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_diarias_2014
-Atualizando recurso: ft_diarias_2014
-Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_diarias_2015
-Atualizando recurso: ft_diarias_2015
-Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_diarias_2016
-Atualizando recurso: ft_diarias_2016
-Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_diarias_2017
-Atualizando recurso: ft_diarias_2017
-Diferenças nos dados do recurso: ft_diarias_2018
-Atualizando recurso: ft_diarias_2018
-Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_diarias_2019
-Atualizando recurso: ft_diarias_2019
-Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_diarias_2020
-Atualizando recurso: ft_diarias_2020
-Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_diarias_2021
-Atualizando recurso: ft_diarias_2021
 Atualizando datapackage.json
