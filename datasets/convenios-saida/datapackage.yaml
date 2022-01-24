@@ -1,6 +1,7 @@
 version: 0.2.0
 keywords:
   - Portal da Transparência
+  - Convênios
 ckan_hosts:
   https://dados.mg.gov.br/:
     datapackage.json: b9edfe1a-af96-4c5b-a60b-9f2f00b9629b

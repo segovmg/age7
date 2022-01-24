@@ -57,5 +57,7 @@ ckan_hosts:
     ft_restos_pagar_2020: cbb5c94a-0c02-4580-97a2-3c981782ef19
     ft_restos_pagar_2021: d8835c89-cf86-490e-8925-50f0aa072e31
 keywords:
-- "Portal da Transpar\xEAncia"
+- "Portal da Transparência"
+- "Despesa"
+- "Restos a pagar"
 version: 0.1.0

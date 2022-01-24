@@ -50,5 +50,7 @@ ckan_hosts:
     ft_diarias_2020: ce57789e-ce3c-484c-8a2f-4b0960fa7d1d
     ft_diarias_2021: d63ce061-3dbd-4182-82fc-9af380185bd9
 keywords:
-- "Portal da Transpar\xEAncia"
+- "Portal da Transparência"
+- "Diárias"
+- "Pessoal"
 version: 0.1.0

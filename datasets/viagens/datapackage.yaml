@@ -23,5 +23,7 @@ ckan_hosts:
     ft_diarias_scdp: c1d9d278-c828-4347-82d4-1e88dbddd6e0
     ft_diarias_scdp_liqpag: a35b5364-2b25-49e7-9081-d92a6b8112fd
 keywords:
-- "Portal da Transpar\xEAncia"
+- "Portal da Transparência"
+- "Viagens"
+- "Pessoal"
 version: 0.1.0

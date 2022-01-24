@@ -7,5 +7,6 @@ ckan_hosts:
     dm_tipo_divida: 636829d7-8057-4b61-86cd-ae1066676d91
     ft_divida_pub: 100ba5a6-5cd3-4b73-9b7f-d47c93d56658
 keywords:
-- "Portal da Transpar\xEAncia"
+- "Portal da Transparência"
+- "Dívida"
 version: 0.1.0
