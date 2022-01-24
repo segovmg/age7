@@ -106,7 +106,7 @@ consultas:
       - ft_pessoal_desp
   viagens:
     title: Viagens
-    url: http://transparencia.mg.gov.br/estado-pessoal/viagens
+    url: http://www.transparencia.mg.gov.br/estado-pessoal/viagens
     fact_tables:
       - ft_diarias_scdp
       - ft_diarias_scdp_liqpag
@@ -120,7 +120,7 @@ consultas:
       - ft_receita_prevista_v2018
   convenios-entrada:
     title: Convênios de entrada de recursos
-    url: http://transparencia.mg.gov.br/convenios/convenio-entrada
+    url: http://www.transparencia.mg.gov.br/convenios/convenio-entrada
     fact_tables:
       - ft_convenio_entrada_dotacao
       - ft_convenio_entrada
