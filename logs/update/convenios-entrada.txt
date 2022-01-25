@@ -1,1 +1,3 @@
 Atualizando conjunto de dados: convenios-entrada
+Diferenças nos metadados do conjunto: convenios-entrada
+Atualizando datapackage.json

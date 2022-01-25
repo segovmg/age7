@@ -1,6 +1,6 @@
 {
   "version": "4.22.3",
-  "time": 1.813,
+  "time": 1.896,
   "errors": [],
   "tasks": [
     {
@@ -472,13 +472,13 @@
         "hashing": "md5",
         "compression": "gz",
         "stats": {
-          "hash": "7536cc7ecf0c09628f9aed6c54864312",
-          "bytes": 1447250,
+          "hash": "2a93fdd46f5995d65a4a6607e9bd2ad2",
+          "bytes": 2068820,
           "fields": 24,
           "rows": 0
         }
       },
-      "time": 1.813,
+      "time": 1.896,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -8338,6 +8338,45 @@
           ],
           "note": "not found in the lookup table",
           "message": "Row at position \"105\" violates the foreign key: not found in the lookup table",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "40909",
+            "20",
+            "42",
+            "535",
+            "2879",
+            "58",
+            "130",
+            "1105",
+            "2463",
+            "11148",
+            "48757",
+            "93",
+            "2428",
+            "928539",
+            "4972529",
+            "1",
+            "2",
+            "263",
+            "502002",
+            "200509",
+            "2005",
+            "3429.48",
+            "0.00",
+            "0.00"
+          ],
+          "rowNumber": 105,
+          "rowPosition": 106,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "not found in the lookup table",
+          "message": "Row at position \"106\" violates the foreign key: not found in the lookup table",
           "description": "Values in the foreign key fields should exist in the reference table"
         },
         {
@@ -18439,6 +18478,45 @@
           ],
           "note": "not found in the lookup table",
           "message": "Row at position \"238\" violates the foreign key: not found in the lookup table",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "40895",
+            "20",
+            "42",
+            "533",
+            "2996",
+            "18",
+            "130",
+            "1352",
+            "2103",
+            "10690",
+            "41961",
+            "93",
+            "1824",
+            "935035",
+            "6274759",
+            "1",
+            "2",
+            "3185",
+            "502001",
+            "200508",
+            "2005",
+            "2400.00",
+            "0.00",
+            "0.00"
+          ],
+          "rowNumber": 238,
+          "rowPosition": 239,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "not found in the lookup table",
+          "message": "Row at position \"239\" violates the foreign key: not found in the lookup table",
           "description": "Values in the foreign key fields should exist in the reference table"
         },
         {
@@ -39421,84 +39499,6 @@
           ],
           "note": "not found in the lookup table",
           "message": "Row at position \"515\" violates the foreign key: not found in the lookup table",
-          "description": "Values in the foreign key fields should exist in the reference table"
-        },
-        {
-          "cells": [
-            "40427",
-            "20",
-            "42",
-            "491",
-            "2604",
-            "58",
-            "130",
-            "1045",
-            "2106",
-            "10168",
-            "43807",
-            "93",
-            "2669",
-            "1006231",
-            "8854265",
-            "532",
-            "1",
-            "535",
-            "701001",
-            "200505",
-            "2005",
-            "0.00",
-            "0.00",
-            "-237.74"
-          ],
-          "rowNumber": 514,
-          "rowPosition": 515,
-          "code": "foreign-key-error",
-          "name": "ForeignKey Error",
-          "tags": [
-            "#table",
-            "#row"
-          ],
-          "note": "not found in the lookup table",
-          "message": "Row at position \"515\" violates the foreign key: not found in the lookup table",
-          "description": "Values in the foreign key fields should exist in the reference table"
-        },
-        {
-          "cells": [
-            "40427",
-            "20",
-            "42",
-            "469",
-            "2994",
-            "18",
-            "130",
-            "1352",
-            "3227",
-            "12661",
-            "43191",
-            "93",
-            "2092",
-            "1110208",
-            "4933745",
-            "532",
-            "2",
-            "269",
-            "701007",
-            "200505",
-            "2005",
-            "0.00",
-            "0.00",
-            "6741.40"
-          ],
-          "rowNumber": 515,
-          "rowPosition": 516,
-          "code": "foreign-key-error",
-          "name": "ForeignKey Error",
-          "tags": [
-            "#table",
-            "#row"
-          ],
-          "note": "not found in the lookup table",
-          "message": "Row at position \"516\" violates the foreign key: not found in the lookup table",
           "description": "Values in the foreign key fields should exist in the reference table"
         }
       ],

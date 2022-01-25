@@ -1,6 +1,6 @@
 {
   "version": "4.22.3",
-  "time": 0.031,
+  "time": 0.033,
   "errors": [],
   "tasks": [
     {
@@ -113,13 +113,13 @@
         "hashing": "md5",
         "compression": "gz",
         "stats": {
-          "hash": "1758ab812476529a3923e4981d90907f",
-          "bytes": 1875,
+          "hash": "289ef18fdf11cb20f98a7031936c8d2b",
+          "bytes": 1776,
           "fields": 8,
-          "rows": 131
+          "rows": 143
         }
       },
-      "time": 0.031,
+      "time": 0.033,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -1599,19 +1599,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123744",
+            "164997",
             "2002",
-            "732",
-            "2002-01-14",
+            "2978",
+            "2002-01-13",
             "2009-12-21",
-            "2300704 - DER - 4ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "450.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "9202.50"
           ],
           "rowNumber": 27,
           "rowPosition": 28,
@@ -1623,7 +1623,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"28\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"28\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -1632,14 +1632,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123744",
+            "164997",
             "2002",
-            "732",
-            "2002-01-14",
+            "2978",
+            "2002-01-13",
             "2009-12-21",
-            "2300704 - DER - 4ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "450.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "9202.50"
           ],
           "rowNumber": 27,
           "rowPosition": 28,
@@ -1655,19 +1655,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123746",
+            "164998",
             "2002",
-            "812",
-            "2002-01-14",
+            "2976",
+            "2002-01-13",
             "2009-12-21",
-            "2300709 - DER - 9ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "511.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "38775.00"
           ],
           "rowNumber": 28,
           "rowPosition": 29,
@@ -1679,7 +1679,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"29\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"29\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -1688,14 +1688,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123746",
+            "164998",
             "2002",
-            "812",
-            "2002-01-14",
+            "2976",
+            "2002-01-13",
             "2009-12-21",
-            "2300709 - DER - 9ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "511.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "38775.00"
           ],
           "rowNumber": 28,
           "rowPosition": 29,
@@ -1711,19 +1711,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123748",
+            "164999",
             "2002",
-            "798",
-            "2002-01-14",
+            "2975",
+            "2002-01-13",
             "2009-12-21",
-            "2300704 - DER - 4ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "144.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "24255.00"
           ],
           "rowNumber": 29,
           "rowPosition": 30,
@@ -1735,7 +1735,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"30\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"30\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -1744,14 +1744,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123748",
+            "164999",
             "2002",
-            "798",
-            "2002-01-14",
+            "2975",
+            "2002-01-13",
             "2009-12-21",
-            "2300704 - DER - 4ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "144.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "24255.00"
           ],
           "rowNumber": 29,
           "rowPosition": 30,
@@ -1772,14 +1772,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123749",
+            "165000",
             "2002",
-            "404",
+            "2878",
             "2002-01-14",
             "2009-12-21",
-            "2300727 - DER - 27ª CRG",
+            "2070001 - FAPEMIG",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "926.55"
+            "2898.11"
           ],
           "rowNumber": 30,
           "rowPosition": 31,
@@ -1800,14 +1800,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123749",
+            "165000",
             "2002",
-            "404",
+            "2878",
             "2002-01-14",
             "2009-12-21",
-            "2300727 - DER - 27ª CRG",
+            "2070001 - FAPEMIG",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "926.55"
+            "2898.11"
           ],
           "rowNumber": 30,
           "rowPosition": 31,
@@ -1823,19 +1823,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123750",
+            "165001",
             "2002",
-            "658",
-            "2002-01-14",
+            "2960",
+            "2002-01-13",
             "2009-12-21",
-            "2300724 - DER - 24ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "1984.80"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "160000.00"
           ],
           "rowNumber": 31,
           "rowPosition": 32,
@@ -1847,7 +1847,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"32\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"32\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -1856,14 +1856,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123750",
+            "165001",
             "2002",
-            "658",
-            "2002-01-14",
+            "2960",
+            "2002-01-13",
             "2009-12-21",
-            "2300724 - DER - 24ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "1984.80"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "160000.00"
           ],
           "rowNumber": 31,
           "rowPosition": 32,
@@ -1879,19 +1879,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123752",
+            "165002",
             "2002",
-            "1125",
-            "2002-01-14",
+            "2756",
+            "2002-01-13",
             "2009-12-21",
-            "2300730 - DER - 30ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "274.80"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "1370.00"
           ],
           "rowNumber": 32,
           "rowPosition": 33,
@@ -1903,7 +1903,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"33\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"33\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -1912,14 +1912,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123752",
+            "165002",
             "2002",
-            "1125",
-            "2002-01-14",
+            "2756",
+            "2002-01-13",
             "2009-12-21",
-            "2300730 - DER - 30ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "274.80"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "1370.00"
           ],
           "rowNumber": 32,
           "rowPosition": 33,
@@ -1935,19 +1935,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123753",
+            "165003",
             "2002",
-            "624",
-            "2002-01-14",
+            "2926",
+            "2002-01-13",
             "2009-12-21",
-            "2300729 - DER - 29ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "650.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "3388.92"
           ],
           "rowNumber": 33,
           "rowPosition": 34,
@@ -1959,7 +1959,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"34\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"34\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -1968,14 +1968,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123753",
+            "165003",
             "2002",
-            "624",
-            "2002-01-14",
+            "2926",
+            "2002-01-13",
             "2009-12-21",
-            "2300729 - DER - 29ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "650.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "3388.92"
           ],
           "rowNumber": 33,
           "rowPosition": 34,
@@ -1991,19 +1991,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123754",
+            "165004",
             "2002",
-            "524",
-            "2002-01-14",
+            "2949",
+            "2002-01-13",
             "2009-12-21",
-            "2300724 - DER - 24ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "955.84"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "22281.00"
           ],
           "rowNumber": 34,
           "rowPosition": 35,
@@ -2015,7 +2015,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"35\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"35\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -2024,14 +2024,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123754",
+            "165004",
             "2002",
-            "524",
-            "2002-01-14",
+            "2949",
+            "2002-01-13",
             "2009-12-21",
-            "2300724 - DER - 24ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "955.84"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "22281.00"
           ],
           "rowNumber": 34,
           "rowPosition": 35,
@@ -2047,19 +2047,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123755",
+            "165005",
             "2002",
-            "706",
-            "2002-01-14",
+            "2943",
+            "2002-01-13",
             "2009-12-21",
-            "2300733 - DER - 33ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "887.60"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "4848.90"
           ],
           "rowNumber": 35,
           "rowPosition": 36,
@@ -2071,7 +2071,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"36\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"36\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -2080,14 +2080,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123755",
+            "165005",
             "2002",
-            "706",
-            "2002-01-14",
+            "2943",
+            "2002-01-13",
             "2009-12-21",
-            "2300733 - DER - 33ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "887.60"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "4848.90"
           ],
           "rowNumber": 35,
           "rowPosition": 36,
@@ -2103,19 +2103,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123756",
+            "165006",
             "2002",
-            "543",
-            "2002-01-14",
+            "2942",
+            "2002-01-13",
             "2009-12-21",
-            "2300721 - DER - 21ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "2095.75"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "22170.75"
           ],
           "rowNumber": 36,
           "rowPosition": 37,
@@ -2127,7 +2127,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"37\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"37\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -2136,14 +2136,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123756",
+            "165006",
             "2002",
-            "543",
-            "2002-01-14",
+            "2942",
+            "2002-01-13",
             "2009-12-21",
-            "2300721 - DER - 21ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "2095.75"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "22170.75"
           ],
           "rowNumber": 36,
           "rowPosition": 37,
@@ -2159,19 +2159,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123757",
+            "165007",
             "2002",
-            "583",
-            "2002-01-14",
+            "2927",
+            "2002-01-13",
             "2009-12-21",
-            "2300729 - DER - 29ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "785.56"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "24990.00"
           ],
           "rowNumber": 37,
           "rowPosition": 38,
@@ -2183,7 +2183,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"38\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"38\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -2192,14 +2192,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123757",
+            "165007",
             "2002",
-            "583",
-            "2002-01-14",
+            "2927",
+            "2002-01-13",
             "2009-12-21",
-            "2300729 - DER - 29ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "785.56"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "24990.00"
           ],
           "rowNumber": 37,
           "rowPosition": 38,
@@ -2215,19 +2215,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123758",
+            "165008",
             "2002",
-            "314",
-            "2002-01-14",
+            "2917",
+            "2002-01-13",
             "2009-12-21",
-            "2300708 - DER - 8ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "570.54"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "316192.50"
           ],
           "rowNumber": 38,
           "rowPosition": 39,
@@ -2239,7 +2239,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"39\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"39\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -2248,14 +2248,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123758",
+            "165008",
             "2002",
-            "314",
-            "2002-01-14",
+            "2917",
+            "2002-01-13",
             "2009-12-21",
-            "2300708 - DER - 8ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "570.54"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "316192.50"
           ],
           "rowNumber": 38,
           "rowPosition": 39,
@@ -2271,19 +2271,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123759",
+            "165009",
             "2002",
-            "623",
-            "2002-01-14",
+            "2947",
+            "2002-01-13",
             "2009-12-21",
-            "2300704 - DER - 4ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "528.80"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "22153.95"
           ],
           "rowNumber": 39,
           "rowPosition": 40,
@@ -2295,7 +2295,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"40\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"40\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -2304,14 +2304,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123759",
+            "165009",
             "2002",
-            "623",
-            "2002-01-14",
+            "2947",
+            "2002-01-13",
             "2009-12-21",
-            "2300704 - DER - 4ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "528.80"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "22153.95"
           ],
           "rowNumber": 39,
           "rowPosition": 40,
@@ -2327,19 +2327,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123760",
+            "165010",
             "2002",
-            "623",
-            "2002-01-14",
+            "2946",
+            "2002-01-13",
             "2009-12-21",
-            "2300704 - DER - 4ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "501.20"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "7045.50"
           ],
           "rowNumber": 40,
           "rowPosition": 41,
@@ -2351,7 +2351,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"41\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"41\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -2360,14 +2360,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123760",
+            "165010",
             "2002",
-            "623",
-            "2002-01-14",
+            "2946",
+            "2002-01-13",
             "2009-12-21",
-            "2300704 - DER - 4ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "501.20"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "7045.50"
           ],
           "rowNumber": 40,
           "rowPosition": 41,
@@ -2383,19 +2383,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123762",
+            "165011",
             "2002",
-            "1518",
-            "2002-01-14",
+            "2945",
+            "2002-01-13",
             "2009-12-21",
-            "2300714 - DER - 14ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "966.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "20769.13"
           ],
           "rowNumber": 41,
           "rowPosition": 42,
@@ -2407,7 +2407,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"42\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"42\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -2416,14 +2416,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123762",
+            "165011",
             "2002",
-            "1518",
-            "2002-01-14",
+            "2945",
+            "2002-01-13",
             "2009-12-21",
-            "2300714 - DER - 14ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "966.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "20769.13"
           ],
           "rowNumber": 41,
           "rowPosition": 42,
@@ -2439,19 +2439,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123764",
+            "165012",
             "2002",
-            "770",
-            "2002-01-14",
+            "2941",
+            "2002-01-13",
             "2009-12-21",
-            "2300709 - DER - 9ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "114.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "23507.40"
           ],
           "rowNumber": 42,
           "rowPosition": 43,
@@ -2463,7 +2463,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"43\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"43\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -2472,14 +2472,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123764",
+            "165012",
             "2002",
-            "770",
-            "2002-01-14",
+            "2941",
+            "2002-01-13",
             "2009-12-21",
-            "2300709 - DER - 9ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "114.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "23507.40"
           ],
           "rowNumber": 42,
           "rowPosition": 43,
@@ -2495,19 +2495,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123765",
+            "165013",
             "2002",
-            "932",
-            "2002-01-14",
+            "2940",
+            "2002-01-13",
             "2009-12-21",
-            "2300735 - DER - 35ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "200.01"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "9513.00"
           ],
           "rowNumber": 43,
           "rowPosition": 44,
@@ -2519,7 +2519,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"44\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"44\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -2528,14 +2528,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123765",
+            "165013",
             "2002",
-            "932",
-            "2002-01-14",
+            "2940",
+            "2002-01-13",
             "2009-12-21",
-            "2300735 - DER - 35ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "200.01"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "9513.00"
           ],
           "rowNumber": 43,
           "rowPosition": 44,
@@ -2551,19 +2551,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123766",
+            "165014",
             "2002",
-            "791",
-            "2002-01-14",
+            "2929",
+            "2002-01-13",
             "2009-12-21",
-            "2300740 - DER - 40ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "230.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "4620.00"
           ],
           "rowNumber": 44,
           "rowPosition": 45,
@@ -2575,7 +2575,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"45\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"45\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -2584,14 +2584,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123766",
+            "165014",
             "2002",
-            "791",
-            "2002-01-14",
+            "2929",
+            "2002-01-13",
             "2009-12-21",
-            "2300740 - DER - 40ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "230.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "4620.00"
           ],
           "rowNumber": 44,
           "rowPosition": 45,
@@ -2607,19 +2607,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123769",
+            "165015",
             "2002",
-            "796",
-            "2002-01-14",
+            "2950",
+            "2002-01-13",
             "2009-12-21",
-            "2300704 - DER - 4ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "298.60"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "17194.80"
           ],
           "rowNumber": 45,
           "rowPosition": 46,
@@ -2631,7 +2631,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"46\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"46\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -2640,14 +2640,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123769",
+            "165015",
             "2002",
-            "796",
-            "2002-01-14",
+            "2950",
+            "2002-01-13",
             "2009-12-21",
-            "2300704 - DER - 4ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "298.60"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "17194.80"
           ],
           "rowNumber": 45,
           "rowPosition": 46,
@@ -2663,19 +2663,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123770",
+            "165016",
             "2002",
-            "791",
-            "2002-01-14",
+            "2924",
+            "2002-01-13",
             "2009-12-21",
-            "2300704 - DER - 4ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "122.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "7195.22"
           ],
           "rowNumber": 46,
           "rowPosition": 47,
@@ -2687,7 +2687,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"47\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"47\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -2696,14 +2696,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123770",
+            "165016",
             "2002",
-            "791",
-            "2002-01-14",
+            "2924",
+            "2002-01-13",
             "2009-12-21",
-            "2300704 - DER - 4ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "122.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "7195.22"
           ],
           "rowNumber": 46,
           "rowPosition": 47,
@@ -2719,19 +2719,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123771",
+            "165017",
             "2002",
-            "727",
-            "2002-01-14",
+            "2921",
+            "2002-01-13",
             "2009-12-21",
-            "2300724 - DER - 24ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "322.50"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "316192.50"
           ],
           "rowNumber": 47,
           "rowPosition": 48,
@@ -2743,7 +2743,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"48\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"48\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -2752,14 +2752,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123771",
+            "165017",
             "2002",
-            "727",
-            "2002-01-14",
+            "2921",
+            "2002-01-13",
             "2009-12-21",
-            "2300724 - DER - 24ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "322.50"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "316192.50"
           ],
           "rowNumber": 47,
           "rowPosition": 48,
@@ -2775,19 +2775,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123772",
+            "165018",
             "2002",
-            "805",
-            "2002-01-14",
+            "2959",
+            "2002-01-13",
             "2009-12-21",
-            "2300740 - DER - 40ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "108.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "43863.75"
           ],
           "rowNumber": 48,
           "rowPosition": 49,
@@ -2799,7 +2799,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"49\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"49\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -2808,14 +2808,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123772",
+            "165018",
             "2002",
-            "805",
-            "2002-01-14",
+            "2959",
+            "2002-01-13",
             "2009-12-21",
-            "2300740 - DER - 40ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "108.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "43863.75"
           ],
           "rowNumber": 48,
           "rowPosition": 49,
@@ -2831,19 +2831,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123773",
+            "165019",
             "2002",
-            "689",
-            "2002-01-14",
+            "2958",
+            "2002-01-13",
             "2009-12-21",
-            "2300740 - DER - 40ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "120.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "26279.17"
           ],
           "rowNumber": 49,
           "rowPosition": 50,
@@ -2855,7 +2855,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"50\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"50\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -2864,14 +2864,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123773",
+            "165019",
             "2002",
-            "689",
-            "2002-01-14",
+            "2958",
+            "2002-01-13",
             "2009-12-21",
-            "2300740 - DER - 40ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "120.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "26279.17"
           ],
           "rowNumber": 49,
           "rowPosition": 50,
@@ -2887,19 +2887,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123774",
+            "165020",
             "2002",
-            "1126",
-            "2002-01-14",
+            "2944",
+            "2002-01-13",
             "2009-12-21",
-            "2300730 - DER - 30ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "308.60"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "14119.68"
           ],
           "rowNumber": 50,
           "rowPosition": 51,
@@ -2911,7 +2911,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"51\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"51\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -2920,14 +2920,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123774",
+            "165020",
             "2002",
-            "1126",
-            "2002-01-14",
+            "2944",
+            "2002-01-13",
             "2009-12-21",
-            "2300730 - DER - 30ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "308.60"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "14119.68"
           ],
           "rowNumber": 50,
           "rowPosition": 51,
@@ -2943,19 +2943,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123775",
+            "165021",
             "2002",
-            "1532",
-            "2002-01-14",
+            "2939",
+            "2002-01-13",
             "2009-12-21",
-            "2300714 - DER - 14ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "117.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "5736.15"
           ],
           "rowNumber": 51,
           "rowPosition": 52,
@@ -2967,7 +2967,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"52\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"52\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -2976,14 +2976,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123775",
+            "165021",
             "2002",
-            "1532",
-            "2002-01-14",
+            "2939",
+            "2002-01-13",
             "2009-12-21",
-            "2300714 - DER - 14ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "117.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "5736.15"
           ],
           "rowNumber": 51,
           "rowPosition": 52,
@@ -2999,19 +2999,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123777",
+            "165022",
             "2002",
-            "785",
-            "2002-01-14",
+            "2938",
+            "2002-01-13",
             "2009-12-21",
-            "2300704 - DER - 4ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "1821.08"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "4621.05"
           ],
           "rowNumber": 52,
           "rowPosition": 53,
@@ -3023,7 +3023,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"53\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"53\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -3032,14 +3032,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123777",
+            "165022",
             "2002",
-            "785",
-            "2002-01-14",
+            "2938",
+            "2002-01-13",
             "2009-12-21",
-            "2300704 - DER - 4ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "1821.08"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "4621.05"
           ],
           "rowNumber": 52,
           "rowPosition": 53,
@@ -3055,19 +3055,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123778",
+            "165023",
             "2002",
-            "721",
-            "2002-01-14",
+            "2937",
+            "2002-01-13",
             "2009-12-21",
-            "2300704 - DER - 4ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "836.30"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "5299.35"
           ],
           "rowNumber": 53,
           "rowPosition": 54,
@@ -3079,7 +3079,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"54\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"54\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -3088,14 +3088,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123778",
+            "165023",
             "2002",
-            "721",
-            "2002-01-14",
+            "2937",
+            "2002-01-13",
             "2009-12-21",
-            "2300704 - DER - 4ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "836.30"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "5299.35"
           ],
           "rowNumber": 53,
           "rowPosition": 54,
@@ -3111,19 +3111,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123783",
+            "165024",
             "2002",
-            "741",
-            "2002-01-14",
+            "2935",
+            "2002-01-13",
             "2009-12-21",
-            "2300731 - DER - 31ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "693.97"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "7565.25"
           ],
           "rowNumber": 54,
           "rowPosition": 55,
@@ -3135,7 +3135,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"55\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"55\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -3144,14 +3144,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123783",
+            "165024",
             "2002",
-            "741",
-            "2002-01-14",
+            "2935",
+            "2002-01-13",
             "2009-12-21",
-            "2300731 - DER - 31ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "693.97"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "7565.25"
           ],
           "rowNumber": 54,
           "rowPosition": 55,
@@ -3167,19 +3167,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123784",
+            "165025",
             "2002",
-            "741",
-            "2002-01-14",
+            "2932",
+            "2002-01-13",
             "2009-12-21",
-            "2300731 - DER - 31ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "490.30"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "16655.77"
           ],
           "rowNumber": 55,
           "rowPosition": 56,
@@ -3191,7 +3191,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"56\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"56\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -3200,14 +3200,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123784",
+            "165025",
             "2002",
-            "741",
-            "2002-01-14",
+            "2932",
+            "2002-01-13",
             "2009-12-21",
-            "2300731 - DER - 31ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "490.30"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "16655.77"
           ],
           "rowNumber": 55,
           "rowPosition": 56,
@@ -3223,19 +3223,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123785",
+            "165026",
             "2002",
-            "608",
-            "2002-01-14",
+            "2914",
+            "2002-01-13",
             "2009-12-21",
-            "2300719 - DER - 19ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "2791.58"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "423873.94"
           ],
           "rowNumber": 56,
           "rowPosition": 57,
@@ -3247,7 +3247,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"57\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"57\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -3256,14 +3256,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123785",
+            "165026",
             "2002",
-            "608",
-            "2002-01-14",
+            "2914",
+            "2002-01-13",
             "2009-12-21",
-            "2300719 - DER - 19ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "2791.58"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "423873.94"
           ],
           "rowNumber": 56,
           "rowPosition": 57,
@@ -3279,19 +3279,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123786",
+            "165027",
             "2002",
-            "661",
-            "2002-01-14",
+            "2956",
+            "2002-01-13",
             "2009-12-21",
-            "2300719 - DER - 19ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "1475.70"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "351740.00"
           ],
           "rowNumber": 57,
           "rowPosition": 58,
@@ -3303,7 +3303,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"58\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"58\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -3312,14 +3312,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123786",
+            "165027",
             "2002",
-            "661",
-            "2002-01-14",
+            "2956",
+            "2002-01-13",
             "2009-12-21",
-            "2300719 - DER - 19ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "1475.70"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "351740.00"
           ],
           "rowNumber": 57,
           "rowPosition": 58,
@@ -3335,19 +3335,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123787",
+            "165028",
             "2002",
-            "693",
-            "2002-01-14",
+            "2925",
+            "2002-01-13",
             "2009-12-21",
-            "2300710 - DER - 10ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "837.54"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "84360.00"
           ],
           "rowNumber": 58,
           "rowPosition": 59,
@@ -3359,7 +3359,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"59\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"59\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -3368,14 +3368,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123787",
+            "165028",
             "2002",
-            "693",
-            "2002-01-14",
+            "2925",
+            "2002-01-13",
             "2009-12-21",
-            "2300710 - DER - 10ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "837.54"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "84360.00"
           ],
           "rowNumber": 58,
           "rowPosition": 59,
@@ -3391,19 +3391,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123788",
+            "165029",
             "2002",
-            "1144",
-            "2002-01-14",
+            "2916",
+            "2002-01-13",
             "2009-12-21",
-            "2300730 - DER - 30ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "828.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "0.00"
           ],
           "rowNumber": 59,
           "rowPosition": 60,
@@ -3415,7 +3415,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"60\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"60\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -3424,14 +3424,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123788",
+            "165029",
             "2002",
-            "1144",
-            "2002-01-14",
+            "2916",
+            "2002-01-13",
             "2009-12-21",
-            "2300730 - DER - 30ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "828.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "0.00"
           ],
           "rowNumber": 59,
           "rowPosition": 60,
@@ -3447,19 +3447,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123789",
+            "165030",
             "2002",
-            "1078",
-            "2002-01-14",
+            "2971",
+            "2002-01-13",
             "2009-12-21",
-            "2300730 - DER - 30ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "643.20"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "0.00"
           ],
           "rowNumber": 60,
           "rowPosition": 61,
@@ -3471,7 +3471,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"61\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"61\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -3480,14 +3480,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123789",
+            "165030",
             "2002",
-            "1078",
-            "2002-01-14",
+            "2971",
+            "2002-01-13",
             "2009-12-21",
-            "2300730 - DER - 30ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "643.20"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "0.00"
           ],
           "rowNumber": 60,
           "rowPosition": 61,
@@ -3503,19 +3503,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123791",
+            "165031",
             "2002",
-            "659",
-            "2002-01-14",
+            "3023",
+            "2002-01-13",
             "2009-12-21",
-            "2300715 - DER - 15ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "2160.00"
+            "2060001 - FJP",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "5808.48"
           ],
           "rowNumber": 61,
           "rowPosition": 62,
@@ -3527,7 +3527,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"62\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"62\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -3536,14 +3536,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123791",
+            "165031",
             "2002",
-            "659",
-            "2002-01-14",
+            "3023",
+            "2002-01-13",
             "2009-12-21",
-            "2300715 - DER - 15ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "2160.00"
+            "2060001 - FJP",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "5808.48"
           ],
           "rowNumber": 61,
           "rowPosition": 62,
@@ -3559,19 +3559,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123792",
+            "165032",
             "2002",
-            "959",
-            "2002-01-14",
+            "3022",
+            "2002-01-13",
             "2009-12-21",
-            "2300716 - DER - 16ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "5000.00"
+            "2060001 - FJP",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "10574.82"
           ],
           "rowNumber": 62,
           "rowPosition": 63,
@@ -3583,7 +3583,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"63\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"63\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -3592,14 +3592,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123792",
+            "165032",
             "2002",
-            "959",
-            "2002-01-14",
+            "3022",
+            "2002-01-13",
             "2009-12-21",
-            "2300716 - DER - 16ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "5000.00"
+            "2060001 - FJP",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "10574.82"
           ],
           "rowNumber": 62,
           "rowPosition": 63,
@@ -3615,19 +3615,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123793",
+            "165033",
             "2002",
-            "730",
-            "2002-01-14",
+            "6565",
+            "2002-01-13",
             "2009-12-21",
-            "2300704 - DER - 4ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "392.00"
+            "2260002 - FUNED",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "380.70"
           ],
           "rowNumber": 63,
           "rowPosition": 64,
@@ -3639,7 +3639,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"64\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"64\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -3648,14 +3648,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123793",
+            "165033",
             "2002",
-            "730",
-            "2002-01-14",
+            "6565",
+            "2002-01-13",
             "2009-12-21",
-            "2300704 - DER - 4ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "392.00"
+            "2260002 - FUNED",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "380.70"
           ],
           "rowNumber": 63,
           "rowPosition": 64,
@@ -3676,14 +3676,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123795",
+            "165034",
             "2002",
-            "821",
+            "459",
             "2002-01-14",
             "2009-12-21",
-            "2300709 - DER - 9ª CRG",
+            "2400002 - IGA - DIR.ADM.FINANCAS",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "300.00"
+            "3074.00"
           ],
           "rowNumber": 64,
           "rowPosition": 65,
@@ -3704,14 +3704,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123795",
+            "165034",
             "2002",
-            "821",
+            "459",
             "2002-01-14",
             "2009-12-21",
-            "2300709 - DER - 9ª CRG",
+            "2400002 - IGA - DIR.ADM.FINANCAS",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "300.00"
+            "3074.00"
           ],
           "rowNumber": 64,
           "rowPosition": 65,
@@ -3727,19 +3727,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123797",
+            "165035",
             "2002",
-            "385",
-            "2002-01-14",
+            "6571",
+            "2002-01-13",
             "2009-12-21",
-            "2300708 - DER - 8ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "656.00"
+            "2260002 - FUNED",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "8760.00"
           ],
           "rowNumber": 65,
           "rowPosition": 66,
@@ -3751,7 +3751,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"66\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"66\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -3760,14 +3760,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123797",
+            "165035",
             "2002",
-            "385",
-            "2002-01-14",
+            "6571",
+            "2002-01-13",
             "2009-12-21",
-            "2300708 - DER - 8ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "656.00"
+            "2260002 - FUNED",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "8760.00"
           ],
           "rowNumber": 65,
           "rowPosition": 66,
@@ -3783,19 +3783,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123798",
+            "165036",
             "2002",
-            "618",
-            "2002-01-14",
+            "2948",
+            "2002-01-13",
             "2009-12-21",
-            "2300718 - DER - 18ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "1890.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "20583.40"
           ],
           "rowNumber": 66,
           "rowPosition": 67,
@@ -3807,7 +3807,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"67\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"67\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -3816,14 +3816,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123798",
+            "165036",
             "2002",
-            "618",
-            "2002-01-14",
+            "2948",
+            "2002-01-13",
             "2009-12-21",
-            "2300718 - DER - 18ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "1890.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "20583.40"
           ],
           "rowNumber": 66,
           "rowPosition": 67,
@@ -3839,19 +3839,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123801",
+            "165037",
             "2002",
-            "632",
-            "2002-01-14",
+            "2920",
+            "2002-01-13",
             "2009-12-21",
-            "2300712 - DER - 12ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "1804.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "0.00"
           ],
           "rowNumber": 67,
           "rowPosition": 68,
@@ -3863,7 +3863,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"68\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"68\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -3872,14 +3872,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123801",
+            "165037",
             "2002",
-            "632",
-            "2002-01-14",
+            "2920",
+            "2002-01-13",
             "2009-12-21",
-            "2300712 - DER - 12ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "1804.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "0.00"
           ],
           "rowNumber": 67,
           "rowPosition": 68,
@@ -3895,19 +3895,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123802",
+            "165038",
             "2002",
-            "821",
-            "2002-01-14",
+            "2957",
+            "2002-01-13",
             "2009-12-21",
-            "2300712 - DER - 12ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "128.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "0.00"
           ],
           "rowNumber": 68,
           "rowPosition": 69,
@@ -3919,7 +3919,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"69\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"69\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -3928,14 +3928,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123802",
+            "165038",
             "2002",
-            "821",
-            "2002-01-14",
+            "2957",
+            "2002-01-13",
             "2009-12-21",
-            "2300712 - DER - 12ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "128.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "0.00"
           ],
           "rowNumber": 68,
           "rowPosition": 69,
@@ -3951,19 +3951,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123803",
+            "165039",
             "2002",
-            "690",
-            "2002-01-14",
+            "2913",
+            "2002-01-13",
             "2009-12-21",
-            "2300702 - DER - 2ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "420.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "0.00"
           ],
           "rowNumber": 69,
           "rowPosition": 70,
@@ -3975,7 +3975,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"70\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"70\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -3984,14 +3984,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123803",
+            "165039",
             "2002",
-            "690",
-            "2002-01-14",
+            "2913",
+            "2002-01-13",
             "2009-12-21",
-            "2300702 - DER - 2ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "420.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "0.00"
           ],
           "rowNumber": 69,
           "rowPosition": 70,
@@ -4007,19 +4007,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123804",
+            "165040",
             "2002",
-            "1513",
-            "2002-01-14",
+            "6578",
+            "2002-01-13",
             "2009-12-21",
-            "2300714 - DER - 14ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "400.00"
+            "2260002 - FUNED",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "5988.00"
           ],
           "rowNumber": 70,
           "rowPosition": 71,
@@ -4031,7 +4031,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"71\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"71\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4040,14 +4040,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123804",
+            "165040",
             "2002",
-            "1513",
-            "2002-01-14",
+            "6578",
+            "2002-01-13",
             "2009-12-21",
-            "2300714 - DER - 14ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "400.00"
+            "2260002 - FUNED",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "5988.00"
           ],
           "rowNumber": 70,
           "rowPosition": 71,
@@ -4063,19 +4063,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123806",
+            "165041",
             "2002",
-            "694",
-            "2002-01-14",
+            "2923",
+            "2002-01-13",
             "2009-12-21",
-            "2300710 - DER - 10ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "220.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "316192.50"
           ],
           "rowNumber": 71,
           "rowPosition": 72,
@@ -4087,7 +4087,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"72\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"72\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4096,14 +4096,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123806",
+            "165041",
             "2002",
-            "694",
-            "2002-01-14",
+            "2923",
+            "2002-01-13",
             "2009-12-21",
-            "2300710 - DER - 10ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "220.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "316192.50"
           ],
           "rowNumber": 71,
           "rowPosition": 72,
@@ -4119,19 +4119,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123807",
+            "165042",
             "2002",
-            "741",
-            "2002-01-14",
+            "2922",
+            "2002-01-13",
             "2009-12-21",
-            "2300740 - DER - 40ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "2754.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "8543.85"
           ],
           "rowNumber": 72,
           "rowPosition": 73,
@@ -4143,7 +4143,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"73\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"73\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4152,14 +4152,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123807",
+            "165042",
             "2002",
-            "741",
-            "2002-01-14",
+            "2922",
+            "2002-01-13",
             "2009-12-21",
-            "2300740 - DER - 40ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "2754.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "8543.85"
           ],
           "rowNumber": 72,
           "rowPosition": 73,
@@ -4175,19 +4175,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123808",
+            "165043",
             "2002",
-            "768",
-            "2002-01-14",
+            "2970",
+            "2002-01-13",
             "2009-12-21",
-            "2300705 - DER - 5ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "161.84"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "19053.30"
           ],
           "rowNumber": 73,
           "rowPosition": 74,
@@ -4199,7 +4199,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"74\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"74\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4208,14 +4208,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123808",
+            "165043",
             "2002",
-            "768",
-            "2002-01-14",
+            "2970",
+            "2002-01-13",
             "2009-12-21",
-            "2300705 - DER - 5ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "161.84"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "19053.30"
           ],
           "rowNumber": 73,
           "rowPosition": 74,
@@ -4231,19 +4231,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123810",
+            "165044",
             "2002",
-            "617",
-            "2002-01-14",
+            "2969",
+            "2002-01-13",
             "2009-12-21",
-            "2300719 - DER - 19ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "2105.60"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "18818.10"
           ],
           "rowNumber": 74,
           "rowPosition": 75,
@@ -4255,7 +4255,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"75\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"75\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4264,14 +4264,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123810",
+            "165044",
             "2002",
-            "617",
-            "2002-01-14",
+            "2969",
+            "2002-01-13",
             "2009-12-21",
-            "2300719 - DER - 19ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "2105.60"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "18818.10"
           ],
           "rowNumber": 74,
           "rowPosition": 75,
@@ -4287,19 +4287,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123813",
+            "165045",
             "2002",
-            "835",
-            "2002-01-14",
+            "2968",
+            "2002-01-13",
             "2009-12-21",
-            "2300712 - DER - 12ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "820.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "22635.80"
           ],
           "rowNumber": 75,
           "rowPosition": 76,
@@ -4311,7 +4311,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"76\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"76\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4320,14 +4320,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123813",
+            "165045",
             "2002",
-            "835",
-            "2002-01-14",
+            "2968",
+            "2002-01-13",
             "2009-12-21",
-            "2300712 - DER - 12ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "820.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "22635.80"
           ],
           "rowNumber": 75,
           "rowPosition": 76,
@@ -4343,19 +4343,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123814",
+            "165046",
             "2002",
-            "836",
-            "2002-01-14",
+            "2967",
+            "2002-01-13",
             "2009-12-21",
-            "2300712 - DER - 12ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "130.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "22597.74"
           ],
           "rowNumber": 76,
           "rowPosition": 77,
@@ -4367,7 +4367,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"77\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"77\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4376,14 +4376,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123814",
+            "165046",
             "2002",
-            "836",
-            "2002-01-14",
+            "2967",
+            "2002-01-13",
             "2009-12-21",
-            "2300712 - DER - 12ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "130.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "22597.74"
           ],
           "rowNumber": 76,
           "rowPosition": 77,
@@ -4399,19 +4399,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "123815",
+            "165047",
             "2002",
-            "658",
-            "2002-01-14",
+            "2966",
+            "2002-01-13",
             "2009-12-21",
-            "2300702 - DER - 2ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "300.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "20990.43"
           ],
           "rowNumber": 77,
           "rowPosition": 78,
@@ -4423,7 +4423,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"78\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"78\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4432,14 +4432,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "123815",
+            "165047",
             "2002",
-            "658",
-            "2002-01-14",
+            "2966",
+            "2002-01-13",
             "2009-12-21",
-            "2300702 - DER - 2ª CRG",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "300.00"
+            "2070001 - FAPEMIG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "20990.43"
           ],
           "rowNumber": 77,
           "rowPosition": 78,
@@ -4460,14 +4460,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "164997",
+            "165048",
             "2002",
-            "2978",
+            "2965",
             "2002-01-13",
             "2009-12-21",
             "2070001 - FAPEMIG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "9202.50"
+            "7543.46"
           ],
           "rowNumber": 78,
           "rowPosition": 79,
@@ -4488,14 +4488,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "164997",
+            "165048",
             "2002",
-            "2978",
+            "2965",
             "2002-01-13",
             "2009-12-21",
             "2070001 - FAPEMIG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "9202.50"
+            "7543.46"
           ],
           "rowNumber": 78,
           "rowPosition": 79,
@@ -4516,14 +4516,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "164998",
+            "165049",
             "2002",
-            "2976",
+            "2964",
             "2002-01-13",
             "2009-12-21",
             "2070001 - FAPEMIG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "38775.00"
+            "10549.56"
           ],
           "rowNumber": 79,
           "rowPosition": 80,
@@ -4544,14 +4544,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "164998",
+            "165049",
             "2002",
-            "2976",
+            "2964",
             "2002-01-13",
             "2009-12-21",
             "2070001 - FAPEMIG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "38775.00"
+            "10549.56"
           ],
           "rowNumber": 79,
           "rowPosition": 80,
@@ -4572,14 +4572,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "164999",
+            "165050",
             "2002",
-            "2975",
+            "2954",
             "2002-01-13",
             "2009-12-21",
             "2070001 - FAPEMIG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "24255.00"
+            "9522.45"
           ],
           "rowNumber": 80,
           "rowPosition": 81,
@@ -4600,14 +4600,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "164999",
+            "165050",
             "2002",
-            "2975",
+            "2954",
             "2002-01-13",
             "2009-12-21",
             "2070001 - FAPEMIG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "24255.00"
+            "9522.45"
           ],
           "rowNumber": 80,
           "rowPosition": 81,
@@ -4623,19 +4623,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-12-02",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165000",
+            "123552",
             "2002",
-            "2878",
-            "2002-01-14",
+            "263",
+            "2002-12-02",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2010020 - IPSEMG - SUP. FINANCAS",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "2898.11"
+            "24879.44"
           ],
           "rowNumber": 81,
           "rowPosition": 82,
@@ -4647,7 +4647,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"82\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-12-02\" in row \"82\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4656,14 +4656,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165000",
+            "123552",
             "2002",
-            "2878",
-            "2002-01-14",
+            "263",
+            "2002-12-02",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2010020 - IPSEMG - SUP. FINANCAS",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "2898.11"
+            "24879.44"
           ],
           "rowNumber": 81,
           "rowPosition": 82,
@@ -4684,14 +4684,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165001",
+            "123554",
             "2002",
-            "2960",
+            "4084",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2100001 - IEF-SEDE",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "160000.00"
+            "8480.60"
           ],
           "rowNumber": 82,
           "rowPosition": 83,
@@ -4712,14 +4712,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165001",
+            "123554",
             "2002",
-            "2960",
+            "4084",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2100001 - IEF-SEDE",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "160000.00"
+            "8480.60"
           ],
           "rowNumber": 82,
           "rowPosition": 83,
@@ -4735,19 +4735,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-13",
+          "cell": "2002-12-02",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165002",
+            "123556",
             "2002",
-            "2756",
-            "2002-01-13",
+            "922",
+            "2002-12-02",
             "2009-12-21",
-            "2070001 - FAPEMIG",
-            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "1370.00"
+            "2280001 - UTRAMIG",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "16001.64"
           ],
           "rowNumber": 83,
           "rowPosition": 84,
@@ -4759,7 +4759,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-13\" in row \"84\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-12-02\" in row \"84\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4768,14 +4768,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165002",
+            "123556",
             "2002",
-            "2756",
-            "2002-01-13",
+            "922",
+            "2002-12-02",
             "2009-12-21",
-            "2070001 - FAPEMIG",
-            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "1370.00"
+            "2280001 - UTRAMIG",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "16001.64"
           ],
           "rowNumber": 83,
           "rowPosition": 84,
@@ -4796,14 +4796,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165003",
+            "123557",
             "2002",
-            "2926",
+            "419",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2390001 - IOMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "3388.92"
+            "0.00"
           ],
           "rowNumber": 84,
           "rowPosition": 85,
@@ -4824,14 +4824,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165003",
+            "123557",
             "2002",
-            "2926",
+            "419",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2390001 - IOMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "3388.92"
+            "0.00"
           ],
           "rowNumber": 84,
           "rowPosition": 85,
@@ -4852,14 +4852,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165004",
+            "123558",
             "2002",
-            "2949",
+            "412",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2390001 - IOMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "22281.00"
+            "0.00"
           ],
           "rowNumber": 85,
           "rowPosition": 86,
@@ -4880,14 +4880,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165004",
+            "123558",
             "2002",
-            "2949",
+            "412",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2390001 - IOMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "22281.00"
+            "0.00"
           ],
           "rowNumber": 85,
           "rowPosition": 86,
@@ -4908,14 +4908,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165005",
+            "123559",
             "2002",
-            "2943",
+            "411",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2390001 - IOMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "4848.90"
+            "0.00"
           ],
           "rowNumber": 86,
           "rowPosition": 87,
@@ -4936,14 +4936,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165005",
+            "123559",
             "2002",
-            "2943",
+            "411",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2390001 - IOMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "4848.90"
+            "0.00"
           ],
           "rowNumber": 86,
           "rowPosition": 87,
@@ -4964,14 +4964,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165006",
+            "123560",
             "2002",
-            "2942",
+            "410",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2390001 - IOMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "22170.75"
+            "0.00"
           ],
           "rowNumber": 87,
           "rowPosition": 88,
@@ -4992,14 +4992,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165006",
+            "123560",
             "2002",
-            "2942",
+            "410",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2390001 - IOMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "22170.75"
+            "0.00"
           ],
           "rowNumber": 87,
           "rowPosition": 88,
@@ -5020,14 +5020,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165007",
+            "123561",
             "2002",
-            "2927",
+            "409",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2390001 - IOMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "24990.00"
+            "0.00"
           ],
           "rowNumber": 88,
           "rowPosition": 89,
@@ -5048,14 +5048,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165007",
+            "123561",
             "2002",
-            "2927",
+            "409",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2390001 - IOMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "24990.00"
+            "0.00"
           ],
           "rowNumber": 88,
           "rowPosition": 89,
@@ -5076,14 +5076,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165008",
+            "123562",
             "2002",
-            "2917",
+            "408",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2390001 - IOMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "316192.50"
+            "0.00"
           ],
           "rowNumber": 89,
           "rowPosition": 90,
@@ -5104,14 +5104,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165008",
+            "123562",
             "2002",
-            "2917",
+            "408",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2390001 - IOMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "316192.50"
+            "0.00"
           ],
           "rowNumber": 89,
           "rowPosition": 90,
@@ -5132,14 +5132,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165009",
+            "123563",
             "2002",
-            "2947",
+            "404",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2390001 - IOMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "22153.95"
+            "0.00"
           ],
           "rowNumber": 90,
           "rowPosition": 91,
@@ -5160,14 +5160,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165009",
+            "123563",
             "2002",
-            "2947",
+            "404",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2390001 - IOMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "22153.95"
+            "0.00"
           ],
           "rowNumber": 90,
           "rowPosition": 91,
@@ -5188,14 +5188,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165010",
+            "123564",
             "2002",
-            "2946",
+            "397",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2390001 - IOMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "7045.50"
+            "0.00"
           ],
           "rowNumber": 91,
           "rowPosition": 92,
@@ -5216,14 +5216,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165010",
+            "123564",
             "2002",
-            "2946",
+            "397",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2390001 - IOMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "7045.50"
+            "0.00"
           ],
           "rowNumber": 91,
           "rowPosition": 92,
@@ -5244,14 +5244,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165011",
+            "123565",
             "2002",
-            "2945",
+            "393",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2390001 - IOMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "20769.13"
+            "0.00"
           ],
           "rowNumber": 92,
           "rowPosition": 93,
@@ -5272,14 +5272,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165011",
+            "123565",
             "2002",
-            "2945",
+            "393",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2390001 - IOMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "20769.13"
+            "0.00"
           ],
           "rowNumber": 92,
           "rowPosition": 93,
@@ -5300,14 +5300,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165012",
+            "123566",
             "2002",
-            "2941",
+            "11",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2390001 - IOMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "23507.40"
+            "0.00"
           ],
           "rowNumber": 93,
           "rowPosition": 94,
@@ -5328,14 +5328,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165012",
+            "123566",
             "2002",
-            "2941",
+            "11",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2390001 - IOMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "23507.40"
+            "0.00"
           ],
           "rowNumber": 93,
           "rowPosition": 94,
@@ -5356,14 +5356,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165013",
+            "123567",
             "2002",
-            "2940",
+            "1",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2390001 - IOMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "9513.00"
+            "0.00"
           ],
           "rowNumber": 94,
           "rowPosition": 95,
@@ -5384,14 +5384,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165013",
+            "123567",
             "2002",
-            "2940",
+            "1",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2390001 - IOMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "9513.00"
+            "0.00"
           ],
           "rowNumber": 94,
           "rowPosition": 95,
@@ -5412,14 +5412,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165014",
+            "123568",
             "2002",
-            "2929",
+            "456",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2390001 - IOMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "4620.00"
+            "0.00"
           ],
           "rowNumber": 95,
           "rowPosition": 96,
@@ -5440,14 +5440,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165014",
+            "123568",
             "2002",
-            "2929",
+            "456",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2390001 - IOMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "4620.00"
+            "0.00"
           ],
           "rowNumber": 95,
           "rowPosition": 96,
@@ -5468,14 +5468,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165015",
+            "123569",
             "2002",
-            "2950",
+            "257",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2080001 - CETEC",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "17194.80"
+            "0.00"
           ],
           "rowNumber": 96,
           "rowPosition": 97,
@@ -5496,14 +5496,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165015",
+            "123569",
             "2002",
-            "2950",
+            "257",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2080001 - CETEC",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "17194.80"
+            "0.00"
           ],
           "rowNumber": 96,
           "rowPosition": 97,
@@ -5524,14 +5524,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165016",
+            "123570",
             "2002",
-            "2924",
+            "711",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "7195.22"
+            "0.00"
           ],
           "rowNumber": 97,
           "rowPosition": 98,
@@ -5552,14 +5552,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165016",
+            "123570",
             "2002",
-            "2924",
+            "711",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "7195.22"
+            "0.00"
           ],
           "rowNumber": 97,
           "rowPosition": 98,
@@ -5580,14 +5580,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165017",
+            "123571",
             "2002",
-            "2921",
+            "710",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "316192.50"
+            "0.00"
           ],
           "rowNumber": 98,
           "rowPosition": 99,
@@ -5608,14 +5608,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165017",
+            "123571",
             "2002",
-            "2921",
+            "710",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "316192.50"
+            "0.00"
           ],
           "rowNumber": 98,
           "rowPosition": 99,
@@ -5636,14 +5636,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165018",
+            "123572",
             "2002",
-            "2959",
+            "709",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "43863.75"
+            "0.00"
           ],
           "rowNumber": 99,
           "rowPosition": 100,
@@ -5664,14 +5664,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165018",
+            "123572",
             "2002",
-            "2959",
+            "709",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "43863.75"
+            "0.00"
           ],
           "rowNumber": 99,
           "rowPosition": 100,
@@ -5692,14 +5692,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165019",
+            "123573",
             "2002",
-            "2958",
+            "649",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "26279.17"
+            "0.00"
           ],
           "rowNumber": 100,
           "rowPosition": 101,
@@ -5720,14 +5720,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165019",
+            "123573",
             "2002",
-            "2958",
+            "649",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "26279.17"
+            "0.00"
           ],
           "rowNumber": 100,
           "rowPosition": 101,
@@ -5748,14 +5748,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165020",
+            "123574",
             "2002",
-            "2944",
+            "647",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "14119.68"
+            "0.00"
           ],
           "rowNumber": 101,
           "rowPosition": 102,
@@ -5776,14 +5776,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165020",
+            "123574",
             "2002",
-            "2944",
+            "647",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "14119.68"
+            "0.00"
           ],
           "rowNumber": 101,
           "rowPosition": 102,
@@ -5804,14 +5804,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165021",
+            "123575",
             "2002",
-            "2939",
+            "644",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "5736.15"
+            "0.00"
           ],
           "rowNumber": 102,
           "rowPosition": 103,
@@ -5832,14 +5832,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165021",
+            "123575",
             "2002",
-            "2939",
+            "644",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "5736.15"
+            "0.00"
           ],
           "rowNumber": 102,
           "rowPosition": 103,
@@ -5860,14 +5860,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165022",
+            "123576",
             "2002",
-            "2938",
+            "514",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "4621.05"
+            "0.00"
           ],
           "rowNumber": 103,
           "rowPosition": 104,
@@ -5888,14 +5888,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165022",
+            "123576",
             "2002",
-            "2938",
+            "514",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "4621.05"
+            "0.00"
           ],
           "rowNumber": 103,
           "rowPosition": 104,
@@ -5916,14 +5916,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165023",
+            "123577",
             "2002",
-            "2937",
+            "452",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "5299.35"
+            "0.00"
           ],
           "rowNumber": 104,
           "rowPosition": 105,
@@ -5944,14 +5944,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165023",
+            "123577",
             "2002",
-            "2937",
+            "452",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "5299.35"
+            "0.00"
           ],
           "rowNumber": 104,
           "rowPosition": 105,
@@ -5972,14 +5972,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165024",
+            "123578",
             "2002",
-            "2935",
+            "451",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "7565.25"
+            "0.00"
           ],
           "rowNumber": 105,
           "rowPosition": 106,
@@ -6000,14 +6000,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165024",
+            "123578",
             "2002",
-            "2935",
+            "451",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "7565.25"
+            "0.00"
           ],
           "rowNumber": 105,
           "rowPosition": 106,
@@ -6028,14 +6028,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165025",
+            "123579",
             "2002",
-            "2932",
+            "450",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "16655.77"
+            "0.00"
           ],
           "rowNumber": 106,
           "rowPosition": 107,
@@ -6056,14 +6056,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165025",
+            "123579",
             "2002",
-            "2932",
+            "450",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "16655.77"
+            "0.00"
           ],
           "rowNumber": 106,
           "rowPosition": 107,
@@ -6084,14 +6084,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165026",
+            "123580",
             "2002",
-            "2914",
+            "374",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "423873.94"
+            "0.00"
           ],
           "rowNumber": 107,
           "rowPosition": 108,
@@ -6112,14 +6112,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165026",
+            "123580",
             "2002",
-            "2914",
+            "374",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "423873.94"
+            "0.00"
           ],
           "rowNumber": 107,
           "rowPosition": 108,
@@ -6140,14 +6140,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165027",
+            "123581",
             "2002",
-            "2956",
+            "25",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "351740.00"
+            "0.00"
           ],
           "rowNumber": 108,
           "rowPosition": 109,
@@ -6168,14 +6168,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165027",
+            "123581",
             "2002",
-            "2956",
+            "25",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "351740.00"
+            "0.00"
           ],
           "rowNumber": 108,
           "rowPosition": 109,
@@ -6196,14 +6196,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165028",
+            "123582",
             "2002",
-            "2925",
+            "24",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "84360.00"
+            "0.00"
           ],
           "rowNumber": 109,
           "rowPosition": 110,
@@ -6224,14 +6224,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165028",
+            "123582",
             "2002",
-            "2925",
+            "24",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "84360.00"
+            "0.00"
           ],
           "rowNumber": 109,
           "rowPosition": 110,
@@ -6252,12 +6252,12 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165029",
+            "123583",
             "2002",
-            "2916",
+            "22",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "0.00"
           ],
@@ -6280,12 +6280,12 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165029",
+            "123583",
             "2002",
-            "2916",
+            "22",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "0.00"
           ],
@@ -6308,12 +6308,12 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165030",
+            "123584",
             "2002",
-            "2971",
+            "20",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "0.00"
           ],
@@ -6336,12 +6336,12 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165030",
+            "123584",
             "2002",
-            "2971",
+            "20",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "0.00"
           ],
@@ -6364,14 +6364,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165031",
+            "123585",
             "2002",
-            "3023",
+            "19",
             "2002-01-13",
             "2009-12-21",
-            "2060001 - FJP",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "5808.48"
+            "0.00"
           ],
           "rowNumber": 112,
           "rowPosition": 113,
@@ -6392,14 +6392,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165031",
+            "123585",
             "2002",
-            "3023",
+            "19",
             "2002-01-13",
             "2009-12-21",
-            "2060001 - FJP",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "5808.48"
+            "0.00"
           ],
           "rowNumber": 112,
           "rowPosition": 113,
@@ -6420,14 +6420,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165032",
+            "123586",
             "2002",
-            "3022",
+            "18",
             "2002-01-13",
             "2009-12-21",
-            "2060001 - FJP",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "10574.82"
+            "0.00"
           ],
           "rowNumber": 113,
           "rowPosition": 114,
@@ -6448,14 +6448,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165032",
+            "123586",
             "2002",
-            "3022",
+            "18",
             "2002-01-13",
             "2009-12-21",
-            "2060001 - FJP",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "10574.82"
+            "0.00"
           ],
           "rowNumber": 113,
           "rowPosition": 114,
@@ -6476,14 +6476,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165033",
+            "123587",
             "2002",
-            "6565",
+            "17",
             "2002-01-13",
             "2009-12-21",
-            "2260002 - FUNED",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "380.70"
+            "0.00"
           ],
           "rowNumber": 114,
           "rowPosition": 115,
@@ -6504,14 +6504,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165033",
+            "123587",
             "2002",
-            "6565",
+            "17",
             "2002-01-13",
             "2009-12-21",
-            "2260002 - FUNED",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "380.70"
+            "0.00"
           ],
           "rowNumber": 114,
           "rowPosition": 115,
@@ -6527,19 +6527,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2002-01-14",
+          "cell": "2002-01-13",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165034",
+            "123588",
             "2002",
-            "459",
-            "2002-01-14",
+            "14",
+            "2002-01-13",
             "2009-12-21",
-            "2400002 - IGA - DIR.ADM.FINANCAS",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "3074.00"
+            "2250001 - JUCEMG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "0.00"
           ],
           "rowNumber": 115,
           "rowPosition": 116,
@@ -6551,7 +6551,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2002-01-14\" in row \"116\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"116\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -6560,14 +6560,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165034",
+            "123588",
             "2002",
-            "459",
-            "2002-01-14",
+            "14",
+            "2002-01-13",
             "2009-12-21",
-            "2400002 - IGA - DIR.ADM.FINANCAS",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "3074.00"
+            "2250001 - JUCEMG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "0.00"
           ],
           "rowNumber": 115,
           "rowPosition": 116,
@@ -6588,14 +6588,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165035",
+            "123589",
             "2002",
-            "6571",
+            "13",
             "2002-01-13",
             "2009-12-21",
-            "2260002 - FUNED",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "8760.00"
+            "0.00"
           ],
           "rowNumber": 116,
           "rowPosition": 117,
@@ -6616,14 +6616,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165035",
+            "123589",
             "2002",
-            "6571",
+            "13",
             "2002-01-13",
             "2009-12-21",
-            "2260002 - FUNED",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "8760.00"
+            "0.00"
           ],
           "rowNumber": 116,
           "rowPosition": 117,
@@ -6644,14 +6644,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165036",
+            "123590",
             "2002",
-            "2948",
+            "11",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "20583.40"
+            "0.00"
           ],
           "rowNumber": 117,
           "rowPosition": 118,
@@ -6672,14 +6672,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165036",
+            "123590",
             "2002",
-            "2948",
+            "11",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "20583.40"
+            "0.00"
           ],
           "rowNumber": 117,
           "rowPosition": 118,
@@ -6700,12 +6700,12 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165037",
+            "123591",
             "2002",
-            "2920",
+            "10",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "0.00"
           ],
@@ -6728,12 +6728,12 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165037",
+            "123591",
             "2002",
-            "2920",
+            "10",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "0.00"
           ],
@@ -6756,12 +6756,12 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165038",
+            "123592",
             "2002",
-            "2957",
+            "9",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "0.00"
           ],
@@ -6784,12 +6784,12 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165038",
+            "123592",
             "2002",
-            "2957",
+            "9",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "0.00"
           ],
@@ -6812,12 +6812,12 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165039",
+            "123593",
             "2002",
-            "2913",
+            "6",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "0.00"
           ],
@@ -6840,12 +6840,12 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165039",
+            "123593",
             "2002",
-            "2913",
+            "6",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "0.00"
           ],
@@ -6868,14 +6868,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165040",
+            "123594",
             "2002",
-            "6578",
+            "5",
             "2002-01-13",
             "2009-12-21",
-            "2260002 - FUNED",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "5988.00"
+            "0.00"
           ],
           "rowNumber": 121,
           "rowPosition": 122,
@@ -6896,14 +6896,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165040",
+            "123594",
             "2002",
-            "6578",
+            "5",
             "2002-01-13",
             "2009-12-21",
-            "2260002 - FUNED",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "5988.00"
+            "0.00"
           ],
           "rowNumber": 121,
           "rowPosition": 122,
@@ -6924,14 +6924,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165041",
+            "123595",
             "2002",
-            "2923",
+            "3",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "316192.50"
+            "0.00"
           ],
           "rowNumber": 122,
           "rowPosition": 123,
@@ -6952,14 +6952,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165041",
+            "123595",
             "2002",
-            "2923",
+            "3",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "316192.50"
+            "0.00"
           ],
           "rowNumber": 122,
           "rowPosition": 123,
@@ -6980,14 +6980,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165042",
+            "123596",
             "2002",
-            "2922",
+            "2",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "8543.85"
+            "0.00"
           ],
           "rowNumber": 123,
           "rowPosition": 124,
@@ -7008,14 +7008,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165042",
+            "123596",
             "2002",
-            "2922",
+            "2",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "8543.85"
+            "0.00"
           ],
           "rowNumber": 123,
           "rowPosition": 124,
@@ -7036,14 +7036,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165043",
+            "123597",
             "2002",
-            "2970",
+            "1",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "19053.30"
+            "0.00"
           ],
           "rowNumber": 124,
           "rowPosition": 125,
@@ -7064,14 +7064,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165043",
+            "123597",
             "2002",
-            "2970",
+            "1",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "19053.30"
+            "0.00"
           ],
           "rowNumber": 124,
           "rowPosition": 125,
@@ -7092,14 +7092,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165044",
+            "123598",
             "2002",
-            "2969",
+            "41",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2040001 - LEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "18818.10"
+            "0.00"
           ],
           "rowNumber": 125,
           "rowPosition": 126,
@@ -7120,14 +7120,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165044",
+            "123598",
             "2002",
-            "2969",
+            "41",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2040001 - LEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "18818.10"
+            "0.00"
           ],
           "rowNumber": 125,
           "rowPosition": 126,
@@ -7148,14 +7148,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165045",
+            "123599",
             "2002",
-            "2968",
+            "88",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2110002 - RURALMINAS-DIR.ADM.E FIN.",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "22635.80"
+            "0.00"
           ],
           "rowNumber": 126,
           "rowPosition": 127,
@@ -7176,14 +7176,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165045",
+            "123599",
             "2002",
-            "2968",
+            "88",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2110002 - RURALMINAS-DIR.ADM.E FIN.",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "22635.80"
+            "0.00"
           ],
           "rowNumber": 126,
           "rowPosition": 127,
@@ -7204,14 +7204,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165046",
+            "123600",
             "2002",
-            "2967",
+            "58",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "22597.74"
+            "0.00"
           ],
           "rowNumber": 127,
           "rowPosition": 128,
@@ -7232,14 +7232,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165046",
+            "123600",
             "2002",
-            "2967",
+            "58",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "22597.74"
+            "0.00"
           ],
           "rowNumber": 127,
           "rowPosition": 128,
@@ -7260,14 +7260,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165047",
+            "123601",
             "2002",
-            "2966",
+            "57",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "20990.43"
+            "0.00"
           ],
           "rowNumber": 128,
           "rowPosition": 129,
@@ -7288,14 +7288,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165047",
+            "123601",
             "2002",
-            "2966",
+            "57",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "20990.43"
+            "0.00"
           ],
           "rowNumber": 128,
           "rowPosition": 129,
@@ -7316,14 +7316,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165048",
+            "123602",
             "2002",
-            "2965",
+            "56",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "7543.46"
+            "0.00"
           ],
           "rowNumber": 129,
           "rowPosition": 130,
@@ -7344,14 +7344,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165048",
+            "123602",
             "2002",
-            "2965",
+            "56",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "7543.46"
+            "0.00"
           ],
           "rowNumber": 129,
           "rowPosition": 130,
@@ -7372,14 +7372,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165049",
+            "123603",
             "2002",
-            "2964",
+            "55",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "10549.56"
+            "0.00"
           ],
           "rowNumber": 130,
           "rowPosition": 131,
@@ -7400,14 +7400,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165049",
+            "123603",
             "2002",
-            "2964",
+            "55",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "10549.56"
+            "0.00"
           ],
           "rowNumber": 130,
           "rowPosition": 131,
@@ -7428,14 +7428,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "165050",
+            "123604",
             "2002",
-            "2954",
+            "210",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "9522.45"
+            "0.00"
           ],
           "rowNumber": 131,
           "rowPosition": 132,
@@ -7456,14 +7456,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "165050",
+            "123604",
             "2002",
-            "2954",
+            "210",
             "2002-01-13",
             "2009-12-21",
-            "2070001 - FAPEMIG",
+            "2250001 - JUCEMG",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "9522.45"
+            "0.00"
           ],
           "rowNumber": 131,
           "rowPosition": 132,
@@ -7477,16 +7477,688 @@
           "note": "type is \"datetime/default\"",
           "message": "Type error in the cell \"2009-12-21\" in row \"132\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2002-01-13",
+          "fieldName": "dt_empenho",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "cells": [
+            "5558",
+            "2002",
+            "4032",
+            "2002-01-13",
+            "2009-12-21",
+            "2100001 - IEF-SEDE",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "101919.96"
+          ],
+          "rowNumber": 132,
+          "rowPosition": 133,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"133\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2009-12-21",
+          "fieldName": "dt_original",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "5558",
+            "2002",
+            "4032",
+            "2002-01-13",
+            "2009-12-21",
+            "2100001 - IEF-SEDE",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "101919.96"
+          ],
+          "rowNumber": 132,
+          "rowPosition": 133,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2009-12-21\" in row \"133\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2002-01-14",
+          "fieldName": "dt_empenho",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "cells": [
+            "5559",
+            "2002",
+            "2893",
+            "2002-01-14",
+            "2009-12-21",
+            "5200001 - BDMG",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "4950.00"
+          ],
+          "rowNumber": 133,
+          "rowPosition": 134,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-14\" in row \"134\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2009-12-21",
+          "fieldName": "dt_original",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "5559",
+            "2002",
+            "2893",
+            "2002-01-14",
+            "2009-12-21",
+            "5200001 - BDMG",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "4950.00"
+          ],
+          "rowNumber": 133,
+          "rowPosition": 134,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2009-12-21\" in row \"134\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2002-01-14",
+          "fieldName": "dt_empenho",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "cells": [
+            "5560",
+            "2002",
+            "2927",
+            "2002-01-14",
+            "2009-12-21",
+            "5200001 - BDMG",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "4950.00"
+          ],
+          "rowNumber": 134,
+          "rowPosition": 135,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-14\" in row \"135\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2009-12-21",
+          "fieldName": "dt_original",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "5560",
+            "2002",
+            "2927",
+            "2002-01-14",
+            "2009-12-21",
+            "5200001 - BDMG",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "4950.00"
+          ],
+          "rowNumber": 134,
+          "rowPosition": 135,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2009-12-21\" in row \"135\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2002-01-14",
+          "fieldName": "dt_empenho",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "cells": [
+            "5561",
+            "2002",
+            "549",
+            "2002-01-14",
+            "2009-12-21",
+            "5200001 - BDMG",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "3100000.00"
+          ],
+          "rowNumber": 135,
+          "rowPosition": 136,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-14\" in row \"136\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2009-12-21",
+          "fieldName": "dt_original",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "5561",
+            "2002",
+            "549",
+            "2002-01-14",
+            "2009-12-21",
+            "5200001 - BDMG",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "3100000.00"
+          ],
+          "rowNumber": 135,
+          "rowPosition": 136,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2009-12-21\" in row \"136\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2002-01-13",
+          "fieldName": "dt_empenho",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "cells": [
+            "5563",
+            "2002",
+            "29",
+            "2002-01-13",
+            "2009-12-21",
+            "1350001 - SEH",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "668.73"
+          ],
+          "rowNumber": 136,
+          "rowPosition": 137,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"137\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2009-12-21",
+          "fieldName": "dt_original",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "5563",
+            "2002",
+            "29",
+            "2002-01-13",
+            "2009-12-21",
+            "1350001 - SEH",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "668.73"
+          ],
+          "rowNumber": 136,
+          "rowPosition": 137,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2009-12-21\" in row \"137\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2002-01-13",
+          "fieldName": "dt_empenho",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "cells": [
+            "5564",
+            "2002",
+            "28",
+            "2002-01-13",
+            "2009-12-21",
+            "1350001 - SEH",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "133849.03"
+          ],
+          "rowNumber": 137,
+          "rowPosition": 138,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"138\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2009-12-21",
+          "fieldName": "dt_original",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "5564",
+            "2002",
+            "28",
+            "2002-01-13",
+            "2009-12-21",
+            "1350001 - SEH",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "133849.03"
+          ],
+          "rowNumber": 137,
+          "rowPosition": 138,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2009-12-21\" in row \"138\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2002-01-13",
+          "fieldName": "dt_empenho",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "cells": [
+            "5565",
+            "2002",
+            "507",
+            "2002-01-13",
+            "2009-12-21",
+            "1350001 - SEH",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "45043.66"
+          ],
+          "rowNumber": 138,
+          "rowPosition": 139,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"139\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2009-12-21",
+          "fieldName": "dt_original",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "5565",
+            "2002",
+            "507",
+            "2002-01-13",
+            "2009-12-21",
+            "1350001 - SEH",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "45043.66"
+          ],
+          "rowNumber": 138,
+          "rowPosition": 139,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2009-12-21\" in row \"139\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2002-01-13",
+          "fieldName": "dt_empenho",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "cells": [
+            "5566",
+            "2002",
+            "500",
+            "2002-01-13",
+            "2009-12-21",
+            "1350001 - SEH",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "13289.83"
+          ],
+          "rowNumber": 139,
+          "rowPosition": 140,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"140\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2009-12-21",
+          "fieldName": "dt_original",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "5566",
+            "2002",
+            "500",
+            "2002-01-13",
+            "2009-12-21",
+            "1350001 - SEH",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "13289.83"
+          ],
+          "rowNumber": 139,
+          "rowPosition": 140,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2009-12-21\" in row \"140\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2002-01-14",
+          "fieldName": "dt_empenho",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "cells": [
+            "5567",
+            "2002",
+            "2915",
+            "2002-01-14",
+            "2009-12-21",
+            "5200001 - BDMG",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "19800.00"
+          ],
+          "rowNumber": 140,
+          "rowPosition": 141,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-14\" in row \"141\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2009-12-21",
+          "fieldName": "dt_original",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "5567",
+            "2002",
+            "2915",
+            "2002-01-14",
+            "2009-12-21",
+            "5200001 - BDMG",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "19800.00"
+          ],
+          "rowNumber": 140,
+          "rowPosition": 141,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2009-12-21\" in row \"141\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2002-01-14",
+          "fieldName": "dt_empenho",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "cells": [
+            "5568",
+            "2002",
+            "2937",
+            "2002-01-14",
+            "2009-12-21",
+            "5200001 - BDMG",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "3960.00"
+          ],
+          "rowNumber": 141,
+          "rowPosition": 142,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-14\" in row \"142\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2009-12-21",
+          "fieldName": "dt_original",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "5568",
+            "2002",
+            "2937",
+            "2002-01-14",
+            "2009-12-21",
+            "5200001 - BDMG",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "3960.00"
+          ],
+          "rowNumber": 141,
+          "rowPosition": 142,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2009-12-21\" in row \"142\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2002-01-14",
+          "fieldName": "dt_empenho",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "cells": [
+            "5569",
+            "2002",
+            "25",
+            "2002-01-14",
+            "2009-12-21",
+            "1910031 - SEF - EGE/EXT. FUNDOS EST",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "47385.97"
+          ],
+          "rowNumber": 142,
+          "rowPosition": 143,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-14\" in row \"143\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2009-12-21",
+          "fieldName": "dt_original",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "5569",
+            "2002",
+            "25",
+            "2002-01-14",
+            "2009-12-21",
+            "1910031 - SEF - EGE/EXT. FUNDOS EST",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "47385.97"
+          ],
+          "rowNumber": 142,
+          "rowPosition": 143,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2009-12-21\" in row \"143\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2002-01-13",
+          "fieldName": "dt_empenho",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "cells": [
+            "5571",
+            "2002",
+            "27",
+            "2002-01-13",
+            "2009-12-21",
+            "1910031 - SEF - EGE/EXT. FUNDOS EST",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "167705.57"
+          ],
+          "rowNumber": 143,
+          "rowPosition": 144,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2002-01-13\" in row \"144\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2009-12-21",
+          "fieldName": "dt_original",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "5571",
+            "2002",
+            "27",
+            "2002-01-13",
+            "2009-12-21",
+            "1910031 - SEF - EGE/EXT. FUNDOS EST",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "167705.57"
+          ],
+          "rowNumber": 143,
+          "rowPosition": 144,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2009-12-21\" in row \"144\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
         }
       ],
       "stats": {
-        "errors": 262
+        "errors": 286
       },
       "valid": false
     }
   ],
   "stats": {
-    "errors": 262,
+    "errors": 286,
     "tasks": 1
   },
   "valid": false
