@@ -597,3 +597,6 @@ dpckan dataset update --datapackage build_datasets/despesa-com-pessoal/datapacka
 dpckan dataset update --datapackage build_datasets/viagens/datapackage.json > logs/update/viagens.txt
 dpckan dataset update --datapackage build_datasets/receita/datapackage.json > logs/update/receita.txt
 dpckan dataset update --datapackage build_datasets/convenios-entrada/datapackage.json > logs/update/convenios-entrada.txt
+[main ec6f677] Atualização age7
+ 104 files changed, 172251 insertions(+), 206072 deletions(-)
+ rewrite logs/validate/ft_despesa_2016.json (98%)
