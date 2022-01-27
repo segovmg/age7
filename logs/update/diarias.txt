@@ -8,9 +8,9 @@ Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_empenho_desp_2004
 Atualizando recurso: dm_empenho_desp_2004
 Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_empenho_desp_2005
+Atualizando recurso: dm_empenho_desp_2005
+Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_favorecido
 Atualizando recurso: dm_favorecido
-Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_diarias_2002
-Atualizando recurso: ft_diarias_2002
 Atualizando datapackage.json

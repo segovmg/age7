@@ -8,11 +8,14 @@ Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_empenho_desp_2004
 Atualizando recurso: dm_empenho_desp_2004
 Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_empenho_desp_2005
+Atualizando recurso: dm_empenho_desp_2005
+Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_favorecido
 Atualizando recurso: dm_favorecido
 Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_despesa_2003
-Atualizando recurso: ft_despesa_2003
+Diferenças nos dados do recurso: ft_despesa_2002
+Atualizando recurso: ft_despesa_2002
 Atualizando datapackage.json
 Diferenças nos dados do recurso: ft_despesa_2004
 Atualizando recurso: ft_despesa_2004
@@ -20,20 +23,17 @@ Atualizando datapackage.json
 Diferenças nos dados do recurso: ft_despesa_2005
 Atualizando recurso: ft_despesa_2005
 Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2006
+Atualizando recurso: ft_despesa_2006
+Atualizando datapackage.json
 Diferenças nos dados do recurso: ft_despesa_2007
 Atualizando recurso: ft_despesa_2007
 Atualizando datapackage.json
 Diferenças nos dados do recurso: ft_despesa_2008
 Atualizando recurso: ft_despesa_2008
 Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_despesa_2009
-Atualizando recurso: ft_despesa_2009
-Atualizando datapackage.json
 Diferenças nos dados do recurso: ft_despesa_2010
 Atualizando recurso: ft_despesa_2010
-Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_despesa_2011
-Atualizando recurso: ft_despesa_2011
 Atualizando datapackage.json
 Diferenças nos dados do recurso: ft_despesa_2012
 Atualizando recurso: ft_despesa_2012
@@ -46,6 +46,9 @@ Atualizando recurso: ft_despesa_2016
 Atualizando datapackage.json
 Diferenças nos dados do recurso: ft_despesa_2017
 Atualizando recurso: ft_despesa_2017
+Diferenças nos dados do recurso: ft_despesa_2018
+Atualizando recurso: ft_despesa_2018
+Atualizando datapackage.json
 Diferenças nos dados do recurso: ft_despesa_2019
 Atualizando recurso: ft_despesa_2019
 Atualizando datapackage.json
