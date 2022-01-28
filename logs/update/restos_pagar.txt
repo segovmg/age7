@@ -58,9 +58,3 @@ Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_favorecido
 Atualizando recurso: dm_favorecido
 Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_restos_pagar_2003
-Atualizando recurso: ft_restos_pagar_2003
-Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_restos_pagar_2004
-Atualizando recurso: ft_restos_pagar_2004
-Atualizando datapackage.json
