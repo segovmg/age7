@@ -113,8 +113,8 @@
         "hashing": "md5",
         "compression": "gz",
         "stats": {
-          "hash": "54e14fb77a60789303f0c677c1299c4f",
-          "bytes": 35339,
+          "hash": "77a2d60846db6aa0acfa7be0319d1585",
+          "bytes": 40283,
           "fields": 8,
           "rows": 0
         }
@@ -23836,14 +23836,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "171566",
+            "120807",
             "2013",
-            "1270",
+            "79",
             "2013-01-10",
-            "2009-12-31",
-            "1320007 - SES-GABINETE",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "363000.00"
+            "2012-03-05",
+            "1370014 - SEMAD/URC A.SAO FRANCISCO",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "0.00"
           ],
           "rowNumber": 424,
           "rowPosition": 425,
@@ -23859,19 +23859,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2009-12-31",
+          "cell": "2012-03-05",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "171566",
+            "120807",
             "2013",
-            "1270",
+            "79",
             "2013-01-10",
-            "2009-12-31",
-            "1320007 - SES-GABINETE",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "363000.00"
+            "2012-03-05",
+            "1370014 - SEMAD/URC A.SAO FRANCISCO",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "0.00"
           ],
           "rowNumber": 424,
           "rowPosition": 425,
@@ -23883,7 +23883,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2009-12-31\" in row \"425\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-03-05\" in row \"425\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -23892,14 +23892,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "171576",
+            "120808",
             "2013",
-            "1276",
+            "275",
             "2013-01-10",
-            "2009-12-31",
-            "1320007 - SES-GABINETE",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "2000.00"
+            "2012-07-30",
+            "1250087 - 3 CIA PMMG INDEPENDENTE",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "5275.42"
           ],
           "rowNumber": 425,
           "rowPosition": 426,
@@ -23915,19 +23915,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2009-12-31",
+          "cell": "2012-07-30",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "171576",
+            "120808",
             "2013",
-            "1276",
+            "275",
             "2013-01-10",
-            "2009-12-31",
-            "1320007 - SES-GABINETE",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "2000.00"
+            "2012-07-30",
+            "1250087 - 3 CIA PMMG INDEPENDENTE",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "5275.42"
           ],
           "rowNumber": 425,
           "rowPosition": 426,
@@ -23939,7 +23939,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2009-12-31\" in row \"426\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-07-30\" in row \"426\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -23948,14 +23948,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "17648",
+            "120809",
             "2013",
-            "1258",
+            "501",
             "2013-01-10",
-            "2011-12-13",
-            "2120009 - DIVISAO DE PREVIDENCIA",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "2726.65"
+            "2012-12-07",
+            "1250108 - 45 BATALHAO PMMG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "10500.00"
           ],
           "rowNumber": 426,
           "rowPosition": 427,
@@ -23971,19 +23971,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2011-12-13",
+          "cell": "2012-12-07",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "17648",
+            "120809",
             "2013",
-            "1258",
+            "501",
             "2013-01-10",
-            "2011-12-13",
-            "2120009 - DIVISAO DE PREVIDENCIA",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "2726.65"
+            "2012-12-07",
+            "1250108 - 45 BATALHAO PMMG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "10500.00"
           ],
           "rowNumber": 426,
           "rowPosition": 427,
@@ -23995,7 +23995,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2011-12-13\" in row \"427\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-12-07\" in row \"427\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -24004,14 +24004,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "3520",
+            "120810",
             "2013",
-            "268",
+            "1141",
             "2013-01-10",
-            "2006-10-17",
-            "1470042 - SEDRU/FEH",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "14535.00"
+            "2012-12-07",
+            "1370013 - SEMAD/URC A.JEQUITINHONHA",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "435.00"
           ],
           "rowNumber": 427,
           "rowPosition": 428,
@@ -24027,19 +24027,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2006-10-17",
+          "cell": "2012-12-07",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "3520",
+            "120810",
             "2013",
-            "268",
+            "1141",
             "2013-01-10",
-            "2006-10-17",
-            "1470042 - SEDRU/FEH",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "14535.00"
+            "2012-12-07",
+            "1370013 - SEMAD/URC A.JEQUITINHONHA",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "435.00"
           ],
           "rowNumber": 427,
           "rowPosition": 428,
@@ -24051,7 +24051,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2006-10-17\" in row \"428\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-12-07\" in row \"428\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -24060,14 +24060,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "3203",
+            "120811",
             "2013",
-            "722",
+            "391",
             "2013-01-10",
-            "2010-08-24",
-            "1470002 - FINANCEIRA E CONTABIL",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "36599.68"
+            "2012-10-25",
+            "1250108 - 45 BATALHAO PMMG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "499.50"
           ],
           "rowNumber": 428,
           "rowPosition": 429,
@@ -24083,19 +24083,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2010-08-24",
+          "cell": "2012-10-25",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "3203",
+            "120811",
             "2013",
-            "722",
+            "391",
             "2013-01-10",
-            "2010-08-24",
-            "1470002 - FINANCEIRA E CONTABIL",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "36599.68"
+            "2012-10-25",
+            "1250108 - 45 BATALHAO PMMG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "499.50"
           ],
           "rowNumber": 428,
           "rowPosition": 429,
@@ -24107,7 +24107,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2010-08-24\" in row \"429\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-10-25\" in row \"429\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -24116,14 +24116,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "3533",
+            "120812",
             "2013",
-            "266",
+            "342",
             "2013-01-10",
-            "2006-10-09",
-            "1470042 - SEDRU/FEH",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "15754.50"
+            "2012-12-03",
+            "1250058 - CIA PM MAMB",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "0.00"
           ],
           "rowNumber": 429,
           "rowPosition": 430,
@@ -24139,19 +24139,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2006-10-09",
+          "cell": "2012-12-03",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "3533",
+            "120812",
             "2013",
-            "266",
+            "342",
             "2013-01-10",
-            "2006-10-09",
-            "1470042 - SEDRU/FEH",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "15754.50"
+            "2012-12-03",
+            "1250058 - CIA PM MAMB",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "0.00"
           ],
           "rowNumber": 429,
           "rowPosition": 430,
@@ -24163,63 +24163,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2006-10-09\" in row \"430\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2013-01-11",
-          "fieldName": "dt_empenho",
-          "fieldNumber": 4,
-          "fieldPosition": 4,
-          "cells": [
-            "3219",
-            "2013",
-            "49",
-            "2013-01-11",
-            "2012-10-16",
-            "1910026 - SEF-EGE TESOURO ESTADUAL",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "350.00"
-          ],
-          "rowNumber": 430,
-          "rowPosition": 431,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2013-01-11\" in row \"431\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2012-10-16",
-          "fieldName": "dt_original",
-          "fieldNumber": 5,
-          "fieldPosition": 5,
-          "cells": [
-            "3219",
-            "2013",
-            "49",
-            "2013-01-11",
-            "2012-10-16",
-            "1910026 - SEF-EGE TESOURO ESTADUAL",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "350.00"
-          ],
-          "rowNumber": 430,
-          "rowPosition": 431,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-10-16\" in row \"431\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-12-03\" in row \"430\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -24228,14 +24172,70 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "3220",
+            "120813",
             "2013",
-            "10685",
+            "1195",
+            "2013-01-10",
+            "2012-11-30",
+            "1250019 - 7º BATALHAO PMMG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "854.00"
+          ],
+          "rowNumber": 430,
+          "rowPosition": 431,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2013-01-10\" in row \"431\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2012-11-30",
+          "fieldName": "dt_original",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "120813",
+            "2013",
+            "1195",
+            "2013-01-10",
+            "2012-11-30",
+            "1250019 - 7º BATALHAO PMMG",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "854.00"
+          ],
+          "rowNumber": 430,
+          "rowPosition": 431,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-11-30\" in row \"431\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2013-01-10",
+          "fieldName": "dt_empenho",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "cells": [
+            "120814",
+            "2013",
+            "1142",
             "2013-01-10",
             "2012-12-07",
-            "1260011 - SEE - SRE/DIAMANTINA",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "30000.00"
+            "1370013 - SEMAD/URC A.JEQUITINHONHA",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "703.70"
           ],
           "rowNumber": 431,
           "rowPosition": 432,
@@ -24256,14 +24256,14 @@
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "3220",
+            "120814",
             "2013",
-            "10685",
+            "1142",
             "2013-01-10",
             "2012-12-07",
-            "1260011 - SEE - SRE/DIAMANTINA",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "30000.00"
+            "1370013 - SEMAD/URC A.JEQUITINHONHA",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "703.70"
           ],
           "rowNumber": 431,
           "rowPosition": 432,
@@ -24284,14 +24284,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "3221",
+            "120815",
             "2013",
-            "11088",
+            "773",
             "2013-01-10",
-            "2012-12-11",
-            "1260001 - SEE - SRE/METROPOLITANA A",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "10000.00"
+            "2012-08-10",
+            "1370013 - SEMAD/URC A.JEQUITINHONHA",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "0.00"
           ],
           "rowNumber": 432,
           "rowPosition": 433,
@@ -24307,19 +24307,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-12-11",
+          "cell": "2012-08-10",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "3221",
+            "120815",
             "2013",
-            "11088",
+            "773",
             "2013-01-10",
-            "2012-12-11",
-            "1260001 - SEE - SRE/METROPOLITANA A",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "10000.00"
+            "2012-08-10",
+            "1370013 - SEMAD/URC A.JEQUITINHONHA",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "0.00"
           ],
           "rowNumber": 432,
           "rowPosition": 433,
@@ -24331,7 +24331,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-12-11\" in row \"433\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-08-10\" in row \"433\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -24340,14 +24340,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "3222",
+            "120816",
             "2013",
-            "7936",
+            "2083",
             "2013-01-10",
-            "2012-12-07",
-            "1260019 - SEE - SRE/LEOPOLDINA",
+            "2012-06-25",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "20000.00"
+            "31151.21"
           ],
           "rowNumber": 433,
           "rowPosition": 434,
@@ -24363,19 +24363,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-12-07",
+          "cell": "2012-06-25",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "3222",
+            "120816",
             "2013",
-            "7936",
+            "2083",
             "2013-01-10",
-            "2012-12-07",
-            "1260019 - SEE - SRE/LEOPOLDINA",
+            "2012-06-25",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "20000.00"
+            "31151.21"
           ],
           "rowNumber": 433,
           "rowPosition": 434,
@@ -24387,7 +24387,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-12-07\" in row \"434\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-25\" in row \"434\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -24396,14 +24396,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "3223",
+            "120818",
             "2013",
-            "5726",
+            "1448",
             "2013-01-10",
-            "2012-08-09",
-            "1260044 - SEE/SRE/ARACUAI",
+            "2012-06-21",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "10000.00"
+            "37690.31"
           ],
           "rowNumber": 434,
           "rowPosition": 435,
@@ -24419,19 +24419,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-08-09",
+          "cell": "2012-06-21",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "3223",
+            "120818",
             "2013",
-            "5726",
+            "1448",
             "2013-01-10",
-            "2012-08-09",
-            "1260044 - SEE/SRE/ARACUAI",
+            "2012-06-21",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "10000.00"
+            "37690.31"
           ],
           "rowNumber": 434,
           "rowPosition": 435,
@@ -24443,7 +24443,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-08-09\" in row \"435\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-21\" in row \"435\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -24452,14 +24452,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "3224",
+            "120820",
             "2013",
-            "7010",
+            "1788",
             "2013-01-10",
-            "2012-09-04",
-            "1260011 - SEE - SRE/DIAMANTINA",
+            "2012-06-22",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "10000.00"
+            "3493.71"
           ],
           "rowNumber": 435,
           "rowPosition": 436,
@@ -24475,19 +24475,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-09-04",
+          "cell": "2012-06-22",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "3224",
+            "120820",
             "2013",
-            "7010",
+            "1788",
             "2013-01-10",
-            "2012-09-04",
-            "1260011 - SEE - SRE/DIAMANTINA",
+            "2012-06-22",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "10000.00"
+            "3493.71"
           ],
           "rowNumber": 435,
           "rowPosition": 436,
@@ -24499,7 +24499,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-09-04\" in row \"436\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-22\" in row \"436\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -24508,14 +24508,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "3225",
+            "120822",
             "2013",
-            "1912",
+            "1447",
             "2013-01-10",
-            "2012-07-04",
-            "1320007 - SES-GABINETE",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "30000.00"
+            "2012-06-21",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "7586.25"
           ],
           "rowNumber": 436,
           "rowPosition": 437,
@@ -24531,19 +24531,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-07-04",
+          "cell": "2012-06-21",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "3225",
+            "120822",
             "2013",
-            "1912",
+            "1447",
             "2013-01-10",
-            "2012-07-04",
-            "1320007 - SES-GABINETE",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "30000.00"
+            "2012-06-21",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "7586.25"
           ],
           "rowNumber": 436,
           "rowPosition": 437,
@@ -24555,7 +24555,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-07-04\" in row \"437\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-21\" in row \"437\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -24564,14 +24564,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "3226",
+            "121095",
             "2013",
-            "2158",
+            "1976",
             "2013-01-10",
-            "2012-12-13",
-            "1320007 - SES-GABINETE",
+            "2012-06-25",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "145000.00"
+            "41498.75"
           ],
           "rowNumber": 437,
           "rowPosition": 438,
@@ -24587,19 +24587,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-12-13",
+          "cell": "2012-06-25",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "3226",
+            "121095",
             "2013",
-            "2158",
+            "1976",
             "2013-01-10",
-            "2012-12-13",
-            "1320007 - SES-GABINETE",
+            "2012-06-25",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "145000.00"
+            "41498.75"
           ],
           "rowNumber": 437,
           "rowPosition": 438,
@@ -24611,7 +24611,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-12-13\" in row \"438\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-25\" in row \"438\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -24620,14 +24620,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "3227",
+            "121097",
             "2013",
-            "1973",
+            "1982",
             "2013-01-10",
-            "2012-07-05",
-            "1320007 - SES-GABINETE",
+            "2012-06-25",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
+            "496.16"
           ],
           "rowNumber": 438,
           "rowPosition": 439,
@@ -24643,19 +24643,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-07-05",
+          "cell": "2012-06-25",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "3227",
+            "121097",
             "2013",
-            "1973",
+            "1982",
             "2013-01-10",
-            "2012-07-05",
-            "1320007 - SES-GABINETE",
+            "2012-06-25",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
+            "496.16"
           ],
           "rowNumber": 438,
           "rowPosition": 439,
@@ -24667,7 +24667,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-07-05\" in row \"439\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-25\" in row \"439\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -24676,14 +24676,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "3553",
+            "121098",
             "2013",
-            "174",
+            "1950",
             "2013-01-10",
-            "2006-04-25",
-            "1470042 - SEDRU/FEH",
+            "2012-06-25",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "4317.36"
+            "43945.15"
           ],
           "rowNumber": 439,
           "rowPosition": 440,
@@ -24699,19 +24699,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2006-04-25",
+          "cell": "2012-06-25",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "3553",
+            "121098",
             "2013",
-            "174",
+            "1950",
             "2013-01-10",
-            "2006-04-25",
-            "1470042 - SEDRU/FEH",
+            "2012-06-25",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "4317.36"
+            "43945.15"
           ],
           "rowNumber": 439,
           "rowPosition": 440,
@@ -24723,7 +24723,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2006-04-25\" in row \"440\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-25\" in row \"440\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -24732,14 +24732,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "3568",
+            "121099",
             "2013",
-            "165",
+            "2104",
             "2013-01-10",
-            "2006-03-24",
-            "1470042 - SEDRU/FEH",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "7824.45"
+            "2012-06-25",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "4092.82"
           ],
           "rowNumber": 440,
           "rowPosition": 441,
@@ -24755,19 +24755,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2006-03-24",
+          "cell": "2012-06-25",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "3568",
+            "121099",
             "2013",
-            "165",
+            "2104",
             "2013-01-10",
-            "2006-03-24",
-            "1470042 - SEDRU/FEH",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "7824.45"
+            "2012-06-25",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "4092.82"
           ],
           "rowNumber": 440,
           "rowPosition": 441,
@@ -24779,7 +24779,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2006-03-24\" in row \"441\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-25\" in row \"441\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -24788,14 +24788,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "3585",
+            "121101",
             "2013",
-            "161",
+            "1993",
             "2013-01-10",
-            "2006-03-24",
-            "1470042 - SEDRU/FEH",
+            "2012-06-25",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "8266.08"
+            "59427.21"
           ],
           "rowNumber": 441,
           "rowPosition": 442,
@@ -24811,19 +24811,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2006-03-24",
+          "cell": "2012-06-25",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "3585",
+            "121101",
             "2013",
-            "161",
+            "1993",
             "2013-01-10",
-            "2006-03-24",
-            "1470042 - SEDRU/FEH",
+            "2012-06-25",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "8266.08"
+            "59427.21"
           ],
           "rowNumber": 441,
           "rowPosition": 442,
@@ -24835,7 +24835,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2006-03-24\" in row \"442\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-25\" in row \"442\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -24844,14 +24844,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "3599",
+            "121103",
             "2013",
-            "159",
+            "1910",
             "2013-01-10",
-            "2006-03-24",
-            "1470042 - SEDRU/FEH",
+            "2012-06-25",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "28373.93"
+            "14881.47"
           ],
           "rowNumber": 442,
           "rowPosition": 443,
@@ -24867,19 +24867,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2006-03-24",
+          "cell": "2012-06-25",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "3599",
+            "121103",
             "2013",
-            "159",
+            "1910",
             "2013-01-10",
-            "2006-03-24",
-            "1470042 - SEDRU/FEH",
+            "2012-06-25",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "28373.93"
+            "14881.47"
           ],
           "rowNumber": 442,
           "rowPosition": 443,
@@ -24891,7 +24891,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2006-03-24\" in row \"443\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-25\" in row \"443\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -24900,14 +24900,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "3631",
+            "121104",
             "2013",
-            "145",
+            "2042",
             "2013-01-10",
-            "2006-03-24",
-            "1470042 - SEDRU/FEH",
+            "2012-06-25",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "2680.90"
+            "53798.67"
           ],
           "rowNumber": 443,
           "rowPosition": 444,
@@ -24923,19 +24923,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2006-03-24",
+          "cell": "2012-06-25",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "3631",
+            "121104",
             "2013",
-            "145",
+            "2042",
             "2013-01-10",
-            "2006-03-24",
-            "1470042 - SEDRU/FEH",
+            "2012-06-25",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "2680.90"
+            "53798.67"
           ],
           "rowNumber": 443,
           "rowPosition": 444,
@@ -24947,7 +24947,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2006-03-24\" in row \"444\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-25\" in row \"444\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -24956,14 +24956,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "3617",
+            "121107",
             "2013",
-            "148",
+            "1814",
             "2013-01-10",
-            "2006-03-24",
-            "1470042 - SEDRU/FEH",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "8266.08"
+            "2012-06-23",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "27.00"
           ],
           "rowNumber": 444,
           "rowPosition": 445,
@@ -24979,19 +24979,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2006-03-24",
+          "cell": "2012-06-23",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "3617",
+            "121107",
             "2013",
-            "148",
+            "1814",
             "2013-01-10",
-            "2006-03-24",
-            "1470042 - SEDRU/FEH",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "8266.08"
+            "2012-06-23",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "27.00"
           ],
           "rowNumber": 444,
           "rowPosition": 445,
@@ -25003,7 +25003,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2006-03-24\" in row \"445\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-23\" in row \"445\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -25012,14 +25012,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "2374",
+            "121108",
             "2013",
-            "1124",
+            "1814",
             "2013-01-10",
-            "2011-12-23",
-            "1480071 - SEDESE/CENTRAL CONVENIOS",
+            "2012-06-23",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "12384.80"
+            "4837.19"
           ],
           "rowNumber": 445,
           "rowPosition": 446,
@@ -25035,19 +25035,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2011-12-23",
+          "cell": "2012-06-23",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "2374",
+            "121108",
             "2013",
-            "1124",
+            "1814",
             "2013-01-10",
-            "2011-12-23",
-            "1480071 - SEDESE/CENTRAL CONVENIOS",
+            "2012-06-23",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "12384.80"
+            "4837.19"
           ],
           "rowNumber": 445,
           "rowPosition": 446,
@@ -25059,7 +25059,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2011-12-23\" in row \"446\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-23\" in row \"446\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -25068,14 +25068,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "2392",
+            "121109",
             "2013",
-            "2537",
+            "1812",
             "2013-01-10",
-            "2012-07-04",
-            "1320012 - SES-SUP.ATENCAO A SAUDE",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "4750.00"
+            "2012-06-23",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "15267.05"
           ],
           "rowNumber": 446,
           "rowPosition": 447,
@@ -25091,19 +25091,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-07-04",
+          "cell": "2012-06-23",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "2392",
+            "121109",
             "2013",
-            "2537",
+            "1812",
             "2013-01-10",
-            "2012-07-04",
-            "1320012 - SES-SUP.ATENCAO A SAUDE",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "4750.00"
+            "2012-06-23",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "15267.05"
           ],
           "rowNumber": 446,
           "rowPosition": 447,
@@ -25115,7 +25115,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-07-04\" in row \"447\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-23\" in row \"447\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -25124,14 +25124,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "2393",
+            "121110",
             "2013",
-            "8",
+            "1832",
             "2013-01-10",
-            "2012-03-12",
-            "2300762 - DER/DO/GMR",
-            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "0.00"
+            "2012-06-23",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "37013.09"
           ],
           "rowNumber": 447,
           "rowPosition": 448,
@@ -25147,19 +25147,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-03-12",
+          "cell": "2012-06-23",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "2393",
+            "121110",
             "2013",
-            "8",
+            "1832",
             "2013-01-10",
-            "2012-03-12",
-            "2300762 - DER/DO/GMR",
-            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "0.00"
+            "2012-06-23",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "37013.09"
           ],
           "rowNumber": 447,
           "rowPosition": 448,
@@ -25171,7 +25171,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-03-12\" in row \"448\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-23\" in row \"448\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -25180,14 +25180,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "2394",
+            "124440",
             "2013",
-            "53",
+            "3352",
             "2013-01-10",
-            "2012-07-23",
-            "2300762 - DER/DO/GMR",
+            "2010-10-05",
+            "1320012 - SES-SUP.ATENCAO A SAUDE",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "72520.00"
+            "125000.00"
           ],
           "rowNumber": 448,
           "rowPosition": 449,
@@ -25203,19 +25203,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-07-23",
+          "cell": "2010-10-05",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "2394",
+            "124440",
             "2013",
-            "53",
+            "3352",
             "2013-01-10",
-            "2012-07-23",
-            "2300762 - DER/DO/GMR",
+            "2010-10-05",
+            "1320012 - SES-SUP.ATENCAO A SAUDE",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "72520.00"
+            "125000.00"
           ],
           "rowNumber": 448,
           "rowPosition": 449,
@@ -25227,7 +25227,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-07-23\" in row \"449\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2010-10-05\" in row \"449\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -25236,14 +25236,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39838",
+            "120824",
             "2013",
-            "1357",
+            "2832",
             "2013-01-10",
-            "2010-06-25",
+            "2012-11-08",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "55000.00"
+            "3159.91"
           ],
           "rowNumber": 449,
           "rowPosition": 450,
@@ -25259,19 +25259,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2010-06-25",
+          "cell": "2012-11-08",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39838",
+            "120824",
             "2013",
-            "1357",
+            "2832",
             "2013-01-10",
-            "2010-06-25",
+            "2012-11-08",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "55000.00"
+            "3159.91"
           ],
           "rowNumber": 449,
           "rowPosition": 450,
@@ -25283,7 +25283,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2010-06-25\" in row \"450\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-11-08\" in row \"450\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -25292,14 +25292,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39844",
+            "120826",
             "2013",
-            "919",
+            "2799",
             "2013-01-10",
-            "2010-12-29",
-            "1320007 - SES-GABINETE",
+            "2012-10-25",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "1000000.00"
+            "57057.93"
           ],
           "rowNumber": 450,
           "rowPosition": 451,
@@ -25315,19 +25315,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2010-12-29",
+          "cell": "2012-10-25",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39844",
+            "120826",
             "2013",
-            "919",
+            "2799",
             "2013-01-10",
-            "2010-12-29",
-            "1320007 - SES-GABINETE",
+            "2012-10-25",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "1000000.00"
+            "57057.93"
           ],
           "rowNumber": 450,
           "rowPosition": 451,
@@ -25339,7 +25339,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2010-12-29\" in row \"451\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-10-25\" in row \"451\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -25348,14 +25348,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39848",
+            "120827",
             "2013",
-            "1070",
+            "2797",
             "2013-01-10",
-            "2010-06-02",
+            "2012-10-25",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "55000.00"
+            "5526.13"
           ],
           "rowNumber": 451,
           "rowPosition": 452,
@@ -25371,19 +25371,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2010-06-02",
+          "cell": "2012-10-25",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39848",
+            "120827",
             "2013",
-            "1070",
+            "2797",
             "2013-01-10",
-            "2010-06-02",
+            "2012-10-25",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "55000.00"
+            "5526.13"
           ],
           "rowNumber": 451,
           "rowPosition": 452,
@@ -25395,7 +25395,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2010-06-02\" in row \"452\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-10-25\" in row \"452\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -25404,14 +25404,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39865",
+            "120828",
             "2013",
-            "47",
+            "2795",
             "2013-01-10",
-            "2010-02-10",
-            "1320012 - SES-SUP.ATENCAO A SAUDE",
+            "2012-10-25",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "15000.00"
+            "9612.65"
           ],
           "rowNumber": 452,
           "rowPosition": 453,
@@ -25427,19 +25427,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2010-02-10",
+          "cell": "2012-10-25",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39865",
+            "120828",
             "2013",
-            "47",
+            "2795",
             "2013-01-10",
-            "2010-02-10",
-            "1320012 - SES-SUP.ATENCAO A SAUDE",
+            "2012-10-25",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "15000.00"
+            "9612.65"
           ],
           "rowNumber": 452,
           "rowPosition": 453,
@@ -25451,7 +25451,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2010-02-10\" in row \"453\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-10-25\" in row \"453\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -25460,14 +25460,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39869",
+            "120830",
             "2013",
-            "58",
+            "2785",
             "2013-01-10",
-            "2010-02-10",
-            "1320012 - SES-SUP.ATENCAO A SAUDE",
+            "2012-10-23",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "13000.00"
+            "22195.87"
           ],
           "rowNumber": 453,
           "rowPosition": 454,
@@ -25483,19 +25483,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2010-02-10",
+          "cell": "2012-10-23",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39869",
+            "120830",
             "2013",
-            "58",
+            "2785",
             "2013-01-10",
-            "2010-02-10",
-            "1320012 - SES-SUP.ATENCAO A SAUDE",
+            "2012-10-23",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "13000.00"
+            "22195.87"
           ],
           "rowNumber": 453,
           "rowPosition": 454,
@@ -25507,7 +25507,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2010-02-10\" in row \"454\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-10-23\" in row \"454\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -25516,14 +25516,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39873",
+            "120832",
             "2013",
-            "45",
+            "2783",
             "2013-01-10",
-            "2010-02-10",
-            "1320012 - SES-SUP.ATENCAO A SAUDE",
+            "2012-10-23",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "15000.00"
+            "50260.62"
           ],
           "rowNumber": 454,
           "rowPosition": 455,
@@ -25539,19 +25539,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2010-02-10",
+          "cell": "2012-10-23",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39873",
+            "120832",
             "2013",
-            "45",
+            "2783",
             "2013-01-10",
-            "2010-02-10",
-            "1320012 - SES-SUP.ATENCAO A SAUDE",
+            "2012-10-23",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "15000.00"
+            "50260.62"
           ],
           "rowNumber": 454,
           "rowPosition": 455,
@@ -25563,7 +25563,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2010-02-10\" in row \"455\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-10-23\" in row \"455\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -25572,14 +25572,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39877",
+            "120833",
             "2013",
-            "48",
+            "2734",
             "2013-01-10",
-            "2010-02-10",
-            "1320012 - SES-SUP.ATENCAO A SAUDE",
+            "2012-10-16",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "15000.00"
+            "1432.91"
           ],
           "rowNumber": 455,
           "rowPosition": 456,
@@ -25595,19 +25595,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2010-02-10",
+          "cell": "2012-10-16",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39877",
+            "120833",
             "2013",
-            "48",
+            "2734",
             "2013-01-10",
-            "2010-02-10",
-            "1320012 - SES-SUP.ATENCAO A SAUDE",
+            "2012-10-16",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "15000.00"
+            "1432.91"
           ],
           "rowNumber": 455,
           "rowPosition": 456,
@@ -25619,7 +25619,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2010-02-10\" in row \"456\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-10-16\" in row \"456\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -25628,14 +25628,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39881",
+            "120835",
             "2013",
-            "52",
+            "2736",
             "2013-01-10",
-            "2010-02-10",
-            "1320012 - SES-SUP.ATENCAO A SAUDE",
+            "2012-10-16",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "14000.00"
+            "1220.17"
           ],
           "rowNumber": 456,
           "rowPosition": 457,
@@ -25651,19 +25651,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2010-02-10",
+          "cell": "2012-10-16",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39881",
+            "120835",
             "2013",
-            "52",
+            "2736",
             "2013-01-10",
-            "2010-02-10",
-            "1320012 - SES-SUP.ATENCAO A SAUDE",
+            "2012-10-16",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "14000.00"
+            "1220.17"
           ],
           "rowNumber": 456,
           "rowPosition": 457,
@@ -25675,7 +25675,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2010-02-10\" in row \"457\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-10-16\" in row \"457\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -25684,14 +25684,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39885",
+            "120837",
             "2013",
-            "53",
+            "2737",
             "2013-01-10",
-            "2010-02-10",
-            "1320012 - SES-SUP.ATENCAO A SAUDE",
+            "2012-10-16",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "15000.00"
+            "15649.37"
           ],
           "rowNumber": 457,
           "rowPosition": 458,
@@ -25707,19 +25707,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2010-02-10",
+          "cell": "2012-10-16",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39885",
+            "120837",
             "2013",
-            "53",
+            "2737",
             "2013-01-10",
-            "2010-02-10",
-            "1320012 - SES-SUP.ATENCAO A SAUDE",
+            "2012-10-16",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "15000.00"
+            "15649.37"
           ],
           "rowNumber": 457,
           "rowPosition": 458,
@@ -25731,7 +25731,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2010-02-10\" in row \"458\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-10-16\" in row \"458\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -25740,14 +25740,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39889",
+            "120839",
             "2013",
-            "61",
+            "2738",
             "2013-01-10",
-            "2010-02-11",
-            "1320012 - SES-SUP.ATENCAO A SAUDE",
+            "2012-10-16",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "15000.00"
+            "18558.31"
           ],
           "rowNumber": 458,
           "rowPosition": 459,
@@ -25763,19 +25763,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2010-02-11",
+          "cell": "2012-10-16",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39889",
+            "120839",
             "2013",
-            "61",
+            "2738",
             "2013-01-10",
-            "2010-02-11",
-            "1320012 - SES-SUP.ATENCAO A SAUDE",
+            "2012-10-16",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "15000.00"
+            "18558.31"
           ],
           "rowNumber": 458,
           "rowPosition": 459,
@@ -25787,7 +25787,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2010-02-11\" in row \"459\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-10-16\" in row \"459\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -25796,14 +25796,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39613",
+            "120841",
             "2013",
-            "1850",
+            "2721",
             "2013-01-10",
-            "2010-12-07",
+            "2012-10-16",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "55000.00"
+            "7937.77"
           ],
           "rowNumber": 459,
           "rowPosition": 460,
@@ -25819,19 +25819,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2010-12-07",
+          "cell": "2012-10-16",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39613",
+            "120841",
             "2013",
-            "1850",
+            "2721",
             "2013-01-10",
-            "2010-12-07",
+            "2012-10-16",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "55000.00"
+            "7937.77"
           ],
           "rowNumber": 459,
           "rowPosition": 460,
@@ -25843,7 +25843,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2010-12-07\" in row \"460\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-10-16\" in row \"460\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -25852,14 +25852,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39918",
+            "121112",
             "2013",
-            "866",
+            "1897",
             "2013-01-10",
-            "2011-12-28",
-            "1300003 - SETOP-DEOP",
+            "2012-06-25",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "20000.00"
+            "17238.22"
           ],
           "rowNumber": 460,
           "rowPosition": 461,
@@ -25875,19 +25875,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2011-12-28",
+          "cell": "2012-06-25",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39918",
+            "121112",
             "2013",
-            "866",
+            "1897",
             "2013-01-10",
-            "2011-12-28",
-            "1300003 - SETOP-DEOP",
+            "2012-06-25",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "20000.00"
+            "17238.22"
           ],
           "rowNumber": 460,
           "rowPosition": 461,
@@ -25899,7 +25899,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2011-12-28\" in row \"461\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-25\" in row \"461\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -25908,14 +25908,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39921",
+            "121114",
             "2013",
-            "865",
+            "1943",
             "2013-01-10",
-            "2011-12-28",
-            "1300003 - SETOP-DEOP",
+            "2012-06-25",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "24000.00"
+            "145671.73"
           ],
           "rowNumber": 461,
           "rowPosition": 462,
@@ -25931,19 +25931,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2011-12-28",
+          "cell": "2012-06-25",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39921",
+            "121114",
             "2013",
-            "865",
+            "1943",
             "2013-01-10",
-            "2011-12-28",
-            "1300003 - SETOP-DEOP",
+            "2012-06-25",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "24000.00"
+            "145671.73"
           ],
           "rowNumber": 461,
           "rowPosition": 462,
@@ -25955,7 +25955,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2011-12-28\" in row \"462\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-25\" in row \"462\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -25964,14 +25964,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39924",
+            "121115",
             "2013",
-            "864",
+            "1826",
             "2013-01-10",
-            "2011-12-28",
-            "1300003 - SETOP-DEOP",
+            "2012-06-23",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "200318.62"
+            "65826.81"
           ],
           "rowNumber": 462,
           "rowPosition": 463,
@@ -25987,19 +25987,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2011-12-28",
+          "cell": "2012-06-23",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39924",
+            "121115",
             "2013",
-            "864",
+            "1826",
             "2013-01-10",
-            "2011-12-28",
-            "1300003 - SETOP-DEOP",
+            "2012-06-23",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "200318.62"
+            "65826.81"
           ],
           "rowNumber": 462,
           "rowPosition": 463,
@@ -26011,7 +26011,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2011-12-28\" in row \"463\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-23\" in row \"463\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -26020,14 +26020,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39926",
+            "121117",
             "2013",
-            "862",
+            "1836",
             "2013-01-10",
-            "2011-12-28",
-            "1300003 - SETOP-DEOP",
+            "2012-06-23",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
+            "13256.57"
           ],
           "rowNumber": 463,
           "rowPosition": 464,
@@ -26043,19 +26043,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2011-12-28",
+          "cell": "2012-06-23",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39926",
+            "121117",
             "2013",
-            "862",
+            "1836",
             "2013-01-10",
-            "2011-12-28",
-            "1300003 - SETOP-DEOP",
+            "2012-06-23",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
+            "13256.57"
           ],
           "rowNumber": 463,
           "rowPosition": 464,
@@ -26067,7 +26067,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2011-12-28\" in row \"464\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-23\" in row \"464\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -26076,14 +26076,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39928",
+            "121118",
             "2013",
-            "861",
+            "1823",
             "2013-01-10",
-            "2011-12-28",
-            "1300003 - SETOP-DEOP",
+            "2012-06-23",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
+            "39304.11"
           ],
           "rowNumber": 464,
           "rowPosition": 465,
@@ -26099,19 +26099,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2011-12-28",
+          "cell": "2012-06-23",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39928",
+            "121118",
             "2013",
-            "861",
+            "1823",
             "2013-01-10",
-            "2011-12-28",
-            "1300003 - SETOP-DEOP",
+            "2012-06-23",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
+            "39304.11"
           ],
           "rowNumber": 464,
           "rowPosition": 465,
@@ -26123,7 +26123,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2011-12-28\" in row \"465\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-23\" in row \"465\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -26132,14 +26132,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39930",
+            "121120",
             "2013",
-            "860",
+            "1886",
             "2013-01-10",
-            "2011-12-28",
-            "1300003 - SETOP-DEOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "256667.18"
+            "2012-06-25",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "37318.54"
           ],
           "rowNumber": 465,
           "rowPosition": 466,
@@ -26155,19 +26155,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2011-12-28",
+          "cell": "2012-06-25",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39930",
+            "121120",
             "2013",
-            "860",
+            "1886",
             "2013-01-10",
-            "2011-12-28",
-            "1300003 - SETOP-DEOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "256667.18"
+            "2012-06-25",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "37318.54"
           ],
           "rowNumber": 465,
           "rowPosition": 466,
@@ -26179,7 +26179,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2011-12-28\" in row \"466\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-25\" in row \"466\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -26188,14 +26188,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39631",
+            "121121",
             "2013",
-            "1867",
+            "1802",
             "2013-01-10",
-            "2010-12-07",
+            "2012-06-22",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "55000.00"
+            "49957.47"
           ],
           "rowNumber": 466,
           "rowPosition": 467,
@@ -26211,19 +26211,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2010-12-07",
+          "cell": "2012-06-22",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39631",
+            "121121",
             "2013",
-            "1867",
+            "1802",
             "2013-01-10",
-            "2010-12-07",
+            "2012-06-22",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "55000.00"
+            "49957.47"
           ],
           "rowNumber": 466,
           "rowPosition": 467,
@@ -26235,7 +26235,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2010-12-07\" in row \"467\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-22\" in row \"467\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -26244,14 +26244,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39937",
+            "121123",
             "2013",
-            "852",
+            "1887",
             "2013-01-10",
-            "2011-12-28",
-            "1300003 - SETOP-DEOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "15000.00"
+            "2012-06-25",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "34415.42"
           ],
           "rowNumber": 467,
           "rowPosition": 468,
@@ -26267,19 +26267,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2011-12-28",
+          "cell": "2012-06-25",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39937",
+            "121123",
             "2013",
-            "852",
+            "1887",
             "2013-01-10",
-            "2011-12-28",
-            "1300003 - SETOP-DEOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "15000.00"
+            "2012-06-25",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "34415.42"
           ],
           "rowNumber": 467,
           "rowPosition": 468,
@@ -26291,7 +26291,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2011-12-28\" in row \"468\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-25\" in row \"468\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -26300,14 +26300,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39948",
+            "121124",
             "2013",
-            "900",
+            "1890",
             "2013-01-10",
-            "2011-12-29",
-            "1300003 - SETOP-DEOP",
+            "2012-06-25",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "190078.14"
+            "56170.89"
           ],
           "rowNumber": 468,
           "rowPosition": 469,
@@ -26323,19 +26323,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2011-12-29",
+          "cell": "2012-06-25",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39948",
+            "121124",
             "2013",
-            "900",
+            "1890",
             "2013-01-10",
-            "2011-12-29",
-            "1300003 - SETOP-DEOP",
+            "2012-06-25",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "190078.14"
+            "56170.89"
           ],
           "rowNumber": 468,
           "rowPosition": 469,
@@ -26347,7 +26347,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2011-12-29\" in row \"469\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-25\" in row \"469\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -26356,14 +26356,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39635",
+            "121126",
             "2013",
-            "1862",
+            "1870",
             "2013-01-10",
-            "2010-12-07",
+            "2012-06-23",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
-            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "55000.00"
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "61130.08"
           ],
           "rowNumber": 469,
           "rowPosition": 470,
@@ -26379,19 +26379,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2010-12-07",
+          "cell": "2012-06-23",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39635",
+            "121126",
             "2013",
-            "1862",
+            "1870",
             "2013-01-10",
-            "2010-12-07",
+            "2012-06-23",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
-            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "55000.00"
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "61130.08"
           ],
           "rowNumber": 469,
           "rowPosition": 470,
@@ -26403,7 +26403,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2010-12-07\" in row \"470\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-23\" in row \"470\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -26412,14 +26412,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39639",
+            "121127",
             "2013",
-            "1864",
+            "1805",
             "2013-01-10",
-            "2010-12-07",
+            "2012-06-22",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
-            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "55000.00"
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "7828.89"
           ],
           "rowNumber": 470,
           "rowPosition": 471,
@@ -26435,19 +26435,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2010-12-07",
+          "cell": "2012-06-22",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39639",
+            "121127",
             "2013",
-            "1864",
+            "1805",
             "2013-01-10",
-            "2010-12-07",
+            "2012-06-22",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
-            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "55000.00"
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "7828.89"
           ],
           "rowNumber": 470,
           "rowPosition": 471,
@@ -26459,7 +26459,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2010-12-07\" in row \"471\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-22\" in row \"471\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -26468,14 +26468,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39646",
+            "121129",
             "2013",
-            "1842",
+            "1845",
             "2013-01-10",
-            "2010-12-07",
+            "2012-06-23",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
-            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "55000.00"
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "17341.13"
           ],
           "rowNumber": 471,
           "rowPosition": 472,
@@ -26491,19 +26491,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2010-12-07",
+          "cell": "2012-06-23",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39646",
+            "121129",
             "2013",
-            "1842",
+            "1845",
             "2013-01-10",
-            "2010-12-07",
+            "2012-06-23",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
-            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "55000.00"
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "17341.13"
           ],
           "rowNumber": 471,
           "rowPosition": 472,
@@ -26515,7 +26515,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2010-12-07\" in row \"472\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-23\" in row \"472\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -26524,14 +26524,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39650",
+            "124471",
             "2013",
-            "1847",
+            "58",
             "2013-01-10",
-            "2010-12-07",
-            "1320055 - SES-SUP.ASS.FARMACEUTICA",
-            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "55000.00"
+            "2010-02-05",
+            "1480057 - SEDESE/FEAS/CEPCAD",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "108000.00"
           ],
           "rowNumber": 472,
           "rowPosition": 473,
@@ -26547,19 +26547,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2010-12-07",
+          "cell": "2010-02-05",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39650",
+            "124471",
             "2013",
-            "1847",
+            "58",
             "2013-01-10",
-            "2010-12-07",
-            "1320055 - SES-SUP.ASS.FARMACEUTICA",
-            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "55000.00"
+            "2010-02-05",
+            "1480057 - SEDESE/FEAS/CEPCAD",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "108000.00"
           ],
           "rowNumber": 472,
           "rowPosition": 473,
@@ -26571,7 +26571,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2010-12-07\" in row \"473\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2010-02-05\" in row \"473\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -26580,14 +26580,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39653",
+            "120843",
             "2013",
-            "897",
+            "2723",
             "2013-01-10",
-            "2010-12-29",
-            "1320007 - SES-GABINETE",
+            "2012-10-16",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "500000.00"
+            "25128.74"
           ],
           "rowNumber": 473,
           "rowPosition": 474,
@@ -26603,19 +26603,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2010-12-29",
+          "cell": "2012-10-16",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39653",
+            "120843",
             "2013",
-            "897",
+            "2723",
             "2013-01-10",
-            "2010-12-29",
-            "1320007 - SES-GABINETE",
+            "2012-10-16",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "500000.00"
+            "25128.74"
           ],
           "rowNumber": 473,
           "rowPosition": 474,
@@ -26627,7 +26627,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2010-12-29\" in row \"474\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-10-16\" in row \"474\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -26636,14 +26636,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39956",
+            "120845",
             "2013",
-            "144",
+            "2724",
             "2013-01-10",
-            "2011-04-12",
-            "1470002 - FINANCEIRA E CONTABIL",
-            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "0.00"
+            "2012-10-16",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "5442.48"
           ],
           "rowNumber": 474,
           "rowPosition": 475,
@@ -26659,19 +26659,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2011-04-12",
+          "cell": "2012-10-16",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39956",
+            "120845",
             "2013",
-            "144",
+            "2724",
             "2013-01-10",
-            "2011-04-12",
-            "1470002 - FINANCEIRA E CONTABIL",
-            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "0.00"
+            "2012-10-16",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "5442.48"
           ],
           "rowNumber": 474,
           "rowPosition": 475,
@@ -26683,7 +26683,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2011-04-12\" in row \"475\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-10-16\" in row \"475\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -26692,14 +26692,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39960",
+            "120846",
             "2013",
-            "146",
+            "2732",
             "2013-01-10",
-            "2011-04-13",
-            "1470002 - FINANCEIRA E CONTABIL",
-            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "0.00"
+            "2012-10-16",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "1916.87"
           ],
           "rowNumber": 475,
           "rowPosition": 476,
@@ -26715,19 +26715,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2011-04-13",
+          "cell": "2012-10-16",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39960",
+            "120846",
             "2013",
-            "146",
+            "2732",
             "2013-01-10",
-            "2011-04-13",
-            "1470002 - FINANCEIRA E CONTABIL",
-            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "0.00"
+            "2012-10-16",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "1916.87"
           ],
           "rowNumber": 475,
           "rowPosition": 476,
@@ -26739,7 +26739,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2011-04-13\" in row \"476\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-10-16\" in row \"476\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -26748,14 +26748,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39962",
+            "120847",
             "2013",
-            "118",
+            "2727",
             "2013-01-10",
-            "2011-04-04",
-            "1470002 - FINANCEIRA E CONTABIL",
-            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "0.00"
+            "2012-10-16",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "6126.22"
           ],
           "rowNumber": 476,
           "rowPosition": 477,
@@ -26771,19 +26771,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2011-04-04",
+          "cell": "2012-10-16",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39962",
+            "120847",
             "2013",
-            "118",
+            "2727",
             "2013-01-10",
-            "2011-04-04",
-            "1470002 - FINANCEIRA E CONTABIL",
-            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "0.00"
+            "2012-10-16",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "6126.22"
           ],
           "rowNumber": 476,
           "rowPosition": 477,
@@ -26795,7 +26795,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2011-04-04\" in row \"477\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-10-16\" in row \"477\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -26804,14 +26804,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39967",
+            "120849",
             "2013",
-            "141",
+            "2731",
             "2013-01-10",
-            "2011-04-12",
-            "1470002 - FINANCEIRA E CONTABIL",
-            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "29956.00"
+            "2012-10-16",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "108776.52"
           ],
           "rowNumber": 477,
           "rowPosition": 478,
@@ -26827,19 +26827,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2011-04-12",
+          "cell": "2012-10-16",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39967",
+            "120849",
             "2013",
-            "141",
+            "2731",
             "2013-01-10",
-            "2011-04-12",
-            "1470002 - FINANCEIRA E CONTABIL",
-            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "29956.00"
+            "2012-10-16",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "108776.52"
           ],
           "rowNumber": 477,
           "rowPosition": 478,
@@ -26851,7 +26851,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2011-04-12\" in row \"478\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-10-16\" in row \"478\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -26860,14 +26860,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39969",
+            "120851",
             "2013",
-            "149",
+            "2729",
             "2013-01-10",
-            "2011-04-13",
-            "1470002 - FINANCEIRA E CONTABIL",
-            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "0.00"
+            "2012-10-16",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "1659.42"
           ],
           "rowNumber": 478,
           "rowPosition": 479,
@@ -26883,19 +26883,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2011-04-13",
+          "cell": "2012-10-16",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39969",
+            "120851",
             "2013",
-            "149",
+            "2729",
             "2013-01-10",
-            "2011-04-13",
-            "1470002 - FINANCEIRA E CONTABIL",
-            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "0.00"
+            "2012-10-16",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "1659.42"
           ],
           "rowNumber": 478,
           "rowPosition": 479,
@@ -26907,7 +26907,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2011-04-13\" in row \"479\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-10-16\" in row \"479\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -26916,14 +26916,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39658",
+            "120853",
             "2013",
-            "1342",
+            "2933",
             "2013-01-10",
-            "2010-06-22",
+            "2012-11-21",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "55000.00"
+            "4502.14"
           ],
           "rowNumber": 479,
           "rowPosition": 480,
@@ -26939,19 +26939,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2010-06-22",
+          "cell": "2012-11-21",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39658",
+            "120853",
             "2013",
-            "1342",
+            "2933",
             "2013-01-10",
-            "2010-06-22",
+            "2012-11-21",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "55000.00"
+            "4502.14"
           ],
           "rowNumber": 479,
           "rowPosition": 480,
@@ -26963,7 +26963,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2010-06-22\" in row \"480\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-11-21\" in row \"480\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -26972,14 +26972,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39670",
+            "120855",
             "2013",
-            "1336",
+            "2937",
             "2013-01-10",
-            "2010-06-22",
+            "2012-11-21",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "55000.00"
+            "5172.71"
           ],
           "rowNumber": 480,
           "rowPosition": 481,
@@ -26995,19 +26995,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2010-06-22",
+          "cell": "2012-11-21",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39670",
+            "120855",
             "2013",
-            "1336",
+            "2937",
             "2013-01-10",
-            "2010-06-22",
+            "2012-11-21",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "55000.00"
+            "5172.71"
           ],
           "rowNumber": 480,
           "rowPosition": 481,
@@ -27019,7 +27019,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2010-06-22\" in row \"481\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-11-21\" in row \"481\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -27028,14 +27028,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39673",
+            "120856",
             "2013",
-            "1344",
+            "2938",
             "2013-01-10",
-            "2010-06-22",
+            "2012-11-21",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "55000.00"
+            "5861.11"
           ],
           "rowNumber": 481,
           "rowPosition": 482,
@@ -27051,19 +27051,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2010-06-22",
+          "cell": "2012-11-21",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39673",
+            "120856",
             "2013",
-            "1344",
+            "2938",
             "2013-01-10",
-            "2010-06-22",
+            "2012-11-21",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "55000.00"
+            "5861.11"
           ],
           "rowNumber": 481,
           "rowPosition": 482,
@@ -27075,7 +27075,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2010-06-22\" in row \"482\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-11-21\" in row \"482\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -27084,14 +27084,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39971",
+            "120858",
             "2013",
-            "120",
+            "2147",
             "2013-01-10",
-            "2011-04-04",
-            "1470002 - FINANCEIRA E CONTABIL",
+            "2012-06-29",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "0.00"
+            "0.04"
           ],
           "rowNumber": 482,
           "rowPosition": 483,
@@ -27107,19 +27107,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2011-04-04",
+          "cell": "2012-06-29",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39971",
+            "120858",
             "2013",
-            "120",
+            "2147",
             "2013-01-10",
-            "2011-04-04",
-            "1470002 - FINANCEIRA E CONTABIL",
+            "2012-06-29",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "0.00"
+            "0.04"
           ],
           "rowNumber": 482,
           "rowPosition": 483,
@@ -27131,7 +27131,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2011-04-04\" in row \"483\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-29\" in row \"483\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -27140,14 +27140,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39975",
+            "121131",
             "2013",
-            "675",
+            "1912",
             "2013-01-10",
-            "2011-11-23",
-            "1300003 - SETOP-DEOP",
-            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "0.00"
+            "2012-06-25",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "14994.11"
           ],
           "rowNumber": 483,
           "rowPosition": 484,
@@ -27163,19 +27163,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2011-11-23",
+          "cell": "2012-06-25",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39975",
+            "121131",
             "2013",
-            "675",
+            "1912",
             "2013-01-10",
-            "2011-11-23",
-            "1300003 - SETOP-DEOP",
-            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "0.00"
+            "2012-06-25",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "14994.11"
           ],
           "rowNumber": 483,
           "rowPosition": 484,
@@ -27187,7 +27187,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2011-11-23\" in row \"484\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-25\" in row \"484\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -27196,14 +27196,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39977",
+            "121132",
             "2013",
-            "677",
+            "1915",
             "2013-01-10",
-            "2011-11-23",
-            "1300003 - SETOP-DEOP",
-            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "0.00"
+            "2012-06-25",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "5121.15"
           ],
           "rowNumber": 484,
           "rowPosition": 485,
@@ -27219,19 +27219,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2011-11-23",
+          "cell": "2012-06-25",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39977",
+            "121132",
             "2013",
-            "677",
+            "1915",
             "2013-01-10",
-            "2011-11-23",
-            "1300003 - SETOP-DEOP",
-            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "0.00"
+            "2012-06-25",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "5121.15"
           ],
           "rowNumber": 484,
           "rowPosition": 485,
@@ -27243,7 +27243,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2011-11-23\" in row \"485\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-25\" in row \"485\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -27252,14 +27252,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39983",
+            "121133",
             "2013",
-            "849",
+            "1916",
             "2013-01-10",
-            "2011-12-29",
-            "1470002 - FINANCEIRA E CONTABIL",
-            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "41247.07"
+            "2012-06-25",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "12452.79"
           ],
           "rowNumber": 485,
           "rowPosition": 486,
@@ -27275,19 +27275,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2011-12-29",
+          "cell": "2012-06-25",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39983",
+            "121133",
             "2013",
-            "849",
+            "1916",
             "2013-01-10",
-            "2011-12-29",
-            "1470002 - FINANCEIRA E CONTABIL",
-            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "41247.07"
+            "2012-06-25",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "12452.79"
           ],
           "rowNumber": 485,
           "rowPosition": 486,
@@ -27299,7 +27299,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2011-12-29\" in row \"486\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-25\" in row \"486\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -27308,14 +27308,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39702",
+            "121135",
             "2013",
-            "750",
+            "1918",
             "2013-01-10",
-            "2010-05-27",
+            "2012-06-25",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "55000.00"
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "39911.18"
           ],
           "rowNumber": 486,
           "rowPosition": 487,
@@ -27331,19 +27331,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2010-05-27",
+          "cell": "2012-06-25",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39702",
+            "121135",
             "2013",
-            "750",
+            "1918",
             "2013-01-10",
-            "2010-05-27",
+            "2012-06-25",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "55000.00"
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "39911.18"
           ],
           "rowNumber": 486,
           "rowPosition": 487,
@@ -27355,7 +27355,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2010-05-27\" in row \"487\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-25\" in row \"487\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -27364,14 +27364,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39714",
+            "121136",
             "2013",
-            "324",
+            "1857",
             "2013-01-10",
-            "2010-06-26",
-            "1320007 - SES-GABINETE",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "550000.00"
+            "2012-06-23",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "21722.60"
           ],
           "rowNumber": 487,
           "rowPosition": 488,
@@ -27387,19 +27387,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2010-06-26",
+          "cell": "2012-06-23",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39714",
+            "121136",
             "2013",
-            "324",
+            "1857",
             "2013-01-10",
-            "2010-06-26",
-            "1320007 - SES-GABINETE",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "550000.00"
+            "2012-06-23",
+            "1320055 - SES-SUP.ASS.FARMACEUTICA",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "21722.60"
           ],
           "rowNumber": 487,
           "rowPosition": 488,
@@ -27411,7 +27411,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2010-06-26\" in row \"488\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-23\" in row \"488\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -27420,14 +27420,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39718",
+            "121137",
             "2013",
-            "1840",
+            "1862",
             "2013-01-10",
-            "2010-12-07",
+            "2012-06-23",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
-            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "55000.00"
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "20598.39"
           ],
           "rowNumber": 488,
           "rowPosition": 489,
@@ -27443,19 +27443,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2010-12-07",
+          "cell": "2012-06-23",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39718",
+            "121137",
             "2013",
-            "1840",
+            "1862",
             "2013-01-10",
-            "2010-12-07",
+            "2012-06-23",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
-            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "55000.00"
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "20598.39"
           ],
           "rowNumber": 488,
           "rowPosition": 489,
@@ -27467,7 +27467,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2010-12-07\" in row \"489\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-23\" in row \"489\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -27476,14 +27476,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39726",
+            "121139",
             "2013",
-            "1026",
+            "1964",
             "2013-01-10",
-            "2010-06-01",
+            "2012-06-25",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "55000.00"
+            "10874.31"
           ],
           "rowNumber": 489,
           "rowPosition": 490,
@@ -27499,19 +27499,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2010-06-01",
+          "cell": "2012-06-25",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39726",
+            "121139",
             "2013",
-            "1026",
+            "1964",
             "2013-01-10",
-            "2010-06-01",
+            "2012-06-25",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "55000.00"
+            "10874.31"
           ],
           "rowNumber": 489,
           "rowPosition": 490,
@@ -27523,7 +27523,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2010-06-01\" in row \"490\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-25\" in row \"490\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -27532,14 +27532,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39736",
+            "121140",
             "2013",
-            "1237",
+            "1866",
             "2013-01-10",
-            "2010-06-09",
+            "2012-06-23",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "55000.00"
+            "17753.21"
           ],
           "rowNumber": 490,
           "rowPosition": 491,
@@ -27555,19 +27555,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2010-06-09",
+          "cell": "2012-06-23",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39736",
+            "121140",
             "2013",
-            "1237",
+            "1866",
             "2013-01-10",
-            "2010-06-09",
+            "2012-06-23",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "55000.00"
+            "17753.21"
           ],
           "rowNumber": 490,
           "rowPosition": 491,
@@ -27579,7 +27579,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2010-06-09\" in row \"491\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-23\" in row \"491\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -27588,14 +27588,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "39743",
+            "121142",
             "2013",
-            "829",
+            "2036",
             "2013-01-10",
-            "2010-05-28",
+            "2012-06-25",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "55000.00"
+            "8949.22"
           ],
           "rowNumber": 491,
           "rowPosition": 492,
@@ -27611,19 +27611,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2010-05-28",
+          "cell": "2012-06-25",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "39743",
+            "121142",
             "2013",
-            "829",
+            "2036",
             "2013-01-10",
-            "2010-05-28",
+            "2012-06-25",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "55000.00"
+            "8949.22"
           ],
           "rowNumber": 491,
           "rowPosition": 492,
@@ -27635,7 +27635,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2010-05-28\" in row \"492\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-25\" in row \"492\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -27644,14 +27644,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "120879",
+            "121144",
             "2013",
-            "2127",
+            "2030",
             "2013-01-10",
-            "2012-06-26",
+            "2012-06-25",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "6044.35"
+            "48970.90"
           ],
           "rowNumber": 492,
           "rowPosition": 493,
@@ -27667,19 +27667,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-06-26",
+          "cell": "2012-06-25",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "120879",
+            "121144",
             "2013",
-            "2127",
+            "2030",
             "2013-01-10",
-            "2012-06-26",
+            "2012-06-25",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "6044.35"
+            "48970.90"
           ],
           "rowNumber": 492,
           "rowPosition": 493,
@@ -27691,7 +27691,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-06-26\" in row \"493\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-25\" in row \"493\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -27700,14 +27700,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "120881",
+            "121145",
             "2013",
-            "2128",
+            "1810",
             "2013-01-10",
-            "2012-06-26",
+            "2012-06-23",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "23773.24"
+            "61759.79"
           ],
           "rowNumber": 493,
           "rowPosition": 494,
@@ -27723,19 +27723,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-06-26",
+          "cell": "2012-06-23",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "120881",
+            "121145",
             "2013",
-            "2128",
+            "1810",
             "2013-01-10",
-            "2012-06-26",
+            "2012-06-23",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "23773.24"
+            "61759.79"
           ],
           "rowNumber": 493,
           "rowPosition": 494,
@@ -27747,7 +27747,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-06-26\" in row \"494\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-23\" in row \"494\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -27756,14 +27756,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "120883",
+            "121146",
             "2013",
-            "2044",
+            "1775",
             "2013-01-10",
-            "2012-06-25",
+            "2012-06-22",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "55626.88"
+            "20851.68"
           ],
           "rowNumber": 494,
           "rowPosition": 495,
@@ -27779,19 +27779,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-06-25",
+          "cell": "2012-06-22",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "120883",
+            "121146",
             "2013",
-            "2044",
+            "1775",
             "2013-01-10",
-            "2012-06-25",
+            "2012-06-22",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "55626.88"
+            "20851.68"
           ],
           "rowNumber": 494,
           "rowPosition": 495,
@@ -27803,7 +27803,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-06-25\" in row \"495\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-22\" in row \"495\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -27812,14 +27812,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "120884",
+            "121147",
             "2013",
-            "2049",
+            "1734",
             "2013-01-10",
-            "2012-06-25",
+            "2012-06-22",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "35391.66"
+            "66536.60"
           ],
           "rowNumber": 495,
           "rowPosition": 496,
@@ -27835,19 +27835,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-06-25",
+          "cell": "2012-06-22",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "120884",
+            "121147",
             "2013",
-            "2049",
+            "1734",
             "2013-01-10",
-            "2012-06-25",
+            "2012-06-22",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "35391.66"
+            "66536.60"
           ],
           "rowNumber": 495,
           "rowPosition": 496,
@@ -27859,7 +27859,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-06-25\" in row \"496\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-22\" in row \"496\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -27868,14 +27868,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "120885",
+            "120860",
             "2013",
-            "2051",
+            "1420",
             "2013-01-10",
-            "2012-06-25",
+            "2012-06-21",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "36769.44"
+            "54943.09"
           ],
           "rowNumber": 496,
           "rowPosition": 497,
@@ -27891,19 +27891,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-06-25",
+          "cell": "2012-06-21",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "120885",
+            "120860",
             "2013",
-            "2051",
+            "1420",
             "2013-01-10",
-            "2012-06-25",
+            "2012-06-21",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "36769.44"
+            "54943.09"
           ],
           "rowNumber": 496,
           "rowPosition": 497,
@@ -27915,7 +27915,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-06-25\" in row \"497\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-21\" in row \"497\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -27924,14 +27924,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "120887",
+            "120862",
             "2013",
-            "2053",
+            "1670",
             "2013-01-10",
-            "2012-06-25",
+            "2012-06-22",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
-            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "0.04"
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "23220.88"
           ],
           "rowNumber": 497,
           "rowPosition": 498,
@@ -27947,19 +27947,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-06-25",
+          "cell": "2012-06-22",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "120887",
+            "120862",
             "2013",
-            "2053",
+            "1670",
             "2013-01-10",
-            "2012-06-25",
+            "2012-06-22",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
-            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "0.04"
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "23220.88"
           ],
           "rowNumber": 497,
           "rowPosition": 498,
@@ -27971,7 +27971,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-06-25\" in row \"498\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-22\" in row \"498\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -27980,14 +27980,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "120888",
+            "120864",
             "2013",
-            "2020",
+            "1425",
             "2013-01-10",
-            "2012-06-25",
+            "2012-06-21",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "14527.30"
+            "57853.60"
           ],
           "rowNumber": 498,
           "rowPosition": 499,
@@ -28003,19 +28003,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-06-25",
+          "cell": "2012-06-21",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "120888",
+            "120864",
             "2013",
-            "2020",
+            "1425",
             "2013-01-10",
-            "2012-06-25",
+            "2012-06-21",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "14527.30"
+            "57853.60"
           ],
           "rowNumber": 498,
           "rowPosition": 499,
@@ -28027,7 +28027,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-06-25\" in row \"499\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-21\" in row \"499\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -28036,14 +28036,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "120889",
+            "120866",
             "2013",
-            "2062",
+            "1428",
             "2013-01-10",
-            "2012-06-25",
+            "2012-06-21",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "62859.19"
+            "7864.08"
           ],
           "rowNumber": 499,
           "rowPosition": 500,
@@ -28059,19 +28059,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-06-25",
+          "cell": "2012-06-21",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "120889",
+            "120866",
             "2013",
-            "2062",
+            "1428",
             "2013-01-10",
-            "2012-06-25",
+            "2012-06-21",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "62859.19"
+            "7864.08"
           ],
           "rowNumber": 499,
           "rowPosition": 500,
@@ -28083,7 +28083,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-06-25\" in row \"500\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-21\" in row \"500\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -28092,14 +28092,14 @@
           "fieldNumber": 4,
           "fieldPosition": 4,
           "cells": [
-            "120890",
+            "120868",
             "2013",
-            "2068",
+            "1389",
             "2013-01-10",
-            "2012-06-25",
+            "2012-06-21",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "55477.41"
+            "32270.15"
           ],
           "rowNumber": 500,
           "rowPosition": 501,
@@ -28115,19 +28115,19 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2012-06-25",
+          "cell": "2012-06-21",
           "fieldName": "dt_original",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "120890",
+            "120868",
             "2013",
-            "2068",
+            "1389",
             "2013-01-10",
-            "2012-06-25",
+            "2012-06-21",
             "1320055 - SES-SUP.ASS.FARMACEUTICA",
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "55477.41"
+            "32270.15"
           ],
           "rowNumber": 500,
           "rowPosition": 501,
@@ -28139,7 +28139,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2012-06-25\" in row \"501\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2012-06-21\" in row \"501\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         }
       ],

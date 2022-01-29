@@ -1,6 +1,6 @@
 {
   "version": "4.22.3",
-  "time": 0.071,
+  "time": 0.081,
   "errors": [],
   "tasks": [
     {
@@ -113,13 +113,13 @@
         "hashing": "md5",
         "compression": "gz",
         "stats": {
-          "hash": "f005e753ee80e1ffa2ca51a5f85e59a7",
-          "bytes": 18355,
+          "hash": "26d24bc223a4750c9f48e7371235e9e9",
+          "bytes": 17674,
           "fields": 8,
           "rows": 0
         }
       },
-      "time": 0.071,
+      "time": 0.081,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -3055,1070 +3055,6 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "2005-01-09",
-          "fieldName": "dt_empenho",
-          "fieldNumber": 4,
-          "fieldPosition": 4,
-          "cells": [
-            "153",
-            "2005",
-            "481",
-            "2005-01-09",
-            "2004-06-30",
-            "1480010 - SEDESE/SEL",
-            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 53,
-          "rowPosition": 54,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-09\" in row \"54\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2004-06-30",
-          "fieldName": "dt_original",
-          "fieldNumber": 5,
-          "fieldPosition": 5,
-          "cells": [
-            "153",
-            "2005",
-            "481",
-            "2005-01-09",
-            "2004-06-30",
-            "1480010 - SEDESE/SEL",
-            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 53,
-          "rowPosition": 54,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-06-30\" in row \"54\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2005-01-12",
-          "fieldName": "dt_empenho",
-          "fieldNumber": 4,
-          "fieldPosition": 4,
-          "cells": [
-            "154",
-            "2005",
-            "798",
-            "2005-01-12",
-            "2004-12-04",
-            "1300002 - SETOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 54,
-          "rowPosition": 55,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"55\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2004-12-04",
-          "fieldName": "dt_original",
-          "fieldNumber": 5,
-          "fieldPosition": 5,
-          "cells": [
-            "154",
-            "2005",
-            "798",
-            "2005-01-12",
-            "2004-12-04",
-            "1300002 - SETOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 54,
-          "rowPosition": 55,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-12-04\" in row \"55\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2005-01-12",
-          "fieldName": "dt_empenho",
-          "fieldNumber": 4,
-          "fieldPosition": 4,
-          "cells": [
-            "155",
-            "2005",
-            "389",
-            "2005-01-12",
-            "2004-06-30",
-            "1300002 - SETOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 55,
-          "rowPosition": 56,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"56\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2004-06-30",
-          "fieldName": "dt_original",
-          "fieldNumber": 5,
-          "fieldPosition": 5,
-          "cells": [
-            "155",
-            "2005",
-            "389",
-            "2005-01-12",
-            "2004-06-30",
-            "1300002 - SETOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 55,
-          "rowPosition": 56,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-06-30\" in row \"56\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2005-01-12",
-          "fieldName": "dt_empenho",
-          "fieldNumber": 4,
-          "fieldPosition": 4,
-          "cells": [
-            "156",
-            "2005",
-            "793",
-            "2005-01-12",
-            "2004-12-04",
-            "1300002 - SETOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 56,
-          "rowPosition": 57,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"57\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2004-12-04",
-          "fieldName": "dt_original",
-          "fieldNumber": 5,
-          "fieldPosition": 5,
-          "cells": [
-            "156",
-            "2005",
-            "793",
-            "2005-01-12",
-            "2004-12-04",
-            "1300002 - SETOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 56,
-          "rowPosition": 57,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-12-04\" in row \"57\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2005-01-12",
-          "fieldName": "dt_empenho",
-          "fieldNumber": 4,
-          "fieldPosition": 4,
-          "cells": [
-            "157",
-            "2005",
-            "343",
-            "2005-01-12",
-            "2004-06-30",
-            "1300002 - SETOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 57,
-          "rowPosition": 58,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"58\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2004-06-30",
-          "fieldName": "dt_original",
-          "fieldNumber": 5,
-          "fieldPosition": 5,
-          "cells": [
-            "157",
-            "2005",
-            "343",
-            "2005-01-12",
-            "2004-06-30",
-            "1300002 - SETOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 57,
-          "rowPosition": 58,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-06-30\" in row \"58\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2005-01-12",
-          "fieldName": "dt_empenho",
-          "fieldNumber": 4,
-          "fieldPosition": 4,
-          "cells": [
-            "158",
-            "2005",
-            "443",
-            "2005-01-12",
-            "2004-07-01",
-            "1300002 - SETOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 58,
-          "rowPosition": 59,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"59\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2004-07-01",
-          "fieldName": "dt_original",
-          "fieldNumber": 5,
-          "fieldPosition": 5,
-          "cells": [
-            "158",
-            "2005",
-            "443",
-            "2005-01-12",
-            "2004-07-01",
-            "1300002 - SETOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 58,
-          "rowPosition": 59,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-07-01\" in row \"59\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2005-01-12",
-          "fieldName": "dt_empenho",
-          "fieldNumber": 4,
-          "fieldPosition": 4,
-          "cells": [
-            "159",
-            "2005",
-            "481",
-            "2005-01-12",
-            "2004-07-02",
-            "1300002 - SETOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 59,
-          "rowPosition": 60,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"60\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2004-07-02",
-          "fieldName": "dt_original",
-          "fieldNumber": 5,
-          "fieldPosition": 5,
-          "cells": [
-            "159",
-            "2005",
-            "481",
-            "2005-01-12",
-            "2004-07-02",
-            "1300002 - SETOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 59,
-          "rowPosition": 60,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-07-02\" in row \"60\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2005-01-12",
-          "fieldName": "dt_empenho",
-          "fieldNumber": 4,
-          "fieldPosition": 4,
-          "cells": [
-            "160",
-            "2005",
-            "369",
-            "2005-01-12",
-            "2004-06-30",
-            "1300002 - SETOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 60,
-          "rowPosition": 61,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"61\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2004-06-30",
-          "fieldName": "dt_original",
-          "fieldNumber": 5,
-          "fieldPosition": 5,
-          "cells": [
-            "160",
-            "2005",
-            "369",
-            "2005-01-12",
-            "2004-06-30",
-            "1300002 - SETOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 60,
-          "rowPosition": 61,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-06-30\" in row \"61\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2005-01-12",
-          "fieldName": "dt_empenho",
-          "fieldNumber": 4,
-          "fieldPosition": 4,
-          "cells": [
-            "161",
-            "2005",
-            "365",
-            "2005-01-12",
-            "2004-06-30",
-            "1300002 - SETOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 61,
-          "rowPosition": 62,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"62\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2004-06-30",
-          "fieldName": "dt_original",
-          "fieldNumber": 5,
-          "fieldPosition": 5,
-          "cells": [
-            "161",
-            "2005",
-            "365",
-            "2005-01-12",
-            "2004-06-30",
-            "1300002 - SETOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 61,
-          "rowPosition": 62,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-06-30\" in row \"62\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2005-01-12",
-          "fieldName": "dt_empenho",
-          "fieldNumber": 4,
-          "fieldPosition": 4,
-          "cells": [
-            "162",
-            "2005",
-            "797",
-            "2005-01-12",
-            "2004-12-04",
-            "1300002 - SETOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 62,
-          "rowPosition": 63,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"63\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2004-12-04",
-          "fieldName": "dt_original",
-          "fieldNumber": 5,
-          "fieldPosition": 5,
-          "cells": [
-            "162",
-            "2005",
-            "797",
-            "2005-01-12",
-            "2004-12-04",
-            "1300002 - SETOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 62,
-          "rowPosition": 63,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-12-04\" in row \"63\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2005-01-12",
-          "fieldName": "dt_empenho",
-          "fieldNumber": 4,
-          "fieldPosition": 4,
-          "cells": [
-            "163",
-            "2005",
-            "795",
-            "2005-01-12",
-            "2004-12-04",
-            "1300002 - SETOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 63,
-          "rowPosition": 64,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"64\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2004-12-04",
-          "fieldName": "dt_original",
-          "fieldNumber": 5,
-          "fieldPosition": 5,
-          "cells": [
-            "163",
-            "2005",
-            "795",
-            "2005-01-12",
-            "2004-12-04",
-            "1300002 - SETOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 63,
-          "rowPosition": 64,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-12-04\" in row \"64\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2005-01-12",
-          "fieldName": "dt_empenho",
-          "fieldNumber": 4,
-          "fieldPosition": 4,
-          "cells": [
-            "164",
-            "2005",
-            "794",
-            "2005-01-12",
-            "2004-12-04",
-            "1300002 - SETOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 64,
-          "rowPosition": 65,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"65\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2004-12-04",
-          "fieldName": "dt_original",
-          "fieldNumber": 5,
-          "fieldPosition": 5,
-          "cells": [
-            "164",
-            "2005",
-            "794",
-            "2005-01-12",
-            "2004-12-04",
-            "1300002 - SETOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 64,
-          "rowPosition": 65,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-12-04\" in row \"65\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2005-01-12",
-          "fieldName": "dt_empenho",
-          "fieldNumber": 4,
-          "fieldPosition": 4,
-          "cells": [
-            "165",
-            "2005",
-            "803",
-            "2005-01-12",
-            "2004-12-04",
-            "1300002 - SETOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 65,
-          "rowPosition": 66,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"66\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2004-12-04",
-          "fieldName": "dt_original",
-          "fieldNumber": 5,
-          "fieldPosition": 5,
-          "cells": [
-            "165",
-            "2005",
-            "803",
-            "2005-01-12",
-            "2004-12-04",
-            "1300002 - SETOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 65,
-          "rowPosition": 66,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-12-04\" in row \"66\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2005-01-12",
-          "fieldName": "dt_empenho",
-          "fieldNumber": 4,
-          "fieldPosition": 4,
-          "cells": [
-            "166",
-            "2005",
-            "796",
-            "2005-01-12",
-            "2004-12-04",
-            "1300002 - SETOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 66,
-          "rowPosition": 67,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"67\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2004-12-04",
-          "fieldName": "dt_original",
-          "fieldNumber": 5,
-          "fieldPosition": 5,
-          "cells": [
-            "166",
-            "2005",
-            "796",
-            "2005-01-12",
-            "2004-12-04",
-            "1300002 - SETOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 66,
-          "rowPosition": 67,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-12-04\" in row \"67\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2005-01-12",
-          "fieldName": "dt_empenho",
-          "fieldNumber": 4,
-          "fieldPosition": 4,
-          "cells": [
-            "167",
-            "2005",
-            "800",
-            "2005-01-12",
-            "2004-12-04",
-            "1300002 - SETOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 67,
-          "rowPosition": 68,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"68\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2004-12-04",
-          "fieldName": "dt_original",
-          "fieldNumber": 5,
-          "fieldPosition": 5,
-          "cells": [
-            "167",
-            "2005",
-            "800",
-            "2005-01-12",
-            "2004-12-04",
-            "1300002 - SETOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 67,
-          "rowPosition": 68,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-12-04\" in row \"68\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2005-01-12",
-          "fieldName": "dt_empenho",
-          "fieldNumber": 4,
-          "fieldPosition": 4,
-          "cells": [
-            "168",
-            "2005",
-            "468",
-            "2005-01-12",
-            "2004-07-02",
-            "1300002 - SETOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 68,
-          "rowPosition": 69,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"69\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2004-07-02",
-          "fieldName": "dt_original",
-          "fieldNumber": 5,
-          "fieldPosition": 5,
-          "cells": [
-            "168",
-            "2005",
-            "468",
-            "2005-01-12",
-            "2004-07-02",
-            "1300002 - SETOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 68,
-          "rowPosition": 69,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-07-02\" in row \"69\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2005-01-12",
-          "fieldName": "dt_empenho",
-          "fieldNumber": 4,
-          "fieldPosition": 4,
-          "cells": [
-            "169",
-            "2005",
-            "438",
-            "2005-01-12",
-            "2004-07-01",
-            "1300002 - SETOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 69,
-          "rowPosition": 70,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"70\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2004-07-01",
-          "fieldName": "dt_original",
-          "fieldNumber": 5,
-          "fieldPosition": 5,
-          "cells": [
-            "169",
-            "2005",
-            "438",
-            "2005-01-12",
-            "2004-07-01",
-            "1300002 - SETOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 69,
-          "rowPosition": 70,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-07-01\" in row \"70\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2005-01-12",
-          "fieldName": "dt_empenho",
-          "fieldNumber": 4,
-          "fieldPosition": 4,
-          "cells": [
-            "170",
-            "2005",
-            "456",
-            "2005-01-12",
-            "2004-07-01",
-            "1300002 - SETOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 70,
-          "rowPosition": 71,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"71\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2004-07-01",
-          "fieldName": "dt_original",
-          "fieldNumber": 5,
-          "fieldPosition": 5,
-          "cells": [
-            "170",
-            "2005",
-            "456",
-            "2005-01-12",
-            "2004-07-01",
-            "1300002 - SETOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 70,
-          "rowPosition": 71,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-07-01\" in row \"71\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2005-01-12",
-          "fieldName": "dt_empenho",
-          "fieldNumber": 4,
-          "fieldPosition": 4,
-          "cells": [
-            "171",
-            "2005",
-            "265",
-            "2005-01-12",
-            "2004-06-29",
-            "1300002 - SETOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 71,
-          "rowPosition": 72,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"72\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "2004-06-29",
-          "fieldName": "dt_original",
-          "fieldNumber": 5,
-          "fieldPosition": 5,
-          "cells": [
-            "171",
-            "2005",
-            "265",
-            "2005-01-12",
-            "2004-06-29",
-            "1300002 - SETOP",
-            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
-            "0.00"
-          ],
-          "rowNumber": 71,
-          "rowPosition": 72,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-06-29\" in row \"72\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
           "cell": "2005-01-12",
           "fieldName": "dt_empenho",
           "fieldNumber": 4,
@@ -4133,8 +3069,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "1063.00"
           ],
-          "rowNumber": 72,
-          "rowPosition": 73,
+          "rowNumber": 53,
+          "rowPosition": 54,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -4143,7 +3079,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"73\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"54\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4161,8 +3097,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "1063.00"
           ],
-          "rowNumber": 72,
-          "rowPosition": 73,
+          "rowNumber": 53,
+          "rowPosition": 54,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -4171,7 +3107,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-12-15\" in row \"73\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-12-15\" in row \"54\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4189,8 +3125,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "13547.93"
           ],
-          "rowNumber": 73,
-          "rowPosition": 74,
+          "rowNumber": 54,
+          "rowPosition": 55,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -4199,7 +3135,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"74\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"55\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4217,8 +3153,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "13547.93"
           ],
-          "rowNumber": 73,
-          "rowPosition": 74,
+          "rowNumber": 54,
+          "rowPosition": 55,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -4227,7 +3163,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-11-29\" in row \"74\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-11-29\" in row \"55\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4245,8 +3181,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "3681.39"
           ],
-          "rowNumber": 74,
-          "rowPosition": 75,
+          "rowNumber": 55,
+          "rowPosition": 56,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -4255,7 +3191,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"75\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"56\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4273,8 +3209,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "3681.39"
           ],
-          "rowNumber": 74,
-          "rowPosition": 75,
+          "rowNumber": 55,
+          "rowPosition": 56,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -4283,7 +3219,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-12-15\" in row \"75\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-12-15\" in row \"56\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4301,8 +3237,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "174.90"
           ],
-          "rowNumber": 75,
-          "rowPosition": 76,
+          "rowNumber": 56,
+          "rowPosition": 57,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -4311,7 +3247,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"76\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"57\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4329,8 +3265,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "174.90"
           ],
-          "rowNumber": 75,
-          "rowPosition": 76,
+          "rowNumber": 56,
+          "rowPosition": 57,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -4339,7 +3275,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-12-15\" in row \"76\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-12-15\" in row \"57\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4357,8 +3293,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "718.50"
           ],
-          "rowNumber": 76,
-          "rowPosition": 77,
+          "rowNumber": 57,
+          "rowPosition": 58,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -4367,7 +3303,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"77\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"58\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4385,8 +3321,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "718.50"
           ],
-          "rowNumber": 76,
-          "rowPosition": 77,
+          "rowNumber": 57,
+          "rowPosition": 58,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -4395,7 +3331,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-12-15\" in row \"77\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-12-15\" in row \"58\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4413,8 +3349,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "242.00"
           ],
-          "rowNumber": 77,
-          "rowPosition": 78,
+          "rowNumber": 58,
+          "rowPosition": 59,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -4423,7 +3359,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"78\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"59\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4441,8 +3377,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "242.00"
           ],
-          "rowNumber": 77,
-          "rowPosition": 78,
+          "rowNumber": 58,
+          "rowPosition": 59,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -4451,7 +3387,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-12-15\" in row \"78\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-12-15\" in row \"59\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4469,8 +3405,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "402.00"
           ],
-          "rowNumber": 78,
-          "rowPosition": 79,
+          "rowNumber": 59,
+          "rowPosition": 60,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -4479,7 +3415,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"79\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"60\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4497,8 +3433,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "402.00"
           ],
-          "rowNumber": 78,
-          "rowPosition": 79,
+          "rowNumber": 59,
+          "rowPosition": 60,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -4507,7 +3443,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-12-15\" in row \"79\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-12-15\" in row \"60\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4525,8 +3461,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "5376.80"
           ],
-          "rowNumber": 79,
-          "rowPosition": 80,
+          "rowNumber": 60,
+          "rowPosition": 61,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -4535,7 +3471,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"80\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"61\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4553,8 +3489,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "5376.80"
           ],
-          "rowNumber": 79,
-          "rowPosition": 80,
+          "rowNumber": 60,
+          "rowPosition": 61,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -4563,7 +3499,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-12-10\" in row \"80\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-12-10\" in row \"61\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4581,8 +3517,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "25719.80"
           ],
-          "rowNumber": 80,
-          "rowPosition": 81,
+          "rowNumber": 61,
+          "rowPosition": 62,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -4591,7 +3527,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"81\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"62\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4609,8 +3545,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "25719.80"
           ],
-          "rowNumber": 80,
-          "rowPosition": 81,
+          "rowNumber": 61,
+          "rowPosition": 62,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -4619,7 +3555,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-11-18\" in row \"81\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-11-18\" in row \"62\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4637,8 +3573,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "16044.32"
           ],
-          "rowNumber": 81,
-          "rowPosition": 82,
+          "rowNumber": 62,
+          "rowPosition": 63,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -4647,7 +3583,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"82\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"63\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4665,8 +3601,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "16044.32"
           ],
-          "rowNumber": 81,
-          "rowPosition": 82,
+          "rowNumber": 62,
+          "rowPosition": 63,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -4675,7 +3611,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-10-27\" in row \"82\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-10-27\" in row \"63\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4693,8 +3629,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "184894.18"
           ],
-          "rowNumber": 82,
-          "rowPosition": 83,
+          "rowNumber": 63,
+          "rowPosition": 64,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -4703,7 +3639,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"83\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"64\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4721,8 +3657,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "184894.18"
           ],
-          "rowNumber": 82,
-          "rowPosition": 83,
+          "rowNumber": 63,
+          "rowPosition": 64,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -4731,7 +3667,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-11-04\" in row \"83\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-11-04\" in row \"64\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4749,8 +3685,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "28374.66"
           ],
-          "rowNumber": 83,
-          "rowPosition": 84,
+          "rowNumber": 64,
+          "rowPosition": 65,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -4759,7 +3695,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"84\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"65\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4777,8 +3713,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "28374.66"
           ],
-          "rowNumber": 83,
-          "rowPosition": 84,
+          "rowNumber": 64,
+          "rowPosition": 65,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -4787,7 +3723,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-10-27\" in row \"84\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-10-27\" in row \"65\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4805,8 +3741,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "15302.13"
           ],
-          "rowNumber": 84,
-          "rowPosition": 85,
+          "rowNumber": 65,
+          "rowPosition": 66,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -4815,7 +3751,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"85\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"66\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4833,8 +3769,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "15302.13"
           ],
-          "rowNumber": 84,
-          "rowPosition": 85,
+          "rowNumber": 65,
+          "rowPosition": 66,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -4843,7 +3779,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-10-27\" in row \"85\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-10-27\" in row \"66\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4861,8 +3797,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "265840.18"
           ],
-          "rowNumber": 85,
-          "rowPosition": 86,
+          "rowNumber": 66,
+          "rowPosition": 67,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -4871,7 +3807,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"86\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"67\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4889,8 +3825,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "265840.18"
           ],
-          "rowNumber": 85,
-          "rowPosition": 86,
+          "rowNumber": 66,
+          "rowPosition": 67,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -4899,7 +3835,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-09-24\" in row \"86\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-09-24\" in row \"67\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4917,8 +3853,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "6143.35"
           ],
-          "rowNumber": 86,
-          "rowPosition": 87,
+          "rowNumber": 67,
+          "rowPosition": 68,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -4927,7 +3863,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"87\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"68\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4945,8 +3881,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "6143.35"
           ],
-          "rowNumber": 86,
-          "rowPosition": 87,
+          "rowNumber": 67,
+          "rowPosition": 68,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -4955,7 +3891,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-08-31\" in row \"87\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-08-31\" in row \"68\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -4973,8 +3909,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "4748.49"
           ],
-          "rowNumber": 87,
-          "rowPosition": 88,
+          "rowNumber": 68,
+          "rowPosition": 69,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -4983,7 +3919,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"88\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"69\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5001,8 +3937,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "4748.49"
           ],
-          "rowNumber": 87,
-          "rowPosition": 88,
+          "rowNumber": 68,
+          "rowPosition": 69,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -5011,7 +3947,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-08-31\" in row \"88\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-08-31\" in row \"69\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5029,8 +3965,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "225591.21"
           ],
-          "rowNumber": 88,
-          "rowPosition": 89,
+          "rowNumber": 69,
+          "rowPosition": 70,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -5039,7 +3975,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"89\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"70\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5057,8 +3993,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "225591.21"
           ],
-          "rowNumber": 88,
-          "rowPosition": 89,
+          "rowNumber": 69,
+          "rowPosition": 70,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -5067,7 +4003,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-07-23\" in row \"89\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-07-23\" in row \"70\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5085,8 +4021,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "137038.22"
           ],
-          "rowNumber": 89,
-          "rowPosition": 90,
+          "rowNumber": 70,
+          "rowPosition": 71,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -5095,7 +4031,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"90\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"71\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5113,8 +4049,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "137038.22"
           ],
-          "rowNumber": 89,
-          "rowPosition": 90,
+          "rowNumber": 70,
+          "rowPosition": 71,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -5123,7 +4059,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-07-23\" in row \"90\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-07-23\" in row \"71\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5141,8 +4077,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "48721.21"
           ],
-          "rowNumber": 90,
-          "rowPosition": 91,
+          "rowNumber": 71,
+          "rowPosition": 72,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -5151,7 +4087,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"91\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"72\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5169,8 +4105,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "48721.21"
           ],
-          "rowNumber": 90,
-          "rowPosition": 91,
+          "rowNumber": 71,
+          "rowPosition": 72,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -5179,7 +4115,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-04-13\" in row \"91\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-04-13\" in row \"72\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5197,8 +4133,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "32874.79"
           ],
-          "rowNumber": 91,
-          "rowPosition": 92,
+          "rowNumber": 72,
+          "rowPosition": 73,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -5207,7 +4143,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"92\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"73\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5225,8 +4161,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "32874.79"
           ],
-          "rowNumber": 91,
-          "rowPosition": 92,
+          "rowNumber": 72,
+          "rowPosition": 73,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -5235,7 +4171,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-06-09\" in row \"92\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-06-09\" in row \"73\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5253,8 +4189,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "1311.20"
           ],
-          "rowNumber": 92,
-          "rowPosition": 93,
+          "rowNumber": 73,
+          "rowPosition": 74,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -5263,7 +4199,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"93\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"74\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5281,8 +4217,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "1311.20"
           ],
-          "rowNumber": 92,
-          "rowPosition": 93,
+          "rowNumber": 73,
+          "rowPosition": 74,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -5291,7 +4227,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-12-28\" in row \"93\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-12-28\" in row \"74\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5309,8 +4245,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "46000.00"
           ],
-          "rowNumber": 93,
-          "rowPosition": 94,
+          "rowNumber": 74,
+          "rowPosition": 75,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -5319,7 +4255,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"94\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"75\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5337,8 +4273,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "46000.00"
           ],
-          "rowNumber": 93,
-          "rowPosition": 94,
+          "rowNumber": 74,
+          "rowPosition": 75,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -5347,7 +4283,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-12-28\" in row \"94\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-12-28\" in row \"75\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5365,8 +4301,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "3766.40"
           ],
-          "rowNumber": 94,
-          "rowPosition": 95,
+          "rowNumber": 75,
+          "rowPosition": 76,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -5375,7 +4311,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"95\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"76\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5393,8 +4329,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "3766.40"
           ],
-          "rowNumber": 94,
-          "rowPosition": 95,
+          "rowNumber": 75,
+          "rowPosition": 76,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -5403,7 +4339,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-12-28\" in row \"95\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-12-28\" in row \"76\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5421,8 +4357,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "3054.08"
           ],
-          "rowNumber": 95,
-          "rowPosition": 96,
+          "rowNumber": 76,
+          "rowPosition": 77,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -5431,7 +4367,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"96\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"77\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5449,8 +4385,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "3054.08"
           ],
-          "rowNumber": 95,
-          "rowPosition": 96,
+          "rowNumber": 76,
+          "rowPosition": 77,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -5459,7 +4395,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-12-28\" in row \"96\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-12-28\" in row \"77\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5477,8 +4413,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "550.86"
           ],
-          "rowNumber": 96,
-          "rowPosition": 97,
+          "rowNumber": 77,
+          "rowPosition": 78,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -5487,7 +4423,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"97\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"78\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5505,8 +4441,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "550.86"
           ],
-          "rowNumber": 96,
-          "rowPosition": 97,
+          "rowNumber": 77,
+          "rowPosition": 78,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -5515,7 +4451,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-12-28\" in row \"97\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-12-28\" in row \"78\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5533,8 +4469,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "1106.52"
           ],
-          "rowNumber": 97,
-          "rowPosition": 98,
+          "rowNumber": 78,
+          "rowPosition": 79,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -5543,7 +4479,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"98\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"79\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5561,8 +4497,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "1106.52"
           ],
-          "rowNumber": 97,
-          "rowPosition": 98,
+          "rowNumber": 78,
+          "rowPosition": 79,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -5571,7 +4507,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-12-28\" in row \"98\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-12-28\" in row \"79\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5589,8 +4525,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "190.00"
           ],
-          "rowNumber": 98,
-          "rowPosition": 99,
+          "rowNumber": 79,
+          "rowPosition": 80,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -5599,7 +4535,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"99\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"80\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5617,8 +4553,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "190.00"
           ],
-          "rowNumber": 98,
-          "rowPosition": 99,
+          "rowNumber": 79,
+          "rowPosition": 80,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -5627,7 +4563,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-12-28\" in row \"99\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-12-28\" in row \"80\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5645,8 +4581,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "4041.20"
           ],
-          "rowNumber": 99,
-          "rowPosition": 100,
+          "rowNumber": 80,
+          "rowPosition": 81,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -5655,7 +4591,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"100\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"81\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5673,8 +4609,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "4041.20"
           ],
-          "rowNumber": 99,
-          "rowPosition": 100,
+          "rowNumber": 80,
+          "rowPosition": 81,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -5683,7 +4619,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-12-28\" in row \"100\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-12-28\" in row \"81\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5701,8 +4637,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "281.60"
           ],
-          "rowNumber": 100,
-          "rowPosition": 101,
+          "rowNumber": 81,
+          "rowPosition": 82,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -5711,7 +4647,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"101\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"82\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5729,8 +4665,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "281.60"
           ],
-          "rowNumber": 100,
-          "rowPosition": 101,
+          "rowNumber": 81,
+          "rowPosition": 82,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -5739,7 +4675,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-12-28\" in row \"101\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-12-28\" in row \"82\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5757,8 +4693,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "34147.68"
           ],
-          "rowNumber": 101,
-          "rowPosition": 102,
+          "rowNumber": 82,
+          "rowPosition": 83,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -5767,7 +4703,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"102\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"83\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5785,8 +4721,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "34147.68"
           ],
-          "rowNumber": 101,
-          "rowPosition": 102,
+          "rowNumber": 82,
+          "rowPosition": 83,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -5795,7 +4731,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-12-23\" in row \"102\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-12-23\" in row \"83\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5813,8 +4749,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "12669.78"
           ],
-          "rowNumber": 102,
-          "rowPosition": 103,
+          "rowNumber": 83,
+          "rowPosition": 84,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -5823,7 +4759,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"103\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"84\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5841,8 +4777,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "12669.78"
           ],
-          "rowNumber": 102,
-          "rowPosition": 103,
+          "rowNumber": 83,
+          "rowPosition": 84,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -5851,7 +4787,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-12-15\" in row \"103\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-12-15\" in row \"84\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5869,8 +4805,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "475.20"
           ],
-          "rowNumber": 103,
-          "rowPosition": 104,
+          "rowNumber": 84,
+          "rowPosition": 85,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -5879,7 +4815,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"104\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"85\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5897,8 +4833,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "475.20"
           ],
-          "rowNumber": 103,
-          "rowPosition": 104,
+          "rowNumber": 84,
+          "rowPosition": 85,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -5907,7 +4843,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-12-15\" in row \"104\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-12-15\" in row \"85\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5925,8 +4861,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "2890.00"
           ],
-          "rowNumber": 104,
-          "rowPosition": 105,
+          "rowNumber": 85,
+          "rowPosition": 86,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -5935,7 +4871,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"105\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"86\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5953,8 +4889,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "2890.00"
           ],
-          "rowNumber": 104,
-          "rowPosition": 105,
+          "rowNumber": 85,
+          "rowPosition": 86,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -5963,7 +4899,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-12-15\" in row \"105\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-12-15\" in row \"86\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -5981,8 +4917,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "1600.00"
           ],
-          "rowNumber": 105,
-          "rowPosition": 106,
+          "rowNumber": 86,
+          "rowPosition": 87,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -5991,7 +4927,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"106\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"87\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -6009,8 +4945,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "1600.00"
           ],
-          "rowNumber": 105,
-          "rowPosition": 106,
+          "rowNumber": 86,
+          "rowPosition": 87,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -6019,7 +4955,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-12-15\" in row \"106\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-12-15\" in row \"87\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -6037,8 +4973,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "290.00"
           ],
-          "rowNumber": 106,
-          "rowPosition": 107,
+          "rowNumber": 87,
+          "rowPosition": 88,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -6047,7 +4983,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"107\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"88\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -6065,8 +5001,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "290.00"
           ],
-          "rowNumber": 106,
-          "rowPosition": 107,
+          "rowNumber": 87,
+          "rowPosition": 88,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -6075,7 +5011,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-12-15\" in row \"107\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-12-15\" in row \"88\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -6093,8 +5029,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "4370.00"
           ],
-          "rowNumber": 107,
-          "rowPosition": 108,
+          "rowNumber": 88,
+          "rowPosition": 89,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -6103,7 +5039,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"108\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"89\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -6121,8 +5057,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "4370.00"
           ],
-          "rowNumber": 107,
-          "rowPosition": 108,
+          "rowNumber": 88,
+          "rowPosition": 89,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -6131,7 +5067,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-12-15\" in row \"108\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-12-15\" in row \"89\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -6149,8 +5085,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "25449.96"
           ],
-          "rowNumber": 108,
-          "rowPosition": 109,
+          "rowNumber": 89,
+          "rowPosition": 90,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -6159,7 +5095,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"109\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"90\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -6177,8 +5113,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "25449.96"
           ],
-          "rowNumber": 108,
-          "rowPosition": 109,
+          "rowNumber": 89,
+          "rowPosition": 90,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -6187,7 +5123,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-12-15\" in row \"109\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-12-15\" in row \"90\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -6205,8 +5141,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "3580.00"
           ],
-          "rowNumber": 109,
-          "rowPosition": 110,
+          "rowNumber": 90,
+          "rowPosition": 91,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -6215,7 +5151,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"110\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"91\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -6233,8 +5169,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "3580.00"
           ],
-          "rowNumber": 109,
-          "rowPosition": 110,
+          "rowNumber": 90,
+          "rowPosition": 91,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -6243,7 +5179,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-12-15\" in row \"110\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-12-15\" in row \"91\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -6261,8 +5197,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "200.00"
           ],
-          "rowNumber": 110,
-          "rowPosition": 111,
+          "rowNumber": 91,
+          "rowPosition": 92,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -6271,7 +5207,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"111\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"92\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -6289,8 +5225,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "200.00"
           ],
-          "rowNumber": 110,
-          "rowPosition": 111,
+          "rowNumber": 91,
+          "rowPosition": 92,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -6299,7 +5235,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-12-15\" in row \"111\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-12-15\" in row \"92\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -6317,8 +5253,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "1620.00"
           ],
-          "rowNumber": 111,
-          "rowPosition": 112,
+          "rowNumber": 92,
+          "rowPosition": 93,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -6327,7 +5263,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"112\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"93\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -6345,8 +5281,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "1620.00"
           ],
-          "rowNumber": 111,
-          "rowPosition": 112,
+          "rowNumber": 92,
+          "rowPosition": 93,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -6355,7 +5291,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-12-15\" in row \"112\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-12-15\" in row \"93\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -6373,8 +5309,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "585.00"
           ],
-          "rowNumber": 112,
-          "rowPosition": 113,
+          "rowNumber": 93,
+          "rowPosition": 94,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -6383,7 +5319,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"113\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"94\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -6401,8 +5337,8 @@
             "INSCRICAO DE RESTO A PAGAR PROCESSADO",
             "585.00"
           ],
-          "rowNumber": 112,
-          "rowPosition": 113,
+          "rowNumber": 93,
+          "rowPosition": 94,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -6411,7 +5347,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-12-13\" in row \"113\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-12-13\" in row \"94\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -6429,8 +5365,8 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "1260.34"
           ],
-          "rowNumber": 113,
-          "rowPosition": 114,
+          "rowNumber": 94,
+          "rowPosition": 95,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -6439,7 +5375,7 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2005-01-12\" in row \"114\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"95\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
@@ -6457,6 +5393,1042 @@
             "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
             "1260.34"
           ],
+          "rowNumber": 94,
+          "rowPosition": 95,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-12-01\" in row \"95\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2005-01-09",
+          "fieldName": "dt_empenho",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "cells": [
+            "153",
+            "2005",
+            "481",
+            "2005-01-09",
+            "2004-06-30",
+            "1480010 - SEDESE/SEL",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "0.00"
+          ],
+          "rowNumber": 95,
+          "rowPosition": 96,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-09\" in row \"96\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2004-06-30",
+          "fieldName": "dt_original",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "153",
+            "2005",
+            "481",
+            "2005-01-09",
+            "2004-06-30",
+            "1480010 - SEDESE/SEL",
+            "INSCRICAO DE RESTO A PAGAR NAO PROCESSADO",
+            "0.00"
+          ],
+          "rowNumber": 95,
+          "rowPosition": 96,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-06-30\" in row \"96\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2005-01-12",
+          "fieldName": "dt_empenho",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "cells": [
+            "154",
+            "2005",
+            "798",
+            "2005-01-12",
+            "2004-12-04",
+            "1300002 - SETOP",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "0.00"
+          ],
+          "rowNumber": 96,
+          "rowPosition": 97,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"97\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2004-12-04",
+          "fieldName": "dt_original",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "154",
+            "2005",
+            "798",
+            "2005-01-12",
+            "2004-12-04",
+            "1300002 - SETOP",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "0.00"
+          ],
+          "rowNumber": 96,
+          "rowPosition": 97,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-12-04\" in row \"97\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2005-01-12",
+          "fieldName": "dt_empenho",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "cells": [
+            "155",
+            "2005",
+            "389",
+            "2005-01-12",
+            "2004-06-30",
+            "1300002 - SETOP",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "0.00"
+          ],
+          "rowNumber": 97,
+          "rowPosition": 98,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"98\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2004-06-30",
+          "fieldName": "dt_original",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "155",
+            "2005",
+            "389",
+            "2005-01-12",
+            "2004-06-30",
+            "1300002 - SETOP",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "0.00"
+          ],
+          "rowNumber": 97,
+          "rowPosition": 98,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-06-30\" in row \"98\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2005-01-12",
+          "fieldName": "dt_empenho",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "cells": [
+            "156",
+            "2005",
+            "793",
+            "2005-01-12",
+            "2004-12-04",
+            "1300002 - SETOP",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "0.00"
+          ],
+          "rowNumber": 98,
+          "rowPosition": 99,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"99\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2004-12-04",
+          "fieldName": "dt_original",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "156",
+            "2005",
+            "793",
+            "2005-01-12",
+            "2004-12-04",
+            "1300002 - SETOP",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "0.00"
+          ],
+          "rowNumber": 98,
+          "rowPosition": 99,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-12-04\" in row \"99\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2005-01-12",
+          "fieldName": "dt_empenho",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "cells": [
+            "157",
+            "2005",
+            "343",
+            "2005-01-12",
+            "2004-06-30",
+            "1300002 - SETOP",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "0.00"
+          ],
+          "rowNumber": 99,
+          "rowPosition": 100,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"100\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2004-06-30",
+          "fieldName": "dt_original",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "157",
+            "2005",
+            "343",
+            "2005-01-12",
+            "2004-06-30",
+            "1300002 - SETOP",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "0.00"
+          ],
+          "rowNumber": 99,
+          "rowPosition": 100,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-06-30\" in row \"100\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2005-01-12",
+          "fieldName": "dt_empenho",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "cells": [
+            "158",
+            "2005",
+            "443",
+            "2005-01-12",
+            "2004-07-01",
+            "1300002 - SETOP",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "0.00"
+          ],
+          "rowNumber": 100,
+          "rowPosition": 101,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"101\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2004-07-01",
+          "fieldName": "dt_original",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "158",
+            "2005",
+            "443",
+            "2005-01-12",
+            "2004-07-01",
+            "1300002 - SETOP",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "0.00"
+          ],
+          "rowNumber": 100,
+          "rowPosition": 101,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-07-01\" in row \"101\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2005-01-12",
+          "fieldName": "dt_empenho",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "cells": [
+            "159",
+            "2005",
+            "481",
+            "2005-01-12",
+            "2004-07-02",
+            "1300002 - SETOP",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "0.00"
+          ],
+          "rowNumber": 101,
+          "rowPosition": 102,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"102\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2004-07-02",
+          "fieldName": "dt_original",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "159",
+            "2005",
+            "481",
+            "2005-01-12",
+            "2004-07-02",
+            "1300002 - SETOP",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "0.00"
+          ],
+          "rowNumber": 101,
+          "rowPosition": 102,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-07-02\" in row \"102\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2005-01-12",
+          "fieldName": "dt_empenho",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "cells": [
+            "160",
+            "2005",
+            "369",
+            "2005-01-12",
+            "2004-06-30",
+            "1300002 - SETOP",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "0.00"
+          ],
+          "rowNumber": 102,
+          "rowPosition": 103,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"103\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2004-06-30",
+          "fieldName": "dt_original",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "160",
+            "2005",
+            "369",
+            "2005-01-12",
+            "2004-06-30",
+            "1300002 - SETOP",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "0.00"
+          ],
+          "rowNumber": 102,
+          "rowPosition": 103,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-06-30\" in row \"103\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2005-01-12",
+          "fieldName": "dt_empenho",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "cells": [
+            "161",
+            "2005",
+            "365",
+            "2005-01-12",
+            "2004-06-30",
+            "1300002 - SETOP",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "0.00"
+          ],
+          "rowNumber": 103,
+          "rowPosition": 104,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"104\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2004-06-30",
+          "fieldName": "dt_original",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "161",
+            "2005",
+            "365",
+            "2005-01-12",
+            "2004-06-30",
+            "1300002 - SETOP",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "0.00"
+          ],
+          "rowNumber": 103,
+          "rowPosition": 104,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-06-30\" in row \"104\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2005-01-12",
+          "fieldName": "dt_empenho",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "cells": [
+            "162",
+            "2005",
+            "797",
+            "2005-01-12",
+            "2004-12-04",
+            "1300002 - SETOP",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "0.00"
+          ],
+          "rowNumber": 104,
+          "rowPosition": 105,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"105\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2004-12-04",
+          "fieldName": "dt_original",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "162",
+            "2005",
+            "797",
+            "2005-01-12",
+            "2004-12-04",
+            "1300002 - SETOP",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "0.00"
+          ],
+          "rowNumber": 104,
+          "rowPosition": 105,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-12-04\" in row \"105\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2005-01-12",
+          "fieldName": "dt_empenho",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "cells": [
+            "163",
+            "2005",
+            "795",
+            "2005-01-12",
+            "2004-12-04",
+            "1300002 - SETOP",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "0.00"
+          ],
+          "rowNumber": 105,
+          "rowPosition": 106,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"106\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2004-12-04",
+          "fieldName": "dt_original",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "163",
+            "2005",
+            "795",
+            "2005-01-12",
+            "2004-12-04",
+            "1300002 - SETOP",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "0.00"
+          ],
+          "rowNumber": 105,
+          "rowPosition": 106,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-12-04\" in row \"106\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2005-01-12",
+          "fieldName": "dt_empenho",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "cells": [
+            "164",
+            "2005",
+            "794",
+            "2005-01-12",
+            "2004-12-04",
+            "1300002 - SETOP",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "0.00"
+          ],
+          "rowNumber": 106,
+          "rowPosition": 107,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"107\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2004-12-04",
+          "fieldName": "dt_original",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "164",
+            "2005",
+            "794",
+            "2005-01-12",
+            "2004-12-04",
+            "1300002 - SETOP",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "0.00"
+          ],
+          "rowNumber": 106,
+          "rowPosition": 107,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-12-04\" in row \"107\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2005-01-12",
+          "fieldName": "dt_empenho",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "cells": [
+            "165",
+            "2005",
+            "803",
+            "2005-01-12",
+            "2004-12-04",
+            "1300002 - SETOP",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "0.00"
+          ],
+          "rowNumber": 107,
+          "rowPosition": 108,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"108\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2004-12-04",
+          "fieldName": "dt_original",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "165",
+            "2005",
+            "803",
+            "2005-01-12",
+            "2004-12-04",
+            "1300002 - SETOP",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "0.00"
+          ],
+          "rowNumber": 107,
+          "rowPosition": 108,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-12-04\" in row \"108\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2005-01-12",
+          "fieldName": "dt_empenho",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "cells": [
+            "166",
+            "2005",
+            "796",
+            "2005-01-12",
+            "2004-12-04",
+            "1300002 - SETOP",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "0.00"
+          ],
+          "rowNumber": 108,
+          "rowPosition": 109,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"109\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2004-12-04",
+          "fieldName": "dt_original",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "166",
+            "2005",
+            "796",
+            "2005-01-12",
+            "2004-12-04",
+            "1300002 - SETOP",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "0.00"
+          ],
+          "rowNumber": 108,
+          "rowPosition": 109,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-12-04\" in row \"109\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2005-01-12",
+          "fieldName": "dt_empenho",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "cells": [
+            "167",
+            "2005",
+            "800",
+            "2005-01-12",
+            "2004-12-04",
+            "1300002 - SETOP",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "0.00"
+          ],
+          "rowNumber": 109,
+          "rowPosition": 110,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"110\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2004-12-04",
+          "fieldName": "dt_original",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "167",
+            "2005",
+            "800",
+            "2005-01-12",
+            "2004-12-04",
+            "1300002 - SETOP",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "0.00"
+          ],
+          "rowNumber": 109,
+          "rowPosition": 110,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-12-04\" in row \"110\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2005-01-12",
+          "fieldName": "dt_empenho",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "cells": [
+            "168",
+            "2005",
+            "468",
+            "2005-01-12",
+            "2004-07-02",
+            "1300002 - SETOP",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "0.00"
+          ],
+          "rowNumber": 110,
+          "rowPosition": 111,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"111\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2004-07-02",
+          "fieldName": "dt_original",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "168",
+            "2005",
+            "468",
+            "2005-01-12",
+            "2004-07-02",
+            "1300002 - SETOP",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "0.00"
+          ],
+          "rowNumber": 110,
+          "rowPosition": 111,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-07-02\" in row \"111\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2005-01-12",
+          "fieldName": "dt_empenho",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "cells": [
+            "169",
+            "2005",
+            "438",
+            "2005-01-12",
+            "2004-07-01",
+            "1300002 - SETOP",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "0.00"
+          ],
+          "rowNumber": 111,
+          "rowPosition": 112,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"112\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2004-07-01",
+          "fieldName": "dt_original",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "169",
+            "2005",
+            "438",
+            "2005-01-12",
+            "2004-07-01",
+            "1300002 - SETOP",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "0.00"
+          ],
+          "rowNumber": 111,
+          "rowPosition": 112,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-07-01\" in row \"112\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2005-01-12",
+          "fieldName": "dt_empenho",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "cells": [
+            "170",
+            "2005",
+            "456",
+            "2005-01-12",
+            "2004-07-01",
+            "1300002 - SETOP",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "0.00"
+          ],
+          "rowNumber": 112,
+          "rowPosition": 113,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"113\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2004-07-01",
+          "fieldName": "dt_original",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "170",
+            "2005",
+            "456",
+            "2005-01-12",
+            "2004-07-01",
+            "1300002 - SETOP",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "0.00"
+          ],
+          "rowNumber": 112,
+          "rowPosition": 113,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-07-01\" in row \"113\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2005-01-12",
+          "fieldName": "dt_empenho",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "cells": [
+            "171",
+            "2005",
+            "265",
+            "2005-01-12",
+            "2004-06-29",
+            "1300002 - SETOP",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "0.00"
+          ],
           "rowNumber": 113,
           "rowPosition": 114,
           "code": "type-error",
@@ -6467,7 +6439,35 @@
             "#cell"
           ],
           "note": "type is \"datetime/default\"",
-          "message": "Type error in the cell \"2004-12-01\" in row \"114\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
+          "message": "Type error in the cell \"2005-01-12\" in row \"114\" and field \"dt_empenho\" at position \"4\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2004-06-29",
+          "fieldName": "dt_original",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "171",
+            "2005",
+            "265",
+            "2005-01-12",
+            "2004-06-29",
+            "1300002 - SETOP",
+            "INSCRICAO DE RESTO A PAGAR PROCESSADO",
+            "0.00"
+          ],
+          "rowNumber": 113,
+          "rowPosition": 114,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"2004-06-29\" in row \"114\" and field \"dt_original\" at position \"5\": type is \"datetime/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
