@@ -1,10 +1,1 @@
 Atualizando conjunto de dados: compras_contratos
-Diferenças nos dados do recurso: dm_processo
-Atualizando recurso: dm_processo
-Atualizando datapackage.json
-Diferenças nos dados do recurso: fl_compras_empenho
-Atualizando recurso: fl_compras_empenho
-Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_compras
-Atualizando recurso: ft_compras
-Atualizando datapackage.json
