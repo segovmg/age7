@@ -4,7 +4,7 @@
 Replicação --> extract --> ingest --> data --> validate --> datapackage
 ---
 
-[!](static/etl-age7.pdf)
+![](static/etl-age7.pdf)
 
 1. replicação do banco do PdT: PRODEMGE para CGE, via servidor Kyoto do NUCC 
 
