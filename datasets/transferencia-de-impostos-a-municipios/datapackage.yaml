@@ -5,5 +5,7 @@ ckan_hosts:
     dm_tempo_mensal: a3a38dfc-2724-4276-9e0f-0b98d4138f09
     ft_repasse_mun: ebed720b-5c5e-4e38-878b-be800c6e9967
 keywords:
-- "Portal da Transpar\xEAncia"
+- "Portal da Transparência"
+- "Repasses"
+- "Transferências"
 version: 0.1.0

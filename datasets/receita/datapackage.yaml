@@ -1,6 +1,7 @@
 version: 0.2.0
 keywords:
   - Portal da Transparência
+  - Receita
 ckan_hosts:
   https://dados.mg.gov.br/:
     datapackage.json: f5dbe6c2-380b-4e89-bb5a-37a4d08f7bed

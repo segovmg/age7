@@ -28,5 +28,7 @@ ckan_hosts:
     ft_compras: eff6e8a5-0913-44f2-a686-4178cd9c54a1
     ft_compras_contrato: 844f0808-bfa6-4dc6-8274-9703856309eb
 keywords:
-- "Portal da Transpar\xEAncia"
+- "Portal da Transparência"
+- "Compras"
+- "Contratos"
 version: 0.1.0

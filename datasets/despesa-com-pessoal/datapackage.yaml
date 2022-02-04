@@ -6,5 +6,7 @@ ckan_hosts:
     dm_unidade_orc: bd4d07fc-f28c-4b83-8727-9a13685196d4
     ft_pessoal_desp: cbc4ad70-9d58-4339-b0de-f4c7e86e4964
 keywords:
-- "Portal da Transpar\xEAncia"
+- "Portal da Transparência"
+- "Despesa"
+- "Pessoal"
 version: 0.1.0

@@ -59,5 +59,6 @@ ckan_hosts:
     ft_despesa_2020: bd516907-beeb-44db-a876-60de9c5972e3
     ft_despesa_2021: c1c468f8-95af-4cd5-b0d4-0b1c5f2062af
 keywords:
-- "Portal da Transpar\xEAncia"
+- "Portal da Transparência"
+- "Despesa"
 version: 0.1.0
