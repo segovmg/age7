@@ -1,4 +1,17 @@
-Already up to date.
+Updating fad9797..c20fe5b
+Fast-forward
+ datasets/compras_contratos/datapackage.yaml                      | 4 +++-
+ datasets/convenios-entrada/datapackage.yaml                      | 1 +
+ datasets/convenios-saida/datapackage.yaml                        | 1 +
+ datasets/despesa-com-pessoal/datapackage.yaml                    | 4 +++-
+ datasets/despesa/datapackage.yaml                                | 3 ++-
+ datasets/diarias/datapackage.yaml                                | 4 +++-
+ datasets/execucao-da-divida/datapackage.yaml                     | 3 ++-
+ datasets/receita/datapackage.yaml                                | 1 +
+ datasets/restos_pagar/datapackage.yaml                           | 4 +++-
+ datasets/transferencia-de-impostos-a-municipios/datapackage.yaml | 4 +++-
+ datasets/viagens/datapackage.yaml                                | 4 +++-
+ 11 files changed, 25 insertions(+), 8 deletions(-)
 rm -rf logs/extract/*
 rm -rf logs/parse/*
 rm -rf logs/tests/*
@@ -119,5 +132,3 @@ Extraindo recurso ft_despesa_2006...
 Extraindo recurso ft_despesa_2007...
 Extraindo recurso ft_despesa_2008...
 Extraindo recurso ft_despesa_2009...
-Extraindo recurso ft_despesa_2010...
-Extraindo recurso ft_despesa_2011...
