@@ -18,12 +18,12 @@ $(SQL_FILES): scripts/sql/%.sql: scripts/r/parse-sql.R schemas/%.yaml
 
 full-extract:
 	# python scripts/python/full-extract.py
-	dtamg-py etl-make full-extract 2>> logs/full_extract.txt
+	dtamg-py etl-make full-extract 2> logs/full_extract.txt
 
 extract: $(DATA_RAW_FILES) # Extract raw files from external source into data/raw/
 
 $(DATA_RAW_FILES): data/raw/%.csv: scripts/sql/%.sql
-	@dtamg-py etl-make extract --resource $* | tee logs/extract/$*.txt
+	-dtamg-py etl-make extract --resource $* 2> logs/extract/$*.txt
 
 ingest: $(DATA_INGEST_FILES) ## Ingest raw files (data/raw/) into staging area (data/staging/)
 
@@ -57,7 +57,7 @@ $(DATASETS_FILES): logs/update/%.txt: build_datasets/%/datapackage.json
 	dpckan dataset update --datapackage build_datasets/$*/datapackage.json > $@
 
 $(VALIDATION_FILES): logs/validate/%.json: data/%.csv.gz schemas/%.yaml
-	-dtamg-py etl-make validate -r $*
+	-dtamg-py etl-make validate -r $* > $@
 
 validate-metadata: ## Valida arquivo yaml com tableschema
 	@echo "Validando tableschemas"
