@@ -31,7 +31,7 @@ fields:
     type: number
     format: default
     bareNumber: true
-    decimalChar: ','
+    decimalChar: '.'
     constraints:
       required: true
 missingValues:

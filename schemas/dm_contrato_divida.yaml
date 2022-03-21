@@ -39,7 +39,7 @@ fields:
     type: number
     format: default
     bareNumber: true
-    decimalChar: ','
+    decimalChar: '.'
     description: |
       Valor financeiro inicial do contrato ou convênio. 
     constraints:

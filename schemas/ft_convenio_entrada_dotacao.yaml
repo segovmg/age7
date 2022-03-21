@@ -84,7 +84,7 @@ fields:
     type: number
     format: default
     bareNumber: true
-    decimalChar: ','
+    decimalChar: '.'
     constraints:
       required: true
   - name: vr_proponente_atual
@@ -94,7 +94,7 @@ fields:
     type: number
     format: default
     bareNumber: true
-    decimalChar: ','
+    decimalChar: '.'
     constraints:
       required: true
 missingValues:

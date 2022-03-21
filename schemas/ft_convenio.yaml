@@ -51,7 +51,7 @@ fields:
     type: number
     format: default
     bareNumber: true
-    decimalChar: ','
+    decimalChar: '.'
     description: |
       - >
       Valor financeiro previsto no convênio / parceria para o órgão concedente ou entidade estadual 
@@ -63,7 +63,7 @@ fields:
     type: number
     format: default
     bareNumber: true
-    decimalChar: ','
+    decimalChar: '.'
     description: |
       - >
       Valor financeiro referente a indicação de um ou mais deputados estaduais, previsto no convênio / parceira 
@@ -75,7 +75,7 @@ fields:
     type: number
     format: default
     bareNumber: true
-    decimalChar: ','
+    decimalChar: '.'
     description: |
       - > 
        Valor financeiro previsto no convênio / parceria para o interveniente (entidade pública ou privada que 
@@ -88,7 +88,7 @@ fields:
     type: number
     format: default
     bareNumber: true
-    decimalChar: ','
+    decimalChar: '.'
     description: |
       - > 
        Valor financeiro previsto no convênio / parceria referente a contrapartida financeira a ser dada pelo convenente 
@@ -100,7 +100,7 @@ fields:
     type: number
     format: default
     bareNumber: true
-    decimalChar: ','
+    decimalChar: '.'
     description: |
       - > 
       Valor financeiro total do convênio/parceria, incluindo termos aditivos. 
@@ -114,7 +114,7 @@ fields:
     type: number
     format: default
     bareNumber: true
-    decimalChar: ','
+    decimalChar: '.'
     description: |
       - > 
       Valor financeiro repassado pelo concedente/órgão ou entidade estadual parceiro ao convenente / Organização da 

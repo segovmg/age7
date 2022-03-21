@@ -168,7 +168,7 @@ fields:
     type: number
     format: default
     bareNumber: true
-    decimalChar: ','
+    decimalChar: '.'
     constraints:
       required: true
   - name: vr_un_referencia
@@ -178,7 +178,7 @@ fields:
     type: number
     format: default
     bareNumber: true
-    decimalChar: ','
+    decimalChar: '.'
     constraints:
       required: true
   - name: vr_referencia
@@ -188,7 +188,7 @@ fields:
     type: number
     format: default
     bareNumber: true
-    decimalChar: ','
+    decimalChar: '.'
     constraints:
       required: true
   - name: vr_un_homologado
@@ -197,7 +197,7 @@ fields:
     type: number
     format: default
     bareNumber: true
-    decimalChar: ','
+    decimalChar: '.'
     constraints:
       required: true
   - name: vr_homologado
@@ -206,7 +206,7 @@ fields:
     type: number
     format: default
     bareNumber: true
-    decimalChar: ','
+    decimalChar: '.'
     constraints:
       required: true
   - name: vr_atualizado
@@ -214,7 +214,7 @@ fields:
     type: number
     format: default
     bareNumber: true
-    decimalChar: ','
+    decimalChar: '.'
     constraints:
       required: true
 missingValues:

@@ -100,7 +100,7 @@ fields:
     type: number
     format: default
     bareNumber: true
-    decimalChar: ','
+    decimalChar: '.'
     description: |
       Valor, em reais, da previsão inicial da receita conforme consta na Lei Orçamentária Anual (LOA).
     constraints:
@@ -110,7 +110,7 @@ fields:
     type: number
     format: default
     bareNumber: true
-    decimalChar: ','
+    decimalChar: '.'
     description: |
       Valor, em reais, da previsão atualizada da receita, resultante da expressão: Valor previsto inicial +
       Valor previsto adicional.

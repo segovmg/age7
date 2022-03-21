@@ -71,7 +71,7 @@ fields:
     type: number
     format: default
     bareNumber: true
-    decimalChar: ','
+    decimalChar: '.'
     constraints:
       required: true
   - name: vr_emen_parl_atual
@@ -83,7 +83,7 @@ fields:
     type: number
     format: default
     bareNumber: true
-    decimalChar: ','
+    decimalChar: '.'
     constraints:
       required: true
   - name: vr_interv_atual
@@ -96,7 +96,7 @@ fields:
     type: number
     format: default
     bareNumber: true
-    decimalChar: ','
+    decimalChar: '.'
     constraints:
       required: true
   - name: vr_contra_atual
@@ -108,7 +108,7 @@ fields:
     type: number
     format: default
     bareNumber: true
-    decimalChar: ','
+    decimalChar: '.'
     constraints:
       required: true
   - name: vr_total_atual
@@ -122,7 +122,7 @@ fields:
     type: number
     format: default
     bareNumber: true
-    decimalChar: ','
+    decimalChar: '.'
     constraints:
       required: true
   - name: vr_total_public
@@ -133,7 +133,7 @@ fields:
     type: number
     format: default
     bareNumber: true
-    decimalChar: ','
+    decimalChar: '.'
     constraints:
       required: true
 missingValues:

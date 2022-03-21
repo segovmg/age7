@@ -186,7 +186,7 @@ fields:
     title: Valor Efetivado
     type: number
     format: default
-    decimalChar: ','
+    decimalChar: '.'
     bareNumber: true
     description: |
       Valor, em reais, da receita orçamentária efetivada ajustada.

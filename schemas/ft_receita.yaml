@@ -107,7 +107,7 @@ fields:
     type: number
     format: default
     bareNumber: true
-    decimalChar: ','
+    decimalChar: '.'
     description: |
       Valor, em reais, da receita orçamentária efetivada ajustada.
     constraints:

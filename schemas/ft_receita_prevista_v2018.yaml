@@ -181,7 +181,7 @@ fields:
     title: Valor Previsto Inicial
     type: number
     format: default
-    decimalChar: ','
+    decimalChar: '.'
     bareNumber: true
     description: |
       Valor, em reais, da previsão inicial da receita conforme consta na Lei Orçamentária Anual (LOA).
@@ -191,7 +191,7 @@ fields:
     title: Valor Previsto Atualizado
     type: number
     format: default
-    decimalChar: ','
+    decimalChar: '.'
     bareNumber: true
     description: |
       Valor, em reais, da previsão atualizada da receita, resultante da expressão: Valor previsto inicial +

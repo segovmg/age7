@@ -95,7 +95,7 @@ fields:
     type: string
     format: default
     bareNumber: true
-    decimalChar: ','
+    decimalChar: '.'
     constraints:
       required: true
   - name: vr_proponente_public
@@ -105,7 +105,7 @@ fields:
     type: string
     format: default
     bareNumber: true
-    decimalChar: ','
+    decimalChar: '.'
     constraints:
       required: true
   - name: vr_total_public
@@ -116,7 +116,7 @@ fields:
     type: string
     format: default
     bareNumber: true
-    decimalChar: ','
+    decimalChar: '.'
     constraints:
       required: true
 missingValues:

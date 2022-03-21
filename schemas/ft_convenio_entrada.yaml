@@ -60,7 +60,7 @@ fields:
     type: number
     format: default
     bareNumber: true
-    decimalChar: ','
+    decimalChar: '.'
     description: |
       Valor financeiro previsto no convênio para o concedente repassar ao proponente, incluindo termos aditivos.
     constraints:
@@ -70,7 +70,7 @@ fields:
     type: number
     format: default
     bareNumber: true
-    decimalChar: ','
+    decimalChar: '.'
     description: |
       Valor previsto no convênio para o proponente dar como contrapartida financeira, incluindo termos aditivos.
     constraints:

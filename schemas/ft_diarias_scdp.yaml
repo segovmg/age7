@@ -162,7 +162,7 @@ fields:
     type: number
     format: default
     bareNumber: true
-    decimalChar: ','
+    decimalChar: '.'
     description: |
       - > 
         Quantidade de diárias pagas pelo órgão em razão das viagens a trabalho. 
@@ -172,7 +172,7 @@ fields:
     title: Valor da diária
     type: number
     format: default
-    decimalChar: ','
+    decimalChar: '.'
     bareNumber: true
     description: |
       - > 
@@ -186,7 +186,7 @@ fields:
     title: Valor da Passagem
     type: number
     format: default
-    decimalChar: ','
+    decimalChar: '.'
     bareNumber: true
     description: |
       Valor total pago referente às despesas com passagens aéreas e terrestres de servidor público ou colaborador eventual em razão de viagem a trabalho.

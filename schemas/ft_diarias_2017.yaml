@@ -113,7 +113,7 @@ fields:
     type: number
     format: default
     bareNumber: true
-    decimalChar: ','
+    decimalChar: '.'
     description: |
       Valor do orçamento reservado para fazer face a compromisso formalmente assumido com fornecedor ou credor.
     constraints:
@@ -123,7 +123,7 @@ fields:
     type: number
     format: default
     bareNumber: true
-    decimalChar: ','
+    decimalChar: '.'
     description: |
       Valor que o fornecedor ou credor tem direito a receber referente a produto ou serviço devidamente entregue ou prestado.
     constraints:
@@ -133,7 +133,7 @@ fields:
     type: number
     format: default
     bareNumber: true
-    decimalChar: ','
+    decimalChar: '.'
     description: |
       Valor referente aos pagamentos efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa. 
 

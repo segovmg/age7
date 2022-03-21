@@ -50,7 +50,7 @@ fields:
     type: number
     format: default
     bareNumber: true
-    decimalChar: ','
+    decimalChar: '.'
     constraints:
       required: true
   - name: cd_uni_prog_gasto

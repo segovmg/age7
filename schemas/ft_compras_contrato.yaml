@@ -59,7 +59,7 @@ fields:
     type: number
     format: default
     bareNumber: true
-    decimalChar: ','
+    decimalChar: '.'
     description: |
       Valor total homologado licitado ou comprado do item de material/serviço.
     constraints:
@@ -69,7 +69,7 @@ fields:
     type: number
     format: default
     bareNumber: true
-    decimalChar: ','
+    decimalChar: '.'
     description: |
       Valor total do item de material/serviço atualizado pelas alterações contratuais, com ou sem termo de contrato.
     constraints:
