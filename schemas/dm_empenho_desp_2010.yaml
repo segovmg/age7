@@ -23,7 +23,7 @@ fields:
       required: true
   - name: dt_empenho
     title: Data de registro do documento de empenho
-    type: datetime
+    type: date
     format: default
     constraints:
       required: true

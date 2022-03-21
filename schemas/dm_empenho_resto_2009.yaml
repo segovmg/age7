@@ -23,13 +23,13 @@ fields:
       required: true
   - name: dt_empenho
     title: Data de registro do documento de empenho
-    type: datetime
+    type: date
     format: default
     constraints:
       required: true
   - name: dt_original
     title: Data de registro original do documento de Empenho
-    type: datetime
+    type: date
     format: default
   - name: unidade_executora
     title: Unidade Executora
