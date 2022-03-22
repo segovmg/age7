@@ -16,7 +16,7 @@ fields:
       unique: false
   - name: dt_publicacao
     title: Data da Alteração
-    type: datetime
+    type: date
     format: default
   - name: tp_alteracao
     title: Tipo de Alteração

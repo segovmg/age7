@@ -58,13 +58,13 @@ fields:
   - name: dt_publicacao
     title: Data de Publicação
     description: Data da publicação do extrato do convênio.
-    type: datetime
+    type: date
     format: default
     constraints:
       required: true
   - name: dt_termino_atualizada
     title: Data de Término Atualizada
-    type: datetime
+    type: date
     format: default
     description: |
       - > 
@@ -74,7 +74,7 @@ fields:
       required: true
   - name: dt_inicio_vigencia
     title: Data de Início da Vigência
-    type: datetime
+    type: date
     format: default
     description: |
       - > 
@@ -84,7 +84,7 @@ fields:
       required: true
   - name: dt_termino_vigencia_inicial
     title: Data de Término Vigencia Inicial
-    type: datetime
+    type: date
     format: default
     constraints:
       required: true

@@ -17,7 +17,7 @@ fields:
       unique: false
   - name: dt_registro_receita
     title: Data de registro da receita
-    type: datetime
+    type: date
     format: default
     constraints:
       required: true

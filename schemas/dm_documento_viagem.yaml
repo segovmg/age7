@@ -17,7 +17,7 @@ fields:
       required: true
   - name: dt_viagem_inicio
     title: Data de Início da Viagem
-    type: datetime
+    type: date
     format: default
     constraints:
       required: true
