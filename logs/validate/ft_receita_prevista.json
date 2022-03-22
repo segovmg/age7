@@ -1,6 +1,6 @@
 {
   "version": "4.22.3",
-  "time": 1.578,
+  "time": 1.252,
   "errors": [],
   "tasks": [
     {
@@ -136,7 +136,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "description": "Valor, em reais, da previsão inicial da receita conforme consta na Lei Orçamentária Anual (LOA).\n",
               "constraints": {
                 "required": true
@@ -148,7 +148,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "description": "Valor, em reais, da previsão atualizada da receita, resultante da expressão: Valor previsto inicial +\nValor previsto adicional.\n",
               "constraints": {
                 "required": true
@@ -261,7 +261,7 @@
           "rows": 17968
         }
       },
-      "time": 1.578,
+      "time": 1.252,
       "scope": [
         "hash-count-error",
         "byte-count-error",

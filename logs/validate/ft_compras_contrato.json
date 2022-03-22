@@ -1,6 +1,6 @@
 {
   "version": "4.22.3",
-  "time": 12.058,
+  "time": 11.462,
   "errors": [],
   "tasks": [
     {
@@ -92,7 +92,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "description": "Valor total homologado licitado ou comprado do item de material/serviço.\n",
               "constraints": {
                 "required": true
@@ -104,7 +104,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "description": "Valor total do item de material/serviço atualizado pelas alterações contratuais, com ou sem termo de contrato.\n",
               "constraints": {
                 "required": true
@@ -206,7 +206,7 @@
           "rows": 76509
         }
       },
-      "time": 12.058,
+      "time": 11.462,
       "scope": [
         "hash-count-error",
         "byte-count-error",

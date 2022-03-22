@@ -1,6 +1,6 @@
 {
   "version": "4.22.3",
-  "time": 295.692,
+  "time": 239.333,
   "errors": [],
   "tasks": [
     {
@@ -243,7 +243,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "constraints": {
                 "required": true
               }
@@ -255,7 +255,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "constraints": {
                 "required": true
               }
@@ -267,7 +267,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "constraints": {
                 "required": true
               }
@@ -472,13 +472,13 @@
         "hashing": "md5",
         "compression": "gz",
         "stats": {
-          "hash": "b794def42f9ab365344438b27ac8d7f4",
-          "bytes": 46857199,
+          "hash": "68351b9f620451b44caa0895dc78c059",
+          "bytes": 38389028,
           "fields": 24,
-          "rows": 2996677
+          "rows": 2418013
         }
       },
-      "time": 295.692,
+      "time": 239.333,
       "scope": [
         "hash-count-error",
         "byte-count-error",

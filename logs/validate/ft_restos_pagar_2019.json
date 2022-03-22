@@ -1,6 +1,6 @@
 {
   "version": "4.22.3",
-  "time": 55.132,
+  "time": 53.542,
   "errors": [],
   "tasks": [
     {
@@ -252,7 +252,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "description": "Valor, em reais, de empenho inscrito em restos a pagar não processado, ou seja, são aqueles derivados de despesas “legalmente empenhadas que não foram liquidadas e nem pagas até 31 de dezembro do mesmo exercício.\n",
               "constraints": {
                 "required": true
@@ -264,7 +264,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "description": "Valor, em reais, de despesa liquidada de exercícios anteriores, ou seja, são aqueles cujo 2º estágio da despesa (liquidação) já ocorreu restando apenas o pagamento.\n",
               "constraints": {
                 "required": true
@@ -276,7 +276,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "description": "Soma do valor de restos a pagar processados e não processados referentes aos pagamentos efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa. \nO efetivo pagamento pode estar pendente de transmissão aos bancos e/ou sujeito a compensação bancária.\n",
               "constraints": {
                 "required": true
@@ -488,7 +488,7 @@
           "rows": 369284
         }
       },
-      "time": 55.132,
+      "time": 53.542,
       "scope": [
         "hash-count-error",
         "byte-count-error",

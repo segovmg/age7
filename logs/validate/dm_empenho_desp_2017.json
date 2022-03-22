@@ -1,6 +1,6 @@
 {
   "version": "4.22.3",
-  "time": 14.234,
+  "time": 16.187,
   "errors": [],
   "tasks": [
     {
@@ -44,7 +44,7 @@
             {
               "name": "dt_empenho",
               "title": "Data de registro do documento de empenho",
-              "type": "datetime",
+              "type": "date",
               "format": "default",
               "constraints": {
                 "required": true
@@ -74,13 +74,13 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "constraints": {
                 "required": true
               }
             },
             {
-              "name": "cd_unid_prog_gasto",
+              "name": "cd_uni_prog_gasto",
               "title": "Código Unidade Programação de Gasto - Chave",
               "type": "integer",
               "format": "default",
@@ -90,7 +90,7 @@
               }
             },
             {
-              "name": "unid_prog_gasto",
+              "name": "uni_prog_gasto",
               "title": "Unidade Programação de Gasto",
               "type": "string",
               "format": "default",
@@ -123,13 +123,13 @@
         "hashing": "md5",
         "compression": "gz",
         "stats": {
-          "hash": "6302a8aa87fc372458ebe9270f9237f5",
-          "bytes": 6357597,
+          "hash": "c7a19814f51cbfc99ffd11742b42f9c0",
+          "bytes": 6101247,
           "fields": 9,
           "rows": 361712
         }
       },
-      "time": 14.234,
+      "time": 16.187,
       "scope": [
         "hash-count-error",
         "byte-count-error",

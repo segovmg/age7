@@ -1,6 +1,6 @@
 {
   "version": "4.22.3",
-  "time": 5.746,
+  "time": 5.628,
   "errors": [],
   "tasks": [
     {
@@ -161,7 +161,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "description": "- >\nValor financeiro publicado previsto no convênio / parceria para o órgão concedente ou entidade estadual \nparceiro repassar ao convenente / Organização da Sociedade Civil (OSC) parceira.\n",
               "constraints": {
                 "required": true
@@ -173,7 +173,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "description": "- >\nValor financeiro publicado referente a indicação de um ou mais deputados estaduais, previsto no convênio / parceira \npara o órgão concedente repassar ao convenente.\n",
               "constraints": {
                 "required": true
@@ -185,7 +185,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "description": "- > \n Valor financeiro publicado previsto no convênio / parceria para o interveniente (entidade pública ou privada que \n participa do convênio para manifestar consentimento ou assumir obrigações) ou outros partícipes repassar ao \n convenente.\n",
               "constraints": {
                 "required": true
@@ -197,7 +197,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "description": "- > \n Valor financeiro publicado previsto no convênio / parceria referente a contrapartida financeira a ser dada pelo convenente \n (entidade ou pessoa que firmou a parceria com o órgão concedente).\n",
               "constraints": {
                 "required": true
@@ -209,7 +209,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "constraints": {
                 "required": true
               }
@@ -220,7 +220,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "description": "- > \nValor financeiro total do convênio / parceria, conforme o primeiro plano firmado. \nRefere-se à soma dos valores do concedente / órgão ou entidade estadual parceiro, emenda parlamentar, interveniente, \noutras fontes e contrapartida.\n",
               "constraints": {
                 "required": true
@@ -258,7 +258,7 @@
           "rows": 62875
         }
       },
-      "time": 5.746,
+      "time": 5.628,
       "scope": [
         "hash-count-error",
         "byte-count-error",

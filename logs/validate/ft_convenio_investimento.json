@@ -1,6 +1,6 @@
 {
   "version": "4.22.3",
-  "time": 22.492,
+  "time": 21.462,
   "errors": [],
   "tasks": [
     {
@@ -118,7 +118,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "description": "- > \n  Valor, em reais, da despesa liquidada referente ao investimento - compras de equipamentos, material \n  permanente e realização de obras, diretamente pelo Estado ou por meio de repasses de recursos.\n",
               "constraints": {
                 "required": true
@@ -198,7 +198,7 @@
           "rows": 557913
         }
       },
-      "time": 22.492,
+      "time": 21.462,
       "scope": [
         "hash-count-error",
         "byte-count-error",

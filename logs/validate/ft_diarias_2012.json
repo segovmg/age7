@@ -1,6 +1,6 @@
 {
   "version": "4.22.3",
-  "time": 136.904,
+  "time": 121.765,
   "errors": [],
   "tasks": [
     {
@@ -169,7 +169,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "description": "Valor do orçamento reservado para fazer face a compromisso formalmente assumido com fornecedor ou credor.\n",
               "constraints": {
                 "required": true
@@ -181,7 +181,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "description": "Valor que o fornecedor ou credor tem direito a receber referente a produto ou serviço devidamente entregue ou prestado.\n",
               "constraints": {
                 "required": true
@@ -193,7 +193,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "description": "Valor referente aos pagamentos efetuados através de movimentações bancárias, escriturais e apropriação contábil da despesa. \n\nO efetivo pagamento pode estar pendente de transmissão ao banco e/ou sujeito a compensação bancária.\n",
               "constraints": {
                 "required": true
@@ -328,7 +328,7 @@
           "rows": 1587890
         }
       },
-      "time": 136.904,
+      "time": 121.765,
       "scope": [
         "hash-count-error",
         "byte-count-error",

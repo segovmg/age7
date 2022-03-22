@@ -1,6 +1,6 @@
 {
   "version": "4.22.3",
-  "time": 144.522,
+  "time": 136.421,
   "errors": [],
   "tasks": [
     {
@@ -227,7 +227,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "description": "- > \n  Quantidade de diárias pagas pelo órgão em razão das viagens a trabalho. \n",
               "constraints": {
                 "required": true
@@ -238,7 +238,7 @@
               "title": "Valor da diária",
               "type": "number",
               "format": "default",
-              "decimalChar": ",",
+              "decimalChar": ".",
               "bareNumber": true,
               "description": "- > \n  Valor total pago pelo órgão ao servidor público ou colaborador eventual para custear suas despesas com alimentação,\n  estadia e deslocamento durante a viagem a trabalho. \n\n  Os valores unitários das diárias consta no [Decreto nº 47.045/16](https://www.almg.gov.br/consulte/legislacao/completa/completa.html?tipo=dec&num=47045&ano=2016).\n",
               "constraints": {
@@ -250,7 +250,7 @@
               "title": "Valor da Passagem",
               "type": "number",
               "format": "default",
-              "decimalChar": ",",
+              "decimalChar": ".",
               "bareNumber": true,
               "description": "Valor total pago referente às despesas com passagens aéreas e terrestres de servidor público ou colaborador eventual em razão de viagem a trabalho.\n",
               "constraints": {
@@ -463,7 +463,7 @@
           "rows": 0
         }
       },
-      "time": 144.522,
+      "time": 136.421,
       "scope": [
         "hash-count-error",
         "byte-count-error",

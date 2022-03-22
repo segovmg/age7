@@ -1,6 +1,6 @@
 {
   "version": "4.22.3",
-  "time": 0.342,
+  "time": 0.262,
   "errors": [],
   "tasks": [
     {
@@ -54,7 +54,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "constraints": {
                 "required": true
               }
@@ -111,7 +111,7 @@
           "rows": 0
         }
       },
-      "time": 0.342,
+      "time": 0.262,
       "scope": [
         "hash-count-error",
         "byte-count-error",

@@ -1,6 +1,6 @@
 {
   "version": "4.22.3",
-  "time": 5.017,
+  "time": 5.087,
   "errors": [],
   "tasks": [
     {
@@ -81,7 +81,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "description": "- >\nValor financeiro previsto no convênio / parceria para o órgão concedente ou entidade estadual \nparceiro repassar ao convenente / Organização da Sociedade Civil (OSC) parceira, incluindo termos aditivos.\n",
               "constraints": {
                 "required": true
@@ -93,7 +93,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "description": "- >\nValor financeiro referente a indicação de um ou mais deputados estaduais, previsto no convênio / parceira \npara o órgão concedente repassar ao convenente, incluindo termos aditivos.\n",
               "constraints": {
                 "required": true
@@ -105,7 +105,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "description": "- > \n Valor financeiro previsto no convênio / parceria para o interveniente (entidade pública ou privada que \n participa do convênio para manifestar consentimento ou assumir obrigações) ou outros partícipes repassar ao \n convenente, incluindo termos aditivos.\n",
               "constraints": {
                 "required": true
@@ -117,7 +117,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "description": "- > \n Valor financeiro previsto no convênio / parceria referente a contrapartida financeira a ser dada pelo convenente \n (entidade ou pessoa que firmou a parceria com o órgão concedente), incluindo termos aditivos.\n",
               "constraints": {
                 "required": true
@@ -129,7 +129,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "description": "- > \nValor financeiro total do convênio/parceria, incluindo termos aditivos. \nRefere-se à soma dos valores do concedente / órgão ou entidade estadual parceiro, emenda parlamentar, interveniente, \noutras fontes, contrapartida e rendimentos financeiros provenientes da aplicação dos recursos depositados na conta \nbancária do convênio / parceria.\n",
               "constraints": {
                 "required": true
@@ -141,7 +141,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "description": "- > \nValor financeiro repassado pelo concedente/órgão ou entidade estadual parceiro ao convenente / Organização da \nSociedade Civil (OSC) parceria, referente ao(s) convênios(s)/ parceria(s) firmado(s) entre as partes por meio de \npagamento via SIAFI. \n\nAbrange o valor do concedente / órgão ou entidade estadual parceiro, das emendas parlamentares e outras fontes. \nO efetivo pagamento pode estar sujeito a compensação bancária.\n"
             }
           ],
@@ -229,7 +229,7 @@
           "rows": 62283
         }
       },
-      "time": 5.017,
+      "time": 5.087,
       "scope": [
         "hash-count-error",
         "byte-count-error",

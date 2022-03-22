@@ -1,6 +1,6 @@
 {
   "version": "4.22.3",
-  "time": 8.674,
+  "time": 9.474,
   "errors": [],
   "tasks": [
     {
@@ -44,7 +44,7 @@
             {
               "name": "dt_empenho",
               "title": "Data de registro do documento de empenho",
-              "type": "datetime",
+              "type": "date",
               "format": "default",
               "constraints": {
                 "required": true
@@ -53,7 +53,7 @@
             {
               "name": "dt_original",
               "title": "Data de registro original do documento de Empenho",
-              "type": "datetime",
+              "type": "date",
               "format": "default"
             },
             {
@@ -83,7 +83,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "constraints": {
                 "required": true
               }
@@ -113,13 +113,13 @@
         "hashing": "md5",
         "compression": "gz",
         "stats": {
-          "hash": "2e18e5fd52991dfd52d192b0827fc9c4",
-          "bytes": 2407392,
+          "hash": "2475beef31dccb404038a84d3de46d98",
+          "bytes": 2301454,
           "fields": 8,
           "rows": 186255
         }
       },
-      "time": 8.674,
+      "time": 9.474,
       "scope": [
         "hash-count-error",
         "byte-count-error",

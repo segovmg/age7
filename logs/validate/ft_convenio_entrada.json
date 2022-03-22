@@ -1,6 +1,6 @@
 {
   "version": "4.22.3",
-  "time": 0.907,
+  "time": 0.984,
   "errors": [],
   "tasks": [
     {
@@ -93,7 +93,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "description": "Valor financeiro previsto no convênio para o concedente repassar ao proponente, incluindo termos aditivos.\n",
               "constraints": {
                 "required": true
@@ -105,7 +105,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "description": "Valor previsto no convênio para o proponente dar como contrapartida financeira, incluindo termos aditivos.\n",
               "constraints": {
                 "required": true
@@ -207,7 +207,7 @@
           "rows": 1777
         }
       },
-      "time": 0.907,
+      "time": 0.984,
       "scope": [
         "hash-count-error",
         "byte-count-error",

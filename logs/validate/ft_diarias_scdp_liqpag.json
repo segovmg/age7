@@ -1,6 +1,6 @@
 {
   "version": "4.22.3",
-  "time": 53.127,
+  "time": 50.664,
   "errors": [],
   "tasks": [
     {
@@ -140,7 +140,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "constraints": {
                 "required": true
               }
@@ -151,7 +151,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "description": "- > \n  Valor pago referente às despesas com diárias e passagens aéreas e terrestres de servidor público ou \n  colaborador eventual em razão de viagem a trabalho.\n",
               "constraints": {
                 "required": true
@@ -341,7 +341,7 @@
           "rows": 0
         }
       },
-      "time": 53.127,
+      "time": 50.664,
       "scope": [
         "hash-count-error",
         "byte-count-error",

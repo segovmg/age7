@@ -1,6 +1,6 @@
 {
   "version": "4.22.3",
-  "time": 246.614,
+  "time": 259.216,
   "errors": [],
   "tasks": [
     {
@@ -243,7 +243,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "constraints": {
                 "required": true
               }
@@ -255,7 +255,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "constraints": {
                 "required": true
               }
@@ -267,7 +267,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "constraints": {
                 "required": true
               }
@@ -478,7 +478,7 @@
           "rows": 2598979
         }
       },
-      "time": 246.614,
+      "time": 259.216,
       "scope": [
         "hash-count-error",
         "byte-count-error",

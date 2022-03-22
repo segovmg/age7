@@ -1,6 +1,6 @@
 {
   "version": "4.22.3",
-  "time": 20.828,
+  "time": 20.313,
   "errors": [],
   "tasks": [
     {
@@ -136,7 +136,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "description": "Valor estimado de um determinado bem ou serviço, obtido por meio de pesquisa de mercado ou cadastro de preços.\n",
               "constraints": {
                 "required": true
@@ -148,7 +148,7 @@
               "type": "number",
               "format": "default",
               "bareNumber": true,
-              "decimalChar": ",",
+              "decimalChar": ".",
               "description": "Valor total homologado licitado ou comprado do item de material/serviço.\n",
               "constraints": {
                 "required": true
@@ -185,7 +185,7 @@
           "rows": 364992
         }
       },
-      "time": 20.828,
+      "time": 20.313,
       "scope": [
         "hash-count-error",
         "byte-count-error",
