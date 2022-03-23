@@ -16,7 +16,7 @@ fields:
       unique: false
   - name: dt_assinatura
     title: Data de assinatura
-    type: datetime
+    type: date
     format: default
     constraints:
       required: true
