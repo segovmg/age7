@@ -30,7 +30,7 @@ test_that("Anonimização prêmios lotéricos", {
   }
   
   
-  premios_lotericos <- map(2002:2021, get_id_favorecido_premios_lotericos) |> unlist()
+  premios_lotericos <- map(2002:2022, get_id_favorecido_premios_lotericos) |> unlist()
     
   dm_favorecido[
     id_favorecido %in% premios_lotericos, 
@@ -46,13 +46,36 @@ test_that("Anonimização prêmios lotéricos", {
 })
 
 
-test_that("Anonimização hanseniase", {
+test_that("Anonimização hanseniase 2021", {
 
   ft_despesa_2021 <- dtamg::flatten_resource("C:\\Users/m752587/projects/age7/datapackage.json", 
                                              "ft_despesa_2021",
                                              c("dm_empenho_desp_2021", "dm_unidade_orc", "dm_favorecido"))
   
   hanseniase <- ft_despesa_2021[
+    cd_unidade_orc == 4291 & cd_uni_prog_gasto == 761,
+    unique(id_favorecido)
+  ]
+    
+  dm_favorecido[
+    id_favorecido %in% hanseniase, 
+    is_hanseniase := TRUE
+  ]
+  
+  rules <- validate::validator(if(is_hanseniase == TRUE & tp_documento == 1) nr_documento_anonimizado == 0 & nome_anonimizado == "INFORMACAO COM RESTRICAO DE ACESSO")
+  report <- validate::confront(dm_favorecido, rules)
+  
+  expect_false(summary(report)[["error"]]) 
+  expect_equal(summary(report)[["fails"]], expected = 0)
+})
+
+test_that("Anonimização hanseniase 2022", {
+
+  ft_despesa_2022 <- dtamg::flatten_resource("C:\\Users/m752587/projects/age7/datapackage.json", 
+                                             "ft_despesa_2022",
+                                             c("dm_empenho_desp_2022", "dm_unidade_orc", "dm_favorecido"))
+  
+  hanseniase <- ft_despesa_2022[
     cd_unidade_orc == 4291 & cd_uni_prog_gasto == 761,
     unique(id_favorecido)
   ]
