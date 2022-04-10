@@ -1,6 +1,6 @@
 {
-  "version": "4.22.3",
-  "time": 259.216,
+  "version": "4.28.0",
+  "time": 244.189,
   "errors": [],
   "tasks": [
     {
@@ -472,13 +472,13 @@
         "hashing": "md5",
         "compression": "gz",
         "stats": {
-          "hash": "7c1571bdbe432fecc67255b7203b6d04",
-          "bytes": 41386233,
+          "hash": "94ecb2e0453fd62d6eeb458a5256fce2",
+          "bytes": 41383537,
           "fields": 24,
           "rows": 2598979
         }
       },
-      "time": 259.216,
+      "time": 244.189,
       "scope": [
         "hash-count-error",
         "byte-count-error",

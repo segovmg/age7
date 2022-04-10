@@ -1,0 +1,12 @@
+Atualizando conjunto de dados: execucao-da-divida
+Diferenças nos metadados do conjunto: execucao-da-divida
+Atualizando datapackage.json
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_favorecido
+Atualizando recurso: dm_favorecido
+Atualizando datapackage.json
+Atualizando datapackage.json
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_divida_pub
+Atualizando recurso: ft_divida_pub
+Atualizando datapackage.json

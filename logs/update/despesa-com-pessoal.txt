@@ -1,0 +1,8 @@
+Atualizando conjunto de dados: despesa-com-pessoal
+Diferenças nos metadados do conjunto: despesa-com-pessoal
+Atualizando datapackage.json
+Atualizando datapackage.json
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_pessoal_desp
+Atualizando recurso: ft_pessoal_desp
+Atualizando datapackage.json

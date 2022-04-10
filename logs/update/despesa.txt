@@ -1,0 +1,146 @@
+Atualizando conjunto de dados: despesa
+Diferenças nos metadados do conjunto: despesa
+Atualizando datapackage.json
+Atualizando datapackage.json
+Atualizando datapackage.json
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_empenho_desp_2002
+Atualizando recurso: dm_empenho_desp_2002
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_empenho_desp_2003
+Atualizando recurso: dm_empenho_desp_2003
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_empenho_desp_2004
+Atualizando recurso: dm_empenho_desp_2004
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_empenho_desp_2005
+Atualizando recurso: dm_empenho_desp_2005
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_empenho_desp_2006
+Atualizando recurso: dm_empenho_desp_2006
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_empenho_desp_2007
+Atualizando recurso: dm_empenho_desp_2007
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_empenho_desp_2008
+Atualizando recurso: dm_empenho_desp_2008
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_empenho_desp_2009
+Atualizando recurso: dm_empenho_desp_2009
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_empenho_desp_2010
+Atualizando recurso: dm_empenho_desp_2010
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_empenho_desp_2011
+Atualizando recurso: dm_empenho_desp_2011
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_empenho_desp_2012
+Atualizando recurso: dm_empenho_desp_2012
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_empenho_desp_2013
+Atualizando recurso: dm_empenho_desp_2013
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_empenho_desp_2014
+Atualizando recurso: dm_empenho_desp_2014
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_empenho_desp_2015
+Atualizando recurso: dm_empenho_desp_2015
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_empenho_desp_2016
+Atualizando recurso: dm_empenho_desp_2016
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_empenho_desp_2017
+Atualizando recurso: dm_empenho_desp_2017
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_empenho_desp_2018
+Atualizando recurso: dm_empenho_desp_2018
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_empenho_desp_2019
+Atualizando recurso: dm_empenho_desp_2019
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_empenho_desp_2020
+Atualizando recurso: dm_empenho_desp_2020
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_empenho_desp_2021
+Atualizando recurso: dm_empenho_desp_2021
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_favorecido
+Atualizando recurso: dm_favorecido
+Atualizando datapackage.json
+Atualizando datapackage.json
+Atualizando datapackage.json
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_item_desp
+Atualizando recurso: dm_item_desp
+Atualizando datapackage.json
+Atualizando datapackage.json
+Atualizando datapackage.json
+Atualizando datapackage.json
+Atualizando datapackage.json
+Atualizando datapackage.json
+Atualizando datapackage.json
+Diferenças nos dados do recurso: fl_despesa_pgto
+Atualizando recurso: fl_despesa_pgto
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2002
+Atualizando recurso: ft_despesa_2002
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2003
+Atualizando recurso: ft_despesa_2003
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2004
+Atualizando recurso: ft_despesa_2004
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2005
+Atualizando recurso: ft_despesa_2005
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2006
+Atualizando recurso: ft_despesa_2006
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2007
+Atualizando recurso: ft_despesa_2007
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2008
+Atualizando recurso: ft_despesa_2008
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2009
+Atualizando recurso: ft_despesa_2009
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2010
+Atualizando recurso: ft_despesa_2010
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2011
+Atualizando recurso: ft_despesa_2011
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2012
+Atualizando recurso: ft_despesa_2012
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2013
+Atualizando recurso: ft_despesa_2013
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2014
+Atualizando recurso: ft_despesa_2014
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2015
+Atualizando recurso: ft_despesa_2015
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2016
+Atualizando recurso: ft_despesa_2016
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2017
+Atualizando recurso: ft_despesa_2017
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2018
+Atualizando recurso: ft_despesa_2018
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2019
+Atualizando recurso: ft_despesa_2019
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2020
+Atualizando recurso: ft_despesa_2020
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_despesa_2021
+Atualizando recurso: ft_despesa_2021
+Atualizando datapackage.json
+Recurso dm_empenho_desp_2022 não existe na instância https://dados.mg.gov.br/. utilize `dpckan resource create` para cria-lo
+Recurso ft_despesa_2022 não existe na instância https://dados.mg.gov.br/. utilize `dpckan resource create` para cria-lo
