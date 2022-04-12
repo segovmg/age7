@@ -1,5 +1,5 @@
 {
-  "version": "4.22.3",
+  "version": "4.28.0",
   "time": 0.018,
   "errors": [],
   "tasks": [
@@ -74,8 +74,8 @@
         "hashing": "md5",
         "compression": "gz",
         "stats": {
-          "hash": "695e3ac0bf23e17184c7a2c5b2b3b9a2",
-          "bytes": 1996,
+          "hash": "bb5b5666bce48416e8ea04dfcf98f06e",
+          "bytes": 2003,
           "fields": 3,
           "rows": 110
         }

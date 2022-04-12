@@ -1,42 +1,7 @@
 Atualizando conjunto de dados: receita
-Diferenças nos metadados do conjunto: receita
-Atualizando datapackage.json
-Atualizando datapackage.json
-Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_especie_rec
-Atualizando recurso: dm_especie_rec
-Atualizando datapackage.json
-Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_item_rec
-Atualizando recurso: dm_item_rec
-Atualizando datapackage.json
-Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_origem_rec
-Atualizando recurso: dm_origem_rec
-Atualizando datapackage.json
-Atualizando datapackage.json
-Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_receita
-Atualizando recurso: ft_receita
-Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_desdobramento_1_rec
-Atualizando recurso: dm_desdobramento_1_rec
-Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_desdobramento_2_rec
-Atualizando recurso: dm_desdobramento_2_rec
-Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_desdobramento_3_rec
-Atualizando recurso: dm_desdobramento_3_rec
-Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_tipo_rec
-Atualizando recurso: dm_tipo_rec
-Atualizando datapackage.json
 Diferenças nos dados do recurso: ft_receita_prevista_v2018
 Atualizando recurso: ft_receita_prevista_v2018
 Atualizando datapackage.json
 Diferenças nos dados do recurso: ft_receita_v2018
 Atualizando recurso: ft_receita_v2018
-Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_subitem_rec
-Atualizando recurso: dm_subitem_rec
 Atualizando datapackage.json
