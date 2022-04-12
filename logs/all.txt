@@ -287,3 +287,8 @@ dpckan dataset update --datapackage build_datasets/despesa-com-pessoal/datapacka
 dpckan dataset update --datapackage build_datasets/viagens/datapackage.json > logs/update/viagens.txt
 dpckan dataset update --datapackage build_datasets/receita/datapackage.json > logs/update/receita.txt
 dpckan dataset update --datapackage build_datasets/convenios-entrada/datapackage.json > logs/update/convenios-entrada.txt
+[main a6960bf] Atualização age7
+ 187 files changed, 877 insertions(+), 1157 deletions(-)
+ rewrite logs/full_extract.txt (73%)
+ rewrite logs/notify.Rout (87%)
+ rewrite logs/update/receita.txt (81%)
