@@ -11,15 +11,6 @@ Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_item_matserv
 Atualizando recurso: dm_item_matserv
 Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_material_servico
-Atualizando recurso: dm_material_servico
-Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_orgao_contrato
-Atualizando recurso: dm_orgao_contrato
-Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_orgao_demanda
-Atualizando recurso: dm_orgao_demanda
-Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_processo
 Atualizando recurso: dm_processo
 Atualizando datapackage.json
