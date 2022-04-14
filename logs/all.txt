@@ -23,3 +23,137 @@ rm -f logs/ingest.txt
 rm -f logs/build.txt
 rm -f logs/create.txt
 rm -rf data/raw/*
+rm -f datapackage.json
+rm -rf build_datasets
+make: Nothing to be done for 'parse'.
+# python scripts/python/full-extract.py
+dtamg-py etl-make full-extract 2> logs/full_extract.txt
+rsync --itemize-changes --checksum data/raw/* data/staging/ 2> logs/ingest.txt
+>fcsT...... dm_empenho_desp_2004.csv
+>fcsT...... dm_empenho_desp_2008.csv
+>fcsT...... dm_empenho_desp_2012.csv
+>fcsT...... dm_empenho_desp_2016.csv
+>fcsT...... dm_empenho_desp_2020.csv
+>fcsT...... dm_empenho_desp_compras_empenho.csv
+>fc.T...... dm_empenho_resto_2003.csv
+>fcsT...... dm_empenho_resto_2005.csv
+>fc.T...... dm_empenho_resto_2007.csv
+>fcsT...... dm_empenho_resto_2009.csv
+>fc.T...... dm_empenho_resto_2011.csv
+>fcsT...... dm_empenho_resto_2013.csv
+>fc.T...... dm_empenho_resto_2015.csv
+>fcsT...... dm_empenho_resto_2017.csv
+>fc.T...... dm_empenho_resto_2019.csv
+>fcsT...... dm_empenho_resto_2021.csv
+>fcsT...... ft_compras.csv
+>fcsT...... ft_diarias_2005.csv
+>fcsT...... ft_diarias_2007.csv
+>fcsT...... ft_diarias_2009.csv
+>fcsT...... ft_diarias_2011.csv
+>fcsT...... ft_diarias_2013.csv
+>fcsT...... ft_diarias_2015.csv
+>fcsT...... ft_diarias_2017.csv
+>fcsT...... ft_diarias_2019.csv
+>fcsT...... ft_diarias_2021.csv
+>fcsT...... ft_diarias_scdp.csv
+>fcsT...... ft_restos_pagar_2002.csv
+>fcsT...... ft_restos_pagar_2006.csv
+>fcsT...... ft_restos_pagar_2010.csv
+>fcsT...... ft_restos_pagar_2014.csv
+>fcsT...... ft_restos_pagar_2018.csv
+>fcsT...... ft_restos_pagar_2022.csv
+gzip -n < data/staging/dm_empenho_desp_compras_empenho.csv > data/dm_empenho_desp_compras_empenho.csv.gz
+gzip -n < data/staging/dm_empenho_desp_2004.csv > data/dm_empenho_desp_2004.csv.gz
+gzip -n < data/staging/dm_empenho_desp_2008.csv > data/dm_empenho_desp_2008.csv.gz
+gzip -n < data/staging/dm_empenho_desp_2012.csv > data/dm_empenho_desp_2012.csv.gz
+gzip -n < data/staging/dm_empenho_desp_2016.csv > data/dm_empenho_desp_2016.csv.gz
+gzip -n < data/staging/dm_empenho_desp_2020.csv > data/dm_empenho_desp_2020.csv.gz
+gzip -n < data/staging/ft_diarias_scdp.csv > data/ft_diarias_scdp.csv.gz
+gzip -n < data/staging/ft_compras.csv > data/ft_compras.csv.gz
+gzip -n < data/staging/dm_empenho_resto_2003.csv > data/dm_empenho_resto_2003.csv.gz
+gzip -n < data/staging/dm_empenho_resto_2005.csv > data/dm_empenho_resto_2005.csv.gz
+gzip -n < data/staging/dm_empenho_resto_2007.csv > data/dm_empenho_resto_2007.csv.gz
+gzip -n < data/staging/dm_empenho_resto_2009.csv > data/dm_empenho_resto_2009.csv.gz
+gzip -n < data/staging/dm_empenho_resto_2011.csv > data/dm_empenho_resto_2011.csv.gz
+gzip -n < data/staging/dm_empenho_resto_2013.csv > data/dm_empenho_resto_2013.csv.gz
+gzip -n < data/staging/dm_empenho_resto_2015.csv > data/dm_empenho_resto_2015.csv.gz
+gzip -n < data/staging/dm_empenho_resto_2017.csv > data/dm_empenho_resto_2017.csv.gz
+gzip -n < data/staging/dm_empenho_resto_2019.csv > data/dm_empenho_resto_2019.csv.gz
+gzip -n < data/staging/dm_empenho_resto_2021.csv > data/dm_empenho_resto_2021.csv.gz
+gzip -n < data/staging/ft_diarias_2005.csv > data/ft_diarias_2005.csv.gz
+gzip -n < data/staging/ft_diarias_2007.csv > data/ft_diarias_2007.csv.gz
+gzip -n < data/staging/ft_diarias_2009.csv > data/ft_diarias_2009.csv.gz
+gzip -n < data/staging/ft_diarias_2011.csv > data/ft_diarias_2011.csv.gz
+gzip -n < data/staging/ft_diarias_2013.csv > data/ft_diarias_2013.csv.gz
+gzip -n < data/staging/ft_diarias_2015.csv > data/ft_diarias_2015.csv.gz
+gzip -n < data/staging/ft_diarias_2017.csv > data/ft_diarias_2017.csv.gz
+gzip -n < data/staging/ft_diarias_2019.csv > data/ft_diarias_2019.csv.gz
+gzip -n < data/staging/ft_diarias_2021.csv > data/ft_diarias_2021.csv.gz
+gzip -n < data/staging/ft_restos_pagar_2002.csv > data/ft_restos_pagar_2002.csv.gz
+gzip -n < data/staging/ft_restos_pagar_2006.csv > data/ft_restos_pagar_2006.csv.gz
+gzip -n < data/staging/ft_restos_pagar_2010.csv > data/ft_restos_pagar_2010.csv.gz
+gzip -n < data/staging/ft_restos_pagar_2014.csv > data/ft_restos_pagar_2014.csv.gz
+gzip -n < data/staging/ft_restos_pagar_2018.csv > data/ft_restos_pagar_2018.csv.gz
+gzip -n < data/staging/ft_restos_pagar_2022.csv > data/ft_restos_pagar_2022.csv.gz
+dtamg-py etl-make validate -r dm_empenho_desp_compras_empenho > logs/validate/dm_empenho_desp_compras_empenho.json
+dtamg-py etl-make validate -r dm_empenho_desp_2004 > logs/validate/dm_empenho_desp_2004.json
+dtamg-py etl-make validate -r dm_empenho_desp_2008 > logs/validate/dm_empenho_desp_2008.json
+dtamg-py etl-make validate -r dm_empenho_desp_2012 > logs/validate/dm_empenho_desp_2012.json
+dtamg-py etl-make validate -r dm_empenho_desp_2016 > logs/validate/dm_empenho_desp_2016.json
+dtamg-py etl-make validate -r dm_empenho_desp_2017 > logs/validate/dm_empenho_desp_2017.json
+dtamg-py etl-make validate -r dm_empenho_desp_2020 > logs/validate/dm_empenho_desp_2020.json
+dtamg-py etl-make validate -r ft_diarias_scdp > logs/validate/ft_diarias_scdp.json
+dtamg-py etl-make validate -r ft_compras > logs/validate/ft_compras.json
+dtamg-py etl-make validate -r dm_empenho_resto_2003 > logs/validate/dm_empenho_resto_2003.json
+dtamg-py etl-make validate -r dm_empenho_resto_2005 > logs/validate/dm_empenho_resto_2005.json
+dtamg-py etl-make validate -r dm_empenho_resto_2007 > logs/validate/dm_empenho_resto_2007.json
+dtamg-py etl-make validate -r dm_empenho_resto_2009 > logs/validate/dm_empenho_resto_2009.json
+dtamg-py etl-make validate -r dm_empenho_resto_2011 > logs/validate/dm_empenho_resto_2011.json
+dtamg-py etl-make validate -r dm_empenho_resto_2013 > logs/validate/dm_empenho_resto_2013.json
+dtamg-py etl-make validate -r dm_empenho_resto_2015 > logs/validate/dm_empenho_resto_2015.json
+dtamg-py etl-make validate -r dm_empenho_resto_2017 > logs/validate/dm_empenho_resto_2017.json
+dtamg-py etl-make validate -r dm_empenho_resto_2019 > logs/validate/dm_empenho_resto_2019.json
+dtamg-py etl-make validate -r dm_empenho_resto_2021 > logs/validate/dm_empenho_resto_2021.json
+dtamg-py etl-make validate -r ft_diarias_2005 > logs/validate/ft_diarias_2005.json
+dtamg-py etl-make validate -r ft_diarias_2007 > logs/validate/ft_diarias_2007.json
+dtamg-py etl-make validate -r ft_diarias_2009 > logs/validate/ft_diarias_2009.json
+dtamg-py etl-make validate -r ft_diarias_2011 > logs/validate/ft_diarias_2011.json
+dtamg-py etl-make validate -r ft_diarias_2013 > logs/validate/ft_diarias_2013.json
+dtamg-py etl-make validate -r ft_diarias_2015 > logs/validate/ft_diarias_2015.json
+dtamg-py etl-make validate -r ft_diarias_2017 > logs/validate/ft_diarias_2017.json
+dtamg-py etl-make validate -r ft_diarias_2019 > logs/validate/ft_diarias_2019.json
+dtamg-py etl-make validate -r ft_diarias_2021 > logs/validate/ft_diarias_2021.json
+dtamg-py etl-make validate -r ft_restos_pagar_2002 > logs/validate/ft_restos_pagar_2002.json
+dtamg-py etl-make validate -r ft_restos_pagar_2006 > logs/validate/ft_restos_pagar_2006.json
+dtamg-py etl-make validate -r ft_restos_pagar_2010 > logs/validate/ft_restos_pagar_2010.json
+dtamg-py etl-make validate -r ft_restos_pagar_2014 > logs/validate/ft_restos_pagar_2014.json
+dtamg-py etl-make validate -r ft_restos_pagar_2018 > logs/validate/ft_restos_pagar_2018.json
+dtamg-py etl-make validate -r ft_restos_pagar_2022 > logs/validate/ft_restos_pagar_2022.json
+dtamg-py etl-make validate -r ft_diarias_2017 > logs/validate/ft_diarias_2017.json
+dtamg-py etl-make validate -r dm_empenho_desp_2017 > logs/validate/dm_empenho_desp_2017.json
+dtamg-py etl-make validate -r dm_empenho_resto_2017 > logs/validate/dm_empenho_resto_2017.json
+dtamg-py etl-make build-datapackage
+Rscript --verbose -e "testthat::test_file('tests/testthat/test_dm_contratado.R', stop_on_failure=TRUE)" 2> logs/tests/test_dm_contratado.Rout
+
+== Testing test_dm_contratado.R ================================================
+[ FAIL 0 | WARN 0 | SKIP 0 | PASS 0 ][ FAIL 0 | WARN 0 | SKIP 0 | PASS 0 ][ FAIL 0 | WARN 0 | SKIP 0 | PASS 1 ][ FAIL 0 | WARN 0 | SKIP 0 | PASS 2 ] Done!
+Rscript --verbose -e "testthat::test_file('tests/testthat/test_dm_favorecido.R', stop_on_failure=TRUE)" 2> logs/tests/test_dm_favorecido.Rout
+
+== Testing test_dm_favorecido.R ================================================
+[ FAIL 0 | WARN 0 | SKIP 0 | PASS 0 ][ FAIL 0 | WARN 0 | SKIP 0 | PASS 0 ][ FAIL 0 | WARN 0 | SKIP 0 | PASS 1 ][ FAIL 0 | WARN 0 | SKIP 0 | PASS 2 ][ FAIL 0 | WARN 0 | SKIP 0 | PASS 3 ][ FAIL 0 | WARN 0 | SKIP 0 | PASS 4 ][ FAIL 0 | WARN 0 | SKIP 0 | PASS 5 ][ FAIL 0 | WARN 0 | SKIP 0 | PASS 6 ][ FAIL 0 | WARN 0 | SKIP 0 | PASS 7 ][ FAIL 0 | WARN 0 | SKIP 0 | PASS 8 ] Done!
+Rscript --verbose -e "testthat::test_file('tests/testthat/test_dm_favorecido_scdp.R', stop_on_failure=TRUE)" 2> logs/tests/test_dm_favorecido_scdp.Rout
+
+== Testing test_dm_favorecido_scdp.R ===========================================
+[ FAIL 0 | WARN 0 | SKIP 0 | PASS 0 ][ FAIL 0 | WARN 0 | SKIP 0 | PASS 0 ][ FAIL 0 | WARN 0 | SKIP 0 | PASS 1 ][ FAIL 0 | WARN 0 | SKIP 0 | PASS 2 ] Done!
+dtamg-py etl-make build-datapackages 2> logs/build.txt
+dpckan dataset update --datapackage build_datasets/restos_pagar/datapackage.json > logs/update/restos_pagar.txt
+dpckan dataset update --datapackage build_datasets/compras_contratos/datapackage.json > logs/update/compras_contratos.txt
+dpckan dataset update --datapackage build_datasets/convenios-saida/datapackage.json > logs/update/convenios-saida.txt
+dpckan dataset update --datapackage build_datasets/diarias/datapackage.json > logs/update/diarias.txt
+dpckan dataset update --datapackage build_datasets/despesa/datapackage.json > logs/update/despesa.txt
+dpckan dataset update --datapackage build_datasets/transferencia-de-impostos-a-municipios/datapackage.json > logs/update/transferencia-de-impostos-a-municipios.txt
+dpckan dataset update --datapackage build_datasets/execucao-da-divida/datapackage.json > logs/update/execucao-da-divida.txt
+dpckan dataset update --datapackage build_datasets/despesa-com-pessoal/datapackage.json > logs/update/despesa-com-pessoal.txt
+dpckan dataset update --datapackage build_datasets/viagens/datapackage.json > logs/update/viagens.txt
+dpckan dataset update --datapackage build_datasets/receita/datapackage.json > logs/update/receita.txt
+dpckan dataset update --datapackage build_datasets/convenios-entrada/datapackage.json > logs/update/convenios-entrada.txt
