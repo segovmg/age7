@@ -64,6 +64,9 @@ Atualizando datapackage.json
 Diferenças nos dados do recurso: ft_diarias_2005
 Atualizando recurso: ft_diarias_2005
 Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_diarias_2007
+Atualizando recurso: ft_diarias_2007
+Atualizando datapackage.json
 Diferenças nos dados do recurso: ft_diarias_2009
 Atualizando recurso: ft_diarias_2009
 Atualizando datapackage.json

@@ -1,12 +1,6 @@
 Atualizando conjunto de dados: viagens
-Diferenças nos dados do recurso: dm_documento_viagem
-Atualizando recurso: dm_documento_viagem
-Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_empenho_desp_diarias_scdp_liqpag
 Atualizando recurso: dm_empenho_desp_diarias_scdp_liqpag
-Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_diarias_scdp
-Atualizando recurso: ft_diarias_scdp
 Atualizando datapackage.json
 Diferenças nos dados do recurso: ft_diarias_scdp_liqpag
 Atualizando recurso: ft_diarias_scdp_liqpag

@@ -64,15 +64,30 @@ Atualizando datapackage.json
 Diferenças nos dados do recurso: ft_restos_pagar_2002
 Atualizando recurso: ft_restos_pagar_2002
 Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_restos_pagar_2004
+Atualizando recurso: ft_restos_pagar_2004
+Atualizando datapackage.json
 Diferenças nos dados do recurso: ft_restos_pagar_2006
 Atualizando recurso: ft_restos_pagar_2006
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_restos_pagar_2008
+Atualizando recurso: ft_restos_pagar_2008
 Atualizando datapackage.json
 Diferenças nos dados do recurso: ft_restos_pagar_2010
 Atualizando recurso: ft_restos_pagar_2010
 Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_restos_pagar_2012
+Atualizando recurso: ft_restos_pagar_2012
+Atualizando datapackage.json
 Diferenças nos dados do recurso: ft_restos_pagar_2014
 Atualizando recurso: ft_restos_pagar_2014
 Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_restos_pagar_2016
+Atualizando recurso: ft_restos_pagar_2016
+Atualizando datapackage.json
 Diferenças nos dados do recurso: ft_restos_pagar_2018
 Atualizando recurso: ft_restos_pagar_2018
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_restos_pagar_2020
+Atualizando recurso: ft_restos_pagar_2020
 Atualizando datapackage.json

@@ -1,6 +1,6 @@
 {
   "version": "4.28.0",
-  "time": 229.19,
+  "time": 223.149,
   "errors": [],
   "tasks": [
     {
@@ -529,13 +529,13 @@
         "hashing": "md5",
         "compression": "gz",
         "stats": {
-          "hash": "fe2b6ef707a97f1f888a4fa3ee98ef93",
-          "bytes": 55908766,
+          "hash": "d6ad47c85d01acb953d778a733a8280c",
+          "bytes": 55916143,
           "fields": 27,
-          "rows": 1828675
+          "rows": 1828905
         }
       },
-      "time": 229.19,
+      "time": 223.149,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -558,6 +558,174 @@
       ],
       "partial": false,
       "errors": [
+        {
+          "cells": [
+            "50363",
+            "4",
+            "1831019",
+            "95",
+            "1",
+            "1",
+            "66",
+            "67288",
+            "1",
+            "77",
+            "533",
+            "12280",
+            "90758",
+            "366011",
+            "74720",
+            "889",
+            "1831724",
+            "2599",
+            "2000",
+            "2022",
+            "2022-03-25",
+            "0.0000",
+            "62374.3000",
+            "62374.30",
+            "60000.0000",
+            "60000.00",
+            "60000.00"
+          ],
+          "rowNumber": 1798539,
+          "rowPosition": 1798540,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_contrato\": values \"74720\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1798540\" violates the foreign key: for \"id_contrato\": values \"74720\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "50338",
+            "15",
+            "1831015",
+            "14",
+            "1",
+            "1",
+            "883",
+            "38482",
+            "1",
+            "3",
+            "627",
+            "16366",
+            "269346",
+            "363126",
+            "74723",
+            "889",
+            "1831295",
+            "2611",
+            "1836",
+            "2022",
+            "2022-01-31",
+            "3.0000",
+            "1550.0000",
+            "4650.00",
+            "1550.0000",
+            "4650.00",
+            "4650.00"
+          ],
+          "rowNumber": 1799547,
+          "rowPosition": 1799548,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_contrato\": values \"74723\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1799548\" violates the foreign key: for \"id_contrato\": values \"74723\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "43970",
+            "15",
+            "1831094",
+            "95",
+            "1",
+            "1",
+            "66",
+            "17476",
+            "1",
+            "13",
+            "291",
+            "20793",
+            "332265",
+            "366367",
+            "74721",
+            "889",
+            "1831958",
+            "3019",
+            "3043",
+            "2022",
+            "2022-04-01",
+            "7.0000",
+            "128777.0000",
+            "901439.00",
+            "128777.0000",
+            "901439.00",
+            "901439.00"
+          ],
+          "rowNumber": 1801417,
+          "rowPosition": 1801418,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_contrato\": values \"74721\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1801418\" violates the foreign key: for \"id_contrato\": values \"74721\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "50345",
+            "4",
+            "1831094",
+            "95",
+            "1",
+            "1",
+            "66",
+            "69276",
+            "1",
+            "77",
+            "700",
+            "17682",
+            "93674",
+            "366383",
+            "74717",
+            "981",
+            "1831731",
+            "2879",
+            "3043",
+            "2022",
+            "2022-04-01",
+            "0.0000",
+            "149654.0300",
+            "149654.02",
+            "94900.0000",
+            "94900.00",
+            "94900.00"
+          ],
+          "rowNumber": 1801587,
+          "rowPosition": 1801588,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_contrato\": values \"74717\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1801588\" violates the foreign key: for \"id_contrato\": values \"74717\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
         {
           "cells": [
             "50317",
@@ -598,6 +766,132 @@
           ],
           "note": "for \"id_contrato\": values \"74704\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
           "message": "Row at position \"1801807\" violates the foreign key: for \"id_contrato\": values \"74704\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "50336",
+            "4",
+            "1831016",
+            "16",
+            "1",
+            "1",
+            "560",
+            "70236",
+            "1",
+            "69",
+            "507",
+            "18981",
+            "103892",
+            "365389",
+            "74712",
+            "1307",
+            "1831312",
+            "2538",
+            "2082",
+            "2022",
+            "2022-03-15",
+            "100.0000",
+            "19.4500",
+            "1945.12",
+            "19.4500",
+            "1945.00",
+            "1945.00"
+          ],
+          "rowNumber": 1802109,
+          "rowPosition": 1802110,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_contrato\": values \"74712\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1802110\" violates the foreign key: for \"id_contrato\": values \"74712\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "50336",
+            "4",
+            "1831016",
+            "16",
+            "1",
+            "1",
+            "560",
+            "70236",
+            "1",
+            "69",
+            "507",
+            "5927",
+            "79592",
+            "365389",
+            "74712",
+            "98",
+            "1831312",
+            "2538",
+            "2082",
+            "2022",
+            "2022-03-15",
+            "520.0000",
+            "37.8100",
+            "19658.60",
+            "37.8000",
+            "19656.00",
+            "19656.00"
+          ],
+          "rowNumber": 1802110,
+          "rowPosition": 1802111,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_contrato\": values \"74712\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1802111\" violates the foreign key: for \"id_contrato\": values \"74712\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "50336",
+            "4",
+            "1831016",
+            "16",
+            "1",
+            "1",
+            "560",
+            "70236",
+            "1",
+            "69",
+            "342",
+            "16019",
+            "18810",
+            "365389",
+            "74712",
+            "1174",
+            "1831312",
+            "2538",
+            "2082",
+            "2022",
+            "2022-03-15",
+            "1040.0000",
+            "6.0900",
+            "6330.69",
+            "6.0800",
+            "6323.20",
+            "6323.20"
+          ],
+          "rowNumber": 1802111,
+          "rowPosition": 1802112,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_contrato\": values \"74712\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1802112\" violates the foreign key: for \"id_contrato\": values \"74712\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
           "description": "Values in the foreign key fields should exist in the reference table"
         },
         {
@@ -819,6 +1113,90 @@
             "1",
             "1",
             "844",
+            "4625",
+            "1",
+            "54",
+            "502",
+            "6435",
+            "204164",
+            "366898",
+            "74711",
+            "889",
+            "1831296",
+            "2944",
+            "3293",
+            "2022",
+            "2022-04-08",
+            "4.0000",
+            "557.0000",
+            "2228.00",
+            "557.0000",
+            "2228.00",
+            "2228.00"
+          ],
+          "rowNumber": 1807394,
+          "rowPosition": 1807395,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_contrato\": values \"74711\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1807395\" violates the foreign key: for \"id_contrato\": values \"74711\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "43975",
+            "15",
+            "1831095",
+            "96",
+            "1",
+            "1",
+            "844",
+            "4625",
+            "1",
+            "54",
+            "502",
+            "6570",
+            "204163",
+            "366898",
+            "74711",
+            "889",
+            "1831296",
+            "2944",
+            "3293",
+            "2022",
+            "2022-04-08",
+            "2.0000",
+            "1139.0000",
+            "2278.00",
+            "1139.0000",
+            "2278.00",
+            "2278.00"
+          ],
+          "rowNumber": 1807395,
+          "rowPosition": 1807396,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_contrato\": values \"74711\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1807396\" violates the foreign key: for \"id_contrato\": values \"74711\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "43975",
+            "15",
+            "1831095",
+            "96",
+            "1",
+            "1",
+            "844",
             "39472",
             "1",
             "54",
@@ -850,6 +1228,174 @@
           ],
           "note": "for \"id_contrato\": values \"74702\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
           "message": "Row at position \"1807397\" violates the foreign key: for \"id_contrato\": values \"74702\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "43975",
+            "15",
+            "1831095",
+            "96",
+            "1",
+            "1",
+            "844",
+            "31148",
+            "1",
+            "54",
+            "9",
+            "6209",
+            "33846",
+            "366898",
+            "74722",
+            "889",
+            "1831296",
+            "2944",
+            "3293",
+            "2022",
+            "2022-04-08",
+            "4.0000",
+            "1921.0000",
+            "7684.00",
+            "1921.0000",
+            "7684.00",
+            "7684.00"
+          ],
+          "rowNumber": 1807397,
+          "rowPosition": 1807398,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_contrato\": values \"74722\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1807398\" violates the foreign key: for \"id_contrato\": values \"74722\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "43975",
+            "15",
+            "1831095",
+            "96",
+            "1",
+            "1",
+            "844",
+            "39472",
+            "1",
+            "54",
+            "119",
+            "17031",
+            "142864",
+            "366959",
+            "74713",
+            "889",
+            "1831296",
+            "2944",
+            "3293",
+            "2022",
+            "2022-04-08",
+            "13.0000",
+            "2590.0000",
+            "33670.00",
+            "2590.0000",
+            "33670.00",
+            "33670.00"
+          ],
+          "rowNumber": 1807398,
+          "rowPosition": 1807399,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_contrato\": values \"74713\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1807399\" violates the foreign key: for \"id_contrato\": values \"74713\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "43967",
+            "21",
+            "1831081",
+            "77",
+            "1",
+            "1",
+            "66",
+            "329",
+            "1",
+            "39",
+            "130",
+            "89",
+            "235187",
+            "366172",
+            "74709",
+            "889",
+            "1831805",
+            "3067",
+            "4077",
+            "2022",
+            "2022-03-29",
+            "0.0000",
+            "720000.0000",
+            "720000.00",
+            "720000.0000",
+            "720000.00",
+            "720000.00"
+          ],
+          "rowNumber": 1810597,
+          "rowPosition": 1810598,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_contrato\": values \"74709\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1810598\" violates the foreign key: for \"id_contrato\": values \"74709\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "50358",
+            "4",
+            "1831083",
+            "82",
+            "1",
+            "1",
+            "66",
+            "34117",
+            "1",
+            "77",
+            "700",
+            "7028",
+            "162834",
+            "366841",
+            "74716",
+            "889",
+            "1831440",
+            "2890",
+            "2083",
+            "2022",
+            "2022-04-07",
+            "0.0000",
+            "14400.0000",
+            "14400.00",
+            "15786.0000",
+            "15786.00",
+            "15786.00"
+          ],
+          "rowNumber": 1813214,
+          "rowPosition": 1813215,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_contrato\": values \"74716\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1813215\" violates the foreign key: for \"id_contrato\": values \"74716\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
           "description": "Values in the foreign key fields should exist in the reference table"
         },
         {
@@ -896,6 +1442,90 @@
         },
         {
           "cells": [
+            "43966",
+            "2",
+            "1831083",
+            "82",
+            "1",
+            "1",
+            "66",
+            "31915",
+            "1",
+            "39",
+            "710",
+            "7497",
+            "154634",
+            "367014",
+            "74714",
+            "889",
+            "1831812",
+            "3065",
+            "2083",
+            "2022",
+            "2022-04-11",
+            "0.0000",
+            "18000.0000",
+            "18000.00",
+            "18000.0000",
+            "18000.00",
+            "18000.00"
+          ],
+          "rowNumber": 1814124,
+          "rowPosition": 1814125,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_contrato\": values \"74714\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1814125\" violates the foreign key: for \"id_contrato\": values \"74714\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "43966",
+            "2",
+            "1831083",
+            "82",
+            "1",
+            "1",
+            "66",
+            "31915",
+            "1",
+            "39",
+            "710",
+            "7497",
+            "150613",
+            "367014",
+            "74714",
+            "889",
+            "1831812",
+            "3065",
+            "2083",
+            "2022",
+            "2022-04-11",
+            "0.0000",
+            "41700.0000",
+            "41700.00",
+            "41700.0000",
+            "41700.00",
+            "41700.00"
+          ],
+          "rowNumber": 1814125,
+          "rowPosition": 1814126,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_contrato\": values \"74714\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1814126\" violates the foreign key: for \"id_contrato\": values \"74714\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
             "50357",
             "2",
             "1831081",
@@ -938,6 +1568,216 @@
         },
         {
           "cells": [
+            "48962",
+            "4",
+            "1831081",
+            "77",
+            "1",
+            "1",
+            "66",
+            "69742",
+            "1",
+            "42",
+            "399",
+            "3867",
+            "126616",
+            "366573",
+            "74715",
+            "889",
+            "1831334",
+            "2923",
+            "2014",
+            "2021",
+            "2022-04-04",
+            "8400.0000",
+            "16.7500",
+            "140700.00",
+            "4.9000",
+            "41160.00",
+            "41160.00"
+          ],
+          "rowNumber": 1814837,
+          "rowPosition": 1814838,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_contrato\": values \"74715\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1814838\" violates the foreign key: for \"id_contrato\": values \"74715\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "50282",
+            "4",
+            "1831081",
+            "77",
+            "1",
+            "1",
+            "66",
+            "21643",
+            "1",
+            "42",
+            "399",
+            "1194",
+            "145115",
+            "366894",
+            "74718",
+            "889",
+            "1831334",
+            "2923",
+            "2014",
+            "2021",
+            "2022-04-08",
+            "900.0000",
+            "2530.0000",
+            "2277000.00",
+            "1147.2200",
+            "1032498.00",
+            "1032498.00"
+          ],
+          "rowNumber": 1815060,
+          "rowPosition": 1815061,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_contrato\": values \"74718\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1815061\" violates the foreign key: for \"id_contrato\": values \"74718\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "43973",
+            "2",
+            "1831081",
+            "77",
+            "1",
+            "1",
+            "66",
+            "19635",
+            "1",
+            "77",
+            "808",
+            "4383",
+            "91625",
+            "366574",
+            "74707",
+            "889",
+            "1831737",
+            "2869",
+            "2014",
+            "2022",
+            "2022-04-04",
+            "0.0000",
+            "11073577.0000",
+            "11073577.00",
+            "11073577.0000",
+            "11073577.00",
+            "11073577.00"
+          ],
+          "rowNumber": 1817344,
+          "rowPosition": 1817345,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_contrato\": values \"74707\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1817345\" violates the foreign key: for \"id_contrato\": values \"74707\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "43973",
+            "2",
+            "1831081",
+            "77",
+            "1",
+            "1",
+            "66",
+            "19635",
+            "1",
+            "77",
+            "808",
+            "4383",
+            "91625",
+            "366574",
+            "74707",
+            "889",
+            "1831737",
+            "2869",
+            "2014",
+            "2022",
+            "2022-04-04",
+            "0.0000",
+            "339327.5000",
+            "339327.50",
+            "339327.5000",
+            "339327.50",
+            "339327.50"
+          ],
+          "rowNumber": 1817345,
+          "rowPosition": 1817346,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_contrato\": values \"74707\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1817346\" violates the foreign key: for \"id_contrato\": values \"74707\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "43973",
+            "2",
+            "1831081",
+            "77",
+            "1",
+            "1",
+            "66",
+            "19635",
+            "1",
+            "77",
+            "808",
+            "4383",
+            "91625",
+            "366574",
+            "74707",
+            "889",
+            "1831737",
+            "2869",
+            "2014",
+            "2022",
+            "2022-04-04",
+            "0.0000",
+            "176587.5000",
+            "176587.50",
+            "176587.5000",
+            "176587.50",
+            "176587.50"
+          ],
+          "rowNumber": 1817346,
+          "rowPosition": 1817347,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_contrato\": values \"74707\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1817347\" violates the foreign key: for \"id_contrato\": values \"74707\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
             "43973",
             "2",
             "1831044",
@@ -966,8 +1806,8 @@
             "9744.00",
             "9744.00"
           ],
-          "rowNumber": 1817505,
-          "rowPosition": 1817506,
+          "rowNumber": 1817607,
+          "rowPosition": 1817608,
           "code": "foreign-key-error",
           "name": "ForeignKey Error",
           "tags": [
@@ -975,7 +1815,175 @@
             "#row"
           ],
           "note": "for \"id_contrato\": values \"74689\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
-          "message": "Row at position \"1817506\" violates the foreign key: for \"id_contrato\": values \"74689\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1817608\" violates the foreign key: for \"id_contrato\": values \"74689\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "43969",
+            "15",
+            "1831095",
+            "96",
+            "1",
+            "1",
+            "844",
+            "31148",
+            "1",
+            "54",
+            "502",
+            "14376",
+            "128397",
+            "366527",
+            "74719",
+            "889",
+            "1831296",
+            "2944",
+            "3293",
+            "2022",
+            "2022-04-04",
+            "5.0000",
+            "1676.0900",
+            "8380.45",
+            "1676.0900",
+            "8380.45",
+            "8380.45"
+          ],
+          "rowNumber": 1819931,
+          "rowPosition": 1819932,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_contrato\": values \"74719\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1819932\" violates the foreign key: for \"id_contrato\": values \"74719\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "43952",
+            "14",
+            "1910409",
+            "59",
+            "1",
+            "1",
+            "66",
+            "70879",
+            "1",
+            "77",
+            "533",
+            "9707",
+            "120031",
+            "367244",
+            "74724",
+            "889",
+            "1831531",
+            "2669",
+            "2840",
+            "2022",
+            "2022-04-14",
+            "0.0000",
+            "5430.0400",
+            "5430.04",
+            "5430.0400",
+            "5430.04",
+            "5430.04"
+          ],
+          "rowNumber": 1820064,
+          "rowPosition": 1820065,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_processo\": values \"367244\" not found in the lookup table \"dm_processo\" as \"id_processo\"",
+          "message": "Row at position \"1820065\" violates the foreign key: for \"id_processo\": values \"367244\" not found in the lookup table \"dm_processo\" as \"id_processo\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "43952",
+            "14",
+            "1910409",
+            "59",
+            "1",
+            "1",
+            "66",
+            "70879",
+            "1",
+            "77",
+            "533",
+            "9707",
+            "120031",
+            "367244",
+            "74724",
+            "889",
+            "1831531",
+            "2669",
+            "2840",
+            "2022",
+            "2022-04-14",
+            "0.0000",
+            "5430.0400",
+            "5430.04",
+            "5430.0400",
+            "5430.04",
+            "5430.04"
+          ],
+          "rowNumber": 1820064,
+          "rowPosition": 1820065,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_contrato\": values \"74724\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1820065\" violates the foreign key: for \"id_contrato\": values \"74724\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "43952",
+            "14",
+            "1910409",
+            "59",
+            "1",
+            "1",
+            "66",
+            "70879",
+            "1",
+            "77",
+            "533",
+            "9707",
+            "120031",
+            "367244",
+            "74724",
+            "889",
+            "1831531",
+            "2669",
+            "2840",
+            "2022",
+            "2022-04-14",
+            "0.0000",
+            "5430.0400",
+            "5430.04",
+            "5430.0400",
+            "5430.04",
+            "5430.04"
+          ],
+          "rowNumber": 1820064,
+          "rowPosition": 1820065,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_contratado\": values \"70879\" not found in the lookup table \"dm_contratado\" as \"id_contratado\"",
+          "message": "Row at position \"1820065\" violates the foreign key: for \"id_contratado\": values \"70879\" not found in the lookup table \"dm_contratado\" as \"id_contratado\"",
           "description": "Values in the foreign key fields should exist in the reference table"
         },
         {
@@ -1008,8 +2016,8 @@
             "376912.50",
             "376912.50"
           ],
-          "rowNumber": 1821196,
-          "rowPosition": 1821197,
+          "rowNumber": 1821426,
+          "rowPosition": 1821427,
           "code": "foreign-key-error",
           "name": "ForeignKey Error",
           "tags": [
@@ -1017,7 +2025,7 @@
             "#row"
           ],
           "note": "for \"id_contrato\": values \"74705\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
-          "message": "Row at position \"1821197\" violates the foreign key: for \"id_contrato\": values \"74705\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1821427\" violates the foreign key: for \"id_contrato\": values \"74705\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
           "description": "Values in the foreign key fields should exist in the reference table"
         },
         {
@@ -1050,8 +2058,8 @@
             "1796.00",
             "1796.00"
           ],
-          "rowNumber": 1823552,
-          "rowPosition": 1823553,
+          "rowNumber": 1823782,
+          "rowPosition": 1823783,
           "code": "foreign-key-error",
           "name": "ForeignKey Error",
           "tags": [
@@ -1059,7 +2067,7 @@
             "#row"
           ],
           "note": "for \"id_contrato\": values \"74703\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
-          "message": "Row at position \"1823553\" violates the foreign key: for \"id_contrato\": values \"74703\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1823783\" violates the foreign key: for \"id_contrato\": values \"74703\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
           "description": "Values in the foreign key fields should exist in the reference table"
         },
         {
@@ -1092,8 +2100,8 @@
             "2304.00",
             "2304.00"
           ],
-          "rowNumber": 1823553,
-          "rowPosition": 1823554,
+          "rowNumber": 1823783,
+          "rowPosition": 1823784,
           "code": "foreign-key-error",
           "name": "ForeignKey Error",
           "tags": [
@@ -1101,7 +2109,7 @@
             "#row"
           ],
           "note": "for \"id_contrato\": values \"74691\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
-          "message": "Row at position \"1823554\" violates the foreign key: for \"id_contrato\": values \"74691\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1823784\" violates the foreign key: for \"id_contrato\": values \"74691\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
           "description": "Values in the foreign key fields should exist in the reference table"
         },
         {
@@ -1134,8 +2142,8 @@
             "1760.00",
             "1760.00"
           ],
-          "rowNumber": 1823554,
-          "rowPosition": 1823555,
+          "rowNumber": 1823784,
+          "rowPosition": 1823785,
           "code": "foreign-key-error",
           "name": "ForeignKey Error",
           "tags": [
@@ -1143,7 +2151,7 @@
             "#row"
           ],
           "note": "for \"id_contrato\": values \"74688\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
-          "message": "Row at position \"1823555\" violates the foreign key: for \"id_contrato\": values \"74688\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1823785\" violates the foreign key: for \"id_contrato\": values \"74688\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
           "description": "Values in the foreign key fields should exist in the reference table"
         },
         {
@@ -1176,8 +2184,8 @@
             "760.00",
             "760.00"
           ],
-          "rowNumber": 1823555,
-          "rowPosition": 1823556,
+          "rowNumber": 1823785,
+          "rowPosition": 1823786,
           "code": "foreign-key-error",
           "name": "ForeignKey Error",
           "tags": [
@@ -1185,7 +2193,175 @@
             "#row"
           ],
           "note": "for \"id_contrato\": values \"74688\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
-          "message": "Row at position \"1823556\" violates the foreign key: for \"id_contrato\": values \"74688\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1823786\" violates the foreign key: for \"id_contrato\": values \"74688\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "43954",
+            "15",
+            "1831083",
+            "82",
+            "1",
+            "1",
+            "883",
+            "33019",
+            "1",
+            "3",
+            "627",
+            "3013",
+            "226216",
+            "366041",
+            "74710",
+            "889",
+            "1831295",
+            "2611",
+            "2083",
+            "2022",
+            "2022-03-25",
+            "400.0000",
+            "4217.5700",
+            "1687028.00",
+            "4217.5700",
+            "1687028.00",
+            "1687028.00"
+          ],
+          "rowNumber": 1823797,
+          "rowPosition": 1823798,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_contrato\": values \"74710\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1823798\" violates the foreign key: for \"id_contrato\": values \"74710\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "50363",
+            "4",
+            "1831094",
+            "95",
+            "1",
+            "1",
+            "66",
+            "67288",
+            "1",
+            "77",
+            "533",
+            "12280",
+            "90758",
+            "366023",
+            "74720",
+            "889",
+            "1831724",
+            "2599",
+            "3043",
+            "2022",
+            "2022-03-25",
+            "0.0000",
+            "93561.4500",
+            "93561.45",
+            "90000.0000",
+            "90000.00",
+            "90000.00"
+          ],
+          "rowNumber": 1823812,
+          "rowPosition": 1823813,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_contrato\": values \"74720\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1823813\" violates the foreign key: for \"id_contrato\": values \"74720\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "50273",
+            "4",
+            "1831083",
+            "82",
+            "1",
+            "1",
+            "824",
+            "16328",
+            "1",
+            "17",
+            "379",
+            "17564",
+            "110037",
+            "366356",
+            "74706",
+            "889",
+            "1831370",
+            "2594",
+            "2083",
+            "2021",
+            "2022-03-31",
+            "0.0000",
+            "33861.0200",
+            "33861.02",
+            "35001.7800",
+            "35001.78",
+            "35001.78"
+          ],
+          "rowNumber": 1824439,
+          "rowPosition": 1824440,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_contrato\": values \"74706\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1824440\" violates the foreign key: for \"id_contrato\": values \"74706\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "43969",
+            "15",
+            "1831094",
+            "95",
+            "1",
+            "1",
+            "856",
+            "21226",
+            "1",
+            "13",
+            "291",
+            "20788",
+            "240926",
+            "366310",
+            "74708",
+            "889",
+            "1831958",
+            "3019",
+            "3043",
+            "2022",
+            "2022-03-31",
+            "1.0000",
+            "254220.0000",
+            "254220.00",
+            "254220.0000",
+            "254220.00",
+            "254220.00"
+          ],
+          "rowNumber": 1824825,
+          "rowPosition": 1824826,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_contrato\": values \"74708\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1824826\" violates the foreign key: for \"id_contrato\": values \"74708\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
           "description": "Values in the foreign key fields should exist in the reference table"
         },
         {
@@ -1218,8 +2394,8 @@
             "139000.00",
             "139000.00"
           ],
-          "rowNumber": 1825750,
-          "rowPosition": 1825751,
+          "rowNumber": 1825980,
+          "rowPosition": 1825981,
           "code": "foreign-key-error",
           "name": "ForeignKey Error",
           "tags": [
@@ -1227,7 +2403,7 @@
             "#row"
           ],
           "note": "for \"id_contrato\": values \"74693\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
-          "message": "Row at position \"1825751\" violates the foreign key: for \"id_contrato\": values \"74693\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1825981\" violates the foreign key: for \"id_contrato\": values \"74693\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
           "description": "Values in the foreign key fields should exist in the reference table"
         },
         {
@@ -1260,8 +2436,8 @@
             "97098.30",
             "97098.30"
           ],
-          "rowNumber": 1825751,
-          "rowPosition": 1825752,
+          "rowNumber": 1825981,
+          "rowPosition": 1825982,
           "code": "foreign-key-error",
           "name": "ForeignKey Error",
           "tags": [
@@ -1269,7 +2445,7 @@
             "#row"
           ],
           "note": "for \"id_contrato\": values \"74693\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
-          "message": "Row at position \"1825752\" violates the foreign key: for \"id_contrato\": values \"74693\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1825982\" violates the foreign key: for \"id_contrato\": values \"74693\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
           "description": "Values in the foreign key fields should exist in the reference table"
         },
         {
@@ -1302,8 +2478,8 @@
             "29899.92",
             "29899.92"
           ],
-          "rowNumber": 1827799,
-          "rowPosition": 1827800,
+          "rowNumber": 1828029,
+          "rowPosition": 1828030,
           "code": "foreign-key-error",
           "name": "ForeignKey Error",
           "tags": [
@@ -1311,7 +2487,7 @@
             "#row"
           ],
           "note": "for \"id_contrato\": values \"74700\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
-          "message": "Row at position \"1827800\" violates the foreign key: for \"id_contrato\": values \"74700\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1828030\" violates the foreign key: for \"id_contrato\": values \"74700\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
           "description": "Values in the foreign key fields should exist in the reference table"
         },
         {
@@ -1344,8 +2520,8 @@
             "64128.00",
             "64128.00"
           ],
-          "rowNumber": 1828108,
-          "rowPosition": 1828109,
+          "rowNumber": 1828338,
+          "rowPosition": 1828339,
           "code": "foreign-key-error",
           "name": "ForeignKey Error",
           "tags": [
@@ -1353,7 +2529,7 @@
             "#row"
           ],
           "note": "for \"id_contrato\": values \"74701\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
-          "message": "Row at position \"1828109\" violates the foreign key: for \"id_contrato\": values \"74701\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1828339\" violates the foreign key: for \"id_contrato\": values \"74701\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
           "description": "Values in the foreign key fields should exist in the reference table"
         },
         {
@@ -1386,8 +2562,8 @@
             "1310181.52",
             "1310181.52"
           ],
-          "rowNumber": 1828129,
-          "rowPosition": 1828130,
+          "rowNumber": 1828359,
+          "rowPosition": 1828360,
           "code": "foreign-key-error",
           "name": "ForeignKey Error",
           "tags": [
@@ -1395,7 +2571,7 @@
             "#row"
           ],
           "note": "for \"id_contrato\": values \"74690\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
-          "message": "Row at position \"1828130\" violates the foreign key: for \"id_contrato\": values \"74690\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1828360\" violates the foreign key: for \"id_contrato\": values \"74690\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
           "description": "Values in the foreign key fields should exist in the reference table"
         },
         {
@@ -1428,8 +2604,8 @@
             "1310181.53",
             "1310181.53"
           ],
-          "rowNumber": 1828130,
-          "rowPosition": 1828131,
+          "rowNumber": 1828360,
+          "rowPosition": 1828361,
           "code": "foreign-key-error",
           "name": "ForeignKey Error",
           "tags": [
@@ -1437,7 +2613,7 @@
             "#row"
           ],
           "note": "for \"id_contrato\": values \"74690\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
-          "message": "Row at position \"1828131\" violates the foreign key: for \"id_contrato\": values \"74690\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1828361\" violates the foreign key: for \"id_contrato\": values \"74690\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
           "description": "Values in the foreign key fields should exist in the reference table"
         },
         {
@@ -1470,8 +2646,8 @@
             "1310181.52",
             "1310181.52"
           ],
-          "rowNumber": 1828131,
-          "rowPosition": 1828132,
+          "rowNumber": 1828361,
+          "rowPosition": 1828362,
           "code": "foreign-key-error",
           "name": "ForeignKey Error",
           "tags": [
@@ -1479,7 +2655,7 @@
             "#row"
           ],
           "note": "for \"id_contrato\": values \"74690\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
-          "message": "Row at position \"1828132\" violates the foreign key: for \"id_contrato\": values \"74690\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1828362\" violates the foreign key: for \"id_contrato\": values \"74690\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
           "description": "Values in the foreign key fields should exist in the reference table"
         },
         {
@@ -1512,8 +2688,8 @@
             "55.00",
             "55.00"
           ],
-          "rowNumber": 1828610,
-          "rowPosition": 1828611,
+          "rowNumber": 1828840,
+          "rowPosition": 1828841,
           "code": "foreign-key-error",
           "name": "ForeignKey Error",
           "tags": [
@@ -1521,7 +2697,7 @@
             "#row"
           ],
           "note": "for \"id_contrato\": values \"74695\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
-          "message": "Row at position \"1828611\" violates the foreign key: for \"id_contrato\": values \"74695\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1828841\" violates the foreign key: for \"id_contrato\": values \"74695\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
           "description": "Values in the foreign key fields should exist in the reference table"
         },
         {
@@ -1554,8 +2730,8 @@
             "145.00",
             "145.00"
           ],
-          "rowNumber": 1828611,
-          "rowPosition": 1828612,
+          "rowNumber": 1828841,
+          "rowPosition": 1828842,
           "code": "foreign-key-error",
           "name": "ForeignKey Error",
           "tags": [
@@ -1563,7 +2739,7 @@
             "#row"
           ],
           "note": "for \"id_contrato\": values \"74695\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
-          "message": "Row at position \"1828612\" violates the foreign key: for \"id_contrato\": values \"74695\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1828842\" violates the foreign key: for \"id_contrato\": values \"74695\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
           "description": "Values in the foreign key fields should exist in the reference table"
         },
         {
@@ -1596,8 +2772,8 @@
             "6583.00",
             "6583.00"
           ],
-          "rowNumber": 1828612,
-          "rowPosition": 1828613,
+          "rowNumber": 1828842,
+          "rowPosition": 1828843,
           "code": "foreign-key-error",
           "name": "ForeignKey Error",
           "tags": [
@@ -1605,7 +2781,7 @@
             "#row"
           ],
           "note": "for \"id_contrato\": values \"74695\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
-          "message": "Row at position \"1828613\" violates the foreign key: for \"id_contrato\": values \"74695\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1828843\" violates the foreign key: for \"id_contrato\": values \"74695\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
           "description": "Values in the foreign key fields should exist in the reference table"
         },
         {
@@ -1638,8 +2814,8 @@
             "138.00",
             "138.00"
           ],
-          "rowNumber": 1828613,
-          "rowPosition": 1828614,
+          "rowNumber": 1828843,
+          "rowPosition": 1828844,
           "code": "foreign-key-error",
           "name": "ForeignKey Error",
           "tags": [
@@ -1647,7 +2823,7 @@
             "#row"
           ],
           "note": "for \"id_contrato\": values \"74695\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
-          "message": "Row at position \"1828614\" violates the foreign key: for \"id_contrato\": values \"74695\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1828844\" violates the foreign key: for \"id_contrato\": values \"74695\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
           "description": "Values in the foreign key fields should exist in the reference table"
         },
         {
@@ -1680,8 +2856,8 @@
             "28318.50",
             "28318.50"
           ],
-          "rowNumber": 1828614,
-          "rowPosition": 1828615,
+          "rowNumber": 1828844,
+          "rowPosition": 1828845,
           "code": "foreign-key-error",
           "name": "ForeignKey Error",
           "tags": [
@@ -1689,18 +2865,18 @@
             "#row"
           ],
           "note": "for \"id_contrato\": values \"74695\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
-          "message": "Row at position \"1828615\" violates the foreign key: for \"id_contrato\": values \"74695\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1828845\" violates the foreign key: for \"id_contrato\": values \"74695\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
           "description": "Values in the foreign key fields should exist in the reference table"
         }
       ],
       "stats": {
-        "errors": 27
+        "errors": 55
       },
       "valid": false
     }
   ],
   "stats": {
-    "errors": 27,
+    "errors": 55,
     "tasks": 1
   },
   "valid": false
