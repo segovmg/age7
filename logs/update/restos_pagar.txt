@@ -2,67 +2,35 @@ Atualizando conjunto de dados: restos_pagar
 Diferenças nos dados do recurso: dm_empenho_resto_2002
 Atualizando recurso: dm_empenho_resto_2002
 Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_empenho_resto_2003
-Atualizando recurso: dm_empenho_resto_2003
-Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_empenho_resto_2004
 Atualizando recurso: dm_empenho_resto_2004
-Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_empenho_resto_2005
-Atualizando recurso: dm_empenho_resto_2005
 Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_empenho_resto_2006
 Atualizando recurso: dm_empenho_resto_2006
 Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_empenho_resto_2007
-Atualizando recurso: dm_empenho_resto_2007
-Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_empenho_resto_2008
 Atualizando recurso: dm_empenho_resto_2008
-Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_empenho_resto_2009
-Atualizando recurso: dm_empenho_resto_2009
 Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_empenho_resto_2010
 Atualizando recurso: dm_empenho_resto_2010
 Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_empenho_resto_2011
-Atualizando recurso: dm_empenho_resto_2011
-Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_empenho_resto_2012
 Atualizando recurso: dm_empenho_resto_2012
-Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_empenho_resto_2013
-Atualizando recurso: dm_empenho_resto_2013
 Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_empenho_resto_2014
 Atualizando recurso: dm_empenho_resto_2014
 Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_empenho_resto_2015
-Atualizando recurso: dm_empenho_resto_2015
-Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_empenho_resto_2016
 Atualizando recurso: dm_empenho_resto_2016
 Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_empenho_resto_2017
-Atualizando recurso: dm_empenho_resto_2017
 Diferenças nos dados do recurso: dm_empenho_resto_2018
 Atualizando recurso: dm_empenho_resto_2018
-Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_empenho_resto_2019
-Atualizando recurso: dm_empenho_resto_2019
 Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_empenho_resto_2020
 Atualizando recurso: dm_empenho_resto_2020
 Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_empenho_resto_2021
-Atualizando recurso: dm_empenho_resto_2021
-Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_favorecido
 Atualizando recurso: dm_favorecido
-Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_restos_pagar_2002
-Atualizando recurso: ft_restos_pagar_2002
 Atualizando datapackage.json
 Diferenças nos dados do recurso: ft_restos_pagar_2004
 Atualizando recurso: ft_restos_pagar_2004
@@ -73,9 +41,6 @@ Atualizando datapackage.json
 Diferenças nos dados do recurso: ft_restos_pagar_2008
 Atualizando recurso: ft_restos_pagar_2008
 Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_restos_pagar_2010
-Atualizando recurso: ft_restos_pagar_2010
-Atualizando datapackage.json
 Diferenças nos dados do recurso: ft_restos_pagar_2012
 Atualizando recurso: ft_restos_pagar_2012
 Atualizando datapackage.json
@@ -84,9 +49,6 @@ Atualizando recurso: ft_restos_pagar_2014
 Atualizando datapackage.json
 Diferenças nos dados do recurso: ft_restos_pagar_2016
 Atualizando recurso: ft_restos_pagar_2016
-Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_restos_pagar_2018
-Atualizando recurso: ft_restos_pagar_2018
 Atualizando datapackage.json
 Diferenças nos dados do recurso: ft_restos_pagar_2020
 Atualizando recurso: ft_restos_pagar_2020

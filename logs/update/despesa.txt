@@ -52,6 +52,9 @@ Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_empenho_desp_2019
 Atualizando recurso: dm_empenho_desp_2019
 Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_empenho_desp_2020
+Atualizando recurso: dm_empenho_desp_2020
+Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_empenho_desp_2021
 Atualizando recurso: dm_empenho_desp_2021
 Atualizando datapackage.json
@@ -60,7 +63,4 @@ Atualizando recurso: dm_favorecido
 Atualizando datapackage.json
 Diferenças nos dados do recurso: fl_despesa_pgto
 Atualizando recurso: fl_despesa_pgto
-Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_despesa_2021
-Atualizando recurso: ft_despesa_2021
 Atualizando datapackage.json
