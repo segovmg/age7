@@ -1,1 +1,25 @@
 Atualizando conjunto de dados: compras_contratos
+Diferenças nos dados do recurso: dm_contratado
+Atualizando recurso: dm_contratado
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_contrato
+Atualizando recurso: dm_contrato
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_empenho_desp_compras_empenho
+Atualizando recurso: dm_empenho_desp_compras_empenho
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_item_desp
+Atualizando recurso: dm_item_desp
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_item_matserv
+Atualizando recurso: dm_item_matserv
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_material_servico
+Atualizando recurso: dm_material_servico
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_compras
+Atualizando recurso: ft_compras
+Atualizando datapackage.json
+Diferenças nos dados do recurso: ft_compras_contrato
+Atualizando recurso: ft_compras_contrato
+Atualizando datapackage.json

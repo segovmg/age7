@@ -1,1 +1,19 @@
 Atualizando conjunto de dados: despesa
+Diferenças nos dados do recurso: dm_empenho_desp_2004
+Atualizando recurso: dm_empenho_desp_2004
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_empenho_desp_2008
+Atualizando recurso: dm_empenho_desp_2008
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_empenho_desp_2012
+Atualizando recurso: dm_empenho_desp_2012
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_empenho_desp_2016
+Atualizando recurso: dm_empenho_desp_2016
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_empenho_desp_2020
+Atualizando recurso: dm_empenho_desp_2020
+Atualizando datapackage.json
+Diferenças nos dados do recurso: dm_item_desp
+Atualizando recurso: dm_item_desp
+Atualizando datapackage.json
