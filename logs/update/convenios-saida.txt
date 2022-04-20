@@ -1,4 +1,1 @@
 Atualizando conjunto de dados: convenios-saida
-Diferenças nos dados do recurso: dm_item_desp
-Atualizando recurso: dm_item_desp
-Atualizando datapackage.json
