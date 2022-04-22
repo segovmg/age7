@@ -1,6 +1,6 @@
 {
   "version": "4.28.0",
-  "time": 1.563,
+  "time": 1.469,
   "errors": [],
   "tasks": [
     {
@@ -377,13 +377,13 @@
         "hashing": "md5",
         "compression": "gz",
         "stats": {
-          "hash": "2dec08f93571210121ecd759a8c23608",
-          "bytes": 97302,
+          "hash": "4d4229c8d20b0dd984e8996fe159fbb6",
+          "bytes": 97378,
           "fields": 15,
           "rows": 6122
         }
       },
-      "time": 1.563,
+      "time": 1.469,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -405,16 +405,1517 @@
         "unique-error"
       ],
       "partial": false,
-      "errors": [],
+      "errors": [
+        {
+          "cells": [
+            "4130",
+            "527",
+            "75",
+            "962",
+            "68",
+            "4023",
+            "7429",
+            "15635",
+            "16272",
+            "25",
+            "60",
+            "9321001101000",
+            "2021",
+            "0.00",
+            "0.00"
+          ],
+          "rowNumber": 230,
+          "rowPosition": 231,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_3\": values \"4023\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "message": "Row at position \"231\" violates the foreign key: for \"id_desdobramento_3\": values \"4023\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4113",
+            "10",
+            "145",
+            "173",
+            "437",
+            "4020",
+            "7427",
+            "15615",
+            "16001",
+            "355",
+            "92",
+            "1718039101000",
+            "2021",
+            "0.00",
+            "510862770.00"
+          ],
+          "rowNumber": 562,
+          "rowPosition": 563,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_3\": values \"4020\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "message": "Row at position \"563\" violates the foreign key: for \"id_desdobramento_3\": values \"4020\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4224",
+            "535",
+            "793",
+            "964",
+            "2121",
+            "4045",
+            "7453",
+            "15654",
+            "16366",
+            "4",
+            "23",
+            "9118022302000",
+            "2022",
+            "-173806.00",
+            "-173806.00"
+          ],
+          "rowNumber": 632,
+          "rowPosition": 633,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_2\": values \"2121\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "message": "Row at position \"633\" violates the foreign key: for \"id_desdobramento_2\": values \"2121\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4224",
+            "535",
+            "793",
+            "964",
+            "2121",
+            "4045",
+            "7453",
+            "15654",
+            "16366",
+            "4",
+            "23",
+            "9118022302000",
+            "2022",
+            "-173806.00",
+            "-173806.00"
+          ],
+          "rowNumber": 632,
+          "rowPosition": 633,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_3\": values \"4045\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "message": "Row at position \"633\" violates the foreign key: for \"id_desdobramento_3\": values \"4045\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4224",
+            "541",
+            "799",
+            "971",
+            "2125",
+            "4048",
+            "7468",
+            "15939",
+            "16782",
+            "54",
+            "20",
+            "9118012302000",
+            "2022",
+            "-78476264.00",
+            "-78476264.00"
+          ],
+          "rowNumber": 884,
+          "rowPosition": 885,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_2\": values \"2125\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "message": "Row at position \"885\" violates the foreign key: for \"id_desdobramento_2\": values \"2125\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4224",
+            "541",
+            "799",
+            "971",
+            "2125",
+            "4048",
+            "7468",
+            "15939",
+            "16782",
+            "54",
+            "20",
+            "9118012302000",
+            "2022",
+            "-78476264.00",
+            "-78476264.00"
+          ],
+          "rowNumber": 884,
+          "rowPosition": 885,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_3\": values \"4048\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "message": "Row at position \"885\" violates the foreign key: for \"id_desdobramento_3\": values \"4048\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4144",
+            "528",
+            "50",
+            "963",
+            "2112",
+            "4025",
+            "7431",
+            "15652",
+            "16362",
+            "4",
+            "23",
+            "9118022402000",
+            "2021",
+            "0.00",
+            "0.00"
+          ],
+          "rowNumber": 1031,
+          "rowPosition": 1032,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_2\": values \"2112\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "message": "Row at position \"1032\" violates the foreign key: for \"id_desdobramento_2\": values \"2112\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4144",
+            "528",
+            "50",
+            "963",
+            "2112",
+            "4025",
+            "7431",
+            "15652",
+            "16362",
+            "4",
+            "23",
+            "9118022402000",
+            "2021",
+            "0.00",
+            "0.00"
+          ],
+          "rowNumber": 1031,
+          "rowPosition": 1032,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_3\": values \"4025\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "message": "Row at position \"1032\" violates the foreign key: for \"id_desdobramento_3\": values \"4025\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4224",
+            "544",
+            "802",
+            "974",
+            "2129",
+            "4054",
+            "7469",
+            "15947",
+            "16794",
+            "4",
+            "23",
+            "9118022402000",
+            "2022",
+            "0.00",
+            "0.00"
+          ],
+          "rowNumber": 1144,
+          "rowPosition": 1145,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_2\": values \"2129\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "message": "Row at position \"1145\" violates the foreign key: for \"id_desdobramento_2\": values \"2129\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4224",
+            "544",
+            "802",
+            "974",
+            "2129",
+            "4054",
+            "7469",
+            "15947",
+            "16794",
+            "4",
+            "23",
+            "9118022402000",
+            "2022",
+            "0.00",
+            "0.00"
+          ],
+          "rowNumber": 1144,
+          "rowPosition": 1145,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_3\": values \"4054\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "message": "Row at position \"1145\" violates the foreign key: for \"id_desdobramento_3\": values \"4054\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4224",
+            "16",
+            "146",
+            "153",
+            "2120",
+            "4026",
+            "7443",
+            "15844",
+            "16750",
+            "98",
+            "74",
+            "2448019107001",
+            "2022",
+            "12400000.00",
+            "12400000.00"
+          ],
+          "rowNumber": 1264,
+          "rowPosition": 1265,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_2\": values \"2120\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "message": "Row at position \"1265\" violates the foreign key: for \"id_desdobramento_2\": values \"2120\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4224",
+            "16",
+            "146",
+            "153",
+            "2120",
+            "4026",
+            "7443",
+            "15844",
+            "16750",
+            "98",
+            "74",
+            "2448019107001",
+            "2022",
+            "12400000.00",
+            "12400000.00"
+          ],
+          "rowNumber": 1264,
+          "rowPosition": 1265,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_3\": values \"4026\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "message": "Row at position \"1265\" violates the foreign key: for \"id_desdobramento_3\": values \"4026\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4224",
+            "530",
+            "794",
+            "965",
+            "2119",
+            "4042",
+            "7460",
+            "15651",
+            "16365",
+            "4",
+            "23",
+            "9118022102000",
+            "2022",
+            "-167112805.00",
+            "-167112805.00"
+          ],
+          "rowNumber": 1421,
+          "rowPosition": 1422,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_2\": values \"2119\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "message": "Row at position \"1422\" violates the foreign key: for \"id_desdobramento_2\": values \"2119\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4224",
+            "530",
+            "794",
+            "965",
+            "2119",
+            "4042",
+            "7460",
+            "15651",
+            "16365",
+            "4",
+            "23",
+            "9118022102000",
+            "2022",
+            "-167112805.00",
+            "-167112805.00"
+          ],
+          "rowNumber": 1421,
+          "rowPosition": 1422,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_3\": values \"4042\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "message": "Row at position \"1422\" violates the foreign key: for \"id_desdobramento_3\": values \"4042\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4018",
+            "527",
+            "75",
+            "962",
+            "68",
+            "4021",
+            "7428",
+            "15618",
+            "16014",
+            "25",
+            "60",
+            "9321001101000",
+            "2020",
+            "0.00",
+            "0.00"
+          ],
+          "rowNumber": 1992,
+          "rowPosition": 1993,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_3\": values \"4021\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "message": "Row at position \"1993\" violates the foreign key: for \"id_desdobramento_3\": values \"4021\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4256",
+            "16",
+            "146",
+            "153",
+            "2120",
+            "4026",
+            "7443",
+            "15877",
+            "16591",
+            "96",
+            "70",
+            "2448019109001",
+            "2022",
+            "304000.00",
+            "304000.00"
+          ],
+          "rowNumber": 2645,
+          "rowPosition": 2646,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_2\": values \"2120\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "message": "Row at position \"2646\" violates the foreign key: for \"id_desdobramento_2\": values \"2120\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4256",
+            "16",
+            "146",
+            "153",
+            "2120",
+            "4026",
+            "7443",
+            "15877",
+            "16591",
+            "96",
+            "70",
+            "2448019109001",
+            "2022",
+            "304000.00",
+            "304000.00"
+          ],
+          "rowNumber": 2645,
+          "rowPosition": 2646,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_3\": values \"4026\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "message": "Row at position \"2646\" violates the foreign key: for \"id_desdobramento_3\": values \"4026\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4224",
+            "542",
+            "800",
+            "967",
+            "2127",
+            "4050",
+            "7465",
+            "15940",
+            "16781",
+            "54",
+            "20",
+            "9118012202000",
+            "2022",
+            "-192930644.00",
+            "-192930644.00"
+          ],
+          "rowNumber": 2780,
+          "rowPosition": 2781,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_2\": values \"2127\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "message": "Row at position \"2781\" violates the foreign key: for \"id_desdobramento_2\": values \"2127\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4224",
+            "542",
+            "800",
+            "967",
+            "2127",
+            "4050",
+            "7465",
+            "15940",
+            "16781",
+            "54",
+            "20",
+            "9118012202000",
+            "2022",
+            "-192930644.00",
+            "-192930644.00"
+          ],
+          "rowNumber": 2780,
+          "rowPosition": 2781,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_3\": values \"4050\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "message": "Row at position \"2781\" violates the foreign key: for \"id_desdobramento_3\": values \"4050\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4247",
+            "531",
+            "792",
+            "966",
+            "2118",
+            "4036",
+            "7447",
+            "15648",
+            "16364",
+            "4",
+            "23",
+            "9118022202000",
+            "2022",
+            "0.00",
+            "0.00"
+          ],
+          "rowNumber": 2800,
+          "rowPosition": 2801,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_2\": values \"2118\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "message": "Row at position \"2801\" violates the foreign key: for \"id_desdobramento_2\": values \"2118\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4247",
+            "531",
+            "792",
+            "966",
+            "2118",
+            "4036",
+            "7447",
+            "15648",
+            "16364",
+            "4",
+            "23",
+            "9118022202000",
+            "2022",
+            "0.00",
+            "0.00"
+          ],
+          "rowNumber": 2800,
+          "rowPosition": 2801,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_3\": values \"4036\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "message": "Row at position \"2801\" violates the foreign key: for \"id_desdobramento_3\": values \"4036\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4144",
+            "528",
+            "50",
+            "963",
+            "2112",
+            "4025",
+            "7432",
+            "15651",
+            "16365",
+            "4",
+            "23",
+            "9118022102000",
+            "2021",
+            "0.00",
+            "0.00"
+          ],
+          "rowNumber": 2802,
+          "rowPosition": 2803,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_2\": values \"2112\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "message": "Row at position \"2803\" violates the foreign key: for \"id_desdobramento_2\": values \"2112\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4144",
+            "528",
+            "50",
+            "963",
+            "2112",
+            "4025",
+            "7432",
+            "15651",
+            "16365",
+            "4",
+            "23",
+            "9118022102000",
+            "2021",
+            "0.00",
+            "0.00"
+          ],
+          "rowNumber": 2802,
+          "rowPosition": 2803,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_3\": values \"4025\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "message": "Row at position \"2803\" violates the foreign key: for \"id_desdobramento_3\": values \"4025\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4271",
+            "16",
+            "146",
+            "153",
+            "2120",
+            "4026",
+            "7443",
+            "15716",
+            "16461",
+            "96",
+            "70",
+            "2448019118001",
+            "2022",
+            "0.00",
+            "8000000.00"
+          ],
+          "rowNumber": 3142,
+          "rowPosition": 3143,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_2\": values \"2120\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "message": "Row at position \"3143\" violates the foreign key: for \"id_desdobramento_2\": values \"2120\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4271",
+            "16",
+            "146",
+            "153",
+            "2120",
+            "4026",
+            "7443",
+            "15716",
+            "16461",
+            "96",
+            "70",
+            "2448019118001",
+            "2022",
+            "0.00",
+            "8000000.00"
+          ],
+          "rowNumber": 3142,
+          "rowPosition": 3143,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_3\": values \"4026\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "message": "Row at position \"3143\" violates the foreign key: for \"id_desdobramento_3\": values \"4026\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4224",
+            "539",
+            "795",
+            "973",
+            "2122",
+            "4053",
+            "7464",
+            "15942",
+            "16788",
+            "89",
+            "51",
+            "9718017101002",
+            "2022",
+            "-8868909.00",
+            "-8868909.00"
+          ],
+          "rowNumber": 3323,
+          "rowPosition": 3324,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_2\": values \"2122\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "message": "Row at position \"3324\" violates the foreign key: for \"id_desdobramento_2\": values \"2122\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4224",
+            "539",
+            "795",
+            "973",
+            "2122",
+            "4053",
+            "7464",
+            "15942",
+            "16788",
+            "89",
+            "51",
+            "9718017101002",
+            "2022",
+            "-8868909.00",
+            "-8868909.00"
+          ],
+          "rowNumber": 3323,
+          "rowPosition": 3324,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_3\": values \"4053\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "message": "Row at position \"3324\" violates the foreign key: for \"id_desdobramento_3\": values \"4053\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4144",
+            "528",
+            "50",
+            "963",
+            "2112",
+            "4025",
+            "7430",
+            "15648",
+            "16364",
+            "4",
+            "23",
+            "9118022202000",
+            "2021",
+            "0.00",
+            "0.00"
+          ],
+          "rowNumber": 3459,
+          "rowPosition": 3460,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_2\": values \"2112\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "message": "Row at position \"3460\" violates the foreign key: for \"id_desdobramento_2\": values \"2112\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4144",
+            "528",
+            "50",
+            "963",
+            "2112",
+            "4025",
+            "7430",
+            "15648",
+            "16364",
+            "4",
+            "23",
+            "9118022202000",
+            "2021",
+            "0.00",
+            "0.00"
+          ],
+          "rowNumber": 3459,
+          "rowPosition": 3460,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_3\": values \"4025\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "message": "Row at position \"3460\" violates the foreign key: for \"id_desdobramento_3\": values \"4025\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4256",
+            "10",
+            "146",
+            "153",
+            "2115",
+            "4026",
+            "7443",
+            "15877",
+            "16398",
+            "96",
+            "70",
+            "1748019109003",
+            "2022",
+            "770069.00",
+            "770069.00"
+          ],
+          "rowNumber": 3893,
+          "rowPosition": 3894,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_2\": values \"2115\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "message": "Row at position \"3894\" violates the foreign key: for \"id_desdobramento_2\": values \"2115\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4256",
+            "10",
+            "146",
+            "153",
+            "2115",
+            "4026",
+            "7443",
+            "15877",
+            "16398",
+            "96",
+            "70",
+            "1748019109003",
+            "2022",
+            "770069.00",
+            "770069.00"
+          ],
+          "rowNumber": 3893,
+          "rowPosition": 3894,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_3\": values \"4026\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "message": "Row at position \"3894\" violates the foreign key: for \"id_desdobramento_3\": values \"4026\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4224",
+            "538",
+            "796",
+            "972",
+            "2123",
+            "4051",
+            "7466",
+            "15943",
+            "16787",
+            "54",
+            "20",
+            "9718016101002",
+            "2022",
+            "-231959749.00",
+            "-231959749.00"
+          ],
+          "rowNumber": 3904,
+          "rowPosition": 3905,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_2\": values \"2123\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "message": "Row at position \"3905\" violates the foreign key: for \"id_desdobramento_2\": values \"2123\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4224",
+            "538",
+            "796",
+            "972",
+            "2123",
+            "4051",
+            "7466",
+            "15943",
+            "16787",
+            "54",
+            "20",
+            "9718016101002",
+            "2022",
+            "-231959749.00",
+            "-231959749.00"
+          ],
+          "rowNumber": 3904,
+          "rowPosition": 3905,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_3\": values \"4051\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "message": "Row at position \"3905\" violates the foreign key: for \"id_desdobramento_3\": values \"4051\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4247",
+            "535",
+            "793",
+            "964",
+            "2121",
+            "4045",
+            "7453",
+            "15654",
+            "16366",
+            "4",
+            "23",
+            "9118022302000",
+            "2022",
+            "0.00",
+            "0.00"
+          ],
+          "rowNumber": 4270,
+          "rowPosition": 4271,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_2\": values \"2121\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "message": "Row at position \"4271\" violates the foreign key: for \"id_desdobramento_2\": values \"2121\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4247",
+            "535",
+            "793",
+            "964",
+            "2121",
+            "4045",
+            "7453",
+            "15654",
+            "16366",
+            "4",
+            "23",
+            "9118022302000",
+            "2022",
+            "0.00",
+            "0.00"
+          ],
+          "rowNumber": 4270,
+          "rowPosition": 4271,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_3\": values \"4045\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "message": "Row at position \"4271\" violates the foreign key: for \"id_desdobramento_3\": values \"4045\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4016",
+            "527",
+            "75",
+            "962",
+            "68",
+            "4021",
+            "7428",
+            "15618",
+            "16014",
+            "25",
+            "60",
+            "9321001101000",
+            "2020",
+            "0.00",
+            "0.00"
+          ],
+          "rowNumber": 4560,
+          "rowPosition": 4561,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_3\": values \"4021\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "message": "Row at position \"4561\" violates the foreign key: for \"id_desdobramento_3\": values \"4021\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4032",
+            "16",
+            "145",
+            "173",
+            "199",
+            "4020",
+            "7427",
+            "15616",
+            "15997",
+            "356",
+            "93",
+            "2418039101000",
+            "2020",
+            "0.00",
+            "10000.00"
+          ],
+          "rowNumber": 4840,
+          "rowPosition": 4841,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_3\": values \"4020\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "message": "Row at position \"4841\" violates the foreign key: for \"id_desdobramento_3\": values \"4020\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4224",
+            "531",
+            "792",
+            "966",
+            "2118",
+            "4036",
+            "7447",
+            "15648",
+            "16364",
+            "4",
+            "23",
+            "9118022202000",
+            "2022",
+            "-711381.00",
+            "-711381.00"
+          ],
+          "rowNumber": 5125,
+          "rowPosition": 5126,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_2\": values \"2118\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "message": "Row at position \"5126\" violates the foreign key: for \"id_desdobramento_2\": values \"2118\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4224",
+            "531",
+            "792",
+            "966",
+            "2118",
+            "4036",
+            "7447",
+            "15648",
+            "16364",
+            "4",
+            "23",
+            "9118022202000",
+            "2022",
+            "-711381.00",
+            "-711381.00"
+          ],
+          "rowNumber": 5125,
+          "rowPosition": 5126,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_3\": values \"4036\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "message": "Row at position \"5126\" violates the foreign key: for \"id_desdobramento_3\": values \"4036\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4224",
+            "540",
+            "798",
+            "969",
+            "2124",
+            "4052",
+            "7467",
+            "15941",
+            "16785",
+            "54",
+            "20",
+            "9118012102000",
+            "2022",
+            "-3431532965.00",
+            "-3431532965.00"
+          ],
+          "rowNumber": 5385,
+          "rowPosition": 5386,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_2\": values \"2124\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "message": "Row at position \"5386\" violates the foreign key: for \"id_desdobramento_2\": values \"2124\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4224",
+            "540",
+            "798",
+            "969",
+            "2124",
+            "4052",
+            "7467",
+            "15941",
+            "16785",
+            "54",
+            "20",
+            "9118012102000",
+            "2022",
+            "-3431532965.00",
+            "-3431532965.00"
+          ],
+          "rowNumber": 5385,
+          "rowPosition": 5386,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_3\": values \"4052\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "message": "Row at position \"5386\" violates the foreign key: for \"id_desdobramento_3\": values \"4052\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4247",
+            "544",
+            "802",
+            "974",
+            "2129",
+            "4054",
+            "7469",
+            "15947",
+            "16794",
+            "4",
+            "23",
+            "9118022402000",
+            "2022",
+            "0.00",
+            "0.00"
+          ],
+          "rowNumber": 5421,
+          "rowPosition": 5422,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_2\": values \"2129\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "message": "Row at position \"5422\" violates the foreign key: for \"id_desdobramento_2\": values \"2129\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4247",
+            "544",
+            "802",
+            "974",
+            "2129",
+            "4054",
+            "7469",
+            "15947",
+            "16794",
+            "4",
+            "23",
+            "9118022402000",
+            "2022",
+            "0.00",
+            "0.00"
+          ],
+          "rowNumber": 5421,
+          "rowPosition": 5422,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_3\": values \"4054\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "message": "Row at position \"5422\" violates the foreign key: for \"id_desdobramento_3\": values \"4054\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4032",
+            "10",
+            "145",
+            "173",
+            "437",
+            "4020",
+            "7427",
+            "15615",
+            "16001",
+            "355",
+            "92",
+            "1718039101000",
+            "2020",
+            "0.00",
+            "99938863.00"
+          ],
+          "rowNumber": 5433,
+          "rowPosition": 5434,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_3\": values \"4020\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "message": "Row at position \"5434\" violates the foreign key: for \"id_desdobramento_3\": values \"4020\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4247",
+            "530",
+            "794",
+            "965",
+            "2119",
+            "4042",
+            "7460",
+            "15651",
+            "16365",
+            "4",
+            "23",
+            "9118022102000",
+            "2022",
+            "0.00",
+            "0.00"
+          ],
+          "rowNumber": 5595,
+          "rowPosition": 5596,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_2\": values \"2119\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "message": "Row at position \"5596\" violates the foreign key: for \"id_desdobramento_2\": values \"2119\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4247",
+            "530",
+            "794",
+            "965",
+            "2119",
+            "4042",
+            "7460",
+            "15651",
+            "16365",
+            "4",
+            "23",
+            "9118022102000",
+            "2022",
+            "0.00",
+            "0.00"
+          ],
+          "rowNumber": 5595,
+          "rowPosition": 5596,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_3\": values \"4042\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "message": "Row at position \"5596\" violates the foreign key: for \"id_desdobramento_3\": values \"4042\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4144",
+            "528",
+            "50",
+            "963",
+            "2112",
+            "4025",
+            "7433",
+            "15654",
+            "16366",
+            "4",
+            "23",
+            "9118022302000",
+            "2021",
+            "0.00",
+            "0.00"
+          ],
+          "rowNumber": 5956,
+          "rowPosition": 5957,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_2\": values \"2112\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "message": "Row at position \"5957\" violates the foreign key: for \"id_desdobramento_2\": values \"2112\" not found in the lookup table \"dm_desdobramento_2_rec\" as \"id_desdobramento_2\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4144",
+            "528",
+            "50",
+            "963",
+            "2112",
+            "4025",
+            "7433",
+            "15654",
+            "16366",
+            "4",
+            "23",
+            "9118022302000",
+            "2021",
+            "0.00",
+            "0.00"
+          ],
+          "rowNumber": 5956,
+          "rowPosition": 5957,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_3\": values \"4025\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "message": "Row at position \"5957\" violates the foreign key: for \"id_desdobramento_3\": values \"4025\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4010",
+            "527",
+            "75",
+            "962",
+            "68",
+            "4021",
+            "7428",
+            "15618",
+            "16014",
+            "25",
+            "60",
+            "9321001101000",
+            "2020",
+            "0.00",
+            "0.00"
+          ],
+          "rowNumber": 6034,
+          "rowPosition": 6035,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_3\": values \"4021\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "message": "Row at position \"6035\" violates the foreign key: for \"id_desdobramento_3\": values \"4021\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "4017",
+            "527",
+            "75",
+            "962",
+            "68",
+            "4021",
+            "7428",
+            "15618",
+            "16014",
+            "25",
+            "60",
+            "9321001101000",
+            "2020",
+            "0.00",
+            "0.00"
+          ],
+          "rowNumber": 6119,
+          "rowPosition": 6120,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_desdobramento_3\": values \"4021\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "message": "Row at position \"6120\" violates the foreign key: for \"id_desdobramento_3\": values \"4021\" not found in the lookup table \"dm_desdobramento_3_rec\" as \"id_desdobramento_3\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        }
+      ],
       "stats": {
-        "errors": 0
+        "errors": 50
       },
-      "valid": true
+      "valid": false
     }
   ],
   "stats": {
-    "errors": 0,
+    "errors": 50,
     "tasks": 1
   },
-  "valid": true
+  "valid": false
 }

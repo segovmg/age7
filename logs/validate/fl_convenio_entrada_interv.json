@@ -1,6 +1,6 @@
 {
   "version": "4.28.0",
-  "time": 0.156,
+  "time": 0.141,
   "errors": [],
   "tasks": [
     {
@@ -78,13 +78,13 @@
         "hashing": "md5",
         "compression": "gz",
         "stats": {
-          "hash": "23ff5cf59944b7fdffb5ef8c3f476568",
-          "bytes": 1235,
+          "hash": "d0fd809022415624106ae6b0f228cfe5",
+          "bytes": 1231,
           "fields": 2,
           "rows": 444
         }
       },
-      "time": 0.156,
+      "time": 0.141,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -106,16 +106,2040 @@
         "unique-error"
       ],
       "partial": false,
-      "errors": [],
+      "errors": [
+        {
+          "cells": [
+            "991",
+            "1"
+          ],
+          "rowNumber": 7,
+          "rowPosition": 8,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"991\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"8\" violates the foreign key: for \"id_convenio\": values \"991\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1561",
+            "3"
+          ],
+          "rowNumber": 18,
+          "rowPosition": 19,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1561\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"19\" violates the foreign key: for \"id_convenio\": values \"1561\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1205",
+            "3"
+          ],
+          "rowNumber": 20,
+          "rowPosition": 21,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1205\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"21\" violates the foreign key: for \"id_convenio\": values \"1205\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1562",
+            "3"
+          ],
+          "rowNumber": 22,
+          "rowPosition": 23,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1562\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"23\" violates the foreign key: for \"id_convenio\": values \"1562\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1566",
+            "3"
+          ],
+          "rowNumber": 25,
+          "rowPosition": 26,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1566\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"26\" violates the foreign key: for \"id_convenio\": values \"1566\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1560",
+            "3"
+          ],
+          "rowNumber": 26,
+          "rowPosition": 27,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1560\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"27\" violates the foreign key: for \"id_convenio\": values \"1560\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1138",
+            "3"
+          ],
+          "rowNumber": 27,
+          "rowPosition": 28,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1138\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"28\" violates the foreign key: for \"id_convenio\": values \"1138\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1155",
+            "3"
+          ],
+          "rowNumber": 28,
+          "rowPosition": 29,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1155\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"29\" violates the foreign key: for \"id_convenio\": values \"1155\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1565",
+            "3"
+          ],
+          "rowNumber": 29,
+          "rowPosition": 30,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1565\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"30\" violates the foreign key: for \"id_convenio\": values \"1565\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1158",
+            "3"
+          ],
+          "rowNumber": 33,
+          "rowPosition": 34,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1158\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"34\" violates the foreign key: for \"id_convenio\": values \"1158\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1098",
+            "3"
+          ],
+          "rowNumber": 38,
+          "rowPosition": 39,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1098\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"39\" violates the foreign key: for \"id_convenio\": values \"1098\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1159",
+            "3"
+          ],
+          "rowNumber": 39,
+          "rowPosition": 40,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1159\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"40\" violates the foreign key: for \"id_convenio\": values \"1159\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1274",
+            "5"
+          ],
+          "rowNumber": 44,
+          "rowPosition": 45,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1274\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"45\" violates the foreign key: for \"id_convenio\": values \"1274\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1356",
+            "5"
+          ],
+          "rowNumber": 47,
+          "rowPosition": 48,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1356\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"48\" violates the foreign key: for \"id_convenio\": values \"1356\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1263",
+            "5"
+          ],
+          "rowNumber": 49,
+          "rowPosition": 50,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1263\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"50\" violates the foreign key: for \"id_convenio\": values \"1263\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1327",
+            "7"
+          ],
+          "rowNumber": 50,
+          "rowPosition": 51,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1327\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"51\" violates the foreign key: for \"id_convenio\": values \"1327\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1118",
+            "8"
+          ],
+          "rowNumber": 51,
+          "rowPosition": 52,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1118\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"52\" violates the foreign key: for \"id_convenio\": values \"1118\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "996",
+            "8"
+          ],
+          "rowNumber": 60,
+          "rowPosition": 61,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"996\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"61\" violates the foreign key: for \"id_convenio\": values \"996\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1160",
+            "8"
+          ],
+          "rowNumber": 61,
+          "rowPosition": 62,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1160\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"62\" violates the foreign key: for \"id_convenio\": values \"1160\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1102",
+            "8"
+          ],
+          "rowNumber": 77,
+          "rowPosition": 78,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1102\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"78\" violates the foreign key: for \"id_convenio\": values \"1102\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1116",
+            "8"
+          ],
+          "rowNumber": 78,
+          "rowPosition": 79,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1116\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"79\" violates the foreign key: for \"id_convenio\": values \"1116\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1119",
+            "8"
+          ],
+          "rowNumber": 84,
+          "rowPosition": 85,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1119\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"85\" violates the foreign key: for \"id_convenio\": values \"1119\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1346",
+            "8"
+          ],
+          "rowNumber": 87,
+          "rowPosition": 88,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1346\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"88\" violates the foreign key: for \"id_convenio\": values \"1346\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1134",
+            "8"
+          ],
+          "rowNumber": 90,
+          "rowPosition": 91,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1134\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"91\" violates the foreign key: for \"id_convenio\": values \"1134\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "995",
+            "8"
+          ],
+          "rowNumber": 100,
+          "rowPosition": 101,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"995\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"101\" violates the foreign key: for \"id_convenio\": values \"995\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1191",
+            "8"
+          ],
+          "rowNumber": 104,
+          "rowPosition": 105,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1191\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"105\" violates the foreign key: for \"id_convenio\": values \"1191\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1190",
+            "9"
+          ],
+          "rowNumber": 116,
+          "rowPosition": 117,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1190\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"117\" violates the foreign key: for \"id_convenio\": values \"1190\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "993",
+            "18"
+          ],
+          "rowNumber": 126,
+          "rowPosition": 127,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"993\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"127\" violates the foreign key: for \"id_convenio\": values \"993\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "988",
+            "18"
+          ],
+          "rowNumber": 138,
+          "rowPosition": 139,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"988\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"139\" violates the foreign key: for \"id_convenio\": values \"988\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "989",
+            "18"
+          ],
+          "rowNumber": 147,
+          "rowPosition": 148,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"989\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"148\" violates the foreign key: for \"id_convenio\": values \"989\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1109",
+            "18"
+          ],
+          "rowNumber": 151,
+          "rowPosition": 152,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1109\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"152\" violates the foreign key: for \"id_convenio\": values \"1109\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1200",
+            "19"
+          ],
+          "rowNumber": 159,
+          "rowPosition": 160,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1200\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"160\" violates the foreign key: for \"id_convenio\": values \"1200\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1226",
+            "19"
+          ],
+          "rowNumber": 161,
+          "rowPosition": 162,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1226\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"162\" violates the foreign key: for \"id_convenio\": values \"1226\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1323",
+            "19"
+          ],
+          "rowNumber": 168,
+          "rowPosition": 169,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1323\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"169\" violates the foreign key: for \"id_convenio\": values \"1323\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1227",
+            "19"
+          ],
+          "rowNumber": 171,
+          "rowPosition": 172,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1227\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"172\" violates the foreign key: for \"id_convenio\": values \"1227\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1084",
+            "19"
+          ],
+          "rowNumber": 173,
+          "rowPosition": 174,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1084\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"174\" violates the foreign key: for \"id_convenio\": values \"1084\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1172",
+            "19"
+          ],
+          "rowNumber": 177,
+          "rowPosition": 178,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1172\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"178\" violates the foreign key: for \"id_convenio\": values \"1172\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1154",
+            "19"
+          ],
+          "rowNumber": 179,
+          "rowPosition": 180,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1154\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"180\" violates the foreign key: for \"id_convenio\": values \"1154\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "998",
+            "19"
+          ],
+          "rowNumber": 181,
+          "rowPosition": 182,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"998\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"182\" violates the foreign key: for \"id_convenio\": values \"998\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1027",
+            "19"
+          ],
+          "rowNumber": 182,
+          "rowPosition": 183,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1027\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"183\" violates the foreign key: for \"id_convenio\": values \"1027\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1162",
+            "19"
+          ],
+          "rowNumber": 185,
+          "rowPosition": 186,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1162\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"186\" violates the foreign key: for \"id_convenio\": values \"1162\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1034",
+            "19"
+          ],
+          "rowNumber": 186,
+          "rowPosition": 187,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1034\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"187\" violates the foreign key: for \"id_convenio\": values \"1034\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1022",
+            "19"
+          ],
+          "rowNumber": 187,
+          "rowPosition": 188,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1022\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"188\" violates the foreign key: for \"id_convenio\": values \"1022\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1271",
+            "19"
+          ],
+          "rowNumber": 190,
+          "rowPosition": 191,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1271\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"191\" violates the foreign key: for \"id_convenio\": values \"1271\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1272",
+            "19"
+          ],
+          "rowNumber": 194,
+          "rowPosition": 195,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1272\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"195\" violates the foreign key: for \"id_convenio\": values \"1272\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1011",
+            "19"
+          ],
+          "rowNumber": 197,
+          "rowPosition": 198,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1011\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"198\" violates the foreign key: for \"id_convenio\": values \"1011\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1482",
+            "21"
+          ],
+          "rowNumber": 205,
+          "rowPosition": 206,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1482\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"206\" violates the foreign key: for \"id_convenio\": values \"1482\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1335",
+            "21"
+          ],
+          "rowNumber": 206,
+          "rowPosition": 207,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1335\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"207\" violates the foreign key: for \"id_convenio\": values \"1335\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1545",
+            "21"
+          ],
+          "rowNumber": 207,
+          "rowPosition": 208,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1545\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"208\" violates the foreign key: for \"id_convenio\": values \"1545\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1433",
+            "21"
+          ],
+          "rowNumber": 208,
+          "rowPosition": 209,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1433\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"209\" violates the foreign key: for \"id_convenio\": values \"1433\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1700",
+            "21"
+          ],
+          "rowNumber": 209,
+          "rowPosition": 210,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1700\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"210\" violates the foreign key: for \"id_convenio\": values \"1700\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1702",
+            "21"
+          ],
+          "rowNumber": 211,
+          "rowPosition": 212,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1702\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"212\" violates the foreign key: for \"id_convenio\": values \"1702\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1637",
+            "21"
+          ],
+          "rowNumber": 217,
+          "rowPosition": 218,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1637\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"218\" violates the foreign key: for \"id_convenio\": values \"1637\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1509",
+            "21"
+          ],
+          "rowNumber": 225,
+          "rowPosition": 226,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1509\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"226\" violates the foreign key: for \"id_convenio\": values \"1509\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1067",
+            "21"
+          ],
+          "rowNumber": 227,
+          "rowPosition": 228,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1067\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"228\" violates the foreign key: for \"id_convenio\": values \"1067\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1128",
+            "21"
+          ],
+          "rowNumber": 228,
+          "rowPosition": 229,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1128\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"229\" violates the foreign key: for \"id_convenio\": values \"1128\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1500",
+            "21"
+          ],
+          "rowNumber": 230,
+          "rowPosition": 231,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1500\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"231\" violates the foreign key: for \"id_convenio\": values \"1500\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1285",
+            "21"
+          ],
+          "rowNumber": 233,
+          "rowPosition": 234,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1285\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"234\" violates the foreign key: for \"id_convenio\": values \"1285\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1501",
+            "21"
+          ],
+          "rowNumber": 236,
+          "rowPosition": 237,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1501\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"237\" violates the foreign key: for \"id_convenio\": values \"1501\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1523",
+            "21"
+          ],
+          "rowNumber": 237,
+          "rowPosition": 238,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1523\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"238\" violates the foreign key: for \"id_convenio\": values \"1523\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1032",
+            "21"
+          ],
+          "rowNumber": 240,
+          "rowPosition": 241,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1032\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"241\" violates the foreign key: for \"id_convenio\": values \"1032\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1284",
+            "21"
+          ],
+          "rowNumber": 245,
+          "rowPosition": 246,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1284\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"246\" violates the foreign key: for \"id_convenio\": values \"1284\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1282",
+            "21"
+          ],
+          "rowNumber": 246,
+          "rowPosition": 247,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1282\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"247\" violates the foreign key: for \"id_convenio\": values \"1282\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1701",
+            "21"
+          ],
+          "rowNumber": 248,
+          "rowPosition": 249,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1701\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"249\" violates the foreign key: for \"id_convenio\": values \"1701\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1505",
+            "21"
+          ],
+          "rowNumber": 257,
+          "rowPosition": 258,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1505\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"258\" violates the foreign key: for \"id_convenio\": values \"1505\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1636",
+            "21"
+          ],
+          "rowNumber": 258,
+          "rowPosition": 259,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1636\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"259\" violates the foreign key: for \"id_convenio\": values \"1636\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1286",
+            "21"
+          ],
+          "rowNumber": 265,
+          "rowPosition": 266,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1286\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"266\" violates the foreign key: for \"id_convenio\": values \"1286\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1036",
+            "22"
+          ],
+          "rowNumber": 267,
+          "rowPosition": 268,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1036\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"268\" violates the foreign key: for \"id_convenio\": values \"1036\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1698",
+            "29"
+          ],
+          "rowNumber": 269,
+          "rowPosition": 270,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1698\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"270\" violates the foreign key: for \"id_convenio\": values \"1698\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1547",
+            "29"
+          ],
+          "rowNumber": 271,
+          "rowPosition": 272,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1547\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"272\" violates the foreign key: for \"id_convenio\": values \"1547\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1694",
+            "29"
+          ],
+          "rowNumber": 275,
+          "rowPosition": 276,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1694\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"276\" violates the foreign key: for \"id_convenio\": values \"1694\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1208",
+            "29"
+          ],
+          "rowNumber": 280,
+          "rowPosition": 281,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1208\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"281\" violates the foreign key: for \"id_convenio\": values \"1208\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1696",
+            "29"
+          ],
+          "rowNumber": 281,
+          "rowPosition": 282,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1696\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"282\" violates the foreign key: for \"id_convenio\": values \"1696\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1448",
+            "29"
+          ],
+          "rowNumber": 282,
+          "rowPosition": 283,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1448\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"283\" violates the foreign key: for \"id_convenio\": values \"1448\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1490",
+            "29"
+          ],
+          "rowNumber": 283,
+          "rowPosition": 284,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1490\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"284\" violates the foreign key: for \"id_convenio\": values \"1490\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1800",
+            "34"
+          ],
+          "rowNumber": 306,
+          "rowPosition": 307,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1800\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"307\" violates the foreign key: for \"id_convenio\": values \"1800\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1225",
+            "35"
+          ],
+          "rowNumber": 314,
+          "rowPosition": 315,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1225\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"315\" violates the foreign key: for \"id_convenio\": values \"1225\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1155",
+            "35"
+          ],
+          "rowNumber": 316,
+          "rowPosition": 317,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1155\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"317\" violates the foreign key: for \"id_convenio\": values \"1155\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1360",
+            "35"
+          ],
+          "rowNumber": 322,
+          "rowPosition": 323,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1360\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"323\" violates the foreign key: for \"id_convenio\": values \"1360\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1230",
+            "35"
+          ],
+          "rowNumber": 323,
+          "rowPosition": 324,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1230\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"324\" violates the foreign key: for \"id_convenio\": values \"1230\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1359",
+            "35"
+          ],
+          "rowNumber": 327,
+          "rowPosition": 328,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1359\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"328\" violates the foreign key: for \"id_convenio\": values \"1359\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1363",
+            "35"
+          ],
+          "rowNumber": 328,
+          "rowPosition": 329,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1363\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"329\" violates the foreign key: for \"id_convenio\": values \"1363\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1144",
+            "35"
+          ],
+          "rowNumber": 329,
+          "rowPosition": 330,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1144\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"330\" violates the foreign key: for \"id_convenio\": values \"1144\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1365",
+            "35"
+          ],
+          "rowNumber": 334,
+          "rowPosition": 335,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1365\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"335\" violates the foreign key: for \"id_convenio\": values \"1365\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1166",
+            "35"
+          ],
+          "rowNumber": 337,
+          "rowPosition": 338,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1166\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"338\" violates the foreign key: for \"id_convenio\": values \"1166\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1232",
+            "35"
+          ],
+          "rowNumber": 339,
+          "rowPosition": 340,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1232\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"340\" violates the foreign key: for \"id_convenio\": values \"1232\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1454",
+            "35"
+          ],
+          "rowNumber": 340,
+          "rowPosition": 341,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1454\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"341\" violates the foreign key: for \"id_convenio\": values \"1454\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1234",
+            "35"
+          ],
+          "rowNumber": 341,
+          "rowPosition": 342,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1234\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"342\" violates the foreign key: for \"id_convenio\": values \"1234\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1361",
+            "35"
+          ],
+          "rowNumber": 342,
+          "rowPosition": 343,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1361\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"343\" violates the foreign key: for \"id_convenio\": values \"1361\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1372",
+            "35"
+          ],
+          "rowNumber": 344,
+          "rowPosition": 345,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1372\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"345\" violates the foreign key: for \"id_convenio\": values \"1372\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1416",
+            "35"
+          ],
+          "rowNumber": 345,
+          "rowPosition": 346,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1416\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"346\" violates the foreign key: for \"id_convenio\": values \"1416\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1364",
+            "35"
+          ],
+          "rowNumber": 347,
+          "rowPosition": 348,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1364\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"348\" violates the foreign key: for \"id_convenio\": values \"1364\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1579",
+            "35"
+          ],
+          "rowNumber": 348,
+          "rowPosition": 349,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1579\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"349\" violates the foreign key: for \"id_convenio\": values \"1579\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1119",
+            "35"
+          ],
+          "rowNumber": 350,
+          "rowPosition": 351,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1119\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"351\" violates the foreign key: for \"id_convenio\": values \"1119\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1109",
+            "35"
+          ],
+          "rowNumber": 352,
+          "rowPosition": 353,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1109\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"353\" violates the foreign key: for \"id_convenio\": values \"1109\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1235",
+            "35"
+          ],
+          "rowNumber": 353,
+          "rowPosition": 354,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1235\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"354\" violates the foreign key: for \"id_convenio\": values \"1235\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1146",
+            "35"
+          ],
+          "rowNumber": 354,
+          "rowPosition": 355,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1146\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"355\" violates the foreign key: for \"id_convenio\": values \"1146\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1233",
+            "35"
+          ],
+          "rowNumber": 355,
+          "rowPosition": 356,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1233\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"356\" violates the foreign key: for \"id_convenio\": values \"1233\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1192",
+            "35"
+          ],
+          "rowNumber": 356,
+          "rowPosition": 357,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1192\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"357\" violates the foreign key: for \"id_convenio\": values \"1192\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1362",
+            "35"
+          ],
+          "rowNumber": 357,
+          "rowPosition": 358,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1362\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"358\" violates the foreign key: for \"id_convenio\": values \"1362\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1385",
+            "37"
+          ],
+          "rowNumber": 359,
+          "rowPosition": 360,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1385\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"360\" violates the foreign key: for \"id_convenio\": values \"1385\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1117",
+            "44"
+          ],
+          "rowNumber": 370,
+          "rowPosition": 371,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1117\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"371\" violates the foreign key: for \"id_convenio\": values \"1117\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1153",
+            "44"
+          ],
+          "rowNumber": 372,
+          "rowPosition": 373,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1153\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"373\" violates the foreign key: for \"id_convenio\": values \"1153\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1150",
+            "44"
+          ],
+          "rowNumber": 382,
+          "rowPosition": 383,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1150\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"383\" violates the foreign key: for \"id_convenio\": values \"1150\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1671",
+            "44"
+          ],
+          "rowNumber": 388,
+          "rowPosition": 389,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1671\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"389\" violates the foreign key: for \"id_convenio\": values \"1671\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1024",
+            "45"
+          ],
+          "rowNumber": 392,
+          "rowPosition": 393,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1024\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"393\" violates the foreign key: for \"id_convenio\": values \"1024\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1800",
+            "45"
+          ],
+          "rowNumber": 393,
+          "rowPosition": 394,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1800\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"394\" violates the foreign key: for \"id_convenio\": values \"1800\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1166",
+            "45"
+          ],
+          "rowNumber": 394,
+          "rowPosition": 395,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1166\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"395\" violates the foreign key: for \"id_convenio\": values \"1166\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1454",
+            "45"
+          ],
+          "rowNumber": 395,
+          "rowPosition": 396,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1454\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"396\" violates the foreign key: for \"id_convenio\": values \"1454\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1159",
+            "48"
+          ],
+          "rowNumber": 401,
+          "rowPosition": 402,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1159\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"402\" violates the foreign key: for \"id_convenio\": values \"1159\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1472",
+            "48"
+          ],
+          "rowNumber": 402,
+          "rowPosition": 403,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1472\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"403\" violates the foreign key: for \"id_convenio\": values \"1472\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1671",
+            "50"
+          ],
+          "rowNumber": 407,
+          "rowPosition": 408,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1671\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"408\" violates the foreign key: for \"id_convenio\": values \"1671\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1163",
+            "50"
+          ],
+          "rowNumber": 408,
+          "rowPosition": 409,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1163\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"409\" violates the foreign key: for \"id_convenio\": values \"1163\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1378",
+            "50"
+          ],
+          "rowNumber": 412,
+          "rowPosition": 413,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1378\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"413\" violates the foreign key: for \"id_convenio\": values \"1378\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1522",
+            "50"
+          ],
+          "rowNumber": 413,
+          "rowPosition": 414,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1522\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"414\" violates the foreign key: for \"id_convenio\": values \"1522\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1384",
+            "50"
+          ],
+          "rowNumber": 424,
+          "rowPosition": 425,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1384\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"425\" violates the foreign key: for \"id_convenio\": values \"1384\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1202",
+            "50"
+          ],
+          "rowNumber": 426,
+          "rowPosition": 427,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1202\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"427\" violates the foreign key: for \"id_convenio\": values \"1202\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1383",
+            "50"
+          ],
+          "rowNumber": 434,
+          "rowPosition": 435,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1383\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"435\" violates the foreign key: for \"id_convenio\": values \"1383\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "1587",
+            "54"
+          ],
+          "rowNumber": 444,
+          "rowPosition": 445,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_convenio\": values \"1587\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "message": "Row at position \"445\" violates the foreign key: for \"id_convenio\": values \"1587\" not found in the lookup table \"dm_convenio_entrada\" as \"id_convenio\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        }
+      ],
       "stats": {
-        "errors": 0
+        "errors": 119
       },
-      "valid": true
+      "valid": false
     }
   ],
   "stats": {
-    "errors": 0,
+    "errors": 119,
     "tasks": 1
   },
-  "valid": true
+  "valid": false
 }
