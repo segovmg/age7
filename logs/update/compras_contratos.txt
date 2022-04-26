@@ -1,1 +1,4 @@
 Atualizando conjunto de dados: compras_contratos
+Diferenças nos dados do recurso: ft_compras
+Atualizando recurso: ft_compras
+Atualizando datapackage.json
