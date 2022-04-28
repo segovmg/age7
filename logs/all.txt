@@ -114,3 +114,15 @@ dpckan dataset update --datapackage build_datasets/despesa-com-pessoal/datapacka
 dpckan dataset update --datapackage build_datasets/viagens/datapackage.json > logs/update/viagens.txt
 dpckan dataset update --datapackage build_datasets/receita/datapackage.json > logs/update/receita.txt
 dpckan dataset update --datapackage build_datasets/convenios-entrada/datapackage.json > logs/update/convenios-entrada.txt
+[main 5709e89] Atualização age7
+ 64 files changed, 5909 insertions(+), 151668 deletions(-)
+ rewrite logs/full_extract.txt (73%)
+ rewrite logs/validate/fl_compras_empenho.json (93%)
+ rewrite logs/validate/fl_convenio_entrada_aditivo.json (99%)
+ rewrite logs/validate/fl_convenio_entrada_compras.json (99%)
+ rewrite logs/validate/fl_convenio_entrada_interv.json (96%)
+ rewrite logs/validate/ft_compras_contrato.json (99%)
+ rewrite logs/validate/ft_convenio_entrada.json (99%)
+ rewrite logs/validate/ft_convenio_entrada_dotacao.json (99%)
+ rewrite logs/validate/ft_receita_prevista_v2018.json (81%)
+ rewrite logs/validate/ft_receita_v2018.json (94%)
