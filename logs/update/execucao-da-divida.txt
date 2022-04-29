@@ -1,4 +1,1 @@
 Atualizando conjunto de dados: execucao-da-divida
-Diferenças nos dados do recurso: ft_divida_pub
-Atualizando recurso: ft_divida_pub
-Atualizando datapackage.json
