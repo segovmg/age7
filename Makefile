@@ -73,6 +73,10 @@ validate-metadata: ## Valida arquivo yaml com tableschema
 vars: 
 	@echo 'DATA_FILES:' $(DATA_FILES)
 
+index.html: index.md logs/validate/failed_reports.json
+	@python scripts/consolidate_reports.py
+	@livemark build index.md
+
 clean:
 	rm -rf logs/extract/*
 	rm -rf logs/parse/*
@@ -87,3 +91,4 @@ clean:
 	rm -rf data/raw/*
 	rm -f datapackage.json
 	rm -rf build_datasets
+	rm -rf reports.html
