@@ -1,1 +1,4 @@
 Atualizando conjunto de dados: transferencia-de-impostos-a-municipios
+Diferenças nos dados do recurso: ft_repasse_mun
+Atualizando recurso: ft_repasse_mun
+Atualizando datapackage.json

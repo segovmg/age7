@@ -1,6 +1,6 @@
 {
   "version": "4.28.0",
-  "time": 11.801,
+  "time": 12.147,
   "errors": [],
   "tasks": [
     {
@@ -200,13 +200,13 @@
         "hashing": "md5",
         "compression": "gz",
         "stats": {
-          "hash": "630f1c5c26ab17718b920fb30f797925",
-          "bytes": 1604405,
+          "hash": "dc8b6477df89dffe134d1f231f3485c1",
+          "bytes": 1606188,
           "fields": 9,
-          "rows": 77033
+          "rows": 77137
         }
       },
-      "time": 11.801,
+      "time": 12.147,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -228,89 +228,16 @@
         "unique-error"
       ],
       "partial": false,
-      "errors": [
-        {
-          "cells": [
-            "43989",
-            "367562",
-            "15",
-            "74770",
-            "65953",
-            "1",
-            "2022",
-            "182734.20",
-            "182734.20"
-          ],
-          "rowNumber": 63575,
-          "rowPosition": 63576,
-          "code": "foreign-key-error",
-          "name": "ForeignKey Error",
-          "tags": [
-            "#table",
-            "#row"
-          ],
-          "note": "for \"id_processo\": values \"367562\" not found in the lookup table \"dm_processo\" as \"id_processo\"",
-          "message": "Row at position \"63576\" violates the foreign key: for \"id_processo\": values \"367562\" not found in the lookup table \"dm_processo\" as \"id_processo\"",
-          "description": "Values in the foreign key fields should exist in the reference table"
-        },
-        {
-          "cells": [
-            "43975",
-            "367576",
-            "65",
-            "74640",
-            "31915",
-            "1",
-            "2022",
-            "0.00",
-            "2625253.29"
-          ],
-          "rowNumber": 67378,
-          "rowPosition": 67379,
-          "code": "foreign-key-error",
-          "name": "ForeignKey Error",
-          "tags": [
-            "#table",
-            "#row"
-          ],
-          "note": "for \"id_processo\": values \"367576\" not found in the lookup table \"dm_processo\" as \"id_processo\"",
-          "message": "Row at position \"67379\" violates the foreign key: for \"id_processo\": values \"367576\" not found in the lookup table \"dm_processo\" as \"id_processo\"",
-          "description": "Values in the foreign key fields should exist in the reference table"
-        },
-        {
-          "cells": [
-            "43975",
-            "367544",
-            "65",
-            "74640",
-            "31915",
-            "1",
-            "2022",
-            "0.00",
-            "834716.88"
-          ],
-          "rowNumber": 68024,
-          "rowPosition": 68025,
-          "code": "foreign-key-error",
-          "name": "ForeignKey Error",
-          "tags": [
-            "#table",
-            "#row"
-          ],
-          "note": "for \"id_processo\": values \"367544\" not found in the lookup table \"dm_processo\" as \"id_processo\"",
-          "message": "Row at position \"68025\" violates the foreign key: for \"id_processo\": values \"367544\" not found in the lookup table \"dm_processo\" as \"id_processo\"",
-          "description": "Values in the foreign key fields should exist in the reference table"
-        }
-      ],
+      "errors": [],
       "stats": {
-        "errors": 3
+        "errors": 0
       },
-      "valid": false
+      "valid": true
     }
   ],
   "stats": {
-    "errors": 3,
+    "errors": 0,
     "tasks": 1
   },
-  "valid": false
+  "valid": true
 }
