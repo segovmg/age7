@@ -1,10 +1,29 @@
 import os
+import datetime
 import json
+from datetime import datetime
+import frictionless
 
 path = 'logs/validate'
 folder = os.fsencode(path)
 failed_tasks = []
 errors = 0
+now = datetime.now()
+formated_date = now.strftime("%d/%m/%Y %H:%M:%S")
+
+reports_content = {
+	"version": frictionless.__version__,
+	"formated_date": formated_date,
+	"time": 0.01,
+	"errors": [],
+	"tasks": [],
+	"stats": {
+	    "errors": 0,
+	    "tasks": 0
+	  	},
+  	"valid": True
+}
+
 # Iterate over all reports file in logs/validate folder
 for file in os.listdir(folder):
     filename = os.fsdecode(file)
@@ -21,20 +40,16 @@ for file in os.listdir(folder):
 	    		errors += len(file_content['tasks'][0]['errors'])
 # Add failed valitations to failed_reports.json file
 if len(failed_tasks) > 0:
-	file_content = {
-		"version": "4.22.3",
-		"time": 0.001,
-		"errors": [],
-		"tasks": [],
-		"stats": {
-		    "errors": errors,
-		    "tasks": len(failed_tasks)
-		  	},
-	  	"valid": False
-	}
 	# Iterate over most recenly failed validations		
+	reports_content['stats']['errors'] = errors
+	reports_content['stats']['tasks'] = len(failed_tasks)
+	reports_content['valid'] = False
 	for failed_task in failed_tasks:
-		file_content['tasks'].append(failed_task)
+		reports_content['tasks'].append(failed_task)
 	with open(f'{path}/failed_reports.json', 'w') as new_json_file:
 		# Write new failed validations on failed_reports.json file
-		json.dump(file_content, new_json_file, ensure_ascii=False, indent=2)
+		json.dump(reports_content, new_json_file, ensure_ascii=False, indent=2)
+else:
+	with open(f'{path}/failed_reports.json', 'w') as new_json_file:
+		# Write new failed validations on failed_reports.json file
+		json.dump(reports_content, new_json_file, ensure_ascii=False, indent=2)
