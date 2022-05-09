@@ -6,5 +6,8 @@ Validação realizada em: **{{ frictionless.Resource("logs/validate/failed_repor
 Todos os recursos válidos: **Sim**
 {% else  %}
 Todos os recursos válidos: **Não**
-{% extends "reports.md" %}
+{{ "## Recursos com erros" }}
+{{ "```yaml report" }}
+{{ "descriptor: logs/validate/failed_reports.json" }}
+{{ "```" }}
 {% endif %}
