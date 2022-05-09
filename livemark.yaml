@@ -1,0 +1,24 @@
+brand:
+  text: Validação AGE7
+about:
+  text: Validação AGE7
+github:
+  user: transparencia-mg
+  repo: age7
+topics:
+  selector: h2
+site:
+  favicon: assets/favicon.ico
+  styles:
+    - style.css
+  scripts:
+    - script.js
+pages:
+  items:
+    - path: index
+links:
+  items:
+    - name: Frictionless
+      path: https://frictionlessdata.io
+    - name: Livemark
+      path: https://livemark.frictionlessdata.io
