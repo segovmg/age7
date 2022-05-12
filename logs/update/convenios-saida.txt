@@ -1,4 +1,0 @@
-Atualizando conjunto de dados: convenios-saida
-Diferenças nos dados do recurso: ft_convenio_investimento
-Atualizando recurso: ft_convenio_investimento
-Atualizando datapackage.json
