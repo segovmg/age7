@@ -453,3 +453,8 @@ Atualizando conjunto de dados: convenios-entrada
 Diferenças nos dados do recurso: ft_convenio_entrada_desp
 Atualizando recurso: ft_convenio_entrada_desp
 Atualizando datapackage.json
+[main 546d827] Atualização age7
+ 129 files changed, 66129 insertions(+), 727 deletions(-)
+ rewrite logs/full_extract.txt (73%)
+ rewrite logs/update/compras_contratos.txt (100%)
+ rewrite logs/update/restos_pagar.txt (100%)
