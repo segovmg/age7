@@ -510,3 +510,7 @@ Atualizando datapackage.json
 Diferenças nos dados do recurso: ft_convenio_entrada
 Atualizando recurso: ft_convenio_entrada
 Atualizando datapackage.json
+[main 2818276] Atualização age7
+ 142 files changed, 68330 insertions(+), 2202 deletions(-)
+ rewrite logs/full_extract.txt (73%)
+ rewrite logs/validate/ft_compras.json (64%)
