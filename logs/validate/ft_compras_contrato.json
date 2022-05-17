@@ -200,10 +200,10 @@
         "hashing": "md5",
         "compression": "gz",
         "stats": {
-          "hash": "24981b398bea2b4c0d84da52f69275c8",
-          "bytes": 1611197,
+          "hash": "439334d198b59f25db0e24ca247a0255",
+          "bytes": 1611506,
           "fields": 9,
-          "rows": 77348
+          "rows": 77356
         }
       },
       "time": 11.515,
