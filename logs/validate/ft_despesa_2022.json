@@ -1,6 +1,6 @@
 {
   "version": "4.28.0",
-  "time": 92.474,
+  "time": 93.224,
   "errors": [],
   "tasks": [
     {
@@ -472,13 +472,13 @@
         "hashing": "md5",
         "compression": "gz",
         "stats": {
-          "hash": "496a19f09d6491bc3dcc936d1cf0e62d",
-          "bytes": 13391600,
+          "hash": "c1ff65fd7b3f983efb66da2fca9d33ca",
+          "bytes": 13612070,
           "fields": 24,
-          "rows": 862346
+          "rows": 875389
         }
       },
-      "time": 92.474,
+      "time": 93.224,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -500,329 +500,16 @@
         "unique-error"
       ],
       "partial": false,
-      "errors": [
-        {
-          "cells": [
-            "44013",
-            "21",
-            "40",
-            "506",
-            "2683",
-            "20",
-            "125",
-            "1955",
-            "3931",
-            "14377",
-            "56369",
-            "93",
-            "4219",
-            "1425512",
-            "13391310",
-            "1",
-            "2",
-            "763",
-            "502001",
-            "202205",
-            "2022",
-            "67914.68",
-            "0.00",
-            "0.00"
-          ],
-          "rowNumber": 861995,
-          "rowPosition": 861996,
-          "code": "foreign-key-error",
-          "name": "ForeignKey Error",
-          "tags": [
-            "#table",
-            "#row"
-          ],
-          "note": "for \"id_empenho\": values \"13391310\" not found in the lookup table \"dm_empenho_desp_2022\" as \"id_empenho\"",
-          "message": "Row at position \"861996\" violates the foreign key: for \"id_empenho\": values \"13391310\" not found in the lookup table \"dm_empenho_desp_2022\" as \"id_empenho\"",
-          "description": "Values in the foreign key fields should exist in the reference table"
-        },
-        {
-          "cells": [
-            "44013",
-            "20",
-            "42",
-            "469",
-            "3084",
-            "2",
-            "130",
-            "1955",
-            "3931",
-            "14420",
-            "56642",
-            "93",
-            "4219",
-            "1313161",
-            "13391306",
-            "1",
-            "2",
-            "762",
-            "502001",
-            "202205",
-            "2022",
-            "484.00",
-            "0.00",
-            "0.00"
-          ],
-          "rowNumber": 862068,
-          "rowPosition": 862069,
-          "code": "foreign-key-error",
-          "name": "ForeignKey Error",
-          "tags": [
-            "#table",
-            "#row"
-          ],
-          "note": "for \"id_empenho\": values \"13391306\" not found in the lookup table \"dm_empenho_desp_2022\" as \"id_empenho\"",
-          "message": "Row at position \"862069\" violates the foreign key: for \"id_empenho\": values \"13391306\" not found in the lookup table \"dm_empenho_desp_2022\" as \"id_empenho\"",
-          "description": "Values in the foreign key fields should exist in the reference table"
-        },
-        {
-          "cells": [
-            "44013",
-            "20",
-            "42",
-            "469",
-            "3084",
-            "2",
-            "130",
-            "1955",
-            "3931",
-            "14420",
-            "56642",
-            "93",
-            "4219",
-            "1425319",
-            "13391309",
-            "1",
-            "2",
-            "761",
-            "502001",
-            "202205",
-            "2022",
-            "99.30",
-            "0.00",
-            "0.00"
-          ],
-          "rowNumber": 862069,
-          "rowPosition": 862070,
-          "code": "foreign-key-error",
-          "name": "ForeignKey Error",
-          "tags": [
-            "#table",
-            "#row"
-          ],
-          "note": "for \"id_empenho\": values \"13391309\" not found in the lookup table \"dm_empenho_desp_2022\" as \"id_empenho\"",
-          "message": "Row at position \"862070\" violates the foreign key: for \"id_empenho\": values \"13391309\" not found in the lookup table \"dm_empenho_desp_2022\" as \"id_empenho\"",
-          "description": "Values in the foreign key fields should exist in the reference table"
-        },
-        {
-          "cells": [
-            "44013",
-            "20",
-            "42",
-            "469",
-            "3084",
-            "2",
-            "130",
-            "1955",
-            "3931",
-            "14420",
-            "56642",
-            "93",
-            "4219",
-            "1912747",
-            "13391312",
-            "1",
-            "2",
-            "760",
-            "502001",
-            "202205",
-            "2022",
-            "21.00",
-            "0.00",
-            "0.00"
-          ],
-          "rowNumber": 862070,
-          "rowPosition": 862071,
-          "code": "foreign-key-error",
-          "name": "ForeignKey Error",
-          "tags": [
-            "#table",
-            "#row"
-          ],
-          "note": "for \"id_empenho\": values \"13391312\" not found in the lookup table \"dm_empenho_desp_2022\" as \"id_empenho\"",
-          "message": "Row at position \"862071\" violates the foreign key: for \"id_empenho\": values \"13391312\" not found in the lookup table \"dm_empenho_desp_2022\" as \"id_empenho\"",
-          "description": "Values in the foreign key fields should exist in the reference table"
-        },
-        {
-          "cells": [
-            "44013",
-            "20",
-            "42",
-            "469",
-            "2586",
-            "2",
-            "130",
-            "1955",
-            "3931",
-            "14420",
-            "56642",
-            "93",
-            "4219",
-            "1033632",
-            "13391305",
-            "1",
-            "2",
-            "759",
-            "502001",
-            "202205",
-            "2022",
-            "1056.60",
-            "0.00",
-            "0.00"
-          ],
-          "rowNumber": 862071,
-          "rowPosition": 862072,
-          "code": "foreign-key-error",
-          "name": "ForeignKey Error",
-          "tags": [
-            "#table",
-            "#row"
-          ],
-          "note": "for \"id_empenho\": values \"13391305\" not found in the lookup table \"dm_empenho_desp_2022\" as \"id_empenho\"",
-          "message": "Row at position \"862072\" violates the foreign key: for \"id_empenho\": values \"13391305\" not found in the lookup table \"dm_empenho_desp_2022\" as \"id_empenho\"",
-          "description": "Values in the foreign key fields should exist in the reference table"
-        },
-        {
-          "cells": [
-            "44013",
-            "20",
-            "42",
-            "469",
-            "3084",
-            "2",
-            "130",
-            "1955",
-            "3931",
-            "14420",
-            "56642",
-            "93",
-            "4219",
-            "1904835",
-            "13391311",
-            "1",
-            "2",
-            "758",
-            "502001",
-            "202205",
-            "2022",
-            "117.50",
-            "0.00",
-            "0.00"
-          ],
-          "rowNumber": 862072,
-          "rowPosition": 862073,
-          "code": "foreign-key-error",
-          "name": "ForeignKey Error",
-          "tags": [
-            "#table",
-            "#row"
-          ],
-          "note": "for \"id_empenho\": values \"13391311\" not found in the lookup table \"dm_empenho_desp_2022\" as \"id_empenho\"",
-          "message": "Row at position \"862073\" violates the foreign key: for \"id_empenho\": values \"13391311\" not found in the lookup table \"dm_empenho_desp_2022\" as \"id_empenho\"",
-          "description": "Values in the foreign key fields should exist in the reference table"
-        },
-        {
-          "cells": [
-            "44013",
-            "20",
-            "42",
-            "469",
-            "3084",
-            "2",
-            "130",
-            "1955",
-            "3931",
-            "14420",
-            "56642",
-            "93",
-            "4219",
-            "1918477",
-            "13391308",
-            "1",
-            "2",
-            "757",
-            "502001",
-            "202205",
-            "2022",
-            "34.00",
-            "0.00",
-            "0.00"
-          ],
-          "rowNumber": 862073,
-          "rowPosition": 862074,
-          "code": "foreign-key-error",
-          "name": "ForeignKey Error",
-          "tags": [
-            "#table",
-            "#row"
-          ],
-          "note": "for \"id_empenho\": values \"13391308\" not found in the lookup table \"dm_empenho_desp_2022\" as \"id_empenho\"",
-          "message": "Row at position \"862074\" violates the foreign key: for \"id_empenho\": values \"13391308\" not found in the lookup table \"dm_empenho_desp_2022\" as \"id_empenho\"",
-          "description": "Values in the foreign key fields should exist in the reference table"
-        },
-        {
-          "cells": [
-            "44013",
-            "20",
-            "42",
-            "469",
-            "2586",
-            "2",
-            "130",
-            "1955",
-            "3931",
-            "14420",
-            "56642",
-            "93",
-            "4219",
-            "1904835",
-            "13391307",
-            "1",
-            "2",
-            "756",
-            "502001",
-            "202205",
-            "2022",
-            "192.76",
-            "0.00",
-            "0.00"
-          ],
-          "rowNumber": 862074,
-          "rowPosition": 862075,
-          "code": "foreign-key-error",
-          "name": "ForeignKey Error",
-          "tags": [
-            "#table",
-            "#row"
-          ],
-          "note": "for \"id_empenho\": values \"13391307\" not found in the lookup table \"dm_empenho_desp_2022\" as \"id_empenho\"",
-          "message": "Row at position \"862075\" violates the foreign key: for \"id_empenho\": values \"13391307\" not found in the lookup table \"dm_empenho_desp_2022\" as \"id_empenho\"",
-          "description": "Values in the foreign key fields should exist in the reference table"
-        }
-      ],
+      "errors": [],
       "stats": {
-        "errors": 8
+        "errors": 0
       },
-      "valid": false
+      "valid": true
     }
   ],
   "stats": {
-    "errors": 8,
+    "errors": 0,
     "tasks": 1
   },
-  "valid": false
+  "valid": true
 }
