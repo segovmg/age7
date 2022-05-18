@@ -561,3 +561,8 @@ Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_concedente
 Atualizando recurso: dm_concedente
 Atualizando datapackage.json
+[main 4dadb92] Atualização age7
+ 163 files changed, 1635 insertions(+), 68903 deletions(-)
+ rewrite logs/full_extract.txt (73%)
+ rewrite logs/validate/ft_diarias_scdp.json (98%)
+ rewrite logs/validate/ft_diarias_scdp_liqpag.json (99%)
