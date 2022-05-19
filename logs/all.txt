@@ -14,11 +14,10 @@ make: Nothing to be done for 'parse'.
 # python scripts/python/full-extract.py
 dtamg-py etl-make full-extract 2> logs/full_extract.txt
 rsync --itemize-changes --checksum data/raw/* data/staging/ 2> logs/ingest.txt
->fcsT...... dm_concedente.csv
 >fcsT...... dm_contratado.csv
 >fcsT...... dm_contrato.csv
->fcsT...... dm_convenio_entrada.csv
->fcsT...... dm_documento_viagem.csv
+>fc.T...... dm_convenio_entrada.csv
+>fc.T...... dm_documento_viagem.csv
 >fc.T...... dm_empenho_desp_2002.csv
 >fc.T...... dm_empenho_desp_2003.csv
 >fc.T...... dm_empenho_desp_2004.csv
@@ -41,7 +40,6 @@ rsync --itemize-changes --checksum data/raw/* data/staging/ 2> logs/ingest.txt
 >fc.T...... dm_empenho_desp_2021.csv
 >fcsT...... dm_empenho_desp_2022.csv
 >fcsT...... dm_empenho_desp_compras_empenho.csv
->fcsT...... dm_empenho_desp_diarias_scdp_liqpag.csv
 >fc.T...... dm_empenho_resto_2002.csv
 >fc.T...... dm_empenho_resto_2003.csv
 >fc.T...... dm_empenho_resto_2004.csv
@@ -64,7 +62,6 @@ rsync --itemize-changes --checksum data/raw/* data/staging/ 2> logs/ingest.txt
 >fc.T...... dm_empenho_resto_2021.csv
 >fcsT...... dm_empenho_resto_2022.csv
 >fcsT...... dm_favorecido.csv
->fcsT...... dm_favorecido_scdp.csv
 >fcsT...... dm_item_matserv.csv
 >fcsT...... dm_material_servico.csv
 >fcsT...... dm_processo.csv
@@ -83,11 +80,9 @@ rsync --itemize-changes --checksum data/raw/* data/staging/ 2> logs/ingest.txt
 >fcsT...... ft_despesa_2022.csv
 >fc.T...... ft_diarias_2021.csv
 >fcsT...... ft_diarias_2022.csv
->fcsT...... ft_diarias_scdp.csv
->fcsT...... ft_diarias_scdp_liqpag.csv
->fcsT...... ft_divida_pub.csv
+>fc.T...... ft_divida_pub.csv
 >fcsT...... ft_pessoal_desp.csv
->fcsT...... ft_receita_prevista_v2018.csv
+>fc.T...... ft_receita_prevista_v2018.csv
 >fcsT...... ft_receita_v2018.csv
 >fcsT...... ft_restos_pagar_2022.csv
 gzip -n < data/staging/ft_receita_prevista_v2018.csv > data/ft_receita_prevista_v2018.csv.gz
@@ -96,10 +91,8 @@ gzip -n < data/staging/ft_convenio_investimento.csv > data/ft_convenio_investime
 gzip -n < data/staging/ft_convenio_entrada_dotacao.csv > data/ft_convenio_entrada_dotacao.csv.gz
 gzip -n < data/staging/ft_convenio_entrada_desp.csv > data/ft_convenio_entrada_desp.csv.gz
 gzip -n < data/staging/dm_convenio_entrada.csv > data/dm_convenio_entrada.csv.gz
-gzip -n < data/staging/dm_favorecido_scdp.csv > data/dm_favorecido_scdp.csv.gz
 gzip -n < data/staging/dm_documento_viagem.csv > data/dm_documento_viagem.csv.gz
 gzip -n < data/staging/dm_empenho_desp_compras_empenho.csv > data/dm_empenho_desp_compras_empenho.csv.gz
-gzip -n < data/staging/dm_empenho_desp_diarias_scdp_liqpag.csv > data/dm_empenho_desp_diarias_scdp_liqpag.csv.gz
 gzip -n < data/staging/dm_empenho_desp_2002.csv > data/dm_empenho_desp_2002.csv.gz
 gzip -n < data/staging/dm_empenho_desp_2003.csv > data/dm_empenho_desp_2003.csv.gz
 gzip -n < data/staging/dm_empenho_desp_2004.csv > data/dm_empenho_desp_2004.csv.gz
@@ -130,9 +123,6 @@ gzip -n < data/staging/fl_convenio_entrada_compras.csv > data/fl_convenio_entrad
 gzip -n < data/staging/fl_convenio_entrada_interv.csv > data/fl_convenio_entrada_interv.csv.gz
 gzip -n < data/staging/fl_convenio_entrada_aditivo.csv > data/fl_convenio_entrada_aditivo.csv.gz
 gzip -n < data/staging/ft_convenio_entrada.csv > data/ft_convenio_entrada.csv.gz
-gzip -n < data/staging/dm_concedente.csv > data/dm_concedente.csv.gz
-gzip -n < data/staging/ft_diarias_scdp.csv > data/ft_diarias_scdp.csv.gz
-gzip -n < data/staging/ft_diarias_scdp_liqpag.csv > data/ft_diarias_scdp_liqpag.csv.gz
 gzip -n < data/staging/ft_compras.csv > data/ft_compras.csv.gz
 gzip -n < data/staging/ft_compras_contrato.csv > data/ft_compras_contrato.csv.gz
 gzip -n < data/staging/ft_despesa_2021.csv > data/ft_despesa_2021.csv.gz
@@ -172,10 +162,8 @@ dtamg-py etl-make validate -r ft_convenio_investimento > logs/validate/ft_conven
 dtamg-py etl-make validate -r ft_convenio_entrada_dotacao > logs/validate/ft_convenio_entrada_dotacao.json
 dtamg-py etl-make validate -r ft_convenio_entrada_desp > logs/validate/ft_convenio_entrada_desp.json
 dtamg-py etl-make validate -r dm_convenio_entrada > logs/validate/dm_convenio_entrada.json
-dtamg-py etl-make validate -r dm_favorecido_scdp > logs/validate/dm_favorecido_scdp.json
 dtamg-py etl-make validate -r dm_documento_viagem > logs/validate/dm_documento_viagem.json
 dtamg-py etl-make validate -r dm_empenho_desp_compras_empenho > logs/validate/dm_empenho_desp_compras_empenho.json
-dtamg-py etl-make validate -r dm_empenho_desp_diarias_scdp_liqpag > logs/validate/dm_empenho_desp_diarias_scdp_liqpag.json
 dtamg-py etl-make validate -r dm_empenho_desp_2002 > logs/validate/dm_empenho_desp_2002.json
 dtamg-py etl-make validate -r dm_empenho_desp_2003 > logs/validate/dm_empenho_desp_2003.json
 dtamg-py etl-make validate -r dm_empenho_desp_2004 > logs/validate/dm_empenho_desp_2004.json
@@ -206,9 +194,6 @@ dtamg-py etl-make validate -r fl_convenio_entrada_compras > logs/validate/fl_con
 dtamg-py etl-make validate -r fl_convenio_entrada_interv > logs/validate/fl_convenio_entrada_interv.json
 dtamg-py etl-make validate -r fl_convenio_entrada_aditivo > logs/validate/fl_convenio_entrada_aditivo.json
 dtamg-py etl-make validate -r ft_convenio_entrada > logs/validate/ft_convenio_entrada.json
-dtamg-py etl-make validate -r dm_concedente > logs/validate/dm_concedente.json
-dtamg-py etl-make validate -r ft_diarias_scdp > logs/validate/ft_diarias_scdp.json
-dtamg-py etl-make validate -r ft_diarias_scdp_liqpag > logs/validate/ft_diarias_scdp_liqpag.json
 dtamg-py etl-make validate -r ft_compras > logs/validate/ft_compras.json
 dtamg-py etl-make validate -r ft_compras_contrato > logs/validate/ft_compras_contrato.json
 dtamg-py etl-make validate -r ft_despesa_2021 > logs/validate/ft_despesa_2021.json
@@ -515,18 +500,6 @@ Atualizando conjunto de dados: viagens
 Diferenças nos dados do recurso: dm_documento_viagem
 Atualizando recurso: dm_documento_viagem
 Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_empenho_desp_diarias_scdp_liqpag
-Atualizando recurso: dm_empenho_desp_diarias_scdp_liqpag
-Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_favorecido_scdp
-Atualizando recurso: dm_favorecido_scdp
-Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_diarias_scdp
-Atualizando recurso: ft_diarias_scdp
-Atualizando datapackage.json
-Diferenças nos dados do recurso: ft_diarias_scdp_liqpag
-Atualizando recurso: ft_diarias_scdp_liqpag
-Atualizando datapackage.json
 dpckan dataset update --datapackage build_datasets/receita/datapackage.json 2> logs/update/receita.txt
 Atualizando conjunto de dados: receita
 Diferenças nos dados do recurso: ft_receita_prevista_v2018
@@ -558,11 +531,3 @@ Atualizando datapackage.json
 Diferenças nos dados do recurso: ft_convenio_entrada
 Atualizando recurso: ft_convenio_entrada
 Atualizando datapackage.json
-Diferenças nos dados do recurso: dm_concedente
-Atualizando recurso: dm_concedente
-Atualizando datapackage.json
-[main 4dadb92] Atualização age7
- 163 files changed, 1635 insertions(+), 68903 deletions(-)
- rewrite logs/full_extract.txt (73%)
- rewrite logs/validate/ft_diarias_scdp.json (98%)
- rewrite logs/validate/ft_diarias_scdp_liqpag.json (99%)
