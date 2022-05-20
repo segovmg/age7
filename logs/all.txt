@@ -585,3 +585,6 @@ Atualizando datapackage.json
 Diferenças nos dados do recurso: ft_convenio_entrada
 Atualizando recurso: ft_convenio_entrada
 Atualizando datapackage.json
+[main eda1323] Atualização age7
+ 165 files changed, 775 insertions(+), 724 deletions(-)
+ rewrite logs/full_extract.txt (73%)
