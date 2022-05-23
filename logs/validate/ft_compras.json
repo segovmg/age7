@@ -1,6 +1,6 @@
 {
   "version": "4.28.0",
-  "time": 236.692,
+  "time": 247.75,
   "errors": [],
   "tasks": [
     {
@@ -529,13 +529,13 @@
         "hashing": "md5",
         "compression": "gz",
         "stats": {
-          "hash": "9a7f23996ae198cc296ac20815fa2f7a",
-          "bytes": 56265542,
+          "hash": "bf57e4c8e94bfadbfb427e19a905872d",
+          "bytes": 56265554,
           "fields": 27,
           "rows": 1841088
         }
       },
-      "time": 236.692,
+      "time": 247.75,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -3878,6 +3878,48 @@
         },
         {
           "cells": [
+            "44005",
+            "4",
+            "1831094",
+            "95",
+            "1",
+            "1",
+            "501",
+            "69259",
+            "1",
+            "81",
+            "211",
+            "20944",
+            "229266",
+            "369536",
+            "75210",
+            "889",
+            "1831077",
+            "2926",
+            "3043",
+            "2022",
+            "2022-05-19",
+            "6.0000",
+            "1395.0000",
+            "8370.00",
+            "1125.0000",
+            "6750.00",
+            "6750.00"
+          ],
+          "rowNumber": 1827244,
+          "rowPosition": 1827245,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "for \"id_contrato\": values \"75210\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "message": "Row at position \"1827245\" violates the foreign key: for \"id_contrato\": values \"75210\" not found in the lookup table \"dm_contrato\" as \"id_contrato\"",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
             "44010",
             "1",
             "1831070",
@@ -5600,13 +5642,13 @@
         }
       ],
       "stats": {
-        "errors": 120
+        "errors": 121
       },
       "valid": false
     }
   ],
   "stats": {
-    "errors": 120,
+    "errors": 121,
     "tasks": 1
   },
   "valid": false
