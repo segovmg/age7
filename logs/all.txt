@@ -407,3 +407,7 @@ Atualizando datapackage.json
 dpckan dataset update --datapackage build_datasets/receita/datapackage.json 2> logs/update/receita.txt
 Atualizando conjunto de dados: receita
 dpckan dataset update --datapackage build_datasets/convenios-entrada/datapackage.json 2> logs/update/convenios-entrada.txt
+Atualizando conjunto de dados: convenios-entrada
+[main 1af5efd] Atualização age7
+ 106 files changed, 7129 insertions(+), 7151 deletions(-)
+ rewrite logs/full_extract.txt (73%)
