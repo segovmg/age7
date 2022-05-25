@@ -1,10 +1,14 @@
-.PHONY: help vars parse extract full-extract ingest data validate notify load all clean
+.PHONY: help container vars parse extract full-extract ingest data validate notify load all clean
 
 include config.mk
 
 help: 
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' Makefile | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-10s\033[0m %s\n", $$1, $$2}'
 
+container: ## Start Docker Container
+	@echo 'Starting Docker Container...'
+	@sudo docker run -it -v /$(PWD):/work_dir gabrielbdornas/dtamg-age7:latest bash
+	
 datapackage.json: datapackage.yaml schemas/* data/* logs/validate/* schemas/dialect.json README.md CHANGELOG.md CONTRIBUTING.md
 	dtamg-py etl-make build-datapackage
 
