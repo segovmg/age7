@@ -7,7 +7,7 @@ help:
 
 container: ## Start Docker Container
 	@echo 'Starting Docker Container...'
-	@sudo docker run -it -v /$(PWD):/work_dir -e CKAN_HOST=$CKAN_HOST -e CKAN_KEY=$CKAN_KEY gabrielbdornas/dtamg-age7:latest bash
+	@sudo docker run -it -v /$(PWD):/work_dir -e CKAN_HOST=$(CKAN_HOST) -e CKAN_KEY=$(CKAN_KEY) gabrielbdornas/dtamg-age7:latest bash
 	
 datapackage.json: datapackage.yaml schemas/* data/* logs/validate/* schemas/dialect.json README.md CHANGELOG.md CONTRIBUTING.md
 	dtamg-py etl-make build-datapackage
