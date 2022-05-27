@@ -1,6 +1,6 @@
 {
-  "version": "4.22.3",
-  "time": 0.016,
+  "version": "4.28.0",
+  "time": 0.01,
   "errors": [],
   "tasks": [
     {
@@ -74,13 +74,13 @@
         "hashing": "md5",
         "compression": "gz",
         "stats": {
-          "hash": "c01b02938c3139dd9b9cace16726b535",
-          "bytes": 79,
+          "hash": "d41d8cd98f00b204e9800998ecf8427e",
+          "bytes": 0,
           "fields": 3,
-          "rows": 2
+          "rows": 0
         }
       },
-      "time": 0.016,
+      "time": 0.01,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -102,16 +102,25 @@
         "unique-error"
       ],
       "partial": false,
-      "errors": [],
+      "errors": [
+        {
+          "code": "source-error",
+          "name": "Source Error",
+          "tags": [],
+          "note": "the source is empty",
+          "message": "The data source has not supported or has inconsistent contents: the source is empty",
+          "description": "Data reading error because of not supported or inconsistent contents."
+        }
+      ],
       "stats": {
-        "errors": 0
+        "errors": 1
       },
-      "valid": true
+      "valid": false
     }
   ],
   "stats": {
-    "errors": 0,
+    "errors": 1,
     "tasks": 1
   },
-  "valid": true
+  "valid": false
 }
