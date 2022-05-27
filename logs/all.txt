@@ -746,3 +746,8 @@ Atualizando datapackage.json
 Atualizando datapackage.json
 Atualizando datapackage.json
 Atualizando datapackage.json
+[main f6dab4c] Atualização age7
+ 241 files changed, 129276 insertions(+), 91600 deletions(-)
+ rewrite logs/full_extract.txt (73%)
+ rewrite logs/validate/ft_despesa_2022.json (98%)
+ rewrite logs/validate/ft_diarias_scdp_liqpag.json (61%)
