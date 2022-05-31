@@ -522,3 +522,13 @@ Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_elemento_desp
 Atualizando recurso: dm_elemento_desp
 Atualizando datapackage.json
+[main ca73ac5] Atualização age7
+ 144 files changed, 3103 insertions(+), 209102 deletions(-)
+ rewrite logs/full_extract.txt (74%)
+ rewrite logs/validate/fl_compras_empenho.json (99%)
+ rewrite logs/validate/ft_compras.json (98%)
+ rewrite logs/validate/ft_compras_contrato.json (99%)
+ rewrite logs/validate/ft_convenio_entrada.json (99%)
+ rewrite logs/validate/ft_convenio_entrada_dotacao.json (99%)
+ rewrite logs/validate/ft_diarias_scdp.json (98%)
+ rewrite logs/validate/ft_diarias_scdp_liqpag.json (99%)
