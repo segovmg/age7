@@ -555,3 +555,12 @@ Atualizando datapackage.json
 Diferenças nos dados do recurso: ft_convenio_entrada
 Atualizando recurso: ft_convenio_entrada
 Atualizando datapackage.json
+[main da8e25b] Atualização age7
+ 161 files changed, 3236 insertions(+), 211219 deletions(-)
+ rewrite logs/full_extract.txt (73%)
+ rewrite logs/validate/ft_convenio_entrada_desp.json (99%)
+ rewrite logs/validate/ft_despesa_2021.json (98%)
+ rewrite logs/validate/ft_despesa_2022.json (98%)
+ rewrite logs/validate/ft_diarias_2021.json (99%)
+ rewrite logs/validate/ft_diarias_2022.json (99%)
+ rewrite logs/validate/ft_restos_pagar_2022.json (98%)
