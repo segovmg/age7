@@ -23,3 +23,4 @@ for file in os.listdir(folder):
 	    		os.system(f'dtamg-py etl-make extract --resource {resource_name} > logs/extract/{resource_name}.txt')
 	    		os.system(f'rsync --itemize-changes --checksum data/raw/{resource_name}.csv data/staging/{resource_name}.csv 2> logs/ingest.txt')
 	    		os.system(f'gzip -n < data/staging/{resource_name}.csv > data/{resource_name}.csv.gz')
+	    		os.system(f'dtamg-py etl-make validate -r {resource_name} > logs/validate/{filename}')
