@@ -80,6 +80,7 @@ clean:
 	rm -rf logs/update/*
 	rm -f logs/full_extract.txt
 	rm -f logs/check_validation.txt
+	rm -f logs/check_empty_resource.txt
 	rm -f logs/ingest.txt
 	rm -f logs/build.txt
 	rm -f logs/create.txt
