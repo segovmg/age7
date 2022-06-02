@@ -63,6 +63,9 @@ $(DATASETS_FILES): logs/update/%.txt: build_datasets/%/datapackage.json
 $(VALIDATION_FILES): logs/validate/%.json: data/%.csv.gz schemas/%.yaml
 	-dtamg-py etl-make validate -r $* > $@
 
+check-empty-resources:
+	@python scripts/check_empty_resource.py
+
 check-validation:
 	@python scripts/check_validation.py
 
@@ -80,6 +83,7 @@ clean:
 	rm -rf logs/update/*
 	rm -f logs/full_extract.txt
 	rm -f logs/check_validation.txt
+	rm -f logs/check_empty_resource.txt
 	rm -f logs/ingest.txt
 	rm -f logs/build.txt
 	rm -f logs/create.txt
