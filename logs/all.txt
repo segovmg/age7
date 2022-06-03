@@ -497,3 +497,7 @@ Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_elemento_desp
 Atualizando recurso: dm_elemento_desp
 Atualizando datapackage.json
+[main 81ad26c] Atualização age7
+ 134 files changed, 272726 insertions(+), 791 deletions(-)
+ create mode 100644 logs/check_validation.txt
+ rewrite logs/full_extract.txt (73%)
