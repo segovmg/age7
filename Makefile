@@ -1,4 +1,4 @@
-.PHONY: help container vars parse extract full-extract ingest data validate notify load all clean
+.PHONY: help container vars parse extract full-extract ingest data validate check-empty-resources check-validation notify load all clean
 
 include config.mk
 

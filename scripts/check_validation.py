@@ -16,5 +16,5 @@ for file in os.listdir(folder):
 	    	# Check valid property to see if validation passed
 	    	if file_content['valid'] == False:
 	    		resource_name = filename.split('.')[0]
-	    		os.system(f'echo Rerun logs/validate/{filename} > logs/check_validation.txt')
+	    		os.system(f'echo Rerun logs/validate/{filename} >> logs/check_validation.txt')
 	    		os.system(f'dtamg-py etl-make validate -r {resource_name} > logs/validate/{filename}')
