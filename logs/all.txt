@@ -664,3 +664,19 @@ Atualizando datapackage.json
 Diferenças nos dados do recurso: dm_elemento_desp
 Atualizando recurso: dm_elemento_desp
 Atualizando datapackage.json
+[main 3333cfa] Atualização age7
+ 196 files changed, 4390 insertions(+), 298235 deletions(-)
+ create mode 100644 logs/check_empty_resource.txt
+ create mode 100644 logs/extract/dm_tipo_divida.txt
+ create mode 100644 logs/extract/ft_convenio_metaetapa.txt
+ create mode 100644 logs/extract/ft_divida_pub.txt
+ rewrite logs/full_extract.txt (74%)
+ rewrite logs/validate/fl_compras_empenho.json (99%)
+ rewrite logs/validate/ft_compras.json (98%)
+ rewrite logs/validate/ft_convenio_entrada_desp.json (99%)
+ rewrite logs/validate/ft_despesa_2021.json (98%)
+ rewrite logs/validate/ft_despesa_2022.json (98%)
+ rewrite logs/validate/ft_diarias_2021.json (99%)
+ rewrite logs/validate/ft_diarias_2022.json (99%)
+ rewrite logs/validate/ft_divida_pub.json (99%)
+ rewrite logs/validate/ft_restos_pagar_2022.json (98%)
