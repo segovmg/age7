@@ -201,10 +201,10 @@
         "hashing": "md5",
         "compression": "gz",
         "stats": {
-          "hash": "3800e9ab7b32c91d2d29b149b5892b5b",
-          "bytes": 28621,
+          "hash": "1937ecfd15af6a0ba8d67a7b2d1aea89",
+          "bytes": 28525,
           "fields": 9,
-          "rows": 1811
+          "rows": 1816
         }
       },
       "time": 0.845,
