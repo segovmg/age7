@@ -1,3 +1,1 @@
-Rerun dm_tipo_divida 0 row extraction 
 Rerun ft_convenio_metaetapa 0 row extraction 
-Rerun ft_divida_pub 0 row extraction 
