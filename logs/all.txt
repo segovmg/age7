@@ -559,3 +559,8 @@ Atualizando datapackage.json
 Diferenças nos dados do recurso: ft_convenio_entrada
 Atualizando recurso: ft_convenio_entrada
 Atualizando datapackage.json
+[main bff18cb] Atualização age7
+ 166 files changed, 9485 insertions(+), 831 deletions(-)
+ delete mode 100644 logs/extract/dm_tipo_divida.txt
+ delete mode 100644 logs/extract/ft_divida_pub.txt
+ rewrite logs/full_extract.txt (73%)
