@@ -28,8 +28,3 @@ The following object is masked from 'package:dplyr':
 
     group_rows
 
-Error in process_response(res, match.arg(http_status_handler), simplify) : 
-  Bad Gateway (HTTP 502). Failed to complete operation. Message:
-.
-Calls: <Anonymous> ... call_graph_endpoint -> call_graph_url -> process_response -> handler
-Execução interrompida
