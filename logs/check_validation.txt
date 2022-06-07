@@ -1,2 +1,2 @@
+Rerun logs/validate/fl_compras_empenho.json 
 Rerun logs/validate/ft_convenio_investimento.json 
-Rerun logs/validate/ft_despesa_2022.json 
