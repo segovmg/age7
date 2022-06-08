@@ -8,7 +8,6 @@ make full-extract && \
 make ingest && \
 make data && \
 make validate && \
-make check-empty-resources && \
 make check-validation && \
 make datapackage.json && \
 make test && \

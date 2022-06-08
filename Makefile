@@ -1,4 +1,4 @@
-.PHONY: help container vars parse extract full-extract ingest data validate check-empty-resources check-validation notify load all clean
+.PHONY: help container vars parse extract full-extract ingest data validate check-validation notify load all clean
 
 include config.mk
 
@@ -62,9 +62,6 @@ $(DATASETS_FILES): logs/update/%.txt: build_datasets/%/datapackage.json
 
 $(VALIDATION_FILES): logs/validate/%.json: data/%.csv.gz schemas/%.yaml
 	-dtamg-py etl-make validate -r $* > $@
-
-check-empty-resources:
-	@python scripts/check_empty_resource.py
 
 check-validation:
 	@python scripts/check_validation.py
