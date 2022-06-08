@@ -123,8 +123,8 @@
         "hashing": "md5",
         "compression": "gz",
         "stats": {
-          "hash": "b61968b6b797fdd044b890c7398b2c6b",
-          "bytes": 12382123,
+          "hash": "70ef2557b5f2c79be6e63522ea5ba4a1",
+          "bytes": 12380538,
           "fields": 9,
           "rows": 713494
         }

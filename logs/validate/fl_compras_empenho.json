@@ -1,6 +1,6 @@
 {
   "version": "4.28.0",
-  "time": 53.954,
+  "time": 54.016,
   "errors": [],
   "tasks": [
     {
@@ -176,13 +176,13 @@
         "hashing": "md5",
         "compression": "gz",
         "stats": {
-          "hash": "66bf66e62b703437ab0a30c4b035b4ad",
-          "bytes": 9442381,
+          "hash": "8759f5d963ea8c92d6e648b342a753d6",
+          "bytes": 9580421,
           "fields": 7,
-          "rows": 916892
+          "rows": 930675
         }
       },
-      "time": 53.954,
+      "time": 54.016,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -204,44 +204,16 @@
         "unique-error"
       ],
       "partial": false,
-      "errors": [
-        {
-          "cell": "\"1",
-          "fieldName": "dotacao_orcamentaria",
-          "fieldNumber": 7,
-          "fieldPosition": 7,
-          "cells": [
-            "366667",
-            "13349981",
-            "14420",
-            "56642",
-            "469",
-            "2538",
-            "\"1"
-          ],
-          "rowNumber": 916892,
-          "rowPosition": 916893,
-          "code": "constraint-error",
-          "name": "Constraint Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "constraint \"pattern\" is \"\\d{4} \\d{2}.\\d{3}.\\d{3}.\\d{4}.\\d{1} \\d{1}.\\d{1}.\\d{2}.\\d{2}.\\d{2} \\d{1}.\\d{2}.\\d{1}\"",
-          "message": "The cell \"\"1\" in row at position \"916893\" and field \"dotacao_orcamentaria\" at position \"7\" does not conform to a constraint: constraint \"pattern\" is \"\\d{4} \\d{2}.\\d{3}.\\d{3}.\\d{4}.\\d{1} \\d{1}.\\d{1}.\\d{2}.\\d{2}.\\d{2} \\d{1}.\\d{2}.\\d{1}\"",
-          "description": "A field value does not conform to a constraint."
-        }
-      ],
+      "errors": [],
       "stats": {
-        "errors": 1
+        "errors": 0
       },
-      "valid": false
+      "valid": true
     }
   ],
   "stats": {
-    "errors": 1,
+    "errors": 0,
     "tasks": 1
   },
-  "valid": false
+  "valid": true
 }

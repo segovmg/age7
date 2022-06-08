@@ -1,1 +1,3 @@
 Rerun ft_convenio_metaetapa 0 row extraction 
+Rerun ft_diarias_scdp 0 row extraction 
+Rerun ft_diarias_scdp_liqpag 0 row extraction 
