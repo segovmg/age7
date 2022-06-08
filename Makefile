@@ -1,4 +1,4 @@
-.PHONY: help container vars parse extract full-extract ingest data validate check-validation notify load all clean
+.PHONY: help container vars parse extract full-extract ingest data validate check-validation notify load all clean report
 
 include config.mk
 
@@ -73,9 +73,9 @@ validate-metadata: ## Valida arquivo yaml com tableschema
 vars: 
 	@echo 'DATA_FILES:' $(DATA_FILES)
 
-index.html: index.md logs/validate/failed_reports.json
+report: 
 	@python scripts/consolidate_reports.py
-	@livemark build index.md
+	@livemark build index.md --target report/index.html
 
 clean:
 	rm -rf logs/extract/*
