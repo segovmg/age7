@@ -1,6 +1,6 @@
 {
-  "version": "4.22.3",
-  "time": 309.648,
+  "version": "4.28.0",
+  "time": 338.373,
   "errors": [],
   "tasks": [
     {
@@ -478,7 +478,7 @@
           "rows": 3320301
         }
       },
-      "time": 309.648,
+      "time": 338.373,
       "scope": [
         "hash-count-error",
         "byte-count-error",

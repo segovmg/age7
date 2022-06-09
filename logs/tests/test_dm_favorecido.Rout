@@ -1,6 +1,8 @@
 running
   'C:\PROGRA~1\R\R-41~1.2\bin\x64\Rterm.exe --no-echo --no-restore -e testthat::test_file('tests/testthat/test_dm_favorecido.R', stop_on_failure=TRUE)'
 
+During startup - Warning message:
+Setting LC_CTYPE=C.UTF-8 failed 
 
 Attaching package: 'validate'
 
