@@ -302,3 +302,16 @@ Atualizando datapackage.json
 Atualizando datapackage.json
 Atualizando datapackage.json
 Atualizando datapackage.json
+[main 9c685ea] Atualização age7
+ 291 files changed, 2746 insertions(+), 71276 deletions(-)
+ create mode 100644 build_datasets/convenios-saida/temp/datapackage.json
+ rewrite logs/all.txt (67%)
+ delete mode 100644 logs/check_empty_resource.txt
+ create mode 100644 logs/evento_etl_carga.csv
+ rename logs/{extract/ft_convenio_metaetapa.txt => evento_etl_carga.txt} (100%)
+ delete mode 100644 logs/extract/ft_diarias_scdp.txt
+ delete mode 100644 logs/extract/ft_diarias_scdp_liqpag.txt
+ rewrite logs/full_extract.txt (73%)
+ rewrite logs/validate/ft_compras.json (75%)
+ rewrite logs/validate/ft_diarias_scdp.json (98%)
+ rewrite logs/validate/ft_diarias_scdp_liqpag.json (99%)
