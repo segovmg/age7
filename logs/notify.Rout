@@ -28,3 +28,7 @@ The following object is masked from 'package:dplyr':
 
     group_rows
 
+Quitting from lines 7-29 (notify.Rmd) 
+Error in open.connection(con, "rb") : não é possível abrir a conexão
+Calls: <Anonymous> ... parse_and_simplify -> parseJSON -> parse_con -> open -> open.connection
+Execução interrompida
