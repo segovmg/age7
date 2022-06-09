@@ -9,7 +9,7 @@ container: ## Start Docker Container
 	@echo 'Run etl process on Docker Container...'
 	@docker run -it --rm -v /$(PWD):/work_dir -e CKAN_HOST=$(CKAN_HOST) -e CKAN_KEY=$(CKAN_KEY) gabrielbdornas/dtamg-age7:latest /bin/bash ./all.sh
 
-container-bash : ## Start Docker Container
+container-bash: ## Start Docker Container
 	@echo 'Starting Docker Container...'
 	@docker run -it --rm -v /$(PWD):/work_dir -e CKAN_HOST=$(CKAN_HOST) -e CKAN_KEY=$(CKAN_KEY) gabrielbdornas/dtamg-age7:latest bash
 	
