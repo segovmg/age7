@@ -1,4 +1,4 @@
-.PHONY: help container vars parse extract full-extract ingest data validate check-validation notify load all clean report
+.PHONY: help container container-bash vars parse extract full-extract ingest data validate check-validation notify load all clean report
 
 include config.mk
 
@@ -6,8 +6,12 @@ help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' Makefile | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-10s\033[0m %s\n", $$1, $$2}'
 
 container: ## Start Docker Container
+	@echo 'Run etl process on Docker Container...'
+	@docker exec -it --rm -v /$(PWD):/work_dir -e CKAN_HOST=$(CKAN_HOST) -e CKAN_KEY=$(CKAN_KEY) gabrielbdornas/dtamg-age7:latest /bin/bash ./all.sh
+
+container-bash : ## Start Docker Container
 	@echo 'Starting Docker Container...'
-	@sudo docker run -it -v /$(PWD):/work_dir -e CKAN_HOST=$(CKAN_HOST) -e CKAN_KEY=$(CKAN_KEY) gabrielbdornas/dtamg-age7:latest bash
+	@docker exec -it --rm -v /$(PWD):/work_dir -e CKAN_HOST=$(CKAN_HOST) -e CKAN_KEY=$(CKAN_KEY) gabrielbdornas/dtamg-age7:latest bash
 	
 datapackage.json: datapackage.yaml schemas/* data/* logs/validate/* schemas/dialect.json README.md CHANGELOG.md CONTRIBUTING.md
 	dtamg-py etl-make build-datapackage
