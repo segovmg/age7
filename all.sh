@@ -9,7 +9,6 @@ make ingest && \
 make data && \
 make validate && \
 make check-validation && \
-make index.html && \
 make datapackage.json && \
 make test && \
 make build && \
