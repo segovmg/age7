@@ -1,3 +1,31 @@
 running
   'C:\PROGRA~1\R\R-41~1.2\bin\x64\Rterm.exe --no-echo --no-restore --file=scripts/r/notify.R'
 
+Loading Microsoft Graph login for default tenant
+Access token has expired or is no longer valid; refreshing
+
+Attaching package: 'purrr'
+
+The following object is masked from 'package:jsonlite':
+
+    flatten
+
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: 'kableExtra'
+
+The following object is masked from 'package:dplyr':
+
+    group_rows
+
+i Using "','" as decimal and "'.'" as grouping mark. Use `read_delim()` for more control.
