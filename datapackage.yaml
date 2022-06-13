@@ -2956,6 +2956,11 @@ resources:
     profile: tabular-data-resource
 name: age7
 owner_org: controladoria-geral-do-estado-cge
+frequência de atualização: diária
+contributors:
+  - title: Diretoria Central de Transparência Ativa
+    role: author
+    mail: transparencia@cge.mg.gov.br
 licenses:
   - name: CC-BY-4.0
     title: Creative Commons Attribution 4.0
