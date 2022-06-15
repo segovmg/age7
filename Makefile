@@ -11,7 +11,7 @@ container: ## Start Docker Container
 
 container-bash: ## Start Docker Container
 	@echo 'Starting Docker Container...'
-	@docker run -it --rm -v /$(PWD):/work_dir -e CKAN_HOST=$(CKAN_HOST) -e CKAN_KEY=$(CKAN_KEY) gabrielbdornas/dtamg-age7:latest bash
+	@docker run -it --rm --net="host" -v /$(PWD):/work_dir -e CKAN_HOST=$(CKAN_HOST) -e CKAN_KEY=$(CKAN_KEY) gabrielbdornas/dtamg-age7:latest bash
 	
 datapackage.json: datapackage.yaml schemas/* data/* logs/validate/* schemas/dialect.json README.md CHANGELOG.md CONTRIBUTING.md
 	dtamg-py etl-make build-datapackage
