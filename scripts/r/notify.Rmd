@@ -8,7 +8,7 @@ library(jsonlite); library(purrr); library(dplyr); library(kableExtra); library(
 
 commit <- readLines(here::here("logs/commit.txt"))
 exit_code_path <- here::here("logs/exit-code.txt")
-exit_code <- readLines(exit_code_path) |> as.numeric()
+exit_code <- as.numeric(readLines(exit_code_path))
 sucess <- ifelse(exit_code == 0, TRUE, FALSE)
 
 validation_report <- function(resource) {
@@ -25,7 +25,7 @@ validation_report <- function(resource) {
 
 dp <- read_json(here::here("datapackage.json"))
 
-df <- map_df(dp$resources, validation_report) |> arrange(valid)
+df <- arrange(map_df(dp$resources, validation_report), valid)
 ```
 
 O fluxo ETL de atualização do projeto age7 foi concluído com `r ifelse(sucess == TRUE, "SUCESSO", "__FRACASSO__")` em `r file.mtime(exit_code_path)` com os seguintes dados de carga:
@@ -33,9 +33,7 @@ O fluxo ETL de atualização do projeto age7 foi concluído com `r ifelse(sucess
 ```{r, echo=FALSE, message=FALSE}
 evento_etl_carga <- readr::read_csv2(here::here("logs/evento_etl_carga.csv"), show_col_types = FALSE)
 
-evento_etl_carga |> 
-  kbl() |> 
-  kable_minimal()
+kable_minimal(kbl(evento_etl_carga))
 ```
 
 
@@ -46,10 +44,7 @@ Dos `r length(dp$resources)` recursos, `r length(dp$resources) - sum(df$valid)` 
 Os logs da validação podem ser consultados no site <https://transparencia-mg.github.io/age7/>.
 
 ```{r,echo=FALSE}
-df |> 
-  kbl() |> 
-  kable_minimal() |> 
-  column_spec(3, color = ifelse(df$valid == FALSE, "red", "green"))
+column_spec(kable_minimal(kbl(df)), 3, color = ifelse(df$valid == FALSE, "red", "green"))
 ```
 
 Att.
